@@ -1,0 +1,2532 @@
+[
+  {
+    "eventId": "accounting",
+    "area": "Foundations of Accounting",
+    "lessonIds": [
+      "accounting-cycle",
+      "accounting-controls-careers"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "accounting",
+    "area": "Standards and Compliance",
+    "lessonIds": [
+      "accounting-controls-careers"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "accounting",
+    "area": "The Accounting Cycle",
+    "lessonIds": [
+      "accounting-cycle"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "accounting",
+    "area": "Accounts Payable and Receivable",
+    "lessonIds": [
+      "financial-statements"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "accounting",
+    "area": "Tax Accounting",
+    "lessonIds": [
+      "accounting-controls-careers"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "accounting",
+    "area": "Financial Reports",
+    "lessonIds": [
+      "financial-statements"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "accounting",
+    "area": "Technology and Accounting",
+    "lessonIds": [
+      "accounting-controls-careers"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "accounting",
+    "area": "Career Opportunities",
+    "lessonIds": [
+      "accounting-controls-careers"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "advanced-accounting",
+    "area": "Foundations of Accounting",
+    "lessonIds": [
+      "accounting-cycle",
+      "accounting-controls-careers"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "advanced-accounting",
+    "area": "Standards and Compliance",
+    "lessonIds": [
+      "accounting-controls-careers"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "advanced-accounting",
+    "area": "The Accounting Cycle",
+    "lessonIds": [
+      "accounting-cycle"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "advanced-accounting",
+    "area": "Inventory",
+    "lessonIds": [
+      "advanced-cost-accounting"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "advanced-accounting",
+    "area": "Payroll",
+    "lessonIds": [
+      "advanced-cost-accounting"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "advanced-accounting",
+    "area": "Financial Statements",
+    "lessonIds": [
+      "financial-statements"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "advanced-accounting",
+    "area": "Managerial Accounting",
+    "lessonIds": [
+      "advanced-cost-accounting"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "advertising",
+    "area": "Branding",
+    "lessonIds": [
+      "market-brand"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "advertising",
+    "area": "Promotion",
+    "lessonIds": [
+      "market-promotion"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "advertising",
+    "area": "Advertisement",
+    "lessonIds": [
+      "market-promotion",
+      "market-design"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "advertising",
+    "area": "Develop Marketing Content",
+    "lessonIds": [
+      "market-design"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "advertising",
+    "area": "Design Principles",
+    "lessonIds": [
+      "market-design",
+      "perf-creative"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "advertising",
+    "area": "Sales-Promotion Activities",
+    "lessonIds": [
+      "market-promotion",
+      "market-design"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "agribusiness",
+    "area": "Safety Procedures and Regulations",
+    "lessonIds": [
+      "specialist-agricultural-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "agribusiness",
+    "area": "Nature of Agribusiness",
+    "lessonIds": [
+      "specialist-agribusiness-markets"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "agribusiness",
+    "area": "Business Law",
+    "lessonIds": [
+      "specialist-agribusiness-markets"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "agribusiness",
+    "area": "Ethics",
+    "lessonIds": [
+      "specialist-agribusiness-markets"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "agribusiness",
+    "area": "Agribusiness Economics",
+    "lessonIds": [
+      "specialist-agribusiness-markets"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "agribusiness",
+    "area": "Operations and Management",
+    "lessonIds": [
+      "specialist-agricultural-operations",
+      "specialist-supply-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "agribusiness",
+    "area": "Finance and Marketing",
+    "lessonIds": [
+      "specialist-agribusiness-markets"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "agribusiness",
+    "area": "Natural Resources and Systems",
+    "lessonIds": [
+      "specialist-agricultural-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "banking-and-financial-systems",
+    "area": "Fundamental Principles of Money",
+    "lessonIds": [
+      "personal-money-credit"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "banking-and-financial-systems",
+    "area": "Financial Institutions & Markets",
+    "lessonIds": [
+      "banking-financial-systems"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "banking-and-financial-systems",
+    "area": "Financial Analysis & Decision-Making",
+    "lessonIds": [
+      "banking-financial-systems",
+      "personal-money-credit",
+      "financial-statements"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "banking-and-financial-systems",
+    "area": "Regulatory Compliance in Finance",
+    "lessonIds": [
+      "banking-financial-systems",
+      "business-regulation"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "banking-and-financial-systems",
+    "area": "Banking Services & Daily Operations",
+    "lessonIds": [
+      "banking-financial-systems"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "banking-and-financial-systems",
+    "area": "Loans & Credit",
+    "lessonIds": [
+      "banking-financial-systems",
+      "personal-money-credit"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "banking-and-financial-systems",
+    "area": "Customer Relations in Banking",
+    "lessonIds": [
+      "banking-financial-systems",
+      "listening-workplace-communication"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "banking-and-financial-systems",
+    "area": "Professional Development in Banking",
+    "lessonIds": [
+      "banking-financial-systems"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "business-communication",
+    "area": "Communication Basics",
+    "lessonIds": [
+      "clear-business-writing"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "business-communication",
+    "area": "Written Communication",
+    "lessonIds": [
+      "clear-business-writing"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "business-communication",
+    "area": "Verbal Communication",
+    "lessonIds": [
+      "listening-workplace-communication"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "business-communication",
+    "area": "Workplace Communication",
+    "lessonIds": [
+      "career-workplace-procedures",
+      "listening-workplace-communication"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "business-communication",
+    "area": "Interpersonal Relationships",
+    "lessonIds": [
+      "listening-workplace-communication",
+      "ethical-decisions"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "business-ethics",
+    "area": "Communication Skills",
+    "lessonIds": [
+      "listening-workplace-communication"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "business-ethics",
+    "area": "Self-Awareness",
+    "lessonIds": [
+      "ethical-decisions"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "business-ethics",
+    "area": "Doing the Right Thing",
+    "lessonIds": [
+      "ethical-decisions"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "business-ethics",
+    "area": "Teamwork Skills",
+    "lessonIds": [
+      "leadership-teams"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "business-ethics",
+    "area": "Leadership Skills",
+    "lessonIds": [
+      "leadership-teams"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "business-ethics",
+    "area": "Career Readiness",
+    "lessonIds": [
+      "career-workplace-procedures"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "business-law",
+    "area": "Legal Foundations",
+    "lessonIds": [
+      "contracts-legal-foundations",
+      "business-regulation"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "business-law",
+    "area": "Commercial Law",
+    "lessonIds": [
+      "contracts-legal-foundations",
+      "business-regulation"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "business-law",
+    "area": "Employment Law",
+    "lessonIds": [
+      "business-regulation"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "business-law",
+    "area": "Business Ethics",
+    "lessonIds": [
+      "ethical-decisions"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "business-law",
+    "area": "Financial & Tax Law",
+    "lessonIds": [
+      "business-regulation"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "business-law",
+    "area": "International Trade & Commerce Law",
+    "lessonIds": [
+      "global-business-trade",
+      "business-regulation"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "business-management",
+    "area": "Business Environment",
+    "lessonIds": [
+      "business-ownership-operations",
+      "management-strategy"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "business-management",
+    "area": "Management Types",
+    "lessonIds": [
+      "management-strategy",
+      "leadership-teams"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "business-management",
+    "area": "Business Finance",
+    "lessonIds": [
+      "financial-statements"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "business-management",
+    "area": "Operations",
+    "lessonIds": [
+      "business-ownership-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "business-management",
+    "area": "Strategic Management",
+    "lessonIds": [
+      "management-strategy"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "computer-applications",
+    "area": "Spreadsheet Functions and Formulas",
+    "lessonIds": [
+      "office-spreadsheets"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "computer-applications",
+    "area": "Creating and Formatting with Word Processing",
+    "lessonIds": [
+      "office-documents"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "computer-applications",
+    "area": "Developing Slides & Presentations",
+    "lessonIds": [
+      "office-presentations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "computer-applications",
+    "area": "Integrating Spreadsheets and Word Processing",
+    "lessonIds": [
+      "office-integration"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "computer-applications",
+    "area": "Integrating Presentations and Spreadsheets",
+    "lessonIds": [
+      "office-integration"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "computer-problem-solving",
+    "area": "Operating Systems",
+    "lessonIds": [
+      "tech-operating-systems"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "computer-problem-solving",
+    "area": "Networks",
+    "lessonIds": [
+      "tech-network-foundations",
+      "tech-protocols"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "computer-problem-solving",
+    "area": "Computer Hardware and Connectivity",
+    "lessonIds": [
+      "tech-hardware"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "computer-problem-solving",
+    "area": "Security",
+    "lessonIds": [
+      "tech-security-controls",
+      "tech-security-threats"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "computer-problem-solving",
+    "area": "Laptops, Tablets, and Mobile Devices",
+    "lessonIds": [
+      "tech-hardware"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "computer-problem-solving",
+    "area": "Printers and Peripherals",
+    "lessonIds": [
+      "tech-hardware",
+      "tech-service-desk"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "customer-service",
+    "area": "Fostering Positive Relationships",
+    "lessonIds": [
+      "market-service"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "customer-service",
+    "area": "Emotional Intelligence",
+    "lessonIds": [
+      "market-service",
+      "market-recovery"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "customer-service",
+    "area": "Conflict Resolution",
+    "lessonIds": [
+      "market-recovery"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "customer-service",
+    "area": "Delivering on a Brand Promise",
+    "lessonIds": [
+      "market-brand",
+      "market-service"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "customer-service",
+    "area": "Customer Relationship Management",
+    "lessonIds": [
+      "market-service"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "customer-service",
+    "area": "Sales Processes and Techniques",
+    "lessonIds": [
+      "market-selling"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "cybersecurity",
+    "area": "Security Fundamentals",
+    "lessonIds": [
+      "tech-security-threats"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "cybersecurity",
+    "area": "Cyber Threats and Vulnerabilities",
+    "lessonIds": [
+      "tech-security-threats"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "cybersecurity",
+    "area": "Security and Design",
+    "lessonIds": [
+      "tech-security-controls",
+      "tech-network-design"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "cybersecurity",
+    "area": "Network and Data Security",
+    "lessonIds": [
+      "tech-security-controls",
+      "tech-network-foundations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "cybersecurity",
+    "area": "Security Operations and Management",
+    "lessonIds": [
+      "tech-security-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "cybersecurity",
+    "area": "Security Protocols and Threat Mitigation",
+    "lessonIds": [
+      "tech-protocols",
+      "tech-security-controls",
+      "tech-security-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "data-science-and-ai",
+    "area": "Probability and Statistics Foundations",
+    "lessonIds": [
+      "tech-statistics"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "data-science-and-ai",
+    "area": "Data Analysis and Statistics for AI",
+    "lessonIds": [
+      "tech-data-analysis",
+      "tech-statistics"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "data-science-and-ai",
+    "area": "Tools for Data and AI",
+    "lessonIds": [
+      "tech-data-analysis",
+      "tech-data-management"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "data-science-and-ai",
+    "area": "AI Basics",
+    "lessonIds": [
+      "tech-machine-learning"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "data-science-and-ai",
+    "area": "Machine Learning",
+    "lessonIds": [
+      "tech-machine-learning"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "data-science-and-ai",
+    "area": "Perception, Representation, and Reasoning",
+    "lessonIds": [
+      "tech-machine-learning"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "data-science-and-ai",
+    "area": "Privacy and Ethics",
+    "lessonIds": [
+      "tech-data-ethics"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "data-science-and-ai",
+    "area": "Data Literacy and Foundations",
+    "lessonIds": [
+      "tech-data-analysis",
+      "tech-data-management"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "economics",
+    "area": "Fundamental Economic Concepts",
+    "lessonIds": [
+      "economic-choices-markets"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "economics",
+    "area": "Nature of Business",
+    "lessonIds": [
+      "business-ownership-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "economics",
+    "area": "Economic Systems",
+    "lessonIds": [
+      "economic-choices-markets"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "economics",
+    "area": "Government’s Impact on Business",
+    "lessonIds": [
+      "macroeconomics-policy"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "economics",
+    "area": "Cost/Profit Relationships",
+    "lessonIds": [
+      "economic-choices-markets",
+      "business-ownership-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "economics",
+    "area": "Economic Indicators",
+    "lessonIds": [
+      "macroeconomics-policy"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "economics",
+    "area": "Global Trade",
+    "lessonIds": [
+      "global-business-trade"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "entrepreneurship",
+    "area": "Fundamentals of Entrepreneurship",
+    "lessonIds": [
+      "entrepreneurship-ventures"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "entrepreneurship",
+    "area": "Discovery Strategies",
+    "lessonIds": [
+      "entrepreneurship-ventures"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "entrepreneurship",
+    "area": "Business Venture Concepts",
+    "lessonIds": [
+      "entrepreneurship-ventures",
+      "contracts-legal-foundations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "entrepreneurship",
+    "area": "Business Venture Resources",
+    "lessonIds": [
+      "entrepreneurship-ventures"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "entrepreneurship",
+    "area": "New Business Venture Activities",
+    "lessonIds": [
+      "entrepreneurship-ventures",
+      "business-ownership-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "entrepreneurship",
+    "area": "Business Law and Regulations",
+    "lessonIds": [
+      "business-regulation",
+      "contracts-legal-foundations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "future-business-leader",
+    "area": "FBLA Organization",
+    "lessonIds": [
+      "fbla-governance-programs"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "future-business-leader",
+    "area": "FBLA Bylaws & Handbook",
+    "lessonIds": [
+      "fbla-governance-programs"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "future-business-leader",
+    "area": "FBLA National Competitive Event Guidelines",
+    "lessonIds": [
+      "fbla-governance-programs"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "future-business-leader",
+    "area": "FBLA National Publications",
+    "lessonIds": [
+      "fbla-governance-programs"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "future-business-leader",
+    "area": "FBLA Mission, Pledge and Goals",
+    "lessonIds": [
+      "fbla-history-purpose"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "future-business-leader",
+    "area": "General Business and Technology Knowledge (including, but not limited to, accounting, banking, law, entrepreneurship, marketing, international business, management, organizational leadership, information technology, cybersecurity)",
+    "lessonIds": [
+      "business-ownership-operations",
+      "accounting-cycle",
+      "banking-financial-systems",
+      "contracts-legal-foundations",
+      "entrepreneurship-ventures",
+      "global-business-trade",
+      "management-strategy",
+      "leadership-teams",
+      "business-technology-marketing"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "healthcare-administration",
+    "area": "Healthcare Organizations and Structure",
+    "lessonIds": [
+      "specialist-healthcare-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "healthcare-administration",
+    "area": "Healthcare Finances and Budgeting",
+    "lessonIds": [
+      "specialist-healthcare-finance"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "healthcare-administration",
+    "area": "Staffing and Training",
+    "lessonIds": [
+      "specialist-healthcare-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "healthcare-administration",
+    "area": "Strategic Management",
+    "lessonIds": [
+      "specialist-healthcare-operations",
+      "specialist-project-planning"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "healthcare-administration",
+    "area": "Healthcare Technology",
+    "lessonIds": [
+      "specialist-healthcare-finance",
+      "tech-data-management"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "healthcare-administration",
+    "area": "Healthcare Billing and Insurance",
+    "lessonIds": [
+      "specialist-healthcare-finance"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "healthcare-administration",
+    "area": "Healthcare Policy and Regulation",
+    "lessonIds": [
+      "specialist-healthcare-finance"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "healthcare-administration",
+    "area": "Communication and Leadership",
+    "lessonIds": [
+      "specialist-healthcare-operations",
+      "specialist-project-delivery"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "hospitality-and-event-management",
+    "area": "Customer Relations",
+    "lessonIds": [
+      "market-service",
+      "market-recovery",
+      "market-hospitality"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "hospitality-and-event-management",
+    "area": "Economics and Finances",
+    "lessonIds": [
+      "market-hospitality",
+      "market-pricing"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "hospitality-and-event-management",
+    "area": "Information Management",
+    "lessonIds": [
+      "market-hospitality",
+      "market-research"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "hospitality-and-event-management",
+    "area": "Operations",
+    "lessonIds": [
+      "market-hospitality"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "hospitality-and-event-management",
+    "area": "Professional Development",
+    "lessonIds": [
+      "market-hospitality"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "hospitality-and-event-management",
+    "area": "Product/Service Management",
+    "lessonIds": [
+      "market-hospitality",
+      "market-brand"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "hospitality-and-event-management",
+    "area": "Promotion and Selling",
+    "lessonIds": [
+      "market-promotion",
+      "market-selling",
+      "market-hospitality"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "hospitality-and-event-management",
+    "area": "Event Management",
+    "lessonIds": [
+      "market-events"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "human-resource-management",
+    "area": "Nature of Human Resources Management",
+    "lessonIds": [
+      "human-resources"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "human-resource-management",
+    "area": "Staffing and Talent Acquisition",
+    "lessonIds": [
+      "human-resources"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "human-resource-management",
+    "area": "Training and Development",
+    "lessonIds": [
+      "human-resources"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "human-resource-management",
+    "area": "Performance Management",
+    "lessonIds": [
+      "human-resources"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "human-resource-management",
+    "area": "Employee Relations and Issue Resolution",
+    "lessonIds": [
+      "human-resources",
+      "leadership-teams"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "human-resource-management",
+    "area": "Compensation and Total Rewards",
+    "lessonIds": [
+      "human-resources"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "human-resource-management",
+    "area": "Health and Safety",
+    "lessonIds": [
+      "human-resources",
+      "business-regulation"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "human-resource-management",
+    "area": "Professional Development in Human Resources",
+    "lessonIds": [
+      "human-resources",
+      "career-workplace-procedures"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "insurance-and-risk-management",
+    "area": "Risk Management Fundamentals",
+    "lessonIds": [
+      "insurance-risk"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "insurance-and-risk-management",
+    "area": "Insurance Industry & Legal Principles",
+    "lessonIds": [
+      "insurance-risk"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "insurance-and-risk-management",
+    "area": "Personal Insurance Products",
+    "lessonIds": [
+      "insurance-risk"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "insurance-and-risk-management",
+    "area": "Commercial & Specialized Insurance Products",
+    "lessonIds": [
+      "insurance-risk"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "insurance-and-risk-management",
+    "area": "Insurance Operations & Underwriting",
+    "lessonIds": [
+      "insurance-risk"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "insurance-and-risk-management",
+    "area": "Claims & Fraud Management",
+    "lessonIds": [
+      "insurance-risk",
+      "ethical-decisions"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "insurance-and-risk-management",
+    "area": "Professional Development in Insurance",
+    "lessonIds": [
+      "insurance-risk"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "international-business",
+    "area": "Fundamental Economic Concepts",
+    "lessonIds": [
+      "economic-choices-markets"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "international-business",
+    "area": "The Nature of Business",
+    "lessonIds": [
+      "business-ownership-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "international-business",
+    "area": "Economic Systems",
+    "lessonIds": [
+      "economic-choices-markets"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "international-business",
+    "area": "Impact of Government",
+    "lessonIds": [
+      "macroeconomics-policy",
+      "business-regulation"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "international-business",
+    "area": "Business Law",
+    "lessonIds": [
+      "business-regulation"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "international-business",
+    "area": "Global Trade",
+    "lessonIds": [
+      "global-business-trade"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-business-communication",
+    "area": "Communication Basics",
+    "lessonIds": [
+      "clear-business-writing"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-business-communication",
+    "area": "Written Communication",
+    "lessonIds": [
+      "clear-business-writing"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-business-communication",
+    "area": "Reading to Understand",
+    "lessonIds": [
+      "clear-business-writing",
+      "listening-workplace-communication"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-business-communication",
+    "area": "Active Listening",
+    "lessonIds": [
+      "listening-workplace-communication"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-business-communication",
+    "area": "Verbal Communication",
+    "lessonIds": [
+      "listening-workplace-communication"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-business-communication",
+    "area": "Workplace Communication",
+    "lessonIds": [
+      "career-workplace-procedures",
+      "listening-workplace-communication"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-business-communication",
+    "area": "Interpersonal Relationships",
+    "lessonIds": [
+      "listening-workplace-communication",
+      "leadership-teams"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-business-concepts",
+    "area": "Fundamental Economic Concepts",
+    "lessonIds": [
+      "economic-choices-markets"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-business-concepts",
+    "area": "Nature of Business",
+    "lessonIds": [
+      "business-ownership-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-business-concepts",
+    "area": "Economic Systems",
+    "lessonIds": [
+      "economic-choices-markets"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-business-concepts",
+    "area": "Cost/Profit Relationships",
+    "lessonIds": [
+      "business-ownership-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-business-concepts",
+    "area": "Owning a Business",
+    "lessonIds": [
+      "business-ownership-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-business-concepts",
+    "area": "Types of Business Activities",
+    "lessonIds": [
+      "business-ownership-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-business-concepts",
+    "area": "Career Planning",
+    "lessonIds": [
+      "career-workplace-procedures"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-business-concepts",
+    "area": "Job-Search Skills",
+    "lessonIds": [
+      "career-workplace-procedures"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-business-procedures",
+    "area": "Professional Communication & Correspondence",
+    "lessonIds": [
+      "clear-business-writing",
+      "listening-workplace-communication"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-business-procedures",
+    "area": "Information Management & Technology",
+    "lessonIds": [
+      "career-workplace-procedures",
+      "business-technology-marketing"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-business-procedures",
+    "area": "Workplace Protocols & Decision Making",
+    "lessonIds": [
+      "career-workplace-procedures"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-business-procedures",
+    "area": "Professional Development & Career Readiness",
+    "lessonIds": [
+      "career-workplace-procedures"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-fbla",
+    "area": "FBLA History",
+    "lessonIds": [
+      "fbla-history-purpose"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-fbla",
+    "area": "FBLA Corporate & Division Bylaws",
+    "lessonIds": [
+      "fbla-governance-programs"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-fbla",
+    "area": "FBLA Programs",
+    "lessonIds": [
+      "fbla-governance-programs"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-fbla",
+    "area": "FBLA Pledge, Mission, Goals, Creed",
+    "lessonIds": [
+      "fbla-history-purpose"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-fbla",
+    "area": "FBLA High School Competitive Events",
+    "lessonIds": [
+      "fbla-governance-programs"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-fbla",
+    "area": "FBLA Structure",
+    "lessonIds": [
+      "fbla-governance-programs"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-fbla",
+    "area": "FBLA Dress Code",
+    "lessonIds": [
+      "fbla-governance-programs"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-fbla",
+    "area": "FBLA Publications",
+    "lessonIds": [
+      "fbla-governance-programs"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-fbla",
+    "area": "FBLA Deadlines",
+    "lessonIds": [
+      "fbla-governance-programs"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-fbla",
+    "area": "FBLA Website & Communications",
+    "lessonIds": [
+      "fbla-governance-programs"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-fbla",
+    "area": "FBLA Partners",
+    "lessonIds": [
+      "fbla-governance-programs"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-information-technology",
+    "area": "Computer Hardware",
+    "lessonIds": [
+      "tech-hardware"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-information-technology",
+    "area": "Software Fundamentals",
+    "lessonIds": [
+      "tech-operating-systems"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-information-technology",
+    "area": "Operating Systems",
+    "lessonIds": [
+      "tech-operating-systems"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-information-technology",
+    "area": "Software Applications",
+    "lessonIds": [
+      "tech-web-applications",
+      "tech-data-analysis"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-information-technology",
+    "area": "Modern Technologies",
+    "lessonIds": [
+      "tech-machine-learning",
+      "tech-web-applications"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-information-technology",
+    "area": "Networking Concepts",
+    "lessonIds": [
+      "tech-network-foundations",
+      "tech-protocols"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-information-technology",
+    "area": "Information Management Concepts",
+    "lessonIds": [
+      "tech-data-management",
+      "tech-data-ethics"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-marketing-concepts",
+    "area": "Marketing Fundamentals",
+    "lessonIds": [
+      "market-foundations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-marketing-concepts",
+    "area": "Product/Service Management",
+    "lessonIds": [
+      "market-brand"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-marketing-concepts",
+    "area": "Channel Management",
+    "lessonIds": [
+      "market-pricing"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-marketing-concepts",
+    "area": "Marketing-Information Management",
+    "lessonIds": [
+      "market-research"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-marketing-concepts",
+    "area": "Pricing",
+    "lessonIds": [
+      "market-pricing"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-marketing-concepts",
+    "area": "Promotion",
+    "lessonIds": [
+      "market-promotion"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-marketing-concepts",
+    "area": "Selling",
+    "lessonIds": [
+      "market-selling",
+      "market-service"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-parliamentary-procedure",
+    "area": "Foundations of Parliamentary Procedure",
+    "lessonIds": [
+      "parliamentary-foundations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-parliamentary-procedure",
+    "area": "Parliamentary Terminology",
+    "lessonIds": [
+      "parliamentary-foundations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-parliamentary-procedure",
+    "area": "Meeting Structure and Order of Business",
+    "lessonIds": [
+      "parliamentary-foundations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-parliamentary-procedure",
+    "area": "Handling a Main Motion",
+    "lessonIds": [
+      "motions-debate"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-parliamentary-procedure",
+    "area": "Classification of Motions",
+    "lessonIds": [
+      "motions-debate"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-parliamentary-procedure",
+    "area": "Voting and Elections",
+    "lessonIds": [
+      "votes-committees"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-retail-and-merchandising",
+    "area": "Foundational Retail Knowledge",
+    "lessonIds": [
+      "market-foundations",
+      "market-merchandising"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-retail-and-merchandising",
+    "area": "Customer Service and Sales",
+    "lessonIds": [
+      "market-service",
+      "market-selling",
+      "market-retail-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-retail-and-merchandising",
+    "area": "Stock-Handling Procedures",
+    "lessonIds": [
+      "market-retail-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-retail-and-merchandising",
+    "area": "Inventory Storage and Control",
+    "lessonIds": [
+      "market-retail-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-retail-and-merchandising",
+    "area": "Career Opportunities",
+    "lessonIds": [
+      "market-merchandising",
+      "perf-career"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-retail-and-merchandising",
+    "area": "Visual Merchandising",
+    "lessonIds": [
+      "market-merchandising"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-retail-and-merchandising",
+    "area": "Display Techniques",
+    "lessonIds": [
+      "market-merchandising"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-supply-chain-management",
+    "area": "Operations",
+    "lessonIds": [
+      "specialist-supply-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-supply-chain-management",
+    "area": "Project Management",
+    "lessonIds": [
+      "specialist-project-planning",
+      "specialist-project-delivery"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-supply-chain-management",
+    "area": "Purchasing",
+    "lessonIds": [
+      "specialist-procurement"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-supply-chain-management",
+    "area": "Supply Chain Management’s Role in Business",
+    "lessonIds": [
+      "specialist-supply-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-supply-chain-management",
+    "area": "Distribution",
+    "lessonIds": [
+      "specialist-logistics"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-supply-chain-management",
+    "area": "Supply Chain Management Activities",
+    "lessonIds": [
+      "specialist-supply-operations",
+      "specialist-logistics",
+      "specialist-procurement"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-supply-chain-management",
+    "area": "Inventory Processes",
+    "lessonIds": [
+      "specialist-supply-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "introduction-to-supply-chain-management",
+    "area": "Transportation Strategies",
+    "lessonIds": [
+      "specialist-logistics"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "journalism",
+    "area": "Basic Communication Skills",
+    "lessonIds": [
+      "market-journalism-reporting",
+      "perf-speaking"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "journalism",
+    "area": "Writing Skills",
+    "lessonIds": [
+      "market-journalism-writing"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "journalism",
+    "area": "Editing",
+    "lessonIds": [
+      "market-journalism-writing"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "journalism",
+    "area": "Fundamental Principles of Journalism",
+    "lessonIds": [
+      "market-journalism-ethics",
+      "market-journalism-writing"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "journalism",
+    "area": "Research and Investigation",
+    "lessonIds": [
+      "market-journalism-reporting"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "journalism",
+    "area": "Compose News Stories",
+    "lessonIds": [
+      "market-journalism-writing"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "management-information-systems",
+    "area": "Systems Design and Analysis",
+    "lessonIds": [
+      "tech-software-design"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "management-information-systems",
+    "area": "Object Oriented Programming Concepts",
+    "lessonIds": [
+      "tech-software-design"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "management-information-systems",
+    "area": "Data and Information Management",
+    "lessonIds": [
+      "tech-data-management"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "management-information-systems",
+    "area": "IT Project Management",
+    "lessonIds": [
+      "specialist-project-planning",
+      "specialist-project-delivery"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "management-information-systems",
+    "area": "IT Infrastructure",
+    "lessonIds": [
+      "tech-network-foundations",
+      "tech-web-applications"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "management-information-systems",
+    "area": "Emerging Business Technologies",
+    "lessonIds": [
+      "tech-machine-learning",
+      "tech-web-applications"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "marketing",
+    "area": "Marketing Fundamentals",
+    "lessonIds": [
+      "market-foundations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "marketing",
+    "area": "Market Planning",
+    "lessonIds": [
+      "market-foundations",
+      "market-research"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "marketing",
+    "area": "Marketing-Information Management",
+    "lessonIds": [
+      "market-research"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "marketing",
+    "area": "Product/Service Management",
+    "lessonIds": [
+      "market-brand"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "marketing",
+    "area": "Channel Management",
+    "lessonIds": [
+      "market-pricing"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "marketing",
+    "area": "Pricing",
+    "lessonIds": [
+      "market-pricing"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "marketing",
+    "area": "Promotion",
+    "lessonIds": [
+      "market-promotion"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "marketing",
+    "area": "Selling",
+    "lessonIds": [
+      "market-selling"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "network-design",
+    "area": "Network Installation and Configuration",
+    "lessonIds": [
+      "tech-network-design",
+      "tech-network-foundations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "network-design",
+    "area": "Network Security and Recovery",
+    "lessonIds": [
+      "tech-security-controls",
+      "tech-security-operations",
+      "tech-network-design"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "network-design",
+    "area": "Network Administration",
+    "lessonIds": [
+      "tech-network-design"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "network-design",
+    "area": "Network Planning",
+    "lessonIds": [
+      "tech-network-design",
+      "specialist-project-planning"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "network-design",
+    "area": "Network Protocols, Services, and Access",
+    "lessonIds": [
+      "tech-protocols",
+      "tech-security-controls"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "networking-infrastructures",
+    "area": "Networking Basics",
+    "lessonIds": [
+      "tech-network-foundations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "networking-infrastructures",
+    "area": "Network Topologies and Architecture",
+    "lessonIds": [
+      "tech-network-foundations",
+      "tech-network-design"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "networking-infrastructures",
+    "area": "Network Security",
+    "lessonIds": [
+      "tech-security-controls",
+      "tech-network-design"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "networking-infrastructures",
+    "area": "Network Protocols and Standards",
+    "lessonIds": [
+      "tech-protocols"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "networking-infrastructures",
+    "area": "Network Hardware and Connectivity",
+    "lessonIds": [
+      "tech-network-foundations",
+      "tech-hardware"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "organizational-leadership",
+    "area": "Role of Management in Business",
+    "lessonIds": [
+      "management-strategy"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "organizational-leadership",
+    "area": "Leadership",
+    "lessonIds": [
+      "leadership-teams"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "organizational-leadership",
+    "area": "Manage Business Relationships",
+    "lessonIds": [
+      "leadership-teams",
+      "listening-workplace-communication"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "organizational-leadership",
+    "area": "Human Resources Management",
+    "lessonIds": [
+      "human-resources"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "organizational-leadership",
+    "area": "Critical-Thinking Skills",
+    "lessonIds": [
+      "leadership-teams"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "organizational-leadership",
+    "area": "Manage Stressful Situations",
+    "lessonIds": [
+      "leadership-teams"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "parliamentary-procedure",
+    "area": "Foundations of Parliamentary Procedure",
+    "lessonIds": [
+      "parliamentary-foundations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "parliamentary-procedure",
+    "area": "Parliamentary Terminology",
+    "lessonIds": [
+      "parliamentary-foundations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "parliamentary-procedure",
+    "area": "Meeting Structure and Order of Business",
+    "lessonIds": [
+      "parliamentary-foundations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "parliamentary-procedure",
+    "area": "Handling Motions and Rules of Debate",
+    "lessonIds": [
+      "motions-debate"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "parliamentary-procedure",
+    "area": "Classification of Motions",
+    "lessonIds": [
+      "motions-debate"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "parliamentary-procedure",
+    "area": "Voting, Elections, and Nominations",
+    "lessonIds": [
+      "votes-committees"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "parliamentary-procedure",
+    "area": "Boards and Committees",
+    "lessonIds": [
+      "votes-committees"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "personal-finance",
+    "area": "Principles of Money",
+    "lessonIds": [
+      "personal-money-credit"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "personal-finance",
+    "area": "Financial Needs and Goals",
+    "lessonIds": [
+      "personal-money-credit"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "personal-finance",
+    "area": "Financial-Services Providers",
+    "lessonIds": [
+      "personal-money-credit",
+      "banking-financial-systems"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "personal-finance",
+    "area": "Investment Strategies",
+    "lessonIds": [
+      "investment-analysis"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "personal-finance",
+    "area": "Financial Literacy",
+    "lessonIds": [
+      "personal-money-credit"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "personal-finance",
+    "area": "Risk Management",
+    "lessonIds": [
+      "insurance-risk"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "project-management",
+    "area": "Foundational Knowledge",
+    "lessonIds": [
+      "specialist-project-planning"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "project-management",
+    "area": "Initiating and Planning a Project",
+    "lessonIds": [
+      "specialist-project-planning"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "project-management",
+    "area": "Executing, Monitoring, and Controlling a Project",
+    "lessonIds": [
+      "specialist-project-delivery"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "project-management",
+    "area": "Closing a Project",
+    "lessonIds": [
+      "specialist-project-delivery"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "public-administration-and-management",
+    "area": "Public Finance",
+    "lessonIds": [
+      "specialist-public-finance"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "public-administration-and-management",
+    "area": "Public Policy and Governance",
+    "lessonIds": [
+      "specialist-public-governance"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "public-administration-and-management",
+    "area": "Communication",
+    "lessonIds": [
+      "specialist-public-governance",
+      "specialist-project-delivery"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "public-administration-and-management",
+    "area": "Public Sector Fundamentals",
+    "lessonIds": [
+      "specialist-public-governance"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "public-administration-and-management",
+    "area": "Public Management",
+    "lessonIds": [
+      "specialist-public-governance",
+      "specialist-project-delivery"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "public-administration-and-management",
+    "area": "Ethics",
+    "lessonIds": [
+      "specialist-public-governance",
+      "tech-data-ethics"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "real-estate",
+    "area": "Real Estate Fundamentals",
+    "lessonIds": [
+      "specialist-real-estate-foundations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "real-estate",
+    "area": "Laws and Regulations",
+    "lessonIds": [
+      "specialist-real-estate-agency",
+      "specialist-real-estate-foundations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "real-estate",
+    "area": "Real Estate Transactions and Finance",
+    "lessonIds": [
+      "specialist-real-estate-finance"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "real-estate",
+    "area": "Ethics",
+    "lessonIds": [
+      "specialist-real-estate-agency"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "real-estate",
+    "area": "Agency",
+    "lessonIds": [
+      "specialist-real-estate-agency"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "retail-management",
+    "area": "Foundational Retail Knowledge",
+    "lessonIds": [
+      "market-foundations",
+      "market-retail-operations",
+      "market-research"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "retail-management",
+    "area": "Selling",
+    "lessonIds": [
+      "market-selling"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "retail-management",
+    "area": "Pricing",
+    "lessonIds": [
+      "market-pricing"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "retail-management",
+    "area": "Market Planning",
+    "lessonIds": [
+      "market-foundations",
+      "market-research"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "retail-management",
+    "area": "Inventory Control",
+    "lessonIds": [
+      "market-retail-operations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "retail-management",
+    "area": "Visual Merchandising",
+    "lessonIds": [
+      "market-merchandising"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "retail-management",
+    "area": "Display Techniques",
+    "lessonIds": [
+      "market-merchandising"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "retail-management",
+    "area": "Product Mix",
+    "lessonIds": [
+      "market-brand",
+      "market-merchandising"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "securities-and-investments",
+    "area": "Principles of Money",
+    "lessonIds": [
+      "personal-money-credit"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "securities-and-investments",
+    "area": "Financial Markets",
+    "lessonIds": [
+      "banking-financial-systems",
+      "investment-analysis"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "securities-and-investments",
+    "area": "Investment Analysis",
+    "lessonIds": [
+      "investment-analysis",
+      "financial-statements"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "securities-and-investments",
+    "area": "Selecting Investments",
+    "lessonIds": [
+      "investment-analysis",
+      "financial-statements"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "securities-and-investments",
+    "area": "Securities & Investments Industry",
+    "lessonIds": [
+      "investment-analysis"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "securities-and-investments",
+    "area": "Securities Products",
+    "lessonIds": [
+      "investment-analysis"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "sports-and-entertainment-management",
+    "area": "Fundamentals of Sports/Entertainment Management & Marketing",
+    "lessonIds": [
+      "market-sports",
+      "market-foundations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "sports-and-entertainment-management",
+    "area": "Product/Service Management",
+    "lessonIds": [
+      "market-sports",
+      "market-brand"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "sports-and-entertainment-management",
+    "area": "Pricing",
+    "lessonIds": [
+      "market-pricing",
+      "market-sports"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "sports-and-entertainment-management",
+    "area": "Advertising Basics",
+    "lessonIds": [
+      "market-promotion",
+      "market-design"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "sports-and-entertainment-management",
+    "area": "Publicity and Public Relations",
+    "lessonIds": [
+      "market-sports",
+      "market-journalism-writing"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "sports-and-entertainment-management",
+    "area": "Sales Promotion",
+    "lessonIds": [
+      "market-sports",
+      "market-promotion"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "sports-and-entertainment-management",
+    "area": "The Sports/Entertainment Management & Marketing Environment",
+    "lessonIds": [
+      "market-sports"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "sports-and-entertainment-management",
+    "area": "Event Planning",
+    "lessonIds": [
+      "market-events",
+      "market-sports"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "sports-and-entertainment-management",
+    "area": "Sports/Event Distribution",
+    "lessonIds": [
+      "market-sports",
+      "market-pricing"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "technology-support-and-services",
+    "area": "IT Fundamentals",
+    "lessonIds": [
+      "tech-hardware",
+      "tech-operating-systems",
+      "tech-network-foundations"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "technology-support-and-services",
+    "area": "Service Desk Operations",
+    "lessonIds": [
+      "tech-service-desk"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "technology-support-and-services",
+    "area": "Hardware and Software Troubleshooting",
+    "lessonIds": [
+      "tech-service-desk",
+      "tech-hardware",
+      "tech-operating-systems"
+    ],
+    "status": "Mapped to lessons"
+  },
+  {
+    "eventId": "technology-support-and-services",
+    "area": "IT Management and Administration",
+    "lessonIds": [
+      "tech-service-desk",
+      "tech-security-operations"
+    ],
+    "status": "Mapped to lessons"
+  }
+]

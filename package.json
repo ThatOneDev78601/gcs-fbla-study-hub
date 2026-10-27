@@ -1,0 +1,36 @@
+{
+  "name": "gcs-fbla-study-hub",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/astro.mjs dev --host 127.0.0.1",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/astro.mjs preview --host 127.0.0.1",
+    "test": "node --test tests/*.test.mjs",
+    "check:content": "node scripts/check-content.mjs"
+  },
+  "dependencies": {
+    "astro": "^7.4.2",
+    "@astrojs/react": "^7.1.1",
+    "@astrojs/mdx": "^8.1.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwindcss": "^4.1.0",
+    "@tailwindcss/vite": "^4.1.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.3.0",
+    "lucide-react": "^0.468.0",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@fontsource/dm-sans": "^5.2.0",
+    "@fontsource/source-serif-4": "^5.2.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "typescript": "^5.9.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "pagefind": "^1.4.0"
+  }
+}

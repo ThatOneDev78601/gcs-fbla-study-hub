@@ -1,0 +1,13 @@
+---
+import '../styles/global.css';
+interface Props { title:string; description?:string; active?:string; }
+const {title,description='Focused lessons and practice for every 2026–2027 high-school FBLA event. Made for Glenelg Country School, Maryland Central District.',active='Events'}=Astro.props;
+const nav=[['Events','/'],['My Study','/study/'],['Resources','/resources/'],['Maryland Guide','/maryland/']];
+---
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content={description}/><meta name="theme-color" content="#183845"/><title>{title} · GCS FBLA Study Hub</title><link rel="icon" href="/favicon.svg" type="image/svg+xml"/></head><body>
+<a href="#main" class="skip">Skip to content</a>
+<header class="site-header" data-pagefind-ignore><a class="brand" href="/" aria-label="GCS FBLA Study Hub home"><span class="brand-mark" aria-hidden="true">G</span><span class="brand-name">The Study Hub<span class="brand-sub">GLENELG COUNTRY SCHOOL · FBLA</span></span></a><nav class="desktop-nav" aria-label="Main navigation">{nav.map(([label,url])=><a href={url} aria-current={active===label?'page':undefined}>{label}</a>)}</nav><span class="header-season">2026–2027 season</span></header>
+<main id="main" class="container"><slot/></main>
+<footer class="site-footer container" data-pagefind-ignore><span>A little clarity. A lot of preparation.<br/>An independent student study resource for GCS FBLA.</span><span>2026–2027 · Maryland Central District<br/><a href="/resources/">Sources & editorial notes</a> · <a href="/study/#backups">Your data stays on this device</a></span></footer>
+</body></html>
+

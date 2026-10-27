@@ -1,0 +1,3908 @@
+{
+  "modules": [
+    {
+      "id": "tech-hardware",
+      "title": "How computers, mobile devices and peripherals work",
+      "summary": "Match a symptom to the component responsible before choosing a repair.",
+      "sourceIds": [
+        "cisco",
+        "microsoft"
+      ],
+      "sections": [
+        {
+          "heading": "Follow information through the computer",
+          "paragraphs": [
+            "Input devices capture information; processors execute instructions; memory holds the active working set; storage preserves files. RAM is volatile, so turning off power loses its contents. An SSD keeps data without power and normally improves file loading, but it cannot replace adequate RAM for many simultaneous applications. A CPU performs general processing, while a GPU handles highly parallel work such as graphics. The motherboard connects components through buses and expansion interfaces. A power supply converts incoming power into the voltages components require. Choose compatible sockets, memory generations and power requirements before upgrading."
+          ]
+        },
+        {
+          "heading": "Connections, mobile devices and printing",
+          "paragraphs": [
+            "A connector’s shape does not guarantee its capabilities: a USB-C port may support different data speeds, charging levels or video features. Check specifications and test a known-good cable. Bluetooth handles nearby wireless peripherals; Wi-Fi connects devices to a local wireless network. Mobile systems balance performance against battery life and thermal limits. A swollen battery requires trained handling, not squeezing or puncturing. Printers can fail at the application, queue, driver, connection or mechanical stage. Laser printers use toner; inkjet printers spray liquid ink. A document appearing in a queue proves submission, not successful printing."
+          ],
+          "example": {
+            "scenario": "A laptop works normally but its external monitor shows no image through a new USB-C cable.",
+            "solution": "Check whether the port and cable support video, select the correct monitor input, and test a known-good supported connection before replacing the display."
+          }
+        },
+        {
+          "heading": "Common mistakes and test decisions",
+          "paragraphs": [
+            "Start with safe, reversible checks: confirm power, inspect connections, read the exact error and reproduce the symptom. Shut down and follow manufacturer procedures before internal service; protect components from electrostatic discharge. Never open a power supply as a routine troubleshooting step. Distinguish capacity from speed: a nearly full disk and insufficient RAM can both slow a computer for different reasons. For printing, test another document and inspect the queue before reinstalling everything. A peripheral working on another computer narrows the cause toward the original device, driver or connection rather than proving every component healthy."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "RAM",
+          "definition": "Volatile working memory used by active programs."
+        },
+        {
+          "term": "Driver",
+          "definition": "Software that lets an operating system communicate with hardware."
+        },
+        {
+          "term": "Peripheral",
+          "definition": "An attached input, output or storage device."
+        }
+      ],
+      "questions": [
+        {
+          "id": "tech-hardware-q1",
+          "prompt": "Which component loses its working data when power is removed?",
+          "choices": [
+            "SSD",
+            "RAM",
+            "USB flash storage",
+            "Optical disc"
+          ],
+          "answer": 1,
+          "explanation": "RAM is volatile; persistent storage retains data without power."
+        },
+        {
+          "id": "tech-hardware-q2",
+          "prompt": "A matching USB-C connector guarantees which capability?",
+          "choices": [
+            "Video output",
+            "A particular charging wattage",
+            "Only physical connector compatibility",
+            "The fastest USB transfer speed"
+          ],
+          "answer": 2,
+          "explanation": "Port and cable specifications determine features; shape alone does not."
+        },
+        {
+          "id": "tech-hardware-q3",
+          "prompt": "What is the safest first response to a visibly swollen laptop battery?",
+          "choices": [
+            "Puncture it",
+            "Press it flat",
+            "Keep charging it",
+            "Stop using it and seek approved service"
+          ],
+          "answer": 3,
+          "explanation": "Damaged batteries require safe handling by qualified service personnel."
+        },
+        {
+          "id": "tech-hardware-q4",
+          "prompt": "What should you inspect before replacing a printer that prints nothing?",
+          "choices": [
+            "Queue, connection and printer status",
+            "Only the monitor",
+            "CPU socket",
+            "Browser bookmarks"
+          ],
+          "answer": 0,
+          "explanation": "Printing depends on the queue, connection, driver and printer state."
+        },
+        {
+          "id": "tech-hardware-q5",
+          "prompt": "A graphics-heavy task benefits particularly from which component?",
+          "choices": [
+            "Toner cartridge",
+            "GPU",
+            "Network patch panel",
+            "Keyboard"
+          ],
+          "answer": 1,
+          "explanation": "GPUs efficiently handle many graphics calculations in parallel."
+        }
+      ]
+    },
+    {
+      "id": "tech-operating-systems",
+      "title": "Operating systems, files and software",
+      "summary": "Understand what the OS manages and isolate application, permission and system faults.",
+      "sourceIds": [
+        "microsoft",
+        "cisco"
+      ],
+      "sections": [
+        {
+          "heading": "What the operating system controls",
+          "paragraphs": [
+            "An operating system allocates processor time, memory, storage and access to devices. Applications request those resources through system services rather than controlling every device directly. Processes are running programs; a service commonly works in the background. Virtual memory uses storage to extend the address space available to programs, but heavy paging can reduce performance. A file system organizes named files, folders and metadata. An extension suggests a file format; renaming an extension does not convert the underlying contents. Absolute paths identify a location from the root, while relative paths depend on the current location."
+          ]
+        },
+        {
+          "heading": "Installation, permissions and maintenance",
+          "paragraphs": [
+            "Install software from trusted sources and verify operating-system, processor, memory and storage requirements. Standard user accounts reduce the damage an accidental or malicious action can cause. Administrative access should be used only when required. File permissions control who can read, change or execute information; permissions are separate from whether a file is hidden. Updates fix defects and vulnerabilities, while backups preserve recoverable copies. Cloud synchronization can spread deletion or corruption, so it is not automatically an independent backup. Before major changes, record the current configuration, protect important files and plan a rollback."
+          ],
+          "example": {
+            "scenario": "Only one user cannot save a document in a shared folder; other users can.",
+            "solution": "Check that user’s effective permissions and available storage before reinstalling the application. The limited scope points toward account or folder access."
+          }
+        },
+        {
+          "heading": "Common mistakes and test decisions",
+          "paragraphs": [
+            "Determine whether a problem affects one file, one application, one account or the whole machine. Observe resource usage and logs rather than guessing from a slow interface. Closing a hung process may recover responsiveness but can lose unsaved work. A safe restart is different from abruptly removing power. When an update causes a fault, check compatibility and use an approved recovery path. Avoid deleting unfamiliar system files to free space. Test the repaired workflow under the original user account and document the result; successful operation under an administrator account alone may hide the actual permission problem."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Process",
+          "definition": "A running instance of a program."
+        },
+        {
+          "term": "File system",
+          "definition": "The structure used to store and organize files."
+        },
+        {
+          "term": "Least privilege",
+          "definition": "Granting only the access needed for a task."
+        }
+      ],
+      "questions": [
+        {
+          "id": "tech-operating-systems-q1",
+          "prompt": "Does renaming report.txt to report.pdf convert it into a PDF?",
+          "choices": [
+            "Yes, always",
+            "Only on Windows",
+            "No; the underlying format remains unchanged",
+            "Only if the file is small"
+          ],
+          "answer": 2,
+          "explanation": "A format conversion must rewrite the file using the destination format."
+        },
+        {
+          "id": "tech-operating-systems-q2",
+          "prompt": "Which account is normally appropriate for routine daily work?",
+          "choices": [
+            "Shared administrator",
+            "Standard user",
+            "System service account",
+            "Unknown guest account"
+          ],
+          "answer": 1,
+          "explanation": "A standard user account limits unnecessary privileges."
+        },
+        {
+          "id": "tech-operating-systems-q3",
+          "prompt": "What does high sustained paging often indicate?",
+          "choices": [
+            "Excess toner",
+            "A loose monitor cable",
+            "An incorrect keyboard language",
+            "Memory pressure"
+          ],
+          "answer": 3,
+          "explanation": "The system may be moving data between RAM and storage because active memory demand is high."
+        },
+        {
+          "id": "tech-operating-systems-q4",
+          "prompt": "Why is synchronization alone an incomplete backup strategy?",
+          "choices": [
+            "It can replicate deletion or corruption",
+            "It never copies files",
+            "It always encrypts files incorrectly",
+            "It only works offline"
+          ],
+          "answer": 0,
+          "explanation": "Independent recoverable versions protect against mistakes that synchronization may propagate."
+        },
+        {
+          "id": "tech-operating-systems-q5",
+          "prompt": "One account cannot open a folder that others can use. What is a strong first hypothesis?",
+          "choices": [
+            "Every disk failed",
+            "Account permissions",
+            "All drivers are missing",
+            "The CPU is incompatible"
+          ],
+          "answer": 1,
+          "explanation": "A user-specific failure suggests permissions or account configuration."
+        }
+      ]
+    },
+    {
+      "id": "tech-service-desk",
+      "title": "A reliable troubleshooting and service-desk method",
+      "summary": "Use evidence, respectful questions and verified fixes to resolve support incidents.",
+      "sourceIds": [
+        "cisco",
+        "microsoft"
+      ],
+      "sections": [
+        {
+          "heading": "Turn a complaint into a useful incident",
+          "paragraphs": [
+            "An incident is an interruption or reduction in service. A service request asks for a standard item such as approved software or access. A problem investigation seeks the underlying cause of recurring incidents. Record the user, device, exact symptom, onset, impact and recent changes. Ask open questions first, then narrow them with specific tests. Prioritize using business impact and urgency: a shared checkout outage can outrank one employee’s cosmetic issue. Avoid asking users to expose passwords or unnecessary personal data. Explain what you are testing in language the user understands."
+          ]
+        },
+        {
+          "heading": "Test a hypothesis and restore service",
+          "paragraphs": [
+            "Establish the scope, identify likely causes and choose the least disruptive test that distinguishes them. Change one variable at a time so the result is interpretable. Known-good components and accounts provide useful comparisons. Consult approved documentation and a knowledge base, but confirm that the article matches the environment. Workarounds can restore service while a root cause remains unresolved; record that distinction. Escalate when the issue exceeds your permissions, expertise, safety limits or agreed response commitments. Include evidence and steps already tried so the next technician does not restart blindly."
+          ],
+          "example": {
+            "scenario": "Everyone on one floor loses access to a server, while another floor still works.",
+            "solution": "Investigate shared network equipment or the floor’s connection first. Reinstalling each user’s application would ignore the common failure boundary."
+          }
+        },
+        {
+          "heading": "Close the loop and prevent recurrence",
+          "paragraphs": [
+            "After a fix, reproduce the original task with the user and check related functions that the change could affect. Record the cause when known, the action, validation and any follow-up. Useful metrics include first-response time, resolution time and repeat incidents; speed alone should not reward premature closure. Asset records track ownership, configurations and lifecycle status. Change management reviews risk and rollback before altering shared services. A service-level agreement defines service commitments rather than guaranteeing every incident vanishes instantly. Clear status updates and respectful listening remain part of the technical solution, especially during delays."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Incident",
+          "definition": "An unplanned service interruption or reduction in quality."
+        },
+        {
+          "term": "Workaround",
+          "definition": "A temporary way to reduce impact without removing the underlying cause."
+        },
+        {
+          "term": "Escalation",
+          "definition": "Transferring an issue to the appropriate authority or expertise."
+        }
+      ],
+      "questions": [
+        {
+          "id": "tech-service-desk-q1",
+          "prompt": "Which is the best first support note?",
+          "choices": [
+            "It is broken",
+            "User seems confused",
+            "Laptop A cannot reach shared drive since 9 a.m.; local files work",
+            "Replace everything"
+          ],
+          "answer": 2,
+          "explanation": "Specific symptoms, timing and scope support diagnosis."
+        },
+        {
+          "id": "tech-service-desk-q2",
+          "prompt": "Why change one troubleshooting variable at a time?",
+          "choices": [
+            "To make service slower",
+            "To identify which change affected the result",
+            "To avoid documentation",
+            "To guarantee no restart"
+          ],
+          "answer": 1,
+          "explanation": "Controlled tests connect a change to its observed outcome."
+        },
+        {
+          "id": "tech-service-desk-q3",
+          "prompt": "An alternate workflow restores service but leaves the root cause. This is a:",
+          "choices": [
+            "Workaround",
+            "Warranty",
+            "Patch panel",
+            "Permanent diagnosis"
+          ],
+          "answer": 0,
+          "explanation": "A workaround reduces impact without necessarily eliminating the cause."
+        },
+        {
+          "id": "tech-service-desk-q4",
+          "prompt": "When should an incident be closed?",
+          "choices": [
+            "As soon as a command runs",
+            "Before telling the user",
+            "Whenever a technician is busy",
+            "After verifying the original task works and documenting the result"
+          ],
+          "answer": 3,
+          "explanation": "Validation and documentation support reliable closure."
+        },
+        {
+          "id": "tech-service-desk-q5",
+          "prompt": "Which incident usually deserves higher priority?",
+          "choices": [
+            "One changed desktop background",
+            "A whole department unable to process orders",
+            "One typo in a help article",
+            "A request for a new wallpaper"
+          ],
+          "answer": 1,
+          "explanation": "Broad business impact and urgency drive priority."
+        }
+      ]
+    },
+    {
+      "id": "tech-network-foundations",
+      "title": "Networks, addressing and physical connections",
+      "summary": "Understand how devices share a network and what common equipment actually does.",
+      "sourceIds": [
+        "cisco"
+      ],
+      "sections": [
+        {
+          "heading": "From one device to a network",
+          "paragraphs": [
+            "A local area network connects devices across a limited area; a wide area network connects networks over larger distances. A switch forwards Ethernet frames within a local network using MAC addresses. A router forwards packets between IP networks. A wireless access point connects wireless clients to the wired network; it is not automatically the internet connection itself. Client-server systems centralize services, while peer-to-peer arrangements let peers share directly. Star topologies connect endpoints to central equipment. A central switch failure can affect many clients, whereas one endpoint cable failure may affect only one."
+          ]
+        },
+        {
+          "heading": "Addresses, subnets and media",
+          "paragraphs": [
+            "An IP address identifies an interface within an IP network. The subnet prefix describes which portion identifies the network, and the default gateway provides a path to destinations outside that subnet. IPv4 and IPv6 use different address structures; IPv6 is not simply an extra-fast form of Wi-Fi. Private IPv4 addresses are commonly translated at a network boundary using NAT. Copper Ethernet, fiber and wireless have different distance, interference, cost and installation tradeoffs. Fiber carries light and resists electromagnetic interference. Wireless uses shared radio spectrum, so walls, channel congestion and distance affect performance."
+          ],
+          "example": {
+            "scenario": "A computer can reach local shared files but cannot reach external websites by IP address.",
+            "solution": "Check its default gateway and the upstream route. Local success shows that some LAN functions work; DNS alone cannot explain failure to reach a known external IP."
+          }
+        },
+        {
+          "heading": "Common mistakes and test decisions",
+          "paragraphs": [
+            "Bandwidth is a link’s capacity, throughput is achieved data transfer, and latency is delay. A high-bandwidth link can still feel slow when latency or packet loss is high. Compare wired and wireless results to isolate radio issues. Verify physical link, address, subnet and gateway before blaming the application. Two devices using the same IP address can create intermittent connectivity. A connected Wi-Fi icon only confirms association, not successful internet access. Network diagrams should show devices, links and boundaries clearly enough that another person can trace the path from a client to a service."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Switch",
+          "definition": "A device that forwards frames within a local Ethernet network."
+        },
+        {
+          "term": "Default gateway",
+          "definition": "The router used to reach destinations outside the local subnet."
+        },
+        {
+          "term": "Latency",
+          "definition": "Delay experienced as data travels through a system."
+        }
+      ],
+      "questions": [
+        {
+          "id": "tech-network-foundations-q1",
+          "prompt": "Which device primarily forwards packets between IP networks?",
+          "choices": [
+            "Router",
+            "Keyboard",
+            "Patch cable",
+            "Display adapter"
+          ],
+          "answer": 0,
+          "explanation": "Routing connects IP networks."
+        },
+        {
+          "id": "tech-network-foundations-q2",
+          "prompt": "What does a switch primarily use to forward Ethernet frames?",
+          "choices": [
+            "Page numbers",
+            "MAC addresses",
+            "Document titles",
+            "User ages"
+          ],
+          "answer": 1,
+          "explanation": "Switches learn and use link-layer MAC addresses."
+        },
+        {
+          "id": "tech-network-foundations-q3",
+          "prompt": "Which medium is resistant to electromagnetic interference?",
+          "choices": [
+            "Unshielded copper",
+            "Coaxial cable",
+            "Fiber optic cable",
+            "Analog audio cable"
+          ],
+          "answer": 2,
+          "explanation": "Fiber transmits light instead of electrical signals."
+        },
+        {
+          "id": "tech-network-foundations-q4",
+          "prompt": "A Wi-Fi connection icon proves which statement?",
+          "choices": [
+            "Every website is reachable",
+            "DNS is correct",
+            "The ISP is working",
+            "The client is associated with a wireless network"
+          ],
+          "answer": 3,
+          "explanation": "Association does not establish that upstream services work."
+        },
+        {
+          "id": "tech-network-foundations-q5",
+          "prompt": "A link has high capacity but long delay. Which term describes the delay?",
+          "choices": [
+            "Resolution",
+            "Latency",
+            "Storage",
+            "Duplex"
+          ],
+          "answer": 1,
+          "explanation": "Latency measures delay, separately from bandwidth."
+        }
+      ]
+    },
+    {
+      "id": "tech-protocols",
+      "title": "Network protocols, services and layered diagnosis",
+      "summary": "Trace a request through naming, addressing, transport and application services.",
+      "sourceIds": [
+        "cisco",
+        "mdn"
+      ],
+      "sections": [
+        {
+          "heading": "Why networks use layers",
+          "paragraphs": [
+            "Layered models divide communication into responsibilities. Physical signaling carries bits; the data-link layer handles local frames; the network layer handles IP packets; transport provides communication between application endpoints. Application protocols define useful conversations such as requesting web content. The OSI model has seven layers, while TCP/IP groups responsibilities differently. Encapsulation adds control information as data moves down the stack; the receiver interprets and removes it. A layer model is a diagnostic aid, not a rule that every real fault belongs neatly to only one box."
+          ]
+        },
+        {
+          "heading": "Common services and their roles",
+          "paragraphs": [
+            "DNS translates names into records such as IP addresses. DHCP can supply clients with addressing configuration automatically. HTTP defines web requests and responses; HTTPS protects HTTP in transit with TLS. TCP provides an ordered, reliable byte stream, while UDP sends datagrams without built-in delivery or ordering guarantees. Applications choose based on their needs and may add their own reliability. Ports distinguish services on an address: HTTPS commonly uses 443, HTTP 80 and DNS 53. Secure remote administration commonly uses SSH rather than unencrypted legacy alternatives. A reachable server can still reject an unauthorized application request."
+          ],
+          "example": {
+            "scenario": "A website loads when you enter its IP address but not when you use its name.",
+            "solution": "Investigate DNS resolution and name-related configuration. The comparison suggests that at least one IP path works, though HTTPS certificates can complicate IP-only tests."
+          }
+        },
+        {
+          "heading": "Common mistakes and test decisions",
+          "paragraphs": [
+            "Ping tests one kind of reachability using ICMP; a blocked ping does not prove the host is down. A successful ping also does not prove that a web service is listening. Trace tools reveal responding hops, but some routers deliberately do not answer. Test progressively: physical connection, local address, gateway, remote destination, name resolution and application response. Distinguish a DNS error from a server’s HTTP error. Encryption protects data during transport, but it does not establish that a website’s claims are trustworthy. Never treat a familiar port number as proof that traffic is harmless."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "DNS",
+          "definition": "A distributed naming service that resolves names to records."
+        },
+        {
+          "term": "DHCP",
+          "definition": "A protocol that supplies network configuration to clients."
+        },
+        {
+          "term": "TCP",
+          "definition": "A transport protocol providing an ordered reliable byte stream."
+        }
+      ],
+      "questions": [
+        {
+          "id": "tech-protocols-q1",
+          "prompt": "A hostname fails while its IP works. Which service is most directly implicated?",
+          "choices": [
+            "DHCP lease duration only",
+            "DNS",
+            "Printer spooler",
+            "GPU driver"
+          ],
+          "answer": 1,
+          "explanation": "DNS resolves names to address records."
+        },
+        {
+          "id": "tech-protocols-q2",
+          "prompt": "Which protocol supplies client IP configuration automatically?",
+          "choices": [
+            "HTML",
+            "SMTP",
+            "DHCP",
+            "JPEG"
+          ],
+          "answer": 2,
+          "explanation": "DHCP supplies addresses and related network settings."
+        },
+        {
+          "id": "tech-protocols-q3",
+          "prompt": "Which statement about UDP is accurate?",
+          "choices": [
+            "It has no built-in delivery guarantee",
+            "It always delivers in order",
+            "It replaces all encryption",
+            "It is a physical cable type"
+          ],
+          "answer": 0,
+          "explanation": "UDP applications must handle reliability needs themselves."
+        },
+        {
+          "id": "tech-protocols-q4",
+          "prompt": "What does a successful ping prove?",
+          "choices": [
+            "Every application works",
+            "Credentials are valid",
+            "All firewall rules allow traffic",
+            "A particular ICMP exchange succeeded"
+          ],
+          "answer": 3,
+          "explanation": "ICMP reachability does not prove application availability."
+        },
+        {
+          "id": "tech-protocols-q5",
+          "prompt": "Which default port is commonly associated with HTTPS?",
+          "choices": [
+            "25",
+            "443",
+            "110",
+            "21"
+          ],
+          "answer": 1,
+          "explanation": "HTTPS conventionally uses port 443."
+        }
+      ]
+    },
+    {
+      "id": "tech-network-design",
+      "title": "Plan, segment and recover a business network",
+      "summary": "Choose a network design from requirements, constraints and failure consequences.",
+      "sourceIds": [
+        "cisco"
+      ],
+      "sections": [
+        {
+          "heading": "Begin with business requirements",
+          "paragraphs": [
+            "A good design begins with users, applications, locations, expected growth and availability needs. Record current devices and links, identify bottlenecks and distinguish measured demand from guesses. A network serving payment terminals and public guests needs different trust boundaries from a small isolated classroom lab. Draw both physical connections and logical networks. Estimate capacity for peak demand rather than only average activity. Compare purchase, licensing, maintenance, support and replacement costs. A design is defensible when each choice answers a requirement, including budget and support skills, rather than simply selecting the most expensive hardware."
+          ]
+        },
+        {
+          "heading": "Segmentation and resilience",
+          "paragraphs": [
+            "A VLAN creates a logical broadcast domain on switching infrastructure. Routing connects VLANs, and access rules should permit only the necessary communication. Separating guest traffic from internal records reduces unnecessary exposure. Redundant power, links and equipment can reduce single points of failure, but redundancy adds cost and configuration complexity. A backup is a recoverable copy; failover keeps a service running on an alternate component. Recovery time objective describes acceptable restoration time, while recovery point objective describes acceptable data loss measured in time. Restore testing determines whether a recovery plan actually works."
+          ],
+          "example": {
+            "scenario": "A clinic allows visitors to use Wi-Fi and also transmits internal patient records.",
+            "solution": "Separate guest and internal networks, restrict routes between them, secure administration and test permitted access. A second wireless name alone is insufficient without enforced isolation."
+          }
+        },
+        {
+          "heading": "Operate and verify the design",
+          "paragraphs": [
+            "Document address plans, device configurations, dependencies and responsible contacts. Use monitoring to track utilization, errors and availability against a baseline. Protect management interfaces and back up device configurations securely. Schedule changes, assess their impact and prepare a rollback. Acceptance tests should cover both ordinary work and chosen failure scenarios. Verify that users can reach required services and cannot reach prohibited ones. Common mistakes include assuming redundant links automatically provide independent paths, treating backups as tested when no restore has occurred, and omitting the ongoing labor needed to keep configurations and diagrams accurate."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "VLAN",
+          "definition": "A logical broadcast domain configured on switching infrastructure."
+        },
+        {
+          "term": "RTO",
+          "definition": "The target maximum time to restore a service after disruption."
+        },
+        {
+          "term": "RPO",
+          "definition": "The target maximum data-loss window expressed in time."
+        }
+      ],
+      "questions": [
+        {
+          "id": "tech-network-design-q1",
+          "prompt": "What should drive the first network design decisions?",
+          "choices": [
+            "The newest product announcement",
+            "Business requirements and constraints",
+            "A random address range",
+            "One vendor’s color scheme"
+          ],
+          "answer": 1,
+          "explanation": "Requirements connect technical choices to actual needs."
+        },
+        {
+          "id": "tech-network-design-q2",
+          "prompt": "Which goal is served by isolating guest traffic from internal systems?",
+          "choices": [
+            "Increasing exposure",
+            "Removing all routing",
+            "Reducing unnecessary access",
+            "Replacing backups"
+          ],
+          "answer": 2,
+          "explanation": "Segmentation limits access between trust zones."
+        },
+        {
+          "id": "tech-network-design-q3",
+          "prompt": "A restore can take four hours at most. Which target is described?",
+          "choices": [
+            "RTO",
+            "RPO",
+            "MAC",
+            "DNS"
+          ],
+          "answer": 0,
+          "explanation": "RTO describes restoration time; RPO describes acceptable data loss."
+        },
+        {
+          "id": "tech-network-design-q4",
+          "prompt": "Which action best validates backups?",
+          "choices": [
+            "Counting backup filenames",
+            "Printing the backup policy",
+            "Adding another VLAN",
+            "Restoring representative data in a controlled test"
+          ],
+          "answer": 3,
+          "explanation": "Recovery must be tested rather than inferred from file existence."
+        },
+        {
+          "id": "tech-network-design-q5",
+          "prompt": "Why document ongoing support cost?",
+          "choices": [
+            "Only purchase prices matter",
+            "Maintenance and administration affect total cost",
+            "Documentation replaces monitoring",
+            "It guarantees zero downtime"
+          ],
+          "answer": 1,
+          "explanation": "Total cost includes the lifecycle effort required to operate the design."
+        }
+      ]
+    },
+    {
+      "id": "tech-security-threats",
+      "title": "Recognize threats, vulnerabilities and risk",
+      "summary": "Identify what could happen, why it could happen and what matters to the organization.",
+      "sourceIds": [
+        "cisco"
+      ],
+      "sections": [
+        {
+          "heading": "Separate the security vocabulary",
+          "paragraphs": [
+            "An asset is something valuable, such as customer records or service availability. A threat is a possible cause of harm; a vulnerability is a weakness a threat could exploit. Risk combines the likelihood and impact of that harm. Confidentiality limits disclosure, integrity protects accuracy and authorized change, and availability keeps services usable. A stolen password can affect all three. Controls reduce risk but rarely remove it completely. A risk assessment considers the asset, plausible attacks, existing controls and consequences before choosing a response. Technical sophistication alone does not determine business impact."
+          ]
+        },
+        {
+          "heading": "Common attacks and warning signs",
+          "paragraphs": [
+            "Phishing uses deceptive messages to prompt actions such as revealing credentials or opening malicious content. Social engineering exploits human trust, urgency or authority. Malware includes ransomware that denies access to data, spyware that collects information and other malicious programs. Unpatched software, weak access controls and unsafe defaults create opportunities. SQL injection occurs when untrusted input changes the meaning of a database query; parameterized queries separate data from executable instructions. Cross-site scripting can make untrusted content run as browser code. Defensive testing requires explicit authorization and a defined scope; curiosity is not permission to attack a real system."
+          ],
+          "example": {
+            "scenario": "An urgent email claims the principal needs gift cards and asks you to bypass normal approval.",
+            "solution": "Verify through a known independent contact channel and follow purchasing procedures. The claimed authority and urgency are warning signs, not reasons to skip verification."
+          }
+        },
+        {
+          "heading": "Common mistakes and test decisions",
+          "paragraphs": [
+            "Distinguish an accidental disclosure from a deliberate intrusion, while recognizing that either can cause harm. Assess suspicious links without entering credentials or opening attachments. Report suspected incidents using the organization’s process. Security awareness is a control, but blaming users does not replace safer systems. Treating every risk as equally important wastes resources; prioritize severe plausible consequences. Risk can be reduced, avoided, transferred or accepted by an authorized decision maker. Insurance may transfer some financial consequences but does not prevent an attack or repair trust. Reassess as systems, threats and business needs change."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Vulnerability",
+          "definition": "A weakness that can be exploited or triggered to cause harm."
+        },
+        {
+          "term": "Integrity",
+          "definition": "Protection against unauthorized or accidental improper alteration."
+        },
+        {
+          "term": "Social engineering",
+          "definition": "Manipulation of people to obtain access or induce unsafe actions."
+        }
+      ],
+      "questions": [
+        {
+          "id": "tech-security-threats-q1",
+          "prompt": "An unpatched software flaw is best described as a:",
+          "choices": [
+            "Threat actor",
+            "Vulnerability",
+            "Recovery point",
+            "Business objective"
+          ],
+          "answer": 1,
+          "explanation": "A flaw is a weakness; an attacker exploiting it is a threat."
+        },
+        {
+          "id": "tech-security-threats-q2",
+          "prompt": "Which security objective concerns keeping records accurate?",
+          "choices": [
+            "Availability",
+            "Bandwidth",
+            "Integrity",
+            "Latency"
+          ],
+          "answer": 2,
+          "explanation": "Integrity protects data from improper modification."
+        },
+        {
+          "id": "tech-security-threats-q3",
+          "prompt": "What is the best response to an urgent unusual money request?",
+          "choices": [
+            "Verify through an independent known channel",
+            "Pay immediately",
+            "Reply with your password",
+            "Forward it to everyone"
+          ],
+          "answer": 0,
+          "explanation": "Independent verification avoids trusting the suspicious channel."
+        },
+        {
+          "id": "tech-security-threats-q4",
+          "prompt": "Which control directly helps prevent SQL injection?",
+          "choices": [
+            "Larger monitors",
+            "Shorter table names",
+            "More USB ports",
+            "Parameterized queries"
+          ],
+          "answer": 3,
+          "explanation": "Parameterized queries keep input values separate from executable SQL."
+        },
+        {
+          "id": "tech-security-threats-q5",
+          "prompt": "Buying cyber insurance primarily does what?",
+          "choices": [
+            "Eliminates vulnerabilities",
+            "Transfers some financial risk",
+            "Guarantees recovery",
+            "Replaces access control"
+          ],
+          "answer": 1,
+          "explanation": "Insurance addresses some consequences rather than preventing all incidents."
+        }
+      ]
+    },
+    {
+      "id": "tech-security-controls",
+      "title": "Protect identities, systems and data",
+      "summary": "Select layers of prevention that match the information and workflow.",
+      "sourceIds": [
+        "cisco",
+        "mdn"
+      ],
+      "sections": [
+        {
+          "heading": "Control access deliberately",
+          "paragraphs": [
+            "Authentication establishes an identity; authorization determines what that identity may do. Multifactor authentication combines different factor types, such as something known and something possessed. Two passwords are not two different factors. Least privilege gives a person or service only the rights its job requires. Role-based access assigns permissions through job functions. Review access when people join, change roles or leave. Shared accounts weaken accountability because actions are harder to attribute. A password manager supports unique credentials; a documented account recovery process reduces the temptation to bypass controls during an emergency."
+          ]
+        },
+        {
+          "heading": "Protect data across its lifecycle",
+          "paragraphs": [
+            "Encryption transforms readable information into ciphertext using a key. Symmetric encryption uses a shared secret, while asymmetric systems use related public and private keys. Hashing creates a digest used for purposes such as integrity checks; it is not a reversible substitute for encryption. TLS protects communication in transit. Data at rest also needs appropriate protection and key management. Collect only necessary information, classify its sensitivity and limit retention. Firewalls filter traffic by policy; endpoint protection, patching, secure configuration and segmentation provide additional layers. A single product cannot supply every security function."
+          ],
+          "example": {
+            "scenario": "A club stores member contact information in a cloud spreadsheet shared with anyone who has the link.",
+            "solution": "Limit sharing to authorized accounts, remove unnecessary fields, review editors and define retention. Encryption in transit would not correct overly broad sharing permissions."
+          }
+        },
+        {
+          "heading": "Common mistakes and test decisions",
+          "paragraphs": [
+            "Choose controls for the risk and confirm they do not prevent legitimate work unnecessarily. A preventive control blocks an event, a detective control reveals it, and a corrective control helps restore a safer state. Logging detects activity only if records are collected, protected and reviewed. Physical access controls and secure disposal matter alongside software protections. Test authorization with both permitted and denied actions. Common errors include treating hashing as decryptable, assuming multifactor authentication makes phishing impossible, and believing a secure connection means the recipient should receive the data. Access policy and trustworthy handling remain necessary."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Authentication",
+          "definition": "Establishing who or what is requesting access."
+        },
+        {
+          "term": "Authorization",
+          "definition": "Deciding which actions an authenticated identity may perform."
+        },
+        {
+          "term": "Hash",
+          "definition": "A one-way digest used to represent data for comparison or integrity checks."
+        }
+      ],
+      "questions": [
+        {
+          "id": "tech-security-controls-q1",
+          "prompt": "Which question concerns authorization?",
+          "choices": [
+            "Who are you?",
+            "May this user edit the payroll file?",
+            "Is the cable connected?",
+            "How much RAM is installed?"
+          ],
+          "answer": 1,
+          "explanation": "Authorization decides allowed actions after identity is established."
+        },
+        {
+          "id": "tech-security-controls-q2",
+          "prompt": "Which pair uses distinct authentication factors?",
+          "choices": [
+            "Password and PIN",
+            "Two passwords",
+            "Password and hardware security key",
+            "Two usernames"
+          ],
+          "answer": 2,
+          "explanation": "A memorized secret and a possessed device are different factor types."
+        },
+        {
+          "id": "tech-security-controls-q3",
+          "prompt": "Which is ordinarily one-way rather than reversible?",
+          "choices": [
+            "Hashing",
+            "File compression",
+            "Symmetric encryption",
+            "Text encoding"
+          ],
+          "answer": 0,
+          "explanation": "A cryptographic hash is not decrypted back into the original message."
+        },
+        {
+          "id": "tech-security-controls-q4",
+          "prompt": "Why might HTTPS be insufficient to protect a shared document?",
+          "choices": [
+            "It disables passwords",
+            "It publishes every private key",
+            "It removes all logs",
+            "Sharing permissions may still expose the document"
+          ],
+          "answer": 3,
+          "explanation": "Transport encryption cannot correct excessive access rights."
+        },
+        {
+          "id": "tech-security-controls-q5",
+          "prompt": "An alert that reports suspicious sign-ins is primarily a:",
+          "choices": [
+            "Preventive control",
+            "Detective control",
+            "Purchasing control",
+            "Capacity control"
+          ],
+          "answer": 1,
+          "explanation": "An alert detects events rather than directly preventing them."
+        }
+      ]
+    },
+    {
+      "id": "tech-security-operations",
+      "title": "Respond to incidents and maintain continuity",
+      "summary": "Reduce harm, preserve useful evidence and restore systems safely.",
+      "sourceIds": [
+        "cisco"
+      ],
+      "sections": [
+        {
+          "heading": "Prepare before a disruption",
+          "paragraphs": [
+            "Security operations turn policy into repeatable daily work. Maintain an inventory of assets, owners and critical services so alerts have context. Establish baselines for ordinary activity, collect useful logs and synchronize clocks. Vulnerability management identifies weaknesses, assesses priority, applies remediation and verifies the result. Patching should include testing and rollback appropriate to the system. Incident plans define decision makers, communications and escalation routes. Business continuity keeps essential operations functioning during disruption; disaster recovery focuses on restoring technology and data. Both require exercises, named responsibilities and accessible instructions."
+          ]
+        },
+        {
+          "heading": "Contain, investigate and recover",
+          "paragraphs": [
+            "When an incident is suspected, follow the approved response plan rather than improvising a destructive cleanup. Confirm what is known and isolate affected resources when authorized to limit spread. Preserve logs and other evidence, record actions and maintain a chain of custody if formal investigation requires it. Eradication removes the cause; recovery restores trustworthy services and watches for recurrence. Notify the appropriate responsible people using established channels. Avoid promises about legal reporting deadlines without current jurisdiction-specific guidance. Evidence collection and service restoration can conflict, so the designated incident authority should direct priorities."
+          ],
+          "example": {
+            "scenario": "A workstation begins encrypting shared files.",
+            "solution": "Escalate immediately and use the approved containment process to isolate the affected endpoint or access. Preserve relevant evidence and assess backups before restoring into an environment that may still be compromised."
+          }
+        },
+        {
+          "heading": "Learn from the event",
+          "paragraphs": [
+            "A post-incident review explains the timeline, impact, detection gaps and corrective actions without replacing evidence with blame. Assign owners and deadlines to improvements. Verify restored data, required permissions and application behavior before returning to normal work. Recovery point and recovery time targets help judge whether restoration met business needs. Common mistakes include restoring backups without removing the attack path, deleting logs before investigation, and confusing an absence of alerts with proof of safety. Test communication and manual workarounds too: a technically valid backup is less useful when staff cannot access the procedure or contact the recovery team."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Containment",
+          "definition": "Limiting the spread or impact of an incident."
+        },
+        {
+          "term": "Chain of custody",
+          "definition": "A record of evidence handling, possession and transfers."
+        },
+        {
+          "term": "Business continuity",
+          "definition": "Maintaining essential operations through a disruption."
+        }
+      ],
+      "questions": [
+        {
+          "id": "tech-security-operations-q1",
+          "prompt": "What is the main purpose of incident containment?",
+          "choices": [
+            "Limit spread and impact",
+            "Delete every log",
+            "Avoid communication",
+            "Guarantee attribution"
+          ],
+          "answer": 0,
+          "explanation": "Containment reduces immediate harm while response continues."
+        },
+        {
+          "id": "tech-security-operations-q2",
+          "prompt": "Which activity checks whether a patch solved the issue?",
+          "choices": [
+            "Buying insurance",
+            "Verification",
+            "Choosing a logo",
+            "Skipping documentation"
+          ],
+          "answer": 1,
+          "explanation": "Remediation should be followed by confirmation."
+        },
+        {
+          "id": "tech-security-operations-q3",
+          "prompt": "What is the safest recovery approach after malware?",
+          "choices": [
+            "Restore immediately without investigation",
+            "Trust any available copy",
+            "Remove the cause, validate backups and restore through the response plan",
+            "Publish the evidence publicly"
+          ],
+          "answer": 2,
+          "explanation": "Recovery must avoid reintroducing the same compromise."
+        },
+        {
+          "id": "tech-security-operations-q4",
+          "prompt": "Which record supports reliable evidence handling?",
+          "choices": [
+            "Random notes without dates",
+            "Only a screenshot title",
+            "A marketing brochure",
+            "Chain of custody"
+          ],
+          "answer": 3,
+          "explanation": "Chain of custody records who handled evidence and when."
+        },
+        {
+          "id": "tech-security-operations-q5",
+          "prompt": "Which task belongs in a post-incident review?",
+          "choices": [
+            "Assigning unsupported blame",
+            "Identifying improvements with owners and deadlines",
+            "Destroying the timeline",
+            "Ignoring manual workarounds"
+          ],
+          "answer": 1,
+          "explanation": "An actionable review improves future detection and response."
+        }
+      ]
+    },
+    {
+      "id": "tech-data-management",
+      "title": "Databases, information quality and business systems",
+      "summary": "Turn stored facts into reliable information while keeping relationships and access clear.",
+      "sourceIds": [
+        "mdn",
+        "openstax"
+      ],
+      "sections": [
+        {
+          "heading": "Organize data for a purpose",
+          "paragraphs": [
+            "Data are recorded facts; information is data interpreted in context. A database organizes related data for retrieval and update. A relational table contains rows representing records and columns representing attributes. A primary key uniquely identifies a record. A foreign key links a record to a related table. Separating customers from orders avoids repeating the same customer details in every transaction. Normalization reduces avoidable duplication and update anomalies, though system designers may make documented performance tradeoffs. Choose data types and validation rules that reflect meaning, such as a date for an order date rather than arbitrary text."
+          ]
+        },
+        {
+          "heading": "Retrieve, protect and improve information",
+          "paragraphs": [
+            "Queries select, filter, join, group and summarize records. A join connects related rows using a defined relationship; a careless many-to-many join can multiply results and distort totals. A transaction groups changes that should succeed or fail together, such as recording both sides of an inventory transfer. Backups, access permissions and audit trails support trustworthy operation. Data quality includes accuracy, completeness, consistency, timeliness and fitness for purpose. A required field can improve completeness without guaranteeing truth. Document a data dictionary so people interpret field definitions, codes and units consistently."
+          ],
+          "example": {
+            "scenario": "A customer’s address appears in 30 order records and changes next month.",
+            "solution": "Store customer details once in a customer table and link orders using a customer ID. If historical shipping addresses must remain unchanged, preserve that transaction-specific information deliberately."
+          }
+        },
+        {
+          "heading": "Connect systems to business decisions",
+          "paragraphs": [
+            "Transaction processing systems record routine operations. Management reporting summarizes activity, while decision-support systems help analyze alternatives. Enterprise resource planning connects major functions through shared processes and data; customer relationship management organizes customer interactions. Integrations must reconcile identifiers, formats and ownership rather than merely moving files. Common mistakes include using names as guaranteed unique keys, calculating totals after an unintended duplicate join, and collecting fields no one needs. Ask who owns each dataset, how corrections occur and which decision the information supports. A technically successful import can still produce poor information if definitions disagree."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Primary key",
+          "definition": "A field or field combination uniquely identifying a row."
+        },
+        {
+          "term": "Foreign key",
+          "definition": "A field linking a row to a related table."
+        },
+        {
+          "term": "Normalization",
+          "definition": "Structuring relational data to reduce unnecessary duplication and anomalies."
+        }
+      ],
+      "questions": [
+        {
+          "id": "tech-data-management-q1",
+          "prompt": "What uniquely identifies a row in a relational table?",
+          "choices": [
+            "Primary key",
+            "Font size",
+            "Chart legend",
+            "Folder color"
+          ],
+          "answer": 0,
+          "explanation": "Primary keys uniquely identify records."
+        },
+        {
+          "id": "tech-data-management-q2",
+          "prompt": "Why separate customers and orders into related tables?",
+          "choices": [
+            "To remove all relationships",
+            "To reduce repeated customer data",
+            "To prevent queries",
+            "To avoid identifiers"
+          ],
+          "answer": 1,
+          "explanation": "Related tables reduce unnecessary duplication."
+        },
+        {
+          "id": "tech-data-management-q3",
+          "prompt": "A nonblank required field guarantees:",
+          "choices": [
+            "Accuracy",
+            "Timeliness",
+            "Presence, but not necessarily truth",
+            "Perfect relevance"
+          ],
+          "answer": 2,
+          "explanation": "Completeness and accuracy are different quality dimensions."
+        },
+        {
+          "id": "tech-data-management-q4",
+          "prompt": "What can an unintended many-to-many join do to totals?",
+          "choices": [
+            "Always lower them to zero",
+            "Encrypt them",
+            "Turn them into text",
+            "Multiply rows and inflate sums"
+          ],
+          "answer": 3,
+          "explanation": "Repeated matches can duplicate values in an aggregate."
+        },
+        {
+          "id": "tech-data-management-q5",
+          "prompt": "A CRM system primarily supports:",
+          "choices": [
+            "Processor cooling",
+            "Customer relationships and interactions",
+            "Printer maintenance",
+            "Subnet routing"
+          ],
+          "answer": 1,
+          "explanation": "CRM organizes information about customers and interactions."
+        }
+      ]
+    },
+    {
+      "id": "tech-software-design",
+      "title": "Systems analysis, programming and testing",
+      "summary": "Translate a user need into a model, an implementation and evidence that it works.",
+      "sourceIds": [
+        "mdn",
+        "microsoft"
+      ],
+      "sections": [
+        {
+          "heading": "Define the problem before the solution",
+          "paragraphs": [
+            "Systems analysis investigates the current workflow, users, information and constraints. A functional requirement describes behavior, such as exporting a report. A nonfunctional requirement describes a quality or constraint, such as keyboard accessibility or response time. Interview users and observe the actual process; an assumed workflow can hide important exceptions. A feasibility study considers technical, financial, operational and schedule constraints. Model inputs, processing, outputs and error cases. A prototype explores a question cheaply, while an acceptance criterion states an observable condition for success. Neither a polished mockup nor working code automatically proves that the right problem was solved."
+          ]
+        },
+        {
+          "heading": "Build from clear programming concepts",
+          "paragraphs": [
+            "Variables hold values, selection chooses a branch and iteration repeats work. Functions group behavior behind inputs and outputs. In object-oriented design, a class describes related data and behavior; an object is an instance. Encapsulation keeps implementation details behind an interface, inheritance derives a specialized form and polymorphism lets different implementations respond through a common interface. Prefer understandable models over elaborate hierarchies. Algorithms need correct boundary handling, suitable data structures and reasonable time and memory use. Version control records changes and supports collaboration; committing secrets makes them part of history even if a later change deletes them."
+          ],
+          "example": {
+            "scenario": "A ticket calculator charges a discounted price only when quantity is at least ten.",
+            "solution": "Test quantities nine, ten and eleven. These boundary cases reveal whether the comparison correctly includes ten rather than checking only an ordinary large order."
+          }
+        },
+        {
+          "heading": "Verify and maintain the system",
+          "paragraphs": [
+            "Unit tests examine small pieces, integration tests check cooperation and acceptance tests validate user requirements. Test valid, invalid, empty and boundary inputs. Debugging traces why observed behavior differs from expected behavior; testing reveals a failure but does not always identify its cause. Maintenance includes fixes, security updates and adapting to changed needs. Document setup, dependencies and decisions someone else needs to operate the system. Common mistakes include implementing before clarifying requirements, treating compilation as proof of correctness, checking input only in the interface, and releasing an untested migration without a recovery plan."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Acceptance criterion",
+          "definition": "An observable condition a solution must meet."
+        },
+        {
+          "term": "Encapsulation",
+          "definition": "Keeping implementation details behind a defined interface."
+        },
+        {
+          "term": "Boundary test",
+          "definition": "A test at or near a limit where behavior changes."
+        }
+      ],
+      "questions": [
+        {
+          "id": "tech-software-design-q1",
+          "prompt": "Which is a functional requirement?",
+          "choices": [
+            "The system exports a CSV report",
+            "The color should feel calm",
+            "The team has six weeks",
+            "The server costs $20"
+          ],
+          "answer": 0,
+          "explanation": "Exporting a report describes required behavior."
+        },
+        {
+          "id": "tech-software-design-q2",
+          "prompt": "An object is:",
+          "choices": [
+            "A network route",
+            "An instance of a class",
+            "Only a text file",
+            "An invalid variable"
+          ],
+          "answer": 1,
+          "explanation": "A class defines a type; objects are its instances."
+        },
+        {
+          "id": "tech-software-design-q3",
+          "prompt": "Which test best targets a discount beginning at quantity ten?",
+          "choices": [
+            "Only quantity 100",
+            "Only quantity one",
+            "Quantities nine, ten and eleven",
+            "Only a blank screen"
+          ],
+          "answer": 2,
+          "explanation": "Values around the threshold reveal boundary errors."
+        },
+        {
+          "id": "tech-software-design-q4",
+          "prompt": "What does successful compilation prove?",
+          "choices": [
+            "Every requirement is met",
+            "No security issue exists",
+            "All outputs are correct",
+            "The code passes the compiler’s checks"
+          ],
+          "answer": 3,
+          "explanation": "Compilation is necessary in some languages but not a complete correctness test."
+        },
+        {
+          "id": "tech-software-design-q5",
+          "prompt": "Which testing level checks cooperation between components?",
+          "choices": [
+            "Typography testing",
+            "Integration testing",
+            "Only syntax checking",
+            "Asset inventory"
+          ],
+          "answer": 1,
+          "explanation": "Integration tests examine interacting parts."
+        }
+      ]
+    },
+    {
+      "id": "tech-web-applications",
+      "title": "How web applications work",
+      "summary": "Understand web structure, browser behavior, accessibility and responsible data handling.",
+      "sourceIds": [
+        "mdn"
+      ],
+      "sections": [
+        {
+          "heading": "Follow a request from browser to server",
+          "paragraphs": [
+            "A browser uses a URL to identify a resource and sends an HTTP request to a server. The server responds with a status, headers and usually content. HTML gives a page semantic structure, CSS controls presentation and JavaScript adds behavior. These roles cooperate rather than replacing one another. Client-side code runs in the user’s browser, while server-side code runs on infrastructure controlled by the application operator. Browser code is visible to the user, so private API keys and access decisions cannot safely depend on keeping it secret. An API defines an interface through which software exchanges data or requests operations."
+          ]
+        },
+        {
+          "heading": "Build a usable, resilient interface",
+          "paragraphs": [
+            "Semantic headings, real buttons, labels and meaningful link text help people and assistive technology understand a page. Keyboard users need a visible focus indicator and a sensible interaction order. Responsive layouts adapt to available space without hiding required content. Forms should explain constraints and show specific errors beside the relevant fields. Validate on the server as well as in the browser, because browser checks can be bypassed. Handle loading, empty and failure states explicitly. A useful interface remains understandable when a request fails; it does not silently discard a student’s work."
+          ],
+          "example": {
+            "scenario": "A registration form marks errors only by turning field borders red.",
+            "solution": "Add a written error message associated with each field and preserve entered values. Color alone does not explain the correction and may be inaccessible."
+          }
+        },
+        {
+          "heading": "Storage, security and common mistakes",
+          "paragraphs": [
+            "Cookies, local storage and server databases serve different purposes. Local storage persists in one browser but can be unavailable or cleared; it is unsuitable as the sole home of important shared records. Treat user input as untrusted, encode output for its context and use parameterized database queries. Authentication and authorization must protect sensitive server operations. Cache static resources thoughtfully and measure performance on constrained devices. Common mistakes include using clickable generic elements instead of buttons, trusting hidden form fields, assuming a successful network response means valid business data, and promising cross-device synchronization when information exists only in one browser."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "HTML",
+          "definition": "Markup describing the semantic structure of a web document."
+        },
+        {
+          "term": "API",
+          "definition": "A defined interface for software interactions."
+        },
+        {
+          "term": "Responsive design",
+          "definition": "Layout behavior that adapts to different available screen sizes."
+        }
+      ],
+      "questions": [
+        {
+          "id": "tech-web-applications-q1",
+          "prompt": "Which technology provides semantic page structure?",
+          "choices": [
+            "HTML",
+            "CSS only",
+            "PNG",
+            "TLS"
+          ],
+          "answer": 0,
+          "explanation": "HTML communicates document structure and meaning."
+        },
+        {
+          "id": "tech-web-applications-q2",
+          "prompt": "Where must a private server API key be protected?",
+          "choices": [
+            "Inside public browser JavaScript",
+            "On the server, outside public client code",
+            "In an HTML comment",
+            "In a hidden input"
+          ],
+          "answer": 1,
+          "explanation": "Anything delivered to a browser can be inspected by its user."
+        },
+        {
+          "id": "tech-web-applications-q3",
+          "prompt": "Why validate form data on the server?",
+          "choices": [
+            "It replaces clear labels",
+            "Browsers never make mistakes",
+            "Client checks can be bypassed",
+            "It increases image resolution"
+          ],
+          "answer": 2,
+          "explanation": "The server must enforce rules independently of client behavior."
+        },
+        {
+          "id": "tech-web-applications-q4",
+          "prompt": "What is a limitation of local storage?",
+          "choices": [
+            "It always syncs between devices",
+            "It cannot store strings",
+            "It is a public database",
+            "It can be cleared or unavailable in that browser"
+          ],
+          "answer": 3,
+          "explanation": "Local browser storage is not guaranteed durable or cross-device."
+        },
+        {
+          "id": "tech-web-applications-q5",
+          "prompt": "Which error treatment is most accessible?",
+          "choices": [
+            "Red borders alone",
+            "Specific text linked to the affected field",
+            "A silent page reload",
+            "Removing the invalid field"
+          ],
+          "answer": 1,
+          "explanation": "Text explains the issue and can be associated with assistive technology."
+        }
+      ]
+    },
+    {
+      "id": "tech-statistics",
+      "title": "Probability, distributions and uncertainty",
+      "summary": "Interpret summaries and probabilities without overstating what the data show.",
+      "sourceIds": [
+        "openstax",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Describe a distribution before drawing conclusions",
+          "paragraphs": [
+            "A population is the full group of interest; a sample is the subset observed. The mean adds values and divides by their count. The median is the middle of sorted values and is less affected by extreme observations. The mode is the most frequent value. Range describes the difference between maximum and minimum, while standard deviation summarizes typical spread around the mean. Histograms show distributions of numerical data; bar charts compare categories. Examine shape, unusual values and units before choosing a summary. A high average does not imply that every observation is high."
+          ]
+        },
+        {
+          "heading": "Reason about probability",
+          "paragraphs": [
+            "Probability ranges from zero to one. For equally likely outcomes, an event’s probability is favorable outcomes divided by all possible outcomes. Independent events do not change one another’s probabilities; mutually exclusive events cannot occur together. These are different ideas. Conditional probability asks about an event given additional information. A test can be highly accurate yet produce many false alarms when the condition is rare. Expected value multiplies each outcome by its probability and adds the results; it is a long-run average, not a guaranteed result for one attempt. Use counts or a two-way table to make probability relationships concrete."
+          ],
+          "example": {
+            "scenario": "Three delivery times are 2, 3 and 16 days.",
+            "solution": "The mean is 7 days, while the median is 3 days. Report the unusually long delivery as well as the summary; the mean alone hides the typical experience."
+          }
+        },
+        {
+          "heading": "Sampling and inference pitfalls",
+          "paragraphs": [
+            "Random sampling helps reduce selection bias, but a large sample can still be biased if it systematically excludes important groups. Correlation describes association, not proof that one variable causes another. A confounder can influence both. Statistical significance does not establish practical importance, and failing to find significance does not prove no effect exists. Confidence intervals express uncertainty in estimates under stated methods; do not read them as a guarantee about each individual observation. Common mistakes include averaging percentages with different denominators, treating missing values as zero, and comparing groups collected through incompatible methods."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Median",
+          "definition": "The middle value after observations are ordered."
+        },
+        {
+          "term": "Conditional probability",
+          "definition": "Probability of an event given specified information."
+        },
+        {
+          "term": "Confounder",
+          "definition": "A variable that influences both an apparent cause and an outcome."
+        }
+      ],
+      "questions": [
+        {
+          "id": "tech-statistics-q1",
+          "prompt": "Which summary resists a single extreme outlier better?",
+          "choices": [
+            "Mean",
+            "Median",
+            "Maximum",
+            "Sum"
+          ],
+          "answer": 1,
+          "explanation": "The median depends on ordering rather than the magnitude of an extreme value."
+        },
+        {
+          "id": "tech-statistics-q2",
+          "prompt": "What is the mean of 2, 3 and 16?",
+          "choices": [
+            "3",
+            "16",
+            "7",
+            "21"
+          ],
+          "answer": 2,
+          "explanation": "Their sum is 21; dividing by three gives 7."
+        },
+        {
+          "id": "tech-statistics-q3",
+          "prompt": "Independent events are events that:",
+          "choices": [
+            "Do not change one another’s probabilities",
+            "Cannot occur together",
+            "Must have equal probabilities",
+            "Always occur"
+          ],
+          "answer": 0,
+          "explanation": "Independence differs from mutual exclusivity."
+        },
+        {
+          "id": "tech-statistics-q4",
+          "prompt": "What does correlation alone establish?",
+          "choices": [
+            "Causation",
+            "A randomized experiment",
+            "An absence of confounding",
+            "Association"
+          ],
+          "answer": 3,
+          "explanation": "Other explanations can produce an association."
+        },
+        {
+          "id": "tech-statistics-q5",
+          "prompt": "A huge sample drawn only from volunteers may still suffer from:",
+          "choices": [
+            "Perfect representation",
+            "Selection bias",
+            "Guaranteed independence",
+            "Zero uncertainty"
+          ],
+          "answer": 1,
+          "explanation": "Sample size does not fix systematic selection problems."
+        }
+      ]
+    },
+    {
+      "id": "tech-data-analysis",
+      "title": "Collect, clean, analyze and communicate data",
+      "summary": "Produce a reproducible analysis with clear units, honest charts and useful conclusions.",
+      "sourceIds": [
+        "mba",
+        "openstax",
+        "microsoft"
+      ],
+      "sections": [
+        {
+          "heading": "Start with a question and a data plan",
+          "paragraphs": [
+            "Define the decision, target population, unit of observation and measurement before collecting data. Distinguish numerical measurements from categories, and discrete counts from continuous quantities. Record provenance: who collected the data, when, how and under which definitions. A CSV is a plain-text table exchange format; a workbook can contain formulas, formatting and multiple sheets. SQL retrieves structured records; Python, R and spreadsheets can transform and analyze them. Select tools based on dataset size, reproducibility and the task. Keep an untouched raw copy so corrections and transformations can be audited."
+          ]
+        },
+        {
+          "heading": "Clean deliberately and calculate correctly",
+          "paragraphs": [
+            "Check missing values, duplicate records, impossible ranges, inconsistent categories and mismatched units. Decide and document how each issue will be handled. A missing sale is not automatically a zero sale. Standardize dates and identifiers before merging datasets. Sorting changes order; filtering changes the visible subset. A pivot table summarizes data by categories, but its result depends on the aggregation selected. Relative spreadsheet references move when copied, while absolute references lock a row or column. Calculate percentage change as new minus old, divided by old; a zero baseline requires a different description."
+          ],
+          "example": {
+            "scenario": "A club’s attendance rises from 40 to 50 members.",
+            "solution": "The increase is 10 members, or 10 ÷ 40 = 25%. Dividing by the new value would answer a different question and understate this growth rate."
+          }
+        },
+        {
+          "heading": "Communicate without distortion",
+          "paragraphs": [
+            "Choose a chart that fits the question: lines for ordered time trends, bars for category comparisons and scatterplots for relationships between numerical variables. Label units, period, source and relevant uncertainty. Truncated bar axes can exaggerate differences; a line chart may use a narrower scale if it is clearly labeled and justified. Separate results from interpretation and limitations. Provide a recommendation that the evidence supports rather than inventing certainty. Common mistakes include claiming causation from a trend, reporting many decimal places unsupported by measurement quality, and making a chart attractive while leaving the denominator or comparison group undefined."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Provenance",
+          "definition": "A record of where data came from and how it was produced."
+        },
+        {
+          "term": "Pivot table",
+          "definition": "A tool for grouping and aggregating tabular data."
+        },
+        {
+          "term": "Percentage change",
+          "definition": "The change divided by the original value, expressed as a percentage."
+        }
+      ],
+      "questions": [
+        {
+          "id": "tech-data-analysis-q1",
+          "prompt": "Why preserve a raw data copy?",
+          "choices": [
+            "To prevent all analysis",
+            "To support audit and reproducibility",
+            "To remove source details",
+            "To guarantee correct conclusions"
+          ],
+          "answer": 1,
+          "explanation": "An unchanged original allows transformations to be checked."
+        },
+        {
+          "id": "tech-data-analysis-q2",
+          "prompt": "Attendance rises from 40 to 50. What is the percentage increase?",
+          "choices": [
+            "10%",
+            "20%",
+            "25%",
+            "50%"
+          ],
+          "answer": 2,
+          "explanation": "The increase is 10 divided by the original 40."
+        },
+        {
+          "id": "tech-data-analysis-q3",
+          "prompt": "Which chart usually fits a monthly sales trend?",
+          "choices": [
+            "Line chart",
+            "Unlabeled pie chart",
+            "Random icon grid",
+            "Word cloud"
+          ],
+          "answer": 0,
+          "explanation": "Ordered time trends are commonly shown with a line chart."
+        },
+        {
+          "id": "tech-data-analysis-q4",
+          "prompt": "What should a missing measurement automatically become?",
+          "choices": [
+            "Zero",
+            "The largest value",
+            "The average without explanation",
+            "No value until a justified handling rule is chosen"
+          ],
+          "answer": 3,
+          "explanation": "Missingness has meaning and should not be silently recoded."
+        },
+        {
+          "id": "tech-data-analysis-q5",
+          "prompt": "What does an absolute spreadsheet reference preserve when copied?",
+          "choices": [
+            "Only font color",
+            "A specified row and/or column",
+            "The entire workbook name",
+            "Every formula result"
+          ],
+          "answer": 1,
+          "explanation": "Dollar signs can lock reference coordinates."
+        }
+      ]
+    },
+    {
+      "id": "tech-machine-learning",
+      "title": "Machine learning, evaluation and AI reasoning",
+      "summary": "Choose learning methods and judge models using unseen data and relevant metrics.",
+      "sourceIds": [
+        "mba",
+        "openstax"
+      ],
+      "sections": [
+        {
+          "heading": "Match the learning method to the task",
+          "paragraphs": [
+            "Artificial intelligence is a broad field concerned with tasks such as perception, reasoning and decision-making. Machine learning builds patterns from data instead of hand-writing every rule. Supervised learning uses labeled examples: classification predicts categories, while regression predicts numerical values. Unsupervised learning explores structure such as clusters without supplied target labels. Reinforcement learning uses feedback from actions toward a reward. A feature is an input representation and a label is the target in supervised learning. Training data quality and relevance constrain what a model can learn; more data is not automatically better data."
+          ]
+        },
+        {
+          "heading": "Evaluate on information the model has not seen",
+          "paragraphs": [
+            "Separate training, validation and test data so model selection does not contaminate the final evaluation. Overfitting learns details that fail to generalize; underfitting misses useful structure. Leakage occurs when information unavailable at prediction time enters training or evaluation. Accuracy is correct predictions divided by all predictions. Precision measures how often positive predictions are correct; recall measures how many actual positives are found. Choose metrics based on the cost of mistakes. A model that always predicts the majority class can appear accurate while failing the very cases that matter."
+          ],
+          "example": {
+            "scenario": "Only 2% of transactions are fraudulent. A model labels every transaction legitimate.",
+            "solution": "It achieves 98% accuracy but zero recall for fraud. Evaluate the confusion matrix, precision, recall and the costs of missed fraud before calling it useful."
+          }
+        },
+        {
+          "heading": "Representation, reasoning and limitations",
+          "paragraphs": [
+            "Models represent information through features, rules, graphs, vectors or learned parameters. Computer vision interprets images; natural language processing works with language. Search explores candidate states or solutions, while rule systems apply explicit conditions. Generative models produce plausible content from learned patterns but can produce false statements. Monitor deployment for drift when data or behavior changes. Human review, suitable uncertainty and limits on automated action matter in consequential settings. Common mistakes include calling every automated rule machine learning, testing on training examples, optimizing one metric without business context and presenting a confident generated explanation as verified evidence."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Overfitting",
+          "definition": "Learning patterns too specific to training data to generalize well."
+        },
+        {
+          "term": "Recall",
+          "definition": "The share of actual positive cases identified as positive."
+        },
+        {
+          "term": "Data leakage",
+          "definition": "Use of information that should be unavailable to a prediction or evaluation."
+        }
+      ],
+      "questions": [
+        {
+          "id": "tech-machine-learning-q1",
+          "prompt": "Predicting a house price is ordinarily:",
+          "choices": [
+            "Classification",
+            "Regression",
+            "Clustering only",
+            "Encryption"
+          ],
+          "answer": 1,
+          "explanation": "Regression predicts a numerical value."
+        },
+        {
+          "id": "tech-machine-learning-q2",
+          "prompt": "Grouping customers without target labels is commonly:",
+          "choices": [
+            "Supervised classification",
+            "File compression",
+            "Unsupervised learning",
+            "Access control"
+          ],
+          "answer": 2,
+          "explanation": "Clustering explores structure without supplied outcome labels."
+        },
+        {
+          "id": "tech-machine-learning-q3",
+          "prompt": "Why keep final test data separate?",
+          "choices": [
+            "To estimate performance on unseen examples",
+            "To make training perfect",
+            "To hide model errors",
+            "To remove the need for validation"
+          ],
+          "answer": 0,
+          "explanation": "A held-out test supports a less contaminated performance estimate."
+        },
+        {
+          "id": "tech-machine-learning-q4",
+          "prompt": "A fraud model predicts no fraud in a dataset with rare fraud. What can be misleading?",
+          "choices": [
+            "Its zero fraud recall",
+            "The number of actual fraud cases",
+            "Its confusion matrix",
+            "Its high overall accuracy"
+          ],
+          "answer": 3,
+          "explanation": "Majority-class predictions can yield high accuracy while missing all positives."
+        },
+        {
+          "id": "tech-machine-learning-q5",
+          "prompt": "Information from after an outcome is used to predict that outcome. This is:",
+          "choices": [
+            "Good sampling",
+            "Data leakage",
+            "A firewall",
+            "A median"
+          ],
+          "answer": 1,
+          "explanation": "Future information would not be available at the intended prediction time."
+        }
+      ]
+    },
+    {
+      "id": "tech-data-ethics",
+      "title": "Privacy, AI fairness and responsible information use",
+      "summary": "Use data for a defined purpose and examine who can be harmed by a system.",
+      "sourceIds": [
+        "mba",
+        "mdn",
+        "usa"
+      ],
+      "sections": [
+        {
+          "heading": "Privacy is a design decision",
+          "paragraphs": [
+            "Personal information can identify a person directly or become identifying when combined with other records. Data minimization means collecting only what a defined purpose requires. Explain collection and use clearly, control access and retain information only as long as justified. Removing names does not necessarily anonymize a dataset if dates, locations or other details allow reidentification. Consent should be meaningful rather than buried in confusing language, and some uses may require additional legal authority. Privacy and security overlap but differ: securely storing unnecessary sensitive information can still be an inappropriate privacy practice."
+          ]
+        },
+        {
+          "heading": "Check fairness and accountability",
+          "paragraphs": [
+            "Bias can enter through historical data, sampling, labels, selected objectives and deployment conditions. A dataset that underrepresents a group can make performance estimates unreliable for that group. Compare relevant error rates and consequences, not only one overall score. Fairness measures can conflict, so document the chosen goal and its tradeoffs. Explain who owns a system, who can challenge an outcome and how corrections occur. Intellectual property and licensing constrain reuse even when content is publicly visible. Generative AI assistance still requires checking facts, source permissions and the specific competition’s rules on outside help."
+          ],
+          "example": {
+            "scenario": "A club trains a participation predictor using only students who already attend meetings.",
+            "solution": "The sample excludes nonparticipants, so it cannot fairly describe all students. Reconsider the data plan and purpose before using the model to decide whom to invite."
+          }
+        },
+        {
+          "heading": "Common mistakes and test decisions",
+          "paragraphs": [
+            "Use a practical review: identify the purpose, necessary fields, affected groups, likely harms, protective controls and an accountable decision maker. Provide human review when errors could materially affect people. Distinguish explaining a model from proving that it is correct or fair. A statistically useful proxy can still reproduce sensitive distinctions. Avoid uploading private member records into unapproved tools. Common mistakes include assuming public access grants unrestricted reuse, treating name removal as complete anonymization, and describing an algorithm as neutral merely because it uses mathematics. Review real outcomes after deployment as well as before launch."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Data minimization",
+          "definition": "Collecting and retaining only information necessary for a defined purpose."
+        },
+        {
+          "term": "Reidentification",
+          "definition": "Connecting supposedly anonymous data back to an individual."
+        },
+        {
+          "term": "Algorithmic bias",
+          "definition": "Systematic differences in model behavior that can create unfair outcomes."
+        }
+      ],
+      "questions": [
+        {
+          "id": "tech-data-ethics-q1",
+          "prompt": "What is data minimization?",
+          "choices": [
+            "Keeping every possible field",
+            "Collecting only data needed for a defined purpose",
+            "Making every file smaller",
+            "Deleting all evidence"
+          ],
+          "answer": 1,
+          "explanation": "Purpose and necessity guide collection and retention."
+        },
+        {
+          "id": "tech-data-ethics-q2",
+          "prompt": "Removing names from records guarantees anonymity:",
+          "choices": [
+            "Always",
+            "Only for large files",
+            "No; combinations of other fields may identify people",
+            "Whenever the file is a spreadsheet"
+          ],
+          "answer": 2,
+          "explanation": "Indirect identifiers can enable reidentification."
+        },
+        {
+          "id": "tech-data-ethics-q3",
+          "prompt": "Which is a strong fairness evaluation practice?",
+          "choices": [
+            "Compare meaningful outcomes and errors across affected groups",
+            "Check only overall accuracy",
+            "Ignore the sampling process",
+            "Assume mathematics is neutral"
+          ],
+          "answer": 0,
+          "explanation": "Group-specific performance and harms can be hidden in averages."
+        },
+        {
+          "id": "tech-data-ethics-q4",
+          "prompt": "A publicly visible article may be copied freely because it is visible:",
+          "choices": [
+            "Always",
+            "If it has no login",
+            "If it is useful",
+            "No; reuse rights still need checking"
+          ],
+          "answer": 3,
+          "explanation": "Access and copyright permission are different."
+        },
+        {
+          "id": "tech-data-ethics-q5",
+          "prompt": "Who remains responsible for checking generated claims used in a project?",
+          "choices": [
+            "Nobody",
+            "The person or team using them",
+            "Only the browser",
+            "Only the training data publisher"
+          ],
+          "answer": 1,
+          "explanation": "Using an AI tool does not remove responsibility for accuracy and rules."
+        }
+      ]
+    },
+    {
+      "id": "specialist-project-planning",
+      "title": "Initiate and plan a project",
+      "summary": "Define a temporary effort with clear outcomes, accountable people and a realistic plan.",
+      "sourceIds": [
+        "pmi",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "A project has an outcome and an ending",
+          "paragraphs": [
+            "A project is a temporary effort that creates a unique result. Operations are ongoing activities that sustain the organization. A project charter authorizes the effort and summarizes purpose, objectives, major constraints and responsibility. Identify stakeholders early: they can influence the work or be affected by it. The sponsor supplies support and authority, while the project manager coordinates delivery. Define measurable success criteria and distinguish outputs from outcomes. Printing 200 brochures is an output; increasing attendance may be an outcome. Clear scope states what work is included so enthusiasm does not silently expand the commitment."
+          ]
+        },
+        {
+          "heading": "Break work into manageable pieces",
+          "paragraphs": [
+            "A work breakdown structure divides deliverables into smaller components. Estimate tasks, resources, dependencies and duration with the people who understand the work. A milestone marks an important point rather than a duration of effort. The critical path is the longest dependent path through the schedule; delay on it can delay the project unless the plan changes. Budget for realistic costs and contingency. Identify risks before they become issues, assign owners and plan responses. Predictive planning defines substantial work in advance; adaptive approaches use feedback and shorter cycles when requirements or solutions are uncertain."
+          ],
+          "example": {
+            "scenario": "A fundraiser needs two days of design, then three days of printing, then one day of distribution.",
+            "solution": "Those dependent tasks require at least six days in sequence. Assigning more people to distribution does not shorten the earlier design and printing dependencies automatically."
+          }
+        },
+        {
+          "heading": "Common mistakes and test decisions",
+          "paragraphs": [
+            "Write acceptance criteria that someone can verify: 'report contains a reconciled budget and three sourced recommendations' is stronger than 'report is great.' Build a communication plan around who needs which information and when. A responsibility matrix clarifies who performs, approves or advises on work, preventing duplicate effort and missing decisions. Do not confuse effort with elapsed duration or assume every task can run simultaneously. A risk is uncertain; an issue is already occurring. Planning should be sufficient for the project’s size and uncertainty, then updated as evidence changes rather than treated as an unchangeable prediction."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Scope",
+          "definition": "The boundaries of the work and deliverables included in a project."
+        },
+        {
+          "term": "Critical path",
+          "definition": "The longest dependent sequence determining the minimum schedule duration."
+        },
+        {
+          "term": "Stakeholder",
+          "definition": "A person or group affecting or affected by a project."
+        }
+      ],
+      "questions": [
+        {
+          "id": "specialist-project-planning-q1",
+          "prompt": "Which activity is a project?",
+          "choices": [
+            "Daily attendance recording",
+            "Routine weekly payroll",
+            "Creating a new chapter website by a defined date",
+            "Ongoing email support"
+          ],
+          "answer": 2,
+          "explanation": "A unique temporary effort differs from ongoing operations."
+        },
+        {
+          "id": "specialist-project-planning-q2",
+          "prompt": "Who typically provides high-level authority and support?",
+          "choices": [
+            "Project sponsor",
+            "Every customer equally",
+            "Only the printer",
+            "An unknown external observer"
+          ],
+          "answer": 0,
+          "explanation": "The sponsor authorizes and supports the effort."
+        },
+        {
+          "id": "specialist-project-planning-q3",
+          "prompt": "Dependent tasks take two, three and one days. Minimum sequence duration is:",
+          "choices": [
+            "Three days",
+            "Six days",
+            "One day",
+            "Twelve days"
+          ],
+          "answer": 1,
+          "explanation": "Sequential dependencies add to six days."
+        },
+        {
+          "id": "specialist-project-planning-q4",
+          "prompt": "Which statement describes a risk rather than an issue?",
+          "choices": [
+            "The venue has already canceled",
+            "The budget has been exceeded",
+            "The deadline passed yesterday",
+            "The venue might cancel next month"
+          ],
+          "answer": 3,
+          "explanation": "A risk is an uncertain future event."
+        },
+        {
+          "id": "specialist-project-planning-q5",
+          "prompt": "Which acceptance criterion is most verifiable?",
+          "choices": [
+            "The project feels impressive",
+            "The report includes a reconciled budget and three sourced recommendations",
+            "Everyone likes the colors",
+            "It seems nearly finished"
+          ],
+          "answer": 1,
+          "explanation": "Observable evidence supports acceptance."
+        }
+      ]
+    },
+    {
+      "id": "specialist-project-delivery",
+      "title": "Execute, monitor and close a project",
+      "summary": "Control change, communicate tradeoffs and hand over a result that can be used.",
+      "sourceIds": [
+        "pmi",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Coordinate work and monitor evidence",
+          "paragraphs": [
+            "Execution produces the planned deliverables and coordinates people, resources and suppliers. Monitoring compares actual progress, cost, quality and risk against the agreed plan. A status report should identify what is complete, what is next, which decisions are needed and which issues threaten the outcome. A task being 90% complete for several weeks is weaker evidence than a finished, accepted deliverable. Quality assurance improves the process used to produce work; quality control inspects the results. Team leadership includes resolving disagreements, clarifying responsibilities and removing obstacles rather than merely collecting updates."
+          ]
+        },
+        {
+          "heading": "Handle change and uncertainty",
+          "paragraphs": [
+            "A change request should describe the proposed adjustment and its effects on scope, time, cost, quality and risk. Obtain approval through the project’s agreed authority before treating the change as a commitment. Scope creep is uncontrolled expansion. Adaptive teams can reprioritize a backlog within a defined process, but flexibility does not mean unlimited resources. Track issues, owners and actions separately from potential risks. Escalate decisions the team cannot make. If a supplier delay affects the critical path, evaluate alternatives such as resequencing, reducing scope or adding appropriate resources; each has costs and limits."
+          ],
+          "example": {
+            "scenario": "Two days before a report is due, a stakeholder requests an additional survey of 300 students.",
+            "solution": "Estimate effort and impact, explain the tradeoff and seek an authorized scope or deadline decision. Silently accepting the request hides a predictable delivery risk."
+          }
+        },
+        {
+          "heading": "Close deliberately",
+          "paragraphs": [
+            "Closure verifies deliverables against acceptance criteria, obtains approval, transfers ownership and records unresolved items. Reconcile spending, archive useful records and release resources. Capture lessons about both successful practices and failures so future projects can act on them. Benefits may appear after closure, so name the person responsible for measuring them. A deployment is not finished if no one can maintain or use it. Common mistakes include declaring completion when work is merely submitted, hiding overruns, confusing extra features with required quality and leaving handover instructions or account ownership with someone who is leaving the organization."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Scope creep",
+          "definition": "Uncontrolled expansion of a project’s work or requirements."
+        },
+        {
+          "term": "Change request",
+          "definition": "A proposal evaluated for its impact before authorized change."
+        },
+        {
+          "term": "Handover",
+          "definition": "Transfer of the result and its operating responsibility to an owner."
+        }
+      ],
+      "questions": [
+        {
+          "id": "specialist-project-delivery-q1",
+          "prompt": "A project’s deliverables expand without review. This is:",
+          "choices": [
+            "Scope creep",
+            "A milestone",
+            "A baseline",
+            "A procurement specification"
+          ],
+          "answer": 0,
+          "explanation": "Uncontrolled expansion is scope creep."
+        },
+        {
+          "id": "specialist-project-delivery-q2",
+          "prompt": "What should a change decision consider?",
+          "choices": [
+            "Only enthusiasm",
+            "Scope, time, cost, quality and risk",
+            "Only font size",
+            "Only the requester’s title"
+          ],
+          "answer": 1,
+          "explanation": "Changes have interacting consequences."
+        },
+        {
+          "id": "specialist-project-delivery-q3",
+          "prompt": "Which is stronger evidence of progress?",
+          "choices": [
+            "A repeated 90% estimate",
+            "Hours in meetings alone",
+            "An accepted deliverable meeting defined criteria",
+            "A longer task list"
+          ],
+          "answer": 2,
+          "explanation": "Accepted outputs are observable rather than merely estimated."
+        },
+        {
+          "id": "specialist-project-delivery-q4",
+          "prompt": "What is required at project closure?",
+          "choices": [
+            "Destroying every record",
+            "Leaving ownership unclear",
+            "Ignoring spending",
+            "Acceptance, handover and useful archived records"
+          ],
+          "answer": 3,
+          "explanation": "Closure ensures the result can be operated and the effort accounted for."
+        },
+        {
+          "id": "specialist-project-delivery-q5",
+          "prompt": "Quality control primarily concerns:",
+          "choices": [
+            "Only hiring decisions",
+            "Checking results against requirements",
+            "Removing all planning",
+            "Increasing scope"
+          ],
+          "answer": 1,
+          "explanation": "Quality control inspects deliverables."
+        }
+      ]
+    },
+    {
+      "id": "specialist-public-governance",
+      "title": "Public institutions, policy and ethical service",
+      "summary": "Explain how public organizations make decisions and remain accountable to the community.",
+      "sourceIds": [
+        "usa",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Public purposes and levels of government",
+          "paragraphs": [
+            "Public organizations provide services and carry out policies under authority granted through public institutions. Federal, state and local governments have different responsibilities, and some services involve multiple levels working together. Legislative bodies make laws and authorize spending, executive organizations administer programs, and courts interpret law and resolve disputes. The exact allocation depends on the jurisdiction. Public managers balance effectiveness, efficiency, equity, legality and accountability. Unlike a business, an agency cannot define success only as profit. A service can be essential even when the people most in need cannot pay its full cost."
+          ]
+        },
+        {
+          "heading": "Follow a policy from problem to evaluation",
+          "paragraphs": [
+            "Public policy begins with identifying a problem, understanding affected groups and comparing possible responses. Options may include direct service, regulation, incentives or partnerships. Analyze evidence, costs, expected benefits and unintended effects before recommending a choice. Implementation translates a decision into staffing, procedures, communication and delivery. Evaluation examines whether outcomes improved and for whom. Stakeholder engagement should reach more than the most vocal participants. Public communication uses clear language, accessible formats and accurate explanations of eligibility, process and appeal options. Informing people is different from collecting meaningful feedback that can influence a decision."
+          ],
+          "example": {
+            "scenario": "A town proposes moving a bus stop to save travel time.",
+            "solution": "Compare travel benefits with accessibility and safety effects for riders, especially people who cannot easily walk farther. Ask affected users and evaluate outcomes after implementation."
+          }
+        },
+        {
+          "heading": "Ethics, accountability and management",
+          "paragraphs": [
+            "A conflict of interest occurs when a personal interest could improperly influence an official responsibility. Disclose potential conflicts and use the organization’s recusal process rather than assuming good intentions solve the problem. Stewardship means using entrusted resources responsibly. Transparency supports scrutiny, while legitimate privacy and security needs still require protection. Keep accurate records and apply procedures consistently. Common mistakes include treating equal treatment as always equivalent to equitable access, promising a policy without authority or funding, and using service volume as the only measure of success. Measure service quality, public outcomes and access alongside cost and speed."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Public policy",
+          "definition": "A course of action adopted to address a public issue."
+        },
+        {
+          "term": "Accountability",
+          "definition": "The obligation to explain and take responsibility for decisions and results."
+        },
+        {
+          "term": "Conflict of interest",
+          "definition": "A personal interest that could improperly influence official duties."
+        }
+      ],
+      "questions": [
+        {
+          "id": "specialist-public-governance-q1",
+          "prompt": "Why is profit alone inadequate for evaluating an agency?",
+          "choices": [
+            "Agencies have no costs",
+            "Public goals include access, legality and community outcomes",
+            "Only elections matter",
+            "Budgets are optional"
+          ],
+          "answer": 1,
+          "explanation": "Public organizations serve goals beyond financial return."
+        },
+        {
+          "id": "specialist-public-governance-q2",
+          "prompt": "Which step checks whether a policy achieved its intended results?",
+          "choices": [
+            "Naming",
+            "Procurement only",
+            "Evaluation",
+            "Logo design"
+          ],
+          "answer": 2,
+          "explanation": "Evaluation examines outcomes after implementation."
+        },
+        {
+          "id": "specialist-public-governance-q3",
+          "prompt": "A purchasing official’s relative owns a bidder. What is appropriate?",
+          "choices": [
+            "Disclose the conflict and follow recusal rules",
+            "Ignore the relationship",
+            "Give the relative an advantage",
+            "Delete the bid records"
+          ],
+          "answer": 0,
+          "explanation": "Disclosure and appropriate separation protect impartiality."
+        },
+        {
+          "id": "specialist-public-governance-q4",
+          "prompt": "Which public communication practice is strongest?",
+          "choices": [
+            "Use unexplained jargon",
+            "Share only with existing insiders",
+            "Avoid eligibility details",
+            "Use clear, accessible explanations and feedback channels"
+          ],
+          "answer": 3,
+          "explanation": "Accessible communication helps people understand and use services."
+        },
+        {
+          "id": "specialist-public-governance-q5",
+          "prompt": "What should a service evaluation consider besides cost?",
+          "choices": [
+            "Only brochure quantity",
+            "Quality, outcomes and equitable access",
+            "Only staff titles",
+            "Only office size"
+          ],
+          "answer": 1,
+          "explanation": "Public performance includes the effects on the community."
+        }
+      ]
+    },
+    {
+      "id": "specialist-public-finance",
+      "title": "Public budgets, revenue and performance",
+      "summary": "Read a public budget as a statement of priorities, constraints and accountability.",
+      "sourceIds": [
+        "usa",
+        "mba",
+        "openstax"
+      ],
+      "sections": [
+        {
+          "heading": "How public budgets differ from personal budgets",
+          "paragraphs": [
+            "A public budget authorizes and plans the use of resources for community purposes. Revenues can include taxes, fees, grants and other receipts; their availability and legal restrictions vary. Expenditures fund services, staff, supplies and capital assets. An operating budget supports recurring activities, while a capital budget plans long-lived investments. Budget authority is not identical to cash in the bank. A restricted grant cannot automatically be moved to an unrelated program. Public finance requires understanding who can authorize commitments and which rules govern procurement, spending and reporting."
+          ]
+        },
+        {
+          "heading": "Compare costs, results and funding choices",
+          "paragraphs": [
+            "Distinguish fixed costs from costs that change with service volume. Cost per service unit divides relevant spending by the number of units, but it does not measure quality by itself. A program can lower unit cost by serving easier cases while neglecting people with complex needs. Cost-benefit analysis compares costs and valued benefits; cost-effectiveness compares ways to achieve an outcome when benefits are difficult to price. Debt can finance long-lived assets but creates future repayment obligations. A one-time grant should not be treated as permanent recurring funding without a plan for continuing expenses."
+          ],
+          "example": {
+            "scenario": "A tutoring program spends $12,000 and delivers 600 sessions.",
+            "solution": "Average cost is $20 per session. To evaluate value, also examine learning outcomes, session quality and whether students with the greatest need can access the service."
+          }
+        },
+        {
+          "heading": "Controls and honest reporting",
+          "paragraphs": [
+            "Internal controls such as authorization, separation of duties and reconciliations reduce errors and misuse. Procurement specifications should define needs clearly so offers can be evaluated fairly. Competitive selection processes protect accountability, but exact requirements must be checked for the jurisdiction. Monitor budget-to-actual results and explain material variances. An output counts activity, such as permits processed; an outcome measures the effect, such as reduced unsafe construction. Common mistakes include equating spending the entire budget with success, ignoring lifecycle maintenance costs of a new asset and reporting a favorable average while hiding unequal access or declining service quality."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Operating budget",
+          "definition": "A plan for recurring service and administrative activities."
+        },
+        {
+          "term": "Capital budget",
+          "definition": "A plan for long-lived investments and assets."
+        },
+        {
+          "term": "Variance",
+          "definition": "The difference between planned and actual results."
+        }
+      ],
+      "questions": [
+        {
+          "id": "specialist-public-finance-q1",
+          "prompt": "A recurring staff salary belongs primarily in which budget?",
+          "choices": [
+            "Capital",
+            "Operating",
+            "Personal",
+            "Inventory-only"
+          ],
+          "answer": 1,
+          "explanation": "Operating budgets support recurring activities."
+        },
+        {
+          "id": "specialist-public-finance-q2",
+          "prompt": "A $12,000 program provides 600 sessions. Average cost per session is:",
+          "choices": [
+            "$2",
+            "$200",
+            "$20",
+            "$7,200"
+          ],
+          "answer": 2,
+          "explanation": "Divide $12,000 by 600 sessions."
+        },
+        {
+          "id": "specialist-public-finance-q3",
+          "prompt": "Why is a one-time grant risky as the sole funding for permanent staff?",
+          "choices": [
+            "The grant may end while recurring costs continue",
+            "Grants never contain restrictions",
+            "Payroll is not a cost",
+            "Budgets cannot include grants"
+          ],
+          "answer": 0,
+          "explanation": "Recurring commitments need sustainable funding."
+        },
+        {
+          "id": "specialist-public-finance-q4",
+          "prompt": "Which measure is an outcome rather than an output?",
+          "choices": [
+            "Number of leaflets printed",
+            "Number of meetings held",
+            "Number of inspections completed",
+            "Reduction in preventable injuries"
+          ],
+          "answer": 3,
+          "explanation": "An outcome describes an effect, not just activity."
+        },
+        {
+          "id": "specialist-public-finance-q5",
+          "prompt": "Why separate payment approval from reconciliation when practical?",
+          "choices": [
+            "To avoid records",
+            "To reduce errors and misuse through independent checks",
+            "To eliminate all costs",
+            "To hide variances"
+          ],
+          "answer": 1,
+          "explanation": "Separation of duties reduces unchecked control over transactions."
+        }
+      ]
+    },
+    {
+      "id": "specialist-healthcare-operations",
+      "title": "Healthcare organizations, people and quality",
+      "summary": "Understand how care settings coordinate safe services and operational improvement.",
+      "sourceIds": [
+        "healthcare",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Organizations and the continuum of care",
+          "paragraphs": [
+            "Healthcare organizations include hospitals, outpatient clinics, long-term care facilities, public health agencies and other services. Primary care addresses common needs and ongoing coordination; specialty care focuses on a particular condition or field. Preventive care aims to reduce disease or detect problems earlier. Care transitions move a person between settings and can create information gaps. Administrators coordinate staffing, facilities, scheduling and resources so clinical professionals can deliver care. Administrative decisions affect patient experience and safety, but an administrator should not substitute unqualified judgment for licensed clinical decisions. Different ownership structures can influence governance and funding without eliminating responsibility for quality."
+          ]
+        },
+        {
+          "heading": "People, strategy and communication",
+          "paragraphs": [
+            "Workforce planning matches skills, credentials and staffing to service demand. Orientation, continuing training, supervision and clear roles support safe practice. Recruitment alone cannot solve retention problems caused by poor scheduling or an unsafe workplace. Strategic planning links community needs and organizational capacity to measurable priorities. Communicate changes with patients and staff using accessible language; confirm understanding rather than assuming a message was received. Standardized handoffs can reduce missing information at transitions. Effective leadership encourages staff to report near misses so the organization can learn before a preventable harm occurs."
+          ],
+          "example": {
+            "scenario": "A clinic has long waits even though daily visit totals are stable.",
+            "solution": "Map arrivals, check-in, rooming and clinician availability by time of day. The bottleneck may reflect scheduling and uneven capacity rather than too few total staff hours."
+          }
+        },
+        {
+          "heading": "Structures, strategy and technology",
+          "paragraphs": [
+            "Functional structures group people by specialty; matrix structures combine reporting relationships; multidivisional structures separate major services or locations. A chief medical officer leads medical matters, a chief nursing officer nursing practice and a chief financial officer financial stewardship. SWOT compares internal strengths and weaknesses with external opportunities and threats; PEST examines political, economic, social and technological conditions. Telehealth enables remote services but still needs suitable access, privacy and clinical judgment. Clinical information systems support care, while PACS stores and retrieves medical images. Fee-for-service pays for individual services; value-based models connect payment to defined quality and cost goals. HMOs generally emphasize network-based coordinated care, PPOs usually offer more out-of-network flexibility and POS plans combine features; actual terms vary."
+          ]
+        },
+        {
+          "heading": "Quality and process improvement",
+          "paragraphs": [
+            "Quality includes safety, effectiveness, timeliness, patient-centeredness, efficiency and equity. Measure the process before changing it, choose an intervention and check the result. A root-cause analysis examines system contributors rather than stopping at 'someone made a mistake.' Track both intended outcomes and balancing measures, such as whether shorter visits increase callbacks. Patient satisfaction is useful but cannot alone establish clinical quality. Common mistakes include treating every delay as a staffing shortage, using averages that hide underserved groups and discouraging reporting to make incident counts appear low. Support a culture that distinguishes learning from concealment."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Continuum of care",
+          "definition": "Connected services across a person’s different health needs and settings."
+        },
+        {
+          "term": "Near miss",
+          "definition": "An event that could have caused harm but did not."
+        },
+        {
+          "term": "Bottleneck",
+          "definition": "The step whose limited capacity constrains a process."
+        }
+      ],
+      "questions": [
+        {
+          "id": "specialist-healthcare-operations-q1",
+          "prompt": "Which activity is primarily an administrator’s responsibility?",
+          "choices": [
+            "Replacing a clinician’s diagnosis",
+            "Coordinating staffing and scheduling",
+            "Prescribing without a license",
+            "Ignoring patient feedback"
+          ],
+          "answer": 1,
+          "explanation": "Administrators organize resources and operations within their role."
+        },
+        {
+          "id": "specialist-healthcare-operations-q2",
+          "prompt": "A near miss should be:",
+          "choices": [
+            "Hidden to improve statistics",
+            "Treated as proof of no risk",
+            "Reported and examined for learning",
+            "Automatically blamed on a patient"
+          ],
+          "answer": 2,
+          "explanation": "Near misses reveal risks before harm occurs."
+        },
+        {
+          "id": "specialist-healthcare-operations-q3",
+          "prompt": "What should happen before changing a slow clinic workflow?",
+          "choices": [
+            "Map the process and measure the bottleneck",
+            "Assume every role needs more staff",
+            "Stop collecting data",
+            "Change every step at once"
+          ],
+          "answer": 0,
+          "explanation": "Measurement helps locate the actual constraint."
+        },
+        {
+          "id": "specialist-healthcare-operations-q4",
+          "prompt": "Patient satisfaction alone establishes clinical quality:",
+          "choices": [
+            "Always",
+            "If the survey is attractive",
+            "For all clinics",
+            "No; quality has multiple dimensions"
+          ],
+          "answer": 3,
+          "explanation": "Satisfaction is one measure among safety, effectiveness and other dimensions."
+        },
+        {
+          "id": "specialist-healthcare-operations-q5",
+          "prompt": "Why use standardized handoffs?",
+          "choices": [
+            "To remove professional judgment",
+            "To reduce missing information during transitions",
+            "To avoid documentation",
+            "To replace all patient communication"
+          ],
+          "answer": 1,
+          "explanation": "Handoffs support continuity and reliable communication."
+        },
+        {
+          "id": "specialist-healthcare-operations-q6",
+          "prompt": "Which system primarily stores and retrieves medical images?",
+          "choices": [
+            "A purchase order",
+            "PACS",
+            "A payroll register",
+            "A routing table"
+          ],
+          "answer": 1,
+          "explanation": "PACS is a picture archiving and communication system."
+        }
+      ]
+    },
+    {
+      "id": "specialist-healthcare-finance",
+      "title": "Healthcare finance, insurance and information",
+      "summary": "Connect budgets and billing workflows to accurate records and responsible access.",
+      "sourceIds": [
+        "healthcare",
+        "mba",
+        "hhs-hipaa",
+        "hhs-fraud",
+        "hhs-programs",
+        "osha-healthcare"
+      ],
+      "sections": [
+        {
+          "heading": "Follow the revenue cycle",
+          "paragraphs": [
+            "The revenue cycle spans scheduling and registration through billing, payment and reconciliation. Accurate patient and coverage information helps prevent avoidable delays. Coding represents documented services in standardized forms; billing uses that information to submit a claim. A claim is a request for payment, not proof that payment is guaranteed. Payers review coverage, documentation and other requirements. Denials need analysis and an appropriate correction or appeal rather than repeated submission of unchanged errors. Distinguish the amount charged, the amount allowed by an agreement and the amount ultimately collected. These figures are not interchangeable."
+          ]
+        },
+        {
+          "heading": "Insurance and budget basics",
+          "paragraphs": [
+            "A premium maintains insurance coverage. A deductible is an amount a covered person may need to pay before specified benefits apply; a copayment is a stated charge and coinsurance is a percentage share. Actual obligations depend on the plan and service, so avoid universal promises. Administrators budget labor, supplies, facilities, technology and other costs. Fixed costs can remain over a relevant range of volume, while variable costs change with activity. Compare actual revenue and spending with the budget and investigate significant variances. Cash flow matters because a service may incur costs well before a claim is paid."
+          ],
+          "example": {
+            "scenario": "A simplified plan applies 20% coinsurance after the deductible is met to an allowed $500 service.",
+            "solution": "The patient share under those assumptions is $100, and the payer share is $400. Do not apply the percentage to an unrelated list price or ignore remaining plan conditions."
+          }
+        },
+        {
+          "heading": "Policy, safeguards and public programs",
+          "paragraphs": [
+            "HIPAA’s Privacy Rule governs protected health information use and disclosure; its Security Rule addresses electronic protected information through administrative, physical and technical safeguards. The Breach Notification Rule covers required notices after qualifying breaches. These rules apply to covered entities and business associates, not automatically to every person who knows a health fact. The Anti-Kickback Statute targets knowing, willful remuneration for federally reimbursed referrals or business; Stark addresses specified physician self-referrals involving financial relationships unless an exception applies. Medicare is federal insurance mainly for older adults and some eligible younger people. Medicaid is jointly funded federally and by states and administered by states under federal requirements. CMS administers major coverage programs within HHS; CDC focuses on public health. OSHA addresses worker safety, including bloodborne-pathogen exposure controls, training and safer work practices. Compliance translates these duties into policies, audits, reporting and corrective action."
+          ]
+        },
+        {
+          "heading": "Technology, policy and trustworthy records",
+          "paragraphs": [
+            "Electronic health records organize clinical information, while practice-management systems support scheduling and administrative workflows. Interoperability means systems can exchange and meaningfully use information, not merely send a file. Role-based access, audit logs, secure communication and appropriate retention protect sensitive records. Privacy laws and payer requirements must be checked through current authoritative guidance; a study summary cannot replace compliance advice. Common mistakes include assuming all staff need access to every record, treating software as a cure for poor documentation and using billing codes to imply services that records do not support. Accuracy and ethical stewardship connect finance, care and trust."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Claim",
+          "definition": "A request to a payer for payment of a covered service."
+        },
+        {
+          "term": "Coinsurance",
+          "definition": "A percentage share of an eligible cost paid by the insured person."
+        },
+        {
+          "term": "Interoperability",
+          "definition": "The ability of systems to exchange and meaningfully use information."
+        }
+      ],
+      "questions": [
+        {
+          "id": "specialist-healthcare-finance-q1",
+          "prompt": "Which statement about a submitted claim is accurate?",
+          "choices": [
+            "It guarantees payment",
+            "It requests payment and still requires review",
+            "It is always cash revenue immediately",
+            "It replaces documentation"
+          ],
+          "answer": 1,
+          "explanation": "Claims can be denied or adjusted."
+        },
+        {
+          "id": "specialist-healthcare-finance-q2",
+          "prompt": "What is 20% coinsurance on a $500 allowed amount under the stated assumptions?",
+          "choices": [
+            "$20",
+            "$400",
+            "$100",
+            "$500"
+          ],
+          "answer": 2,
+          "explanation": "0.20 multiplied by $500 equals $100."
+        },
+        {
+          "id": "specialist-healthcare-finance-q3",
+          "prompt": "Which is a common cause of avoidable billing delays?",
+          "choices": [
+            "Incorrect registration or coverage information",
+            "Clear documentation",
+            "Verified patient identity",
+            "Accurate coding"
+          ],
+          "answer": 0,
+          "explanation": "Errors early in the revenue cycle can delay payment."
+        },
+        {
+          "id": "specialist-healthcare-finance-q4",
+          "prompt": "Interoperability requires:",
+          "choices": [
+            "Only sending any file",
+            "Only buying the same monitor",
+            "Removing privacy controls",
+            "Exchanging and meaningfully using information"
+          ],
+          "answer": 3,
+          "explanation": "Usable meaning matters as well as transport."
+        },
+        {
+          "id": "specialist-healthcare-finance-q5",
+          "prompt": "Who should receive access to sensitive records?",
+          "choices": [
+            "Everyone in the organization",
+            "Authorized people with a legitimate role-based need",
+            "Any curious student",
+            "Anyone with a shared link"
+          ],
+          "answer": 1,
+          "explanation": "Access should follow assigned duties and appropriate authorization."
+        },
+        {
+          "id": "specialist-healthcare-finance-q6",
+          "prompt": "Which HIPAA rule specifically addresses electronic protected health information safeguards?",
+          "choices": [
+            "Security Rule",
+            "Only the building code",
+            "Only a purchasing policy",
+            "Only a staff scheduling rule"
+          ],
+          "answer": 0,
+          "explanation": "The HIPAA Security Rule addresses administrative, physical and technical safeguards for ePHI."
+        },
+        {
+          "id": "specialist-healthcare-finance-q7",
+          "prompt": "Which program is jointly funded by federal and state governments and administered by states within federal requirements?",
+          "choices": [
+            "Medicare only",
+            "Medicaid",
+            "Every private PPO",
+            "Workers’ compensation only"
+          ],
+          "answer": 1,
+          "explanation": "Medicaid involves federal-state funding and state administration."
+        },
+        {
+          "id": "specialist-healthcare-finance-q8",
+          "prompt": "A payment offered to induce federally reimbursed referrals raises concerns under which law?",
+          "choices": [
+            "Only copyright law",
+            "Only zoning",
+            "Anti-Kickback Statute",
+            "Only trademark law"
+          ],
+          "answer": 2,
+          "explanation": "The Anti-Kickback Statute targets prohibited remuneration for covered referrals and business."
+        }
+      ]
+    },
+    {
+      "id": "specialist-agribusiness-markets",
+      "title": "Agribusiness economics, finance and marketing",
+      "summary": "Trace value from farm inputs to customers and manage the uncertainty of seasonal production.",
+      "sourceIds": [
+        "mba",
+        "openstax",
+        "epa-agriculture"
+      ],
+      "sections": [
+        {
+          "heading": "Agribusiness is a connected value system",
+          "paragraphs": [
+            "Agribusiness includes input suppliers, producers, processors, distributors, retailers and service organizations. A farm is one part of this larger chain. Inputs such as seed, feed, labor and equipment become outputs sold into markets. Demand reflects consumers’ willingness and ability to buy; supply reflects producers’ willingness and ability to sell. Weather, disease, energy prices and trade conditions can shift supply or demand. Many biological production processes take time, so producers cannot instantly adjust output when prices change. Opportunity cost is the value of the best alternative use of a scarce resource such as land or labor."
+          ]
+        },
+        {
+          "heading": "Use budgets and market information",
+          "paragraphs": [
+            "An enterprise budget estimates revenue and costs for a particular activity. Revenue equals quantity sold multiplied by price, but profit requires subtracting all relevant costs. Distinguish cash costs from noncash costs such as depreciation. Break-even price equals total relevant cost divided by units sold. Working capital supports seasonal expenses before harvest receipts arrive. Market research examines buyers, quality requirements, channels and competition. Commodity marketing often emphasizes standardized grades and volume; differentiated products may compete on origin, attributes or service. A contract can allocate delivery and price risk, but its obligations must be understood before agreement."
+          ],
+          "example": {
+            "scenario": "A school greenhouse expects to sell 800 plants and has $2,400 in relevant costs.",
+            "solution": "Break-even average price is $2,400 ÷ 800 = $3 per plant. If only 600 plants sell, that same cost requires $4 per plant, illustrating volume risk."
+          }
+        },
+        {
+          "heading": "Ownership, contracts and environmental obligations",
+          "paragraphs": [
+            "Sole proprietorships center ownership in one person; partnerships share ownership; corporations are separate legal entities; cooperative members organize for mutual benefit. Liability and tax treatment depend on the form and jurisdiction. Contracts define quantity, quality, price, delivery and remedies for nonperformance. Agribusiness legal issues also include employment, product responsibility, land use and environmental duties. Environmental law addresses effects on air, water, soil, habitats and people. EPA rules vary by farm activity: pesticide use, waste handling and discharges can involve different requirements. FIFRA regulates pesticides, and label directions are part of lawful use; registration does not authorize every imaginable application. Trade opens markets and access to inputs but adds currency, shipping and policy exposure. Precision sensors and other technology can improve decisions only when data and maintenance are dependable."
+          ]
+        },
+        {
+          "heading": "Ethics and management decisions",
+          "paragraphs": [
+            "Accurate weights, truthful claims, fair dealing and responsible labor practices build trust. Business arrangements involve contracts, ownership and liability, but exact legal duties depend on current jurisdiction and the activity. Use qualified guidance for real decisions. Manage risk through suitable diversification, insurance, safety, reserves and sound operations rather than assuming one tool removes all uncertainty. Common mistakes include treating sales as profit, ignoring family labor or equipment wear in economic analysis and planning from an unusually favorable season alone. Evaluate a range of yield and price outcomes and explain the assumptions behind a recommendation."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Enterprise budget",
+          "definition": "An estimate of revenue and costs for a particular production activity."
+        },
+        {
+          "term": "Opportunity cost",
+          "definition": "The value of the best alternative forgone."
+        },
+        {
+          "term": "Break-even price",
+          "definition": "Relevant total cost divided by the units expected to be sold."
+        }
+      ],
+      "questions": [
+        {
+          "id": "specialist-agribusiness-markets-q1",
+          "prompt": "Agribusiness includes:",
+          "choices": [
+            "Only farming",
+            "Input suppliers, producers, processors and distribution businesses",
+            "Only grocery stores",
+            "Only machinery factories"
+          ],
+          "answer": 1,
+          "explanation": "Agribusiness spans the agricultural value chain."
+        },
+        {
+          "id": "specialist-agribusiness-markets-q2",
+          "prompt": "Costs of $2,400 spread over 800 plants imply which break-even price?",
+          "choices": [
+            "$2",
+            "$4",
+            "$3",
+            "$8"
+          ],
+          "answer": 2,
+          "explanation": "$2,400 divided by 800 equals $3."
+        },
+        {
+          "id": "specialist-agribusiness-markets-q3",
+          "prompt": "What is the opportunity cost of using land for one crop?",
+          "choices": [
+            "The value of its best alternative use",
+            "All historical spending",
+            "Always zero",
+            "Only the seed invoice"
+          ],
+          "answer": 0,
+          "explanation": "Opportunity cost represents the forgone alternative."
+        },
+        {
+          "id": "specialist-agribusiness-markets-q4",
+          "prompt": "Why use several yield and price scenarios?",
+          "choices": [
+            "To guarantee a profit",
+            "To remove uncertainty",
+            "To avoid stating assumptions",
+            "To assess exposure to uncertain outcomes"
+          ],
+          "answer": 3,
+          "explanation": "Scenarios show how results depend on uncertain inputs."
+        },
+        {
+          "id": "specialist-agribusiness-markets-q5",
+          "prompt": "Revenue is $10,000 and relevant costs are $8,000. Profit is:",
+          "choices": [
+            "$18,000",
+            "$2,000",
+            "$10,000",
+            "$8,000"
+          ],
+          "answer": 1,
+          "explanation": "Profit equals revenue minus costs."
+        },
+        {
+          "id": "specialist-agribusiness-markets-q6",
+          "prompt": "Why must an agricultural operator check rules for its specific activities?",
+          "choices": [
+            "No environmental rules apply",
+            "Every farm has identical duties",
+            "Registration permits all pesticide uses",
+            "Requirements vary with activities such as pesticide use, discharge and waste handling"
+          ],
+          "answer": 3,
+          "explanation": "Environmental duties depend on the actual activity and applicable authority."
+        }
+      ]
+    },
+    {
+      "id": "specialist-agricultural-operations",
+      "title": "Agricultural operations, safety and natural resources",
+      "summary": "Balance production efficiency with traceability, stewardship and safe procedures.",
+      "sourceIds": [
+        "mba",
+        "openstax",
+        "epa-agriculture"
+      ],
+      "sections": [
+        {
+          "heading": "Plan biological and physical operations",
+          "paragraphs": [
+            "Agricultural operations combine production schedules, labor, equipment, storage and biological processes. Capacity is not unlimited: planting windows, animal needs and weather can constrain when work happens. Standard operating procedures describe repeatable safe steps, while records make results traceable. Inventory includes inputs and harvested products; perishable goods need suitable temperature, handling and rotation. Quality control checks whether products meet specifications. Traceability connects a product to its source, handling and destination so an issue can be investigated and affected lots identified. Efficient operations reduce avoidable loss without hiding defects or bypassing safety."
+          ]
+        },
+        {
+          "heading": "Stewardship and workplace safety",
+          "paragraphs": [
+            "Soil, water, energy and biodiversity are productive resources as well as environmental concerns. Erosion removes soil; conservation practices can reduce losses and preserve long-term productivity. Nutrient management matches inputs to need rather than assuming more fertilizer always improves yield. Water planning considers availability, timing, quality and efficient application. Integrated pest management combines monitoring, prevention and appropriate control decisions. Follow product labels and applicable safety rules, use appropriate protective equipment and keep untrained people away from hazardous equipment. Never infer that a 'natural' substance is automatically safe or that protective equipment replaces hazard reduction."
+          ],
+          "example": {
+            "scenario": "A harvest lot has a suspected storage-temperature problem.",
+            "solution": "Identify and hold the affected lot, review temperature and handling records and follow the approved safety process. Mixing it with other lots destroys traceability and can spread the problem."
+          }
+        },
+        {
+          "heading": "Natural cycles and emergency readiness",
+          "paragraphs": [
+            "Plants and animals depend on interacting water, nutrient and energy cycles. Decomposition returns nutrients to soil; runoff can carry nutrients away and damage water systems. Production decisions should account for these feedbacks, seasonal growth and resource limits. Safety planning identifies hazards, trains workers and provides a way to report noncompliance without hiding it. During an emergency, protect people, alert the designated responders and follow the trained procedure rather than improvising a hazardous rescue. Agricultural insurance can cover specified financial losses subject to policy terms; prevention and contingency planning remain necessary."
+          ]
+        },
+        {
+          "heading": "Manage for long-term performance",
+          "paragraphs": [
+            "Compare output, input use, waste, product quality and safety incidents rather than chasing yield alone. Preventive equipment maintenance can reduce breakdowns during a narrow production window. Train workers, communicate hazards and assign responsibility for inspections and records. Sustainability involves economic viability, environmental stewardship and social responsibility; one favorable metric does not establish all three. Common mistakes include using averages that hide spoiled lots, treating environmental impacts as unrelated to business costs and solving a recurring problem only after each failure. Use records to identify patterns, then test improvements and verify that product quality and safety remain protected."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Traceability",
+          "definition": "The ability to follow a product’s source, handling and movement."
+        },
+        {
+          "term": "Integrated pest management",
+          "definition": "A monitoring-based combination of prevention and appropriate pest controls."
+        },
+        {
+          "term": "Stewardship",
+          "definition": "Responsible management of resources entrusted to someone."
+        }
+      ],
+      "questions": [
+        {
+          "id": "specialist-agricultural-operations-q1",
+          "prompt": "Why maintain product lot records?",
+          "choices": [
+            "To make storage confusing",
+            "To trace affected products if a problem arises",
+            "To remove quality checks",
+            "To guarantee no spoilage"
+          ],
+          "answer": 1,
+          "explanation": "Lot records connect products to their production and handling history."
+        },
+        {
+          "id": "specialist-agricultural-operations-q2",
+          "prompt": "Which approach supports long-term soil productivity?",
+          "choices": [
+            "Ignoring erosion",
+            "Maximizing inputs without measurement",
+            "Matching conservation and nutrient practices to conditions",
+            "Removing all records"
+          ],
+          "answer": 2,
+          "explanation": "Stewardship protects resources while supporting production."
+        },
+        {
+          "id": "specialist-agricultural-operations-q3",
+          "prompt": "What should happen to a suspected unsafe lot?",
+          "choices": [
+            "Hold and identify it through the approved process",
+            "Mix it with safe lots",
+            "Remove its label",
+            "Sell it quickly without review"
+          ],
+          "answer": 0,
+          "explanation": "Isolation and records support safe investigation."
+        },
+        {
+          "id": "specialist-agricultural-operations-q4",
+          "prompt": "Personal protective equipment:",
+          "choices": [
+            "Eliminates every hazard",
+            "Replaces all training",
+            "Makes unsafe procedures acceptable",
+            "Is one control within a broader safety system"
+          ],
+          "answer": 3,
+          "explanation": "Safety also depends on hazard reduction, procedures and training."
+        },
+        {
+          "id": "specialist-agricultural-operations-q5",
+          "prompt": "Why schedule preventive maintenance before a critical production period?",
+          "choices": [
+            "To increase unplanned failure",
+            "To reduce breakdown risk during limited operating windows",
+            "To avoid all equipment records",
+            "To replace worker training"
+          ],
+          "answer": 1,
+          "explanation": "Maintenance helps preserve capacity when timing is constrained."
+        }
+      ]
+    },
+    {
+      "id": "specialist-real-estate-foundations",
+      "title": "Property, ownership and real-estate markets",
+      "summary": "Distinguish the physical property, the rights attached to it and the evidence used to describe it.",
+      "sourceIds": [
+        "mba",
+        "openstax"
+      ],
+      "sections": [
+        {
+          "heading": "Property includes rights as well as land",
+          "paragraphs": [
+            "Real estate includes land and improvements attached to it. Real property refers to associated ownership interests and rights, while personal property generally describes movable items. A fixture began as personal property but became attached in a way that may make it part of the real estate; facts, agreements and applicable law matter. Ownership rights are often described as a bundle that can include possession, use, exclusion and transfer, subject to lawful restrictions and others’ rights. An easement grants a particular use of another person’s land. A lien is a claim securing an obligation, not necessarily a right to occupy the property."
+          ]
+        },
+        {
+          "heading": "Describe property and market value carefully",
+          "paragraphs": [
+            "A deed transfers an ownership interest; title describes ownership rights and claims rather than simply naming one piece of paper. Legal descriptions identify a parcel more precisely than a casual street address. Land-use controls, private restrictions and physical conditions can affect permitted use. Supply, demand, location, condition and available financing influence markets. An appraisal is an informed opinion of value for a stated purpose and date, not a guarantee of a selling price. The sales-comparison approach uses comparable properties and justified adjustments; the cost and income approaches answer different valuation questions."
+          ],
+          "example": {
+            "scenario": "Two similar homes sold for different prices; one sale occurred after a major renovation.",
+            "solution": "Investigate condition, date, terms and location before treating the prices as interchangeable comparables. A valuation needs relevant evidence and reasoned adjustments."
+          }
+        },
+        {
+          "heading": "Careers and professional roles",
+          "paragraphs": [
+            "Sales agents help clients market, find and negotiate property within their authorized role. Brokers meet additional licensing requirements and may supervise agents; exact requirements vary by state. REALTOR is a membership designation associated with the National Association of REALTORS, rather than a synonym for every licensee. Professional associations can provide education, standards and networking. Property managers oversee ongoing operation and leasing, appraisers develop value opinions and mortgage professionals arrange financing. Residential property serves housing needs, while commercial niches include offices, retail and industrial uses. Appurtenances are rights or features belonging with property; hereditaments are property interests capable of inheritance."
+          ]
+        },
+        {
+          "heading": "Common mistakes and test decisions",
+          "paragraphs": [
+            "Distinguish a leasehold right to occupy from ownership of the property. An encumbrance affects rights or interests but does not always prevent transfer. Zoning permission does not automatically satisfy every permit, covenant or safety requirement. Review source documents and use qualified professionals for actual transactions; definitions here are educational and exact state rules can differ. Common mistakes include confusing a deed with a mortgage, assuming attached equipment always transfers regardless of an agreement, and equating asking price with market value. Read the question’s stated property rights and facts before selecting an answer based on ordinary everyday language."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Easement",
+          "definition": "A defined right to use another person’s property for a particular purpose."
+        },
+        {
+          "term": "Lien",
+          "definition": "A claim against property securing an obligation."
+        },
+        {
+          "term": "Appraisal",
+          "definition": "An informed opinion of value for a specified purpose and date."
+        }
+      ],
+      "questions": [
+        {
+          "id": "specialist-real-estate-foundations-q1",
+          "prompt": "Which item is generally real estate?",
+          "choices": [
+            "A movable desk",
+            "Land and an attached building",
+            "A savings account",
+            "A delivery van"
+          ],
+          "answer": 1,
+          "explanation": "Real estate includes land and attached improvements."
+        },
+        {
+          "id": "specialist-real-estate-foundations-q2",
+          "prompt": "A defined right to cross another parcel is commonly an:",
+          "choices": [
+            "Inventory reserve",
+            "Insurance premium",
+            "Easement",
+            "Depreciation schedule"
+          ],
+          "answer": 2,
+          "explanation": "An easement grants a particular use of another property."
+        },
+        {
+          "id": "specialist-real-estate-foundations-q3",
+          "prompt": "An appraisal is:",
+          "choices": [
+            "An opinion of value for a stated purpose and date",
+            "A guaranteed selling price",
+            "The same as an asking price",
+            "Always a loan approval"
+          ],
+          "answer": 0,
+          "explanation": "Valuation opinions rely on purpose, date and evidence."
+        },
+        {
+          "id": "specialist-real-estate-foundations-q4",
+          "prompt": "Why examine renovation differences between comparable sales?",
+          "choices": [
+            "They never affect value",
+            "They replace legal descriptions",
+            "They determine every future price",
+            "Condition differences can require justified adjustments"
+          ],
+          "answer": 3,
+          "explanation": "Comparable sales must be interpreted rather than copied blindly."
+        },
+        {
+          "id": "specialist-real-estate-foundations-q5",
+          "prompt": "Which describes a lien?",
+          "choices": [
+            "A universal right to live in a house",
+            "A claim securing an obligation",
+            "A building’s color",
+            "A type of movable furniture"
+          ],
+          "answer": 1,
+          "explanation": "Liens secure debts or other obligations against property."
+        }
+      ]
+    },
+    {
+      "id": "specialist-real-estate-finance",
+      "title": "Transactions, mortgages and property calculations",
+      "summary": "Follow a transaction and distinguish price, financing cost and cash required.",
+      "sourceIds": [
+        "mba",
+        "openstax"
+      ],
+      "sections": [
+        {
+          "heading": "A transaction has stages and conditions",
+          "paragraphs": [
+            "A real-estate transaction commonly moves from negotiation to agreement, due diligence, financing and closing. A contract states the parties’ obligations, property, terms and conditions. A contingency makes performance depend on a specified event such as financing or inspection; exact rights depend on the agreement and governing law. Earnest money demonstrates commitment under agreed handling terms, while escrow involves a neutral arrangement for holding money or documents until conditions are met. Inspections evaluate condition; title work examines ownership-related claims. Closing reconciles documents and funds and completes the transfer according to applicable procedures."
+          ]
+        },
+        {
+          "heading": "Understand mortgage and investment arithmetic",
+          "paragraphs": [
+            "A mortgage loan creates a repayment obligation secured by property. Principal is the amount borrowed or remaining; interest is the borrowing charge. An amortizing payment gradually reduces principal, though the interest and principal shares change over time. Loan-to-value ratio divides loan amount by the property value used by the lender. Equity is property value minus outstanding secured debt, before selling costs and other adjustments. A down payment is not the same as total closing cash because fees and other items can also apply. For income property, net operating income subtracts operating expenses from operating revenue before financing and income taxes.",
+            "The secondary mortgage market involves trading existing mortgage loans or related securities, which can provide lenders with funds for further lending. It is distinct from the primary market where a borrower obtains a new loan."
+          ],
+          "example": {
+            "scenario": "A buyer finances $240,000 of a property valued at $300,000.",
+            "solution": "Loan-to-value is $240,000 ÷ $300,000 = 80%. The $60,000 difference is a 20% down payment in this simplified example, before closing costs."
+          }
+        },
+        {
+          "heading": "Common mistakes and test decisions",
+          "paragraphs": [
+            "Read the basis of every percentage: a commission calculated on sale price differs from an interest charge calculated on outstanding principal. Simple annual interest is principal multiplied by annual rate and time in years, but actual loan disclosures may use more complex payment conventions. Compare financing using total relevant costs and terms rather than a payment alone. Lower payments can result from a longer repayment period that increases total interest. Common mistakes include treating gross rent as profit, assuming approval removes every contingency and presenting an illustrative calculation as a current loan offer or individualized financial recommendation."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Principal",
+          "definition": "The amount borrowed or remaining unpaid on a loan."
+        },
+        {
+          "term": "Loan-to-value",
+          "definition": "Loan amount divided by the property value used for lending."
+        },
+        {
+          "term": "Contingency",
+          "definition": "A contract condition tied to a specified event."
+        }
+      ],
+      "questions": [
+        {
+          "id": "specialist-real-estate-finance-q1",
+          "prompt": "A $240,000 loan on $300,000 value has what LTV?",
+          "choices": [
+            "20%",
+            "80%",
+            "125%",
+            "60%"
+          ],
+          "answer": 1,
+          "explanation": "Divide the loan by the value: 240,000 ÷ 300,000."
+        },
+        {
+          "id": "specialist-real-estate-finance-q2",
+          "prompt": "Which amount is the principal?",
+          "choices": [
+            "Only the loan’s fees",
+            "Only annual interest",
+            "The amount borrowed or unpaid",
+            "The property’s color-coded assessment"
+          ],
+          "answer": 2,
+          "explanation": "Principal is the debt amount rather than the borrowing charge."
+        },
+        {
+          "id": "specialist-real-estate-finance-q3",
+          "prompt": "Why can a lower monthly payment still cost more overall?",
+          "choices": [
+            "A longer term may create more total interest",
+            "Low payments always eliminate interest",
+            "Fees are always zero",
+            "Principal disappears"
+          ],
+          "answer": 0,
+          "explanation": "Time and total cost matter alongside payment size."
+        },
+        {
+          "id": "specialist-real-estate-finance-q4",
+          "prompt": "Gross rent is the same as net operating income:",
+          "choices": [
+            "Always",
+            "If paid monthly",
+            "If the building is new",
+            "No; operating expenses must be considered"
+          ],
+          "answer": 3,
+          "explanation": "NOI subtracts operating expenses from operating revenue."
+        },
+        {
+          "id": "specialist-real-estate-finance-q5",
+          "prompt": "A financing contingency concerns:",
+          "choices": [
+            "Only landscaping",
+            "A contract condition related to obtaining financing",
+            "A printer setting",
+            "Automatic guaranteed approval"
+          ],
+          "answer": 1,
+          "explanation": "Contingencies establish conditions under the contract."
+        }
+      ]
+    },
+    {
+      "id": "specialist-real-estate-agency",
+      "title": "Agency, disclosure and ethical transactions",
+      "summary": "Recognize duties, conflicts and fair treatment without guessing at jurisdiction-specific law.",
+      "sourceIds": [
+        "mba",
+        "maryland",
+        "national",
+        "hud-fair-housing",
+        "epa-lead"
+      ],
+      "sections": [
+        {
+          "heading": "Know whom the professional represents",
+          "paragraphs": [
+            "Agency is a relationship in which an agent acts for a principal within authorized duties. A client is represented; a customer may participate without that same representation. The distinction affects what duties and services are owed. Fiduciary responsibilities commonly involve loyalty, care, accounting, disclosure, confidentiality and obedience to lawful instructions, but exact requirements vary. Authority can be limited, so an agent cannot promise actions outside the agreement. Clarify representation and obtain required disclosures before assumptions create a conflict. A commission arrangement by itself does not explain every duty or prove that every participant is represented."
+          ]
+        },
+        {
+          "heading": "Disclosure, conflicts and fair dealing",
+          "paragraphs": [
+            "Material information can influence a reasonable transaction decision. Know which facts require disclosure and which information must remain confidential under applicable rules. Do not invent an answer when uncertain; consult the responsible professional or current authoritative requirements. Representing parties with competing interests can create conflicts requiring special treatment or may be restricted. Fair housing principles prohibit unlawful discrimination in housing-related activity. Ethical communication focuses on the property and objective needs rather than steering people through stereotypes. Advertising should be truthful, authorized and sufficiently clear that a reasonable reader is not misled. Funds held for others require proper handling and records."
+          ],
+          "example": {
+            "scenario": "A buyer asks a seller’s representative to reveal the seller’s lowest acceptable price.",
+            "solution": "The representative should explain the representation relationship and protect confidential negotiating information unless disclosure is authorized or required. Helpfulness does not override duties to the principal."
+          }
+        },
+        {
+          "heading": "Fair housing and layered regulation",
+          "paragraphs": [
+            "The federal Fair Housing Act identifies race, color, religion, sex, national origin, familial status and disability as protected bases. Discriminatory refusal, different terms and steering can affect access; state or local protections can add requirements. Federal lead-disclosure rules generally require known lead-paint and hazard information before sale or lease of most pre-1978 housing. Other disclosures depend on law and facts, so do not assume every hazard follows the same rule. Licensing, zoning, leases, tenant protections and local permits involve different regulatory authorities. Buyers’ agents represent buyers, sellers’ agents represent sellers, and dual or subagency arrangements require careful treatment under applicable rules."
+          ]
+        },
+        {
+          "heading": "Common mistakes and test decisions",
+          "paragraphs": [
+            "Separate ethical principles from a claim about a specific state deadline, form or license rule. Use the current official event guide for the test’s expected scope and current regulators for real activity. When a question presents a conflict, identify the principal, duty, known fact and proper authorization before choosing a response. Common mistakes include assuming a friendly agent represents everyone, confusing confidentiality with permission to conceal a required material disclosure and following a client’s unlawful instruction. Accurate records and candid explanations protect all parties more effectively than vague assurances that everything will work out."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Principal",
+          "definition": "The person or organization represented in an agency relationship."
+        },
+        {
+          "term": "Fiduciary duty",
+          "definition": "A duty to act with the required loyalty and care for another’s interests."
+        },
+        {
+          "term": "Material fact",
+          "definition": "Information important enough to affect a reasonable decision."
+        }
+      ],
+      "questions": [
+        {
+          "id": "specialist-real-estate-agency-q1",
+          "prompt": "In agency, the represented party is the:",
+          "choices": [
+            "Peripheral",
+            "Principal",
+            "Payer",
+            "Compiler"
+          ],
+          "answer": 1,
+          "explanation": "An agent acts for a principal."
+        },
+        {
+          "id": "specialist-real-estate-agency-q2",
+          "prompt": "A client instructs an agent to discriminate unlawfully. The agent should:",
+          "choices": [
+            "Obey because every instruction is binding",
+            "Hide the instruction",
+            "Refuse unlawful conduct and follow proper professional procedures",
+            "Automatically publish all private records"
+          ],
+          "answer": 2,
+          "explanation": "Duties do not require obedience to unlawful instructions."
+        },
+        {
+          "id": "specialist-real-estate-agency-q3",
+          "prompt": "Why clarify representation early?",
+          "choices": [
+            "To avoid mistaken assumptions about whom the agent serves",
+            "To eliminate all contracts",
+            "To guarantee the final price",
+            "To replace disclosure"
+          ],
+          "answer": 0,
+          "explanation": "Representation defines duties and potential conflicts."
+        },
+        {
+          "id": "specialist-real-estate-agency-q4",
+          "prompt": "Confidentiality means an agent may always conceal required material disclosures:",
+          "choices": [
+            "Yes",
+            "Only if paid",
+            "Only if no one asks",
+            "No; confidentiality and disclosure obligations must both be respected"
+          ],
+          "answer": 3,
+          "explanation": "The applicable duties must be reconciled rather than reduced to absolute secrecy."
+        },
+        {
+          "id": "specialist-real-estate-agency-q5",
+          "prompt": "What should an agent do when uncertain about a required disclosure?",
+          "choices": [
+            "Invent an answer",
+            "Consult current requirements and responsible professional guidance",
+            "Ignore the fact",
+            "Ask a stranger online only"
+          ],
+          "answer": 1,
+          "explanation": "Current authoritative guidance is needed for jurisdiction-specific obligations."
+        },
+        {
+          "id": "specialist-real-estate-agency-q6",
+          "prompt": "Which is a federally protected Fair Housing Act basis?",
+          "choices": [
+            "Disability",
+            "Preferred paint color",
+            "Favorite sports team",
+            "Brand of vehicle"
+          ],
+          "answer": 0,
+          "explanation": "Disability is one of the statutory protected bases."
+        }
+      ]
+    },
+    {
+      "id": "specialist-supply-operations",
+      "title": "Supply chains, operations and inventory",
+      "summary": "Connect customer demand to the flow of goods, information and money.",
+      "sourceIds": [
+        "ascm",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "See the whole supply chain",
+          "paragraphs": [
+            "A supply chain connects suppliers, producers, distributors, retailers and customers. Goods often move toward customers, while information and money move in several directions. Operations transform inputs into useful outputs. Supply-chain management coordinates these activities so local improvements do not damage the overall result. A factory can appear efficient by making enormous batches while creating excess inventory elsewhere. Forecasts estimate future demand; actual orders provide different evidence. The bullwhip effect describes amplified demand variation upstream when organizations react to distorted or delayed information. Shared timely information and sensible ordering policies can reduce avoidable swings."
+          ]
+        },
+        {
+          "heading": "Inventory serves a purpose and has a cost",
+          "paragraphs": [
+            "Inventory can include raw materials, work in process, finished goods and supplies needed to operate. Cycle stock supports normal replenishment, while safety stock buffers uncertainty. Carrying inventory ties up money and creates storage, damage and obsolescence costs. Too little inventory can cause stockouts and lost service. A reorder point combines expected demand during replenishment lead time with any chosen safety stock. Inventory turnover compares cost of goods sold with average inventory value, using compatible accounting units. Physical counts and cycle counts check records against reality; accurate records are essential for dependable planning."
+          ],
+          "example": {
+            "scenario": "A shop uses 12 units daily, receives replenishment after five days and keeps 15 units of safety stock.",
+            "solution": "A simple reorder point is 12 × 5 + 15 = 75 units. This assumes the stated demand and lead time model; different uncertainty requires a more careful policy."
+          }
+        },
+        {
+          "heading": "Improve flow, not just one metric",
+          "paragraphs": [
+            "Capacity is the output a process can sustain under stated conditions. A bottleneck constrains the flow, so improving a nonconstraint may not increase overall output. Lean approaches reduce waste and improve flow; just-in-time arrangements need reliable processes and suppliers rather than magical zero-risk inventory. Quality should be built into work, with checks that detect defects before they travel downstream. Common mistakes include treating all inventory as waste, comparing turnover using sales revenue against cost-valued inventory and maximizing machine utilization when customer demand does not need the extra output. Evaluate service, quality, cost and resilience together."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Safety stock",
+          "definition": "Inventory held as a buffer against uncertainty."
+        },
+        {
+          "term": "Reorder point",
+          "definition": "The inventory level that triggers a replenishment order."
+        },
+        {
+          "term": "Bullwhip effect",
+          "definition": "Amplification of demand variation as information and orders move upstream."
+        }
+      ],
+      "questions": [
+        {
+          "id": "specialist-supply-operations-q1",
+          "prompt": "Which inventory buffers uncertainty?",
+          "choices": [
+            "Safety stock",
+            "Only obsolete stock",
+            "Only scrap",
+            "An invoice"
+          ],
+          "answer": 0,
+          "explanation": "Safety stock cushions variation in demand or lead time."
+        },
+        {
+          "id": "specialist-supply-operations-q2",
+          "prompt": "Daily demand is 12, lead time five days and safety stock 15. Reorder point is:",
+          "choices": [
+            "60",
+            "75",
+            "27",
+            "180"
+          ],
+          "answer": 1,
+          "explanation": "Expected lead-time demand is 60; add 15."
+        },
+        {
+          "id": "specialist-supply-operations-q3",
+          "prompt": "What is a bottleneck?",
+          "choices": [
+            "Any large machine",
+            "An accounting note",
+            "The capacity constraint limiting process flow",
+            "A supplier’s logo"
+          ],
+          "answer": 2,
+          "explanation": "A bottleneck constrains throughput."
+        },
+        {
+          "id": "specialist-supply-operations-q4",
+          "prompt": "Which behavior can create waste despite high machine utilization?",
+          "choices": [
+            "Matching output to actual demand",
+            "Improving first-pass quality",
+            "Sharing demand information",
+            "Producing excess goods customers do not need"
+          ],
+          "answer": 3,
+          "explanation": "Local utilization can worsen excess inventory and total performance."
+        },
+        {
+          "id": "specialist-supply-operations-q5",
+          "prompt": "Inventory turnover calculations should compare:",
+          "choices": [
+            "Unrelated units",
+            "Compatible cost-based measures",
+            "Only quantities from different periods",
+            "Revenue with any arbitrary stock number"
+          ],
+          "answer": 1,
+          "explanation": "Cost of goods sold and average inventory should use compatible valuation."
+        }
+      ]
+    },
+    {
+      "id": "specialist-procurement",
+      "title": "Purchasing, supplier selection and responsible sourcing",
+      "summary": "Buy against a clear need, evaluate total cost and manage supplier performance.",
+      "sourceIds": [
+        "ascm",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Turn a need into a purchasing specification",
+          "paragraphs": [
+            "Purchasing obtains goods and services needed by the organization. A useful specification states function, quantity, quality, delivery needs and relevant acceptance requirements without unnecessary restrictions. Clarify the requirement before seeking offers. A requisition asks internally for a purchase; a purchase order communicates an authorized order to a supplier. Receiving checks what arrived against the order and agreed standards. Invoice matching compares billing with the order and receipt to reduce errors and unsupported payment. Separate requesting, approving and reconciling duties where practical so no one person controls an entire transaction unchecked."
+          ]
+        },
+        {
+          "heading": "Evaluate more than the sticker price",
+          "paragraphs": [
+            "Total cost of ownership includes purchase price plus relevant transport, installation, operation, support, quality and disposal costs. Supplier evaluation can consider capacity, delivery reliability, quality, financial stability, ethical practices and support. Use criteria and evidence consistently. A low price can be expensive if defects shut down operations. Single sourcing can simplify coordination but creates dependency; multiple sources can improve resilience while adding coordination cost. Negotiate clear terms and responsibilities. Contracts allocate obligations and risk but do not eliminate the need to monitor actual performance or resolve ambiguity before a problem becomes urgent."
+          ],
+          "example": {
+            "scenario": "Supplier A charges $900 but needs $250 freight. Supplier B charges $1,050 with freight included; quality and delivery are otherwise equal.",
+            "solution": "Comparable delivered costs are $1,150 and $1,050, making B $100 lower. Confirm other relevant costs before calling the quoted price the full cost."
+          }
+        },
+        {
+          "heading": "Manage ethics and relationships",
+          "paragraphs": [
+            "Maintain appropriate confidentiality and avoid gifts or personal interests that could distort selection. Disclose conflicts through the organization’s process. Responsible sourcing considers labor conditions, environmental effects and lawful practices alongside operational needs. Scorecards can track on-time delivery, defect rates and responsiveness, using definitions both parties understand. Collaborate on root causes rather than accepting repeated emergency expediting as normal. Common mistakes include choosing the cheapest unit price without lifecycle costs, changing specifications after offers without a fair process and treating a long relationship as a reason to stop checking supplier performance. Evidence and clear expectations support trust."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Purchase order",
+          "definition": "An authorized order stating goods or services and agreed terms."
+        },
+        {
+          "term": "Total cost of ownership",
+          "definition": "All relevant costs of acquiring, using and disposing of an item."
+        },
+        {
+          "term": "Supplier scorecard",
+          "definition": "A structured record of supplier performance against defined measures."
+        }
+      ],
+      "questions": [
+        {
+          "id": "specialist-procurement-q1",
+          "prompt": "What should happen before requesting supplier offers?",
+          "choices": [
+            "Choose a winner secretly",
+            "Define the purchasing need and specification",
+            "Pay any invoice",
+            "Ignore delivery needs"
+          ],
+          "answer": 1,
+          "explanation": "Clear specifications make offers relevant and comparable."
+        },
+        {
+          "id": "specialist-procurement-q2",
+          "prompt": "A $900 item plus $250 freight costs:",
+          "choices": [
+            "$900",
+            "$1,050",
+            "$1,150",
+            "$650"
+          ],
+          "answer": 2,
+          "explanation": "Add the relevant delivered costs."
+        },
+        {
+          "id": "specialist-procurement-q3",
+          "prompt": "Which is part of total cost of ownership?",
+          "choices": [
+            "Purchase, use, maintenance and disposal costs",
+            "Only the unit price",
+            "Only the supplier’s advertising",
+            "Only the buyer’s salary"
+          ],
+          "answer": 0,
+          "explanation": "Total cost considers the relevant lifecycle."
+        },
+        {
+          "id": "specialist-procurement-q4",
+          "prompt": "Why match an invoice with the order and receipt?",
+          "choices": [
+            "To avoid inspection",
+            "To guarantee the lowest price",
+            "To erase the budget",
+            "To check that billing matches authorized goods actually received"
+          ],
+          "answer": 3,
+          "explanation": "Matching helps detect errors and unsupported payment."
+        },
+        {
+          "id": "specialist-procurement-q5",
+          "prompt": "What should a buyer do about a personal relationship with a bidder?",
+          "choices": [
+            "Hide it",
+            "Disclose it and follow conflict procedures",
+            "Guarantee an award",
+            "Stop documenting purchases"
+          ],
+          "answer": 1,
+          "explanation": "Disclosure protects impartial selection."
+        }
+      ]
+    },
+    {
+      "id": "specialist-logistics",
+      "title": "Distribution, transportation and returns",
+      "summary": "Choose movement and storage strategies from service requirements and total consequences.",
+      "sourceIds": [
+        "ascm",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Distribution connects the network",
+          "paragraphs": [
+            "Distribution places products where and when customers need them. Warehouses store, handle and prepare goods; distribution centers often emphasize flow and order fulfillment. Receiving, put-away, picking, packing and shipping each create opportunities for error or delay. Layout and identification should support safe movement and accurate selection. Cross-docking transfers suitable goods from inbound to outbound movement with little storage, but it requires coordination. Packaging protects the product and communicates handling information, while its weight and volume affect cost. Distribution planning should consider customer location, order size, delivery frequency and product characteristics rather than simply minimizing the number of buildings."
+          ]
+        },
+        {
+          "heading": "Choose transport through tradeoffs",
+          "paragraphs": [
+            "Road, rail, water, air and pipeline offer different combinations of speed, flexibility, capacity and cost. Air is often fast but expensive; water can move large international volumes economically but slowly. Rail is useful for suitable high-volume routes, while road transport offers flexible local access. Intermodal transportation combines modes. Lead time includes more than travel: order processing, waiting, handling and customs can matter. Track reliability as well as average speed. A cheaper slow mode can require more inventory, so compare total logistics cost and service risk rather than freight price in isolation."
+          ],
+          "example": {
+            "scenario": "A slower transport option saves $400 in freight but requires $550 more inventory and spoilage cost.",
+            "solution": "Under those estimates, total relevant cost rises by $150. Choose using the full service and cost picture, not the freight saving alone."
+          }
+        },
+        {
+          "heading": "Measure fulfillment and reverse flows",
+          "paragraphs": [
+            "Useful measures include order accuracy, on-time delivery, damage, fulfillment time and total cost per order. Define 'on time' against an agreed promise rather than moving the deadline after delivery. Reverse logistics handles returns, repairs, reuse, recycling and disposal. Returned items require identification and condition checks before being put back into saleable stock. Plan for disruption through alternative routes, suitable buffers and clear communication. Common mistakes include speeding shipping to compensate for avoidable warehouse delays, ignoring last-mile constraints and assuming every return has no value. Trace the full order cycle to find the actual cause of missed service."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Cross-docking",
+          "definition": "Moving goods from inbound to outbound flow with little or no storage."
+        },
+        {
+          "term": "Intermodal transport",
+          "definition": "Movement using more than one transport mode."
+        },
+        {
+          "term": "Reverse logistics",
+          "definition": "Managing returns, repairs, reuse, recycling and disposal flows."
+        }
+      ],
+      "questions": [
+        {
+          "id": "specialist-logistics-q1",
+          "prompt": "Which activity is reverse logistics?",
+          "choices": [
+            "Receiving a customer return for inspection",
+            "Only outbound advertising",
+            "Only hiring drivers",
+            "Issuing a new share"
+          ],
+          "answer": 0,
+          "explanation": "Returns and recovery flows are part of reverse logistics."
+        },
+        {
+          "id": "specialist-logistics-q2",
+          "prompt": "What does intermodal transport involve?",
+          "choices": [
+            "Only air freight",
+            "More than one mode",
+            "Only one warehouse",
+            "No packaging"
+          ],
+          "answer": 1,
+          "explanation": "Intermodal movement combines modes."
+        },
+        {
+          "id": "specialist-logistics-q3",
+          "prompt": "Freight saves $400 but other relevant costs rise $550. Total cost:",
+          "choices": [
+            "Falls $950",
+            "Falls $150",
+            "Rises $150",
+            "Does not change"
+          ],
+          "answer": 2,
+          "explanation": "The $550 increase exceeds the $400 saving by $150."
+        },
+        {
+          "id": "specialist-logistics-q4",
+          "prompt": "Why measure reliability as well as average transport speed?",
+          "choices": [
+            "Averages guarantee delivery",
+            "Reliability is unrelated to service",
+            "All delays are identical",
+            "Variable delivery can disrupt planning even when the average is acceptable"
+          ],
+          "answer": 3,
+          "explanation": "Uncertainty can require buffers or cause missed promises."
+        },
+        {
+          "id": "specialist-logistics-q5",
+          "prompt": "What should happen before a returned item reenters saleable stock?",
+          "choices": [
+            "Automatic resale",
+            "Identification and condition inspection",
+            "Removal of all records",
+            "Disposal regardless of condition"
+          ],
+          "answer": 1,
+          "explanation": "Returned products need appropriate quality and safety checks."
+        }
+      ]
+    }
+  ],
+  "eventModules": {
+    "Computer Problem Solving": [
+      "tech-hardware",
+      "tech-operating-systems",
+      "tech-network-foundations",
+      "tech-protocols",
+      "tech-security-controls",
+      "tech-service-desk",
+      "tech-security-threats"
+    ],
+    "Cybersecurity": [
+      "tech-security-threats",
+      "tech-security-controls",
+      "tech-security-operations",
+      "tech-network-foundations",
+      "tech-network-design",
+      "tech-protocols",
+      "tech-data-ethics"
+    ],
+    "Data Science & AI": [
+      "tech-statistics",
+      "tech-data-analysis",
+      "tech-machine-learning",
+      "tech-data-management",
+      "tech-data-ethics",
+      "tech-software-design"
+    ],
+    "Introduction to Information Technology": [
+      "tech-hardware",
+      "tech-operating-systems",
+      "tech-web-applications",
+      "tech-network-foundations",
+      "tech-protocols",
+      "tech-data-management",
+      "tech-machine-learning",
+      "tech-data-ethics",
+      "tech-data-analysis"
+    ],
+    "Networking Infrastructures": [
+      "tech-network-foundations",
+      "tech-protocols",
+      "tech-network-design",
+      "tech-security-controls",
+      "tech-hardware"
+    ],
+    "Network Design": [
+      "tech-network-foundations",
+      "tech-protocols",
+      "tech-network-design",
+      "tech-security-controls",
+      "tech-security-operations",
+      "specialist-project-planning"
+    ],
+    "Management Information Systems": [
+      "tech-software-design",
+      "tech-data-management",
+      "specialist-project-planning",
+      "specialist-project-delivery",
+      "tech-network-foundations",
+      "tech-machine-learning",
+      "tech-web-applications"
+    ],
+    "Technology Support & Services": [
+      "tech-service-desk",
+      "tech-hardware",
+      "tech-operating-systems",
+      "tech-network-foundations",
+      "tech-protocols",
+      "tech-security-operations"
+    ],
+    "Project Management": [
+      "specialist-project-planning",
+      "specialist-project-delivery",
+      "tech-data-analysis",
+      "specialist-procurement"
+    ],
+    "Public Administration & Management": [
+      "specialist-public-governance",
+      "specialist-public-finance",
+      "specialist-project-planning",
+      "specialist-project-delivery",
+      "tech-data-ethics"
+    ],
+    "Healthcare Administration": [
+      "specialist-healthcare-operations",
+      "specialist-healthcare-finance",
+      "specialist-project-planning",
+      "specialist-project-delivery",
+      "tech-data-management",
+      "tech-data-ethics",
+      "tech-machine-learning"
+    ],
+    "Agribusiness": [
+      "specialist-agribusiness-markets",
+      "specialist-agricultural-operations",
+      "specialist-supply-operations",
+      "specialist-procurement",
+      "specialist-project-planning"
+    ],
+    "Real Estate": [
+      "specialist-real-estate-foundations",
+      "specialist-real-estate-finance",
+      "specialist-real-estate-agency",
+      "tech-data-ethics"
+    ],
+    "Introduction to Supply Chain Management": [
+      "specialist-supply-operations",
+      "specialist-procurement",
+      "specialist-logistics",
+      "specialist-project-planning",
+      "specialist-project-delivery"
+    ],
+    "Computer Applications": [
+      "tech-operating-systems",
+      "tech-data-analysis",
+      "tech-data-management",
+      "tech-web-applications"
+    ],
+    "Coding & Programming": [
+      "tech-software-design",
+      "tech-data-management",
+      "tech-web-applications",
+      "tech-data-ethics"
+    ],
+    "Coding and Programming": [
+      "tech-software-design",
+      "tech-data-management",
+      "tech-web-applications",
+      "tech-data-ethics"
+    ],
+    "Website Coding & Development": [
+      "tech-web-applications",
+      "tech-software-design",
+      "tech-security-controls",
+      "tech-data-ethics"
+    ],
+    "Website Coding and Development": [
+      "tech-web-applications",
+      "tech-software-design",
+      "tech-security-controls",
+      "tech-data-ethics"
+    ],
+    "Website Design": [
+      "tech-web-applications",
+      "tech-software-design",
+      "tech-data-ethics",
+      "specialist-project-planning"
+    ],
+    "Mobile Application Development": [
+      "tech-software-design",
+      "tech-web-applications",
+      "tech-data-management",
+      "tech-data-ethics",
+      "tech-hardware"
+    ],
+    "Introduction to Programming": [
+      "tech-software-design",
+      "tech-data-management",
+      "tech-web-applications",
+      "tech-data-ethics"
+    ],
+    "Computer Game & Simulation Programming": [
+      "tech-software-design",
+      "tech-statistics",
+      "tech-hardware",
+      "tech-data-ethics"
+    ],
+    "Computer Game Simulation Programming": [
+      "tech-software-design",
+      "tech-statistics",
+      "tech-hardware",
+      "tech-data-ethics"
+    ],
+    "Data Analysis": [
+      "tech-statistics",
+      "tech-data-analysis",
+      "tech-data-management",
+      "tech-data-ethics",
+      "tech-machine-learning"
+    ],
+    "Supply Chain Management": [
+      "specialist-supply-operations",
+      "specialist-procurement",
+      "specialist-logistics",
+      "specialist-project-planning",
+      "specialist-project-delivery",
+      "tech-data-analysis"
+    ]
+  },
+  "coverage": {
+    "Computer Problem Solving": {
+      "Operating Systems": [
+        "tech-operating-systems"
+      ],
+      "Networks": [
+        "tech-network-foundations",
+        "tech-protocols"
+      ],
+      "Computer Hardware and Connectivity": [
+        "tech-hardware"
+      ],
+      "Security": [
+        "tech-security-controls",
+        "tech-security-threats"
+      ],
+      "Laptops, Tablets, and Mobile Devices": [
+        "tech-hardware"
+      ],
+      "Printers and Peripherals": [
+        "tech-hardware",
+        "tech-service-desk"
+      ]
+    },
+    "Cybersecurity": {
+      "Security Fundamentals": [
+        "tech-security-threats"
+      ],
+      "Cyber Threats and Vulnerabilities": [
+        "tech-security-threats"
+      ],
+      "Security and Design": [
+        "tech-security-controls",
+        "tech-network-design"
+      ],
+      "Network and Data Security": [
+        "tech-security-controls",
+        "tech-network-foundations"
+      ],
+      "Security Operations and Management": [
+        "tech-security-operations"
+      ],
+      "Security Protocols and Threat Mitigation": [
+        "tech-protocols",
+        "tech-security-controls",
+        "tech-security-operations"
+      ]
+    },
+    "Data Science & AI": {
+      "Probability and Statistics Foundations": [
+        "tech-statistics"
+      ],
+      "Data Analysis and Statistics for AI": [
+        "tech-data-analysis",
+        "tech-statistics"
+      ],
+      "Tools for Data and AI": [
+        "tech-data-analysis",
+        "tech-data-management"
+      ],
+      "AI Basics": [
+        "tech-machine-learning"
+      ],
+      "Machine Learning": [
+        "tech-machine-learning"
+      ],
+      "Perception, Representation, and Reasoning": [
+        "tech-machine-learning"
+      ],
+      "Privacy and Ethics": [
+        "tech-data-ethics"
+      ],
+      "Data Literacy and Foundations": [
+        "tech-data-analysis",
+        "tech-data-management"
+      ]
+    },
+    "Introduction to Information Technology": {
+      "Computer Hardware": [
+        "tech-hardware"
+      ],
+      "Software Fundamentals": [
+        "tech-operating-systems"
+      ],
+      "Operating Systems": [
+        "tech-operating-systems"
+      ],
+      "Software Applications": [
+        "tech-web-applications",
+        "tech-data-analysis"
+      ],
+      "Modern Technologies": [
+        "tech-machine-learning",
+        "tech-web-applications"
+      ],
+      "Networking Concepts": [
+        "tech-network-foundations",
+        "tech-protocols"
+      ],
+      "Information Management Concepts": [
+        "tech-data-management",
+        "tech-data-ethics"
+      ]
+    },
+    "Networking Infrastructures": {
+      "Networking Basics": [
+        "tech-network-foundations"
+      ],
+      "Network Topologies and Architecture": [
+        "tech-network-foundations",
+        "tech-network-design"
+      ],
+      "Network Security": [
+        "tech-security-controls",
+        "tech-network-design"
+      ],
+      "Network Protocols and Standards": [
+        "tech-protocols"
+      ],
+      "Network Hardware and Connectivity": [
+        "tech-network-foundations",
+        "tech-hardware"
+      ]
+    },
+    "Network Design": {
+      "Network Installation and Configuration": [
+        "tech-network-design",
+        "tech-network-foundations"
+      ],
+      "Network Security and Recovery": [
+        "tech-security-controls",
+        "tech-security-operations",
+        "tech-network-design"
+      ],
+      "Network Administration": [
+        "tech-network-design"
+      ],
+      "Network Planning": [
+        "tech-network-design",
+        "specialist-project-planning"
+      ],
+      "Network Protocols, Services, and Access": [
+        "tech-protocols",
+        "tech-security-controls"
+      ]
+    },
+    "Management Information Systems": {
+      "Systems Design and Analysis": [
+        "tech-software-design"
+      ],
+      "Object Oriented Programming Concepts": [
+        "tech-software-design"
+      ],
+      "Data and Information Management": [
+        "tech-data-management"
+      ],
+      "IT Project Management": [
+        "specialist-project-planning",
+        "specialist-project-delivery"
+      ],
+      "IT Infrastructure": [
+        "tech-network-foundations",
+        "tech-web-applications"
+      ],
+      "Emerging Business Technologies": [
+        "tech-machine-learning",
+        "tech-web-applications"
+      ]
+    },
+    "Technology Support & Services": {
+      "IT Fundamentals": [
+        "tech-hardware",
+        "tech-operating-systems",
+        "tech-network-foundations"
+      ],
+      "Service Desk Operations": [
+        "tech-service-desk"
+      ],
+      "Hardware and Software Troubleshooting": [
+        "tech-service-desk",
+        "tech-hardware",
+        "tech-operating-systems"
+      ],
+      "IT Management and Administration": [
+        "tech-service-desk",
+        "tech-security-operations"
+      ]
+    },
+    "Project Management": {
+      "Foundational Knowledge": [
+        "specialist-project-planning"
+      ],
+      "Initiating and Planning a Project": [
+        "specialist-project-planning"
+      ],
+      "Executing, Monitoring, and Controlling a Project": [
+        "specialist-project-delivery"
+      ],
+      "Closing a Project": [
+        "specialist-project-delivery"
+      ]
+    },
+    "Public Administration & Management": {
+      "Public Finance": [
+        "specialist-public-finance"
+      ],
+      "Public Policy and Governance": [
+        "specialist-public-governance"
+      ],
+      "Communication": [
+        "specialist-public-governance",
+        "specialist-project-delivery"
+      ],
+      "Public Sector Fundamentals": [
+        "specialist-public-governance"
+      ],
+      "Public Management": [
+        "specialist-public-governance",
+        "specialist-project-delivery"
+      ],
+      "Ethics": [
+        "specialist-public-governance",
+        "tech-data-ethics"
+      ]
+    },
+    "Healthcare Administration": {
+      "Healthcare Organizations and Structure": [
+        "specialist-healthcare-operations"
+      ],
+      "Healthcare Finances and Budgeting": [
+        "specialist-healthcare-finance"
+      ],
+      "Staffing and Training": [
+        "specialist-healthcare-operations"
+      ],
+      "Strategic Management": [
+        "specialist-healthcare-operations",
+        "specialist-project-planning"
+      ],
+      "Healthcare Technology": [
+        "specialist-healthcare-finance",
+        "tech-data-management"
+      ],
+      "Healthcare Billing and Insurance": [
+        "specialist-healthcare-finance"
+      ],
+      "Healthcare Policy and Regulation": [
+        "specialist-healthcare-finance"
+      ],
+      "Communication and Leadership": [
+        "specialist-healthcare-operations",
+        "specialist-project-delivery"
+      ]
+    },
+    "Agribusiness": {
+      "Safety Procedures and Regulations": [
+        "specialist-agricultural-operations"
+      ],
+      "Nature of Agribusiness": [
+        "specialist-agribusiness-markets"
+      ],
+      "Business Law": [
+        "specialist-agribusiness-markets"
+      ],
+      "Ethics": [
+        "specialist-agribusiness-markets"
+      ],
+      "Agribusiness Economics": [
+        "specialist-agribusiness-markets"
+      ],
+      "Operations and Management": [
+        "specialist-agricultural-operations",
+        "specialist-supply-operations"
+      ],
+      "Finance and Marketing": [
+        "specialist-agribusiness-markets"
+      ],
+      "Natural Resources and Systems": [
+        "specialist-agricultural-operations"
+      ]
+    },
+    "Real Estate": {
+      "Real Estate Fundamentals": [
+        "specialist-real-estate-foundations"
+      ],
+      "Laws and Regulations": [
+        "specialist-real-estate-agency",
+        "specialist-real-estate-foundations"
+      ],
+      "Real Estate Transactions and Finance": [
+        "specialist-real-estate-finance"
+      ],
+      "Ethics": [
+        "specialist-real-estate-agency"
+      ],
+      "Agency": [
+        "specialist-real-estate-agency"
+      ]
+    },
+    "Introduction to Supply Chain Management": {
+      "Operations": [
+        "specialist-supply-operations"
+      ],
+      "Project Management": [
+        "specialist-project-planning",
+        "specialist-project-delivery"
+      ],
+      "Purchasing": [
+        "specialist-procurement"
+      ],
+      "Supply Chain Management’s Role in Business": [
+        "specialist-supply-operations"
+      ],
+      "Distribution": [
+        "specialist-logistics"
+      ],
+      "Supply Chain Management Activities": [
+        "specialist-supply-operations",
+        "specialist-logistics",
+        "specialist-procurement"
+      ],
+      "Inventory Processes": [
+        "specialist-supply-operations"
+      ],
+      "Transportation Strategies": [
+        "specialist-logistics"
+      ]
+    }
+  }
+}

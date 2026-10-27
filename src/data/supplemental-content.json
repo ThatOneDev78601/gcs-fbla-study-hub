@@ -1,0 +1,487 @@
+{
+  "modules": [
+    {
+      "id": "office-spreadsheets",
+      "title": "Spreadsheet formulas that survive a real task",
+      "summary": "Calculate, summarize, and verify a business worksheet before polishing its appearance.",
+      "sourceIds": [
+        "microsoft",
+        "maryland",
+        "national"
+      ],
+      "sections": [
+        {
+          "heading": "Build the calculation before the formatting",
+          "paragraphs": [
+            "Start by identifying which columns are inputs and which are calculated outputs. Keep units consistent: a percentage entered as 0.08 represents eight percent when formatted as a percentage. Multiplication and division occur before addition and subtraction unless parentheses change the order. A formula such as =B2*C2 calculates line revenue. SUM adds a range; AVERAGE computes its arithmetic mean; COUNT counts numeric values, while COUNTA counts nonempty cells. Blank cells and zero values have different meanings, so inspect missing data before calculating an average."
+          ]
+        },
+        {
+          "heading": "Choose the function and reference deliberately",
+          "paragraphs": [
+            "IF selects an output based on a condition; COUNTIF counts matching records; SUMIF totals records matching a condition. A lookup retrieves a related value using a key. Confirm whether an exact match is required and what happens when the key is missing. Relative references move when copied, absolute references hold both row and column, and mixed references hold one. Use a fixed reference for a shared assumption such as a discount rate, then test the copied formula in the first and last rows."
+          ],
+          "example": {
+            "scenario": "Quantity is in B2, price in C2, and a discount of 10% is stored in H2. You need revenue after discount for each row.",
+            "solution": "Use =B2*C2*(1-$H$2). With 4 units at $25, the result is $90. Copy down, then verify that B and C row numbers move while $H$2 stays fixed."
+          }
+        },
+        {
+          "heading": "Summarize and check the finished workbook",
+          "paragraphs": [
+            "Sort the entire dataset so values stay attached to the correct records. Filters temporarily hide records; they do not delete them. Use a pivot table when the task asks for grouped totals by category or period, and refresh it after changing source data. Conditional formatting highlights a rule; data validation restricts permitted entry. Neither guarantees that a plausible number is correct. Verify totals manually on a small sample, inspect formula errors, label charts and units, and test print area, scaling, repeated headers, and page orientation."
+          ],
+          "bullets": [
+            "Practice task: create six sales rows, calculate discounted revenue, total revenue by product, and produce one labeled comparison chart.",
+            "Common mistake: typing a total over a formula or including a subtotal twice in a grand total."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Mixed reference",
+          "definition": "A reference fixing only its row or its column, such as A$2 or $A2."
+        },
+        {
+          "term": "Pivot table",
+          "definition": "A tool that groups and summarizes source records."
+        },
+        {
+          "term": "Data validation",
+          "definition": "Rules restricting the values a cell accepts."
+        }
+      ],
+      "questions": [
+        {
+          "id": "office-spreadsheets-q1",
+          "prompt": "Which formula keeps the shared discount cell fixed when copied?",
+          "choices": [
+            "=B2*C2*(1-H2)",
+            "=B2*C2*(1-$H$2)",
+            "=B2+C2+H2",
+            "=SUM(H2)"
+          ],
+          "answer": 1,
+          "explanation": "$H$2 fixes both the row and column of the shared discount assumption."
+        },
+        {
+          "id": "office-spreadsheets-q2",
+          "prompt": "Which function counts records satisfying one condition?",
+          "choices": [
+            "AVERAGE",
+            "SUM",
+            "COUNTIF",
+            "MAX"
+          ],
+          "answer": 2,
+          "explanation": "COUNTIF counts matching cells; SUMIF adds matching values instead."
+        },
+        {
+          "id": "office-spreadsheets-q3",
+          "prompt": "What should happen after source data for a pivot table change?",
+          "choices": [
+            "Refresh the pivot table",
+            "Delete the source labels",
+            "Assume the summary always changed",
+            "Replace formulas with screenshots"
+          ],
+          "answer": 0,
+          "explanation": "A pivot summary may use cached source data and needs to be refreshed."
+        },
+        {
+          "id": "office-spreadsheets-q4",
+          "prompt": "What does filtering normally do to unmatched records?",
+          "choices": [
+            "Deletes them permanently",
+            "Converts them to zero",
+            "Moves them to another file",
+            "Temporarily hides them"
+          ],
+          "answer": 3,
+          "explanation": "Filtering changes which records are displayed, while preserving the underlying records."
+        },
+        {
+          "id": "office-spreadsheets-q5",
+          "prompt": "Which action best checks a copied calculation?",
+          "choices": [
+            "Format it as currency",
+            "Manually calculate a sample and inspect first/last references",
+            "Count worksheet colors",
+            "Hide the formula bar"
+          ],
+          "answer": 1,
+          "explanation": "A sample calculation and reference checks test arithmetic and copying behavior."
+        }
+      ]
+    },
+    {
+      "id": "office-documents",
+      "title": "Business documents with structure and consistency",
+      "summary": "Use styles, tables, page layout, and mail merge to produce readable documents.",
+      "sourceIds": [
+        "microsoft",
+        "maryland",
+        "national"
+      ],
+      "sections": [
+        {
+          "heading": "Structure the document with styles",
+          "paragraphs": [
+            "A business document should have a clear purpose, audience, and hierarchy. Use paragraph styles for headings and body text instead of repeatedly applying font changes. Styles make global changes consistent and can support an automatic table of contents. Paragraph spacing controls space around paragraphs; line spacing controls space within them. Use page breaks to start a new page deliberately. Use a section break when part of a document needs a different orientation, header, footer, or numbering scheme. Repeated blank lines are an unstable layout method."
+          ]
+        },
+        {
+          "heading": "Handle tables, correspondence, and variable data",
+          "paragraphs": [
+            "Tables align related information using rows and columns; tabs or strings of spaces rarely survive changes reliably. Repeat header rows across pages where appropriate and avoid splitting a short logical record unnecessarily. A business letter needs the requested date, recipient, salutation, message, closing, and sender information in the required format. Mail merge combines a main document with a structured data source to create personalized outputs. Verify field names, filters, and representative records before producing the entire batch."
+          ],
+          "example": {
+            "scenario": "You need to send a personalized invitation to twelve members from a spreadsheet.",
+            "solution": "Create a main invitation with merge fields for name and event date. Connect the source, preview the first, last, and a record with a long name, then merge to a new output and check pagination."
+          }
+        },
+        {
+          "heading": "Inspect the final output",
+          "paragraphs": [
+            "Check spelling and grammar while also verifying meaning, names, numbers, and dates. Automatic correction can change a correct specialized term. Inspect headers, footers, page numbering, margins, widow/orphan control, and table wrapping in print preview. Use meaningful heading structure and alternative text when the output format supports accessibility. Export to the requested format, reopen the exported file, and confirm that links, symbols, and page breaks survived. A file that looks correct in the editing window may produce a different printed result."
+          ],
+          "bullets": [
+            "Practice task: format a two-page business report using heading styles, a table, a header, and page numbers; export it as a PDF.",
+            "Common mistake: formatting every heading separately, then missing one during a revision."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Paragraph style",
+          "definition": "A reusable collection of paragraph and text-formatting settings."
+        },
+        {
+          "term": "Section break",
+          "definition": "A division that permits different page-level formatting within one document."
+        },
+        {
+          "term": "Mail merge",
+          "definition": "Combining a main document and data records to personalize outputs."
+        }
+      ],
+      "questions": [
+        {
+          "id": "office-documents-q1",
+          "prompt": "Which approach best keeps all report headings consistent?",
+          "choices": [
+            "Format each heading separately",
+            "Insert repeated spaces",
+            "Use a heading style",
+            "Use screenshots of headings"
+          ],
+          "answer": 2,
+          "explanation": "A heading style applies the same reusable formatting and supports consistent revisions."
+        },
+        {
+          "id": "office-documents-q2",
+          "prompt": "When is a section break especially useful?",
+          "choices": [
+            "A page needs a different orientation or header",
+            "A word needs bold text",
+            "A single number changes",
+            "A spelling check starts"
+          ],
+          "answer": 0,
+          "explanation": "Sections can carry independent page layout, headers, footers, and numbering settings."
+        },
+        {
+          "id": "office-documents-q3",
+          "prompt": "What are the two main inputs to a mail merge?",
+          "choices": [
+            "A screenshot and a chart",
+            "Two unrelated PDF files",
+            "A password and a printer",
+            "A main document and a structured data source"
+          ],
+          "answer": 3,
+          "explanation": "The main document supplies fixed content and merge fields; records supply variable values."
+        },
+        {
+          "id": "office-documents-q4",
+          "prompt": "Why reopen an exported PDF?",
+          "choices": [
+            "To make its filename longer",
+            "To verify the exported layout and content",
+            "To convert every page into a spreadsheet",
+            "To remove all headings"
+          ],
+          "answer": 1,
+          "explanation": "Export can affect fonts, pagination, symbols, and links, so the final file needs its own check."
+        },
+        {
+          "id": "office-documents-q5",
+          "prompt": "Which method is unreliable for starting a new report page?",
+          "choices": [
+            "A deliberate page break",
+            "A section break for different layout",
+            "Many blank paragraphs",
+            "An appropriate page-break-before style"
+          ],
+          "answer": 2,
+          "explanation": "Blank paragraphs move when text, fonts, or margins change."
+        }
+      ]
+    },
+    {
+      "id": "office-presentations",
+      "title": "Slides that explain the evidence",
+      "summary": "Turn a business message into readable slides with accurate charts and a dependable handoff.",
+      "sourceIds": [
+        "microsoft",
+        "maryland",
+        "national"
+      ],
+      "sections": [
+        {
+          "heading": "Give each slide a job",
+          "paragraphs": [
+            "Begin with the audience’s decision or question, then outline the sequence before designing individual slides. A title should communicate the point, not merely label a topic. Choose a layout that gives evidence enough room to be read. Theme and master-layout tools keep fonts, colors, repeated elements, and spacing consistent. Avoid manually decorating each slide into a different visual system. Put necessary detail in speaker notes or a supporting handout when allowed; a dense slide is not a substitute for an explanation."
+          ]
+        },
+        {
+          "heading": "Choose and label visual evidence",
+          "paragraphs": [
+            "Use a bar chart to compare categories, a line chart for ordered time trends, and a scatterplot to explore a relationship between two numerical variables. Label units, periods, categories, and sources. A chart cannot establish causation simply because two values move together. Avoid distorted scales, decorative 3D, tiny legends, and colors that are the only way to identify a series. Crop images deliberately without stretching their proportions, and add alternative text where supported."
+          ],
+          "example": {
+            "scenario": "A slide shows monthly sales, but the axis omits units and the chart uses a truncated vertical scale to exaggerate a small increase.",
+            "solution": "Label the series and period, choose an honest scale for the comparison, and state the actual change. Explain whether the change is large enough to matter to the business decision."
+          }
+        },
+        {
+          "heading": "Rehearse the complete output",
+          "paragraphs": [
+            "Use transitions only when they help show a meaningful change. Excess animation takes time and can distract from evidence. Confirm slide order, readable contrast, embedded media playback, and that linked files will be available on the presentation device. Rehearse with speaker notes, a timer, and the actual permitted equipment. Export a backup if the event permits it and verify that the backup still communicates the essential argument. Check the official guide before assuming internet access, sound, external monitors, or a question period are available."
+          ],
+          "bullets": [
+            "Practice task: create five slides explaining a small sales dataset, with a central claim, two evidence slides, a recommendation, and sources.",
+            "Common mistake: pasting a full spreadsheet into a slide and assuming the audience can read it."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Slide master",
+          "definition": "A shared layout system governing repeated slide formatting."
+        },
+        {
+          "term": "Speaker notes",
+          "definition": "Supporting presenter information associated with a slide."
+        },
+        {
+          "term": "Aspect ratio",
+          "definition": "The proportional relationship between slide width and height."
+        }
+      ],
+      "questions": [
+        {
+          "id": "office-presentations-q1",
+          "prompt": "Which chart usually best shows an ordered monthly trend?",
+          "choices": [
+            "A line chart",
+            "An unlabeled icon",
+            "A random 3D object",
+            "A photo collage"
+          ],
+          "answer": 0,
+          "explanation": "A line chart connects observations in time order, making the trend easier to inspect."
+        },
+        {
+          "id": "office-presentations-q2",
+          "prompt": "What is the main advantage of a slide master?",
+          "choices": [
+            "It proves all data are accurate",
+            "It replaces speaking practice",
+            "It increases slide count",
+            "It keeps repeated formatting consistent"
+          ],
+          "answer": 3,
+          "explanation": "Master layouts apply shared visual rules across slides."
+        },
+        {
+          "id": "office-presentations-q3",
+          "prompt": "What should a chart label make clear?",
+          "choices": [
+            "Only the brand color",
+            "Units, period, and meaning of the data",
+            "Only the file extension",
+            "The audience’s favorite font"
+          ],
+          "answer": 1,
+          "explanation": "Units, time periods, series definitions, and sources let an audience interpret the evidence."
+        },
+        {
+          "id": "office-presentations-q4",
+          "prompt": "Two variables move together. What can the chart alone establish?",
+          "choices": [
+            "One certainly caused the other",
+            "Neither can ever be measured",
+            "An observed association, not automatic causation",
+            "The sample has no limitations"
+          ],
+          "answer": 2,
+          "explanation": "An association can have other explanations and needs more evidence for a causal claim."
+        },
+        {
+          "id": "office-presentations-q5",
+          "prompt": "Which assumption should be checked before a conference presentation?",
+          "choices": [
+            "Internet and audio will be permitted",
+            "Every judge uses the same laptop",
+            "A screenshot can never be useful",
+            "Speaker notes are always visible to the audience"
+          ],
+          "answer": 0,
+          "explanation": "Permitted equipment and connectivity are event-specific rules, not safe assumptions."
+        }
+      ]
+    },
+    {
+      "id": "office-integration",
+      "title": "Move information between spreadsheets, documents, and slides",
+      "summary": "Choose linking, embedding, or a static copy, then verify the final package.",
+      "sourceIds": [
+        "microsoft",
+        "maryland",
+        "national"
+      ],
+      "sections": [
+        {
+          "heading": "Understand what travels with the file",
+          "paragraphs": [
+            "A static copy preserves a snapshot of information. Later source changes do not update it automatically. A linked object refers to a source location and can refresh, but the link may break when a source moves or access changes. An embedded object stores content within the destination file; this can make a package more self-contained but may increase file size. Choose based on the required workflow, not the option that happens to look similar on screen."
+          ]
+        },
+        {
+          "heading": "Preserve meaning across applications",
+          "paragraphs": [
+            "When moving spreadsheet output into a document or presentation, keep the same units, time period, definitions, and rounding policy. A copied value can look like a percentage while becoming text, or a large number can be truncated by a narrow display. Use destination formatting when it improves consistency without changing meaning. For a mail merge, keep one record per row and stable field headers in the source. Preview unusual names, blank fields, and dates before completing a batch."
+          ],
+          "example": {
+            "scenario": "A report includes a linked quarterly revenue chart. The spreadsheet is renamed after the report is delivered.",
+            "solution": "The link may stop refreshing. Keep source paths stable when linking is required, or provide a verified self-contained embedded/static version when the deliverable calls for portability. Label the data period and reopen the final files on the intended device."
+          }
+        },
+        {
+          "heading": "Verify the package as a recipient",
+          "paragraphs": [
+            "A final check should follow the recipient’s actions: open the document, read the chart, inspect a cited figure, print or present, and follow a relevant link. Compare totals and labels against the source. Check print areas and page breaks in the document as well as the workbook. In slides, test readability from presentation view. Reopen exported PDFs because they may flatten active objects or change layout. Keep filenames clear, remove temporary working files from the submission package, and submit only the formats requested by the event."
+          ],
+          "bullets": [
+            "Practice task: build a spreadsheet chart, place it into a report and a slide deck, change one source value, and observe which outputs update.",
+            "Common mistake: checking only the source workbook while the delivered document contains an older copied chart."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Linked object",
+          "definition": "Content that refers to an external source location and may update from it."
+        },
+        {
+          "term": "Static copy",
+          "definition": "A snapshot that does not automatically track later source changes."
+        },
+        {
+          "term": "Self-contained package",
+          "definition": "Deliverable files that carry the information they need without unavailable source paths."
+        }
+      ],
+      "questions": [
+        {
+          "id": "office-integration-q1",
+          "prompt": "A static chart copy normally does what after its source changes?",
+          "choices": [
+            "Updates every application instantly",
+            "Deletes its labels",
+            "Keeps the previously copied data",
+            "Becomes a live database"
+          ],
+          "answer": 2,
+          "explanation": "A static copy is a snapshot; it needs deliberate replacement to show updated data."
+        },
+        {
+          "id": "office-integration-q2",
+          "prompt": "Which risk is specific to a linked external object?",
+          "choices": [
+            "The source path or access may change",
+            "It can never display a chart",
+            "It always removes all source data",
+            "It prohibits text formatting"
+          ],
+          "answer": 0,
+          "explanation": "An external link depends on a reachable source location and appropriate access."
+        },
+        {
+          "id": "office-integration-q3",
+          "prompt": "What must remain consistent when reusing a financial table?",
+          "choices": [
+            "Only the border color",
+            "Only the slide count",
+            "Only its pixel dimensions",
+            "Units, period, and rounding meaning"
+          ],
+          "answer": 3,
+          "explanation": "Changing or losing these definitions can make the reused information misleading."
+        },
+        {
+          "id": "office-integration-q4",
+          "prompt": "How should a mail-merge source normally be organized?",
+          "choices": [
+            "One font per record",
+            "One record per row with stable field headers",
+            "Every value in a separate workbook",
+            "No column labels"
+          ],
+          "answer": 1,
+          "explanation": "A structured table lets the merge system associate each field with the correct record."
+        },
+        {
+          "id": "office-integration-q5",
+          "prompt": "What is a strong final integration test?",
+          "choices": [
+            "Reopen the delivered files as the recipient and compare them to the source",
+            "Assume export preserves everything",
+            "Inspect only the filename",
+            "Delete the original totals before checking"
+          ],
+          "answer": 0,
+          "explanation": "Recipient-side checks reveal stale copies, broken links, unreadable charts, and layout errors."
+        }
+      ]
+    }
+  ],
+  "eventModules": {
+    "Computer Applications": [
+      "office-spreadsheets",
+      "office-documents",
+      "office-presentations",
+      "office-integration"
+    ]
+  },
+  "coverage": {
+    "Computer Applications": {
+      "Spreadsheet Functions and Formulas": [
+        "office-spreadsheets"
+      ],
+      "Creating and Formatting with Word Processing": [
+        "office-documents"
+      ],
+      "Developing Slides & Presentations": [
+        "office-presentations"
+      ],
+      "Integrating Spreadsheets and Word Processing": [
+        "office-integration"
+      ],
+      "Integrating Presentations and Spreadsheets": [
+        "office-integration"
+      ]
+    }
+  }
+}

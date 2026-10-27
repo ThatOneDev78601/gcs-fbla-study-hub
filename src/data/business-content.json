@@ -1,0 +1,3876 @@
+{
+  "modules": [
+    {
+      "id": "accounting-cycle",
+      "title": "The accounting cycle",
+      "summary": "Trace transactions from source documents to closed accounts.",
+      "sourceIds": [
+        "openstax",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Keep the equation balanced",
+          "paragraphs": [
+            "Assets = liabilities + equity. Assets are controlled resources, liabilities are obligations, and equity is the owners’ remaining claim. Revenue raises equity; expenses and withdrawals reduce it. Owner investment is not sales revenue, and borrowing is not profit. Analyze the transaction before choosing an account.",
+            "A chart of accounts gives each account a consistent name, category, and often a number. Classify cash and receivables as assets, payables as liabilities, owner capital as equity, earned fees as revenue, and rent as expense. This classification determines the normal balance before you write the entry."
+          ],
+          "example": {
+            "scenario": "An owner invests $600, then buys $90 of supplies for cash.",
+            "solution": "Cash becomes $510 and supplies $90. Assets and equity remain $600. Supplies are not an expense until consumed."
+          }
+        },
+        {
+          "heading": "Journalize and post",
+          "paragraphs": [
+            "Debits are left entries and credits are right entries. Assets and expenses normally increase with debits; liabilities, equity, and revenue normally increase with credits. Record evidence in the journal, then post to ledger accounts. Special journals group recurring transactions. A trial balance compares totals but cannot detect every omitted transaction or wrong account."
+          ]
+        },
+        {
+          "heading": "Adjust, report, close",
+          "paragraphs": [
+            "Accrual accounting recognizes revenue when earned and expenses in the appropriate period. Adjust expired prepayments, used supplies, earned advances, depreciation, and unpaid earned wages before reporting. A worksheet organizes adjustments but is not a statement. Close temporary revenue, expense, and withdrawal/dividend accounts; permanent assets and liabilities carry forward. Never close cash merely because a year ends.",
+            "For a $120 twelve-month prepaid policy, one month of coverage consumes $10: debit insurance expense and credit prepaid insurance. For $75 wages earned but unpaid, debit wages expense and credit wages payable. Adjustments are not the same as closing: adjustments make period amounts accurate; closing resets temporary accounts for the next period."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Ledger",
+          "definition": "The collection of accounts and their balances."
+        },
+        {
+          "term": "Accrual",
+          "definition": "Recognizing activity when earned or incurred rather than only when cash moves."
+        }
+      ],
+      "questions": [
+        {
+          "id": "accounting-cycle-1",
+          "prompt": "Which creates a liability?",
+          "choices": [
+            "Collecting a receivable",
+            "Owner investment",
+            "Cash sales",
+            "Bank borrowing"
+          ],
+          "answer": 3,
+          "explanation": "Borrowing creates cash and an obligation to repay."
+        },
+        {
+          "id": "accounting-cycle-2",
+          "prompt": "Buying $80 of supplies for cash changes total assets by:",
+          "choices": [
+            "+$160",
+            "−$80",
+            "$0",
+            "+$80"
+          ],
+          "answer": 2,
+          "explanation": "Cash falls $80 and supplies rise $80."
+        },
+        {
+          "id": "accounting-cycle-3",
+          "prompt": "A service performed on account is recorded as:",
+          "choices": [
+            "Debit revenue; credit cash",
+            "Debit supplies; credit revenue",
+            "Debit cash; credit payable",
+            "Debit receivable; credit revenue"
+          ],
+          "answer": 3,
+          "explanation": "The business earned revenue and now has a claim on its customer."
+        },
+        {
+          "id": "accounting-cycle-4",
+          "prompt": "Which normally increases with a debit?",
+          "choices": [
+            "Payable",
+            "Revenue",
+            "Rent expense",
+            "Owner capital"
+          ],
+          "answer": 2,
+          "explanation": "Expenses normally have debit balances."
+        },
+        {
+          "id": "accounting-cycle-5",
+          "prompt": "Which remains after closing?",
+          "choices": [
+            "Sales revenue",
+            "Withdrawals",
+            "Rent expense",
+            "Cash"
+          ],
+          "answer": 3,
+          "explanation": "Cash is permanent; revenue, expenses, and withdrawals are temporary accounts."
+        }
+      ]
+    },
+    {
+      "id": "financial-statements",
+      "title": "Statements and receivables",
+      "summary": "Distinguish profit, financial position, and cash flow.",
+      "sourceIds": [
+        "openstax",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Read the statement heading",
+          "paragraphs": [
+            "The income statement reports revenue less expenses for a period. A balance sheet reports assets, liabilities, and equity at one date. The statement of equity explains owners’ changes; the cash-flow statement groups operating, investing, and financing cash movements. Profit differs from cash because accrual timing, borrowing, and noncash expenses matter."
+          ],
+          "example": {
+            "scenario": "Revenue is $8,000 and expenses are $6,000, but only $5,000 of revenue is collected.",
+            "solution": "Accrual profit is $2,000. Cash collections are $5,000; they alone do not establish total cash flow."
+          }
+        },
+        {
+          "heading": "Manage purchases and sales",
+          "paragraphs": [
+            "Accounts receivable is money customers owe; accounts payable is money owed to suppliers. Match an approved purchase order, receiving evidence, and invoice before payment. Returns reduce what customers owe. An allowance estimates doubtful receivables. Depreciation allocates cost over useful periods; it is not a cash fund or a measurement of current resale value.",
+            "Straight-line annual depreciation = (cost − estimated residual value) / useful life. Equipment costing $1,100 with $100 residual value and five-year life has $200 annual depreciation. Debit depreciation expense and credit accumulated depreciation, a contra-asset. Under an allowance approach, a specific write-off debits the allowance and credits receivables; it does not recognize the estimated loss twice. Read whether a question asks for gross receivables or net realizable value."
+          ]
+        },
+        {
+          "heading": "Interpret ratios",
+          "paragraphs": [
+            "Current ratio = current assets / current liabilities. Working capital = current assets − current liabilities. Gross profit = net sales − cost of goods sold; gross margin divides gross profit by net sales. Net margin uses net income. Compare similar businesses and periods. Annual-report notes explain accounting methods, commitments, and risks; one good ratio cannot guarantee timely collections."
+          ],
+          "example": {
+            "scenario": "Current assets are $18,000 and current liabilities $9,000.",
+            "solution": "Current ratio is 2.0; working capital is $9,000. Both describe liquidity but neither guarantees cash will arrive before bills."
+          }
+        }
+      ],
+      "terms": [
+        {
+          "term": "Receivable",
+          "definition": "An amount owed by a customer."
+        },
+        {
+          "term": "Gross profit",
+          "definition": "Net sales less cost of goods sold."
+        }
+      ],
+      "questions": [
+        {
+          "id": "financial-statements-1",
+          "prompt": "Which statement reports a single date?",
+          "choices": [
+            "Cash-flow statement",
+            "Balance sheet",
+            "Equity changes",
+            "Income statement"
+          ],
+          "answer": 1,
+          "explanation": "The balance sheet shows financial position at a date."
+        },
+        {
+          "id": "financial-statements-2",
+          "prompt": "$900 sales less $540 cost of goods sold gives gross profit of:",
+          "choices": [
+            "$1,440",
+            "$540",
+            "$360",
+            "$900"
+          ],
+          "answer": 2,
+          "explanation": "Gross profit is 900 − 540 = 360."
+        },
+        {
+          "id": "financial-statements-3",
+          "prompt": "Collecting an old $200 receivable:",
+          "choices": [
+            "Raises cash and lowers receivables",
+            "Raises payables",
+            "Lowers equity",
+            "Raises revenue again"
+          ],
+          "answer": 0,
+          "explanation": "Collection changes the form of the asset, not previously earned revenue."
+        },
+        {
+          "id": "financial-statements-4",
+          "prompt": "Current assets $12,000 / current liabilities $8,000 equals:",
+          "choices": [
+            "4,000",
+            "1.5",
+            "20,000",
+            "0.67"
+          ],
+          "answer": 1,
+          "explanation": "The current ratio is 12,000 divided by 8,000."
+        },
+        {
+          "id": "financial-statements-5",
+          "prompt": "Why read statement notes?",
+          "choices": [
+            "They show only names",
+            "They explain methods and risks",
+            "They replace all totals",
+            "They guarantee profit"
+          ],
+          "answer": 1,
+          "explanation": "Notes add information essential to interpreting the statements."
+        }
+      ]
+    },
+    {
+      "id": "advanced-cost-accounting",
+      "title": "Inventory, payroll, and managerial costs",
+      "summary": "Calculate cost flows and break-even decisions.",
+      "sourceIds": [
+        "openstax",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Assign inventory costs",
+          "paragraphs": [
+            "Cost of goods sold = beginning inventory + net purchases − ending inventory. Perpetual systems update through the period; periodic systems rely on a period-end calculation. FIFO assigns earlier purchase costs to sales first; weighted average spreads available cost across units. These are cost assumptions, not necessarily physical shipping instructions.",
+            "LIFO assigns latest costs to sales first. In the 20-unit example, LIFO cost of 12 sold is $68: 10 × $6 + 2 × $4; ending inventory is $32. Shrinkage means recorded inventory exceeds the physical count; adjust the record rather than continuing to report missing goods. Returns and obsolescence also require appropriate adjustments."
+          ],
+          "example": {
+            "scenario": "Buy 10 units at $4 and 10 at $6, then sell 12.",
+            "solution": "FIFO cost of goods sold is $52: 10 × $4 + 2 × $6. Ending inventory is $48. Weighted-average unit cost is $5."
+          }
+        },
+        {
+          "heading": "Separate gross and net pay",
+          "paragraphs": [
+            "Gross pay is compensation before deductions; net pay is after employee deductions. Withheld taxes remain liabilities until remitted. Employer taxes and benefits add labor cost beyond the employee’s check. Accrue earned, unpaid wages at period end. Use supplied tax rates and wage bases for exam calculations rather than memorizing outdated annual thresholds.",
+            "For a practice worker earning $15 per hour, 40 regular hours and two overtime hours at a stated 1.5 multiplier produce $645 gross pay: $600 + $45. If specified deductions total $95, net pay is $550. Employee deductions and employer payroll taxes need separate records and remittance. Social Security, Medicare, unemployment taxes, benefits, and workers’ compensation can affect employer costs; use the problem’s assumptions."
+          ]
+        },
+        {
+          "heading": "Use relevant costs",
+          "paragraphs": [
+            "Fixed costs stay constant within a relevant range; variable costs change with activity. Contribution per unit = price − variable cost per unit. Break-even units = fixed costs / contribution per unit, rounding up to a feasible unit. A sunk cost is already incurred; it should not distort a future choice. Include opportunity costs and avoid treating an allocated average as incremental cost.",
+            "Variance analysis compares actual results with a budget or standard. A $500 cost budget and $560 actual cost produce a $60 unfavorable cost variance. First check whether actual activity differs from planned activity; a flexible budget makes the comparison at a comparable activity level."
+          ],
+          "example": {
+            "scenario": "Price is $20, variable cost $12, and fixed costs $240.",
+            "solution": "Each unit contributes $8. Break-even is 30 units. At 40 units, $320 contribution less $240 fixed costs leaves $80."
+          }
+        }
+      ],
+      "terms": [
+        {
+          "term": "Sunk cost",
+          "definition": "A past cost unaffected by the current choice."
+        },
+        {
+          "term": "Contribution margin",
+          "definition": "Revenue remaining after variable costs."
+        }
+      ],
+      "questions": [
+        {
+          "id": "advanced-cost-accounting-1",
+          "prompt": "Beginning inventory $100 + purchases $400 − ending $150 gives:",
+          "choices": [
+            "$550",
+            "$250",
+            "$350",
+            "$650"
+          ],
+          "answer": 2,
+          "explanation": "Cost of goods sold is $350."
+        },
+        {
+          "id": "advanced-cost-accounting-2",
+          "prompt": "FIFO assigns which costs to sales first?",
+          "choices": [
+            "Future average",
+            "Selling prices",
+            "Newest",
+            "Oldest"
+          ],
+          "answer": 3,
+          "explanation": "First in, first out assigns earliest purchase costs first."
+        },
+        {
+          "id": "advanced-cost-accounting-3",
+          "prompt": "Price $15, variable cost $9, fixed $180. Break-even units?",
+          "choices": [
+            "24",
+            "12",
+            "30",
+            "20"
+          ],
+          "answer": 2,
+          "explanation": "Contribution is $6; 180 / 6 = 30."
+        },
+        {
+          "id": "advanced-cost-accounting-4",
+          "prompt": "Which remains a payroll liability before remittance?",
+          "choices": [
+            "Owner investment",
+            "Depreciation",
+            "Sales revenue",
+            "Withheld taxes"
+          ],
+          "answer": 3,
+          "explanation": "Withheld amounts are owed to their recipients."
+        },
+        {
+          "id": "advanced-cost-accounting-5",
+          "prompt": "Which is sunk?",
+          "choices": [
+            "Future opportunity cost",
+            "A nonrefundable fee already paid",
+            "Avoidable shipping",
+            "Future wages"
+          ],
+          "answer": 1,
+          "explanation": "An already-paid, nonrecoverable fee is unchanged by the choice."
+        }
+      ]
+    },
+    {
+      "id": "accounting-controls-careers",
+      "title": "Reliable accounting and professional roles",
+      "summary": "Connect standards, records, taxes, and controls.",
+      "sourceIds": [
+        "openstax",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Use standards honestly",
+          "paragraphs": [
+            "US GAAP and IFRS are reporting frameworks, not tax codes. Consistent recognition, disclosure, and separation of personal from business activity help users compare information. Estimates require judgment and evidence. Changing a bad-debt estimate merely to hit a target can mislead even when the books balance. Document methods and uncertainty rather than hiding inconvenient results.",
+            "Financial disclosure includes material information that could affect users’ decisions, often in statement notes. A reporting framework supports comparable recognition and presentation, while an independent assurance engagement evaluates evidence against criteria. Internal audit works within an organization’s governance system; an external audit provides an independent examination. Neither means management can transfer responsibility for accurate records to the auditor."
+          ]
+        },
+        {
+          "heading": "Protect the audit trail",
+          "paragraphs": [
+            "Separate payment authorization, cash custody, and recording. Reconcile the ledger to independent bank records. Software makes processing faster but can still process incorrect inputs. Use limited permissions, retained source documents, protected backups, and change logs. Distinguish timing differences from unrecorded book transactions; recording an outstanding check twice understates cash."
+          ],
+          "example": {
+            "scenario": "A bank statement contains a $12 fee missing from the ledger.",
+            "solution": "Debit bank-fee expense and credit cash $12. An outstanding check already recorded in the ledger needs no duplicate expense entry."
+          }
+        },
+        {
+          "heading": "Know the tax record and career",
+          "paragraphs": [
+            "Retain invoices, receipts, payroll records, asset details, and business-purpose evidence. Sales tax collected for government is generally a payable. Book income can differ from taxable income. Use current official instructions for real filings. CPAs work across public and other accounting roles; CMAs emphasize management accounting, CIAs internal audit, and CFEs fraud examination. Professional organizations provide education and standards. Audits examine evidence and provide assurance; they do not promise that every fraud will be found.",
+            "Keep tax records linked to the correct period and transaction. A sales-tax liability records tax collected; payroll liabilities record withheld amounts; an income-tax expense and payable concern the entity’s own tax obligation under the stated facts. Differences between financial and taxable income need investigation rather than a forced matching of unrelated totals."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Audit trail",
+          "definition": "Evidence linking a transaction to its sources and changes."
+        },
+        {
+          "term": "Reconciliation",
+          "definition": "Comparing independent records and explaining differences."
+        }
+      ],
+      "questions": [
+        {
+          "id": "accounting-controls-careers-1",
+          "prompt": "Which most weakens cash controls?",
+          "choices": [
+            "One person handles cash and independently checks it",
+            "Read-only reviewer access",
+            "Separate approval and recording",
+            "Supervisor review"
+          ],
+          "answer": 0,
+          "explanation": "Combining custody and checking makes concealment easier."
+        },
+        {
+          "id": "accounting-controls-careers-2",
+          "prompt": "Sales tax collected is initially:",
+          "choices": [
+            "Owner capital",
+            "A liability",
+            "Revenue",
+            "Depreciation"
+          ],
+          "answer": 1,
+          "explanation": "It is held for remittance to government."
+        },
+        {
+          "id": "accounting-controls-careers-3",
+          "prompt": "An unexpected software total should prompt:",
+          "choices": [
+            "An unsupported override",
+            "Blind trust",
+            "Deleted records",
+            "Tracing inputs and evidence"
+          ],
+          "answer": 3,
+          "explanation": "Automation does not validate source facts."
+        },
+        {
+          "id": "accounting-controls-careers-4",
+          "prompt": "Which credential emphasizes managerial accounting?",
+          "choices": [
+            "CIA",
+            "CFE",
+            "CMA",
+            "A shipping license"
+          ],
+          "answer": 2,
+          "explanation": "CMA is Certified Management Accountant."
+        },
+        {
+          "id": "accounting-controls-careers-5",
+          "prompt": "Record an outstanding check’s expense again?",
+          "choices": [
+            "Reverse every check",
+            "Always",
+            "No, explain its timing",
+            "Only when cash is high"
+          ],
+          "answer": 2,
+          "explanation": "The check already affects book cash; duplication creates an error."
+        }
+      ]
+    },
+    {
+      "id": "economic-choices-markets",
+      "title": "Scarcity and markets",
+      "summary": "Explain incentives, prices, systems, and specialization.",
+      "sourceIds": [
+        "openstax",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Think at the margin",
+          "paragraphs": [
+            "Scarcity means wants exceed available resources. Opportunity cost is the best alternative sacrificed, not all alternatives added together. Land, labor, productive capital, and entrepreneurship are resources. Economic capital means tools and equipment. Marginal analysis compares additional benefit with additional cost; a past payment should not dominate a future decision.",
+            "Goods are tangible items; services are activities. Business can add form utility by transforming inputs, place utility by moving a product where needed, time utility by making it available when needed, and possession utility by enabling acquisition. Prices signal scarcity, coordinate choices, and provide incentives."
+          ],
+          "example": {
+            "scenario": "You spend your only free hour volunteering instead of earning $16.",
+            "solution": "The best foregone work opportunity is a $16 opportunity cost even though no invoice arrives."
+          }
+        },
+        {
+          "heading": "Distinguish movement and shift",
+          "paragraphs": [
+            "A product’s own price change moves along its demand curve. Income, tastes, related-goods prices, and buyer numbers can shift demand. Technology, input costs, and seller numbers can shift supply. At equilibrium, quantity demanded equals quantity supplied. A binding price ceiling below equilibrium tends to create shortage; a binding floor above equilibrium tends to create surplus."
+          ]
+        },
+        {
+          "heading": "Compare systems and advantages",
+          "paragraphs": [
+            "Market systems rely heavily on prices and private decisions; command systems use central direction. Actual economies mix institutions. Competition varies from many similar sellers to a monopoly with barriers to entry. Comparative advantage means lower opportunity cost, not simply faster production. Specialization and exchange can increase combined output. Elastic demand responds proportionately more than price; inelastic demand responds less. A private production cost can exclude an external cost imposed on neighbors, such as pollution.",
+            "Division of labor can improve productivity through specialization but can create coordination costs or narrow tasks. Diminishing marginal returns occur when adding more of one input to fixed other inputs eventually produces smaller extra output. A union represents workers in collective bargaining about employment terms. Negotiation and agreed procedures differ from assuming either side can obtain every requested outcome."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Comparative advantage",
+          "definition": "Production at a lower opportunity cost."
+        },
+        {
+          "term": "Equilibrium",
+          "definition": "A price where quantity demanded equals quantity supplied."
+        }
+      ],
+      "questions": [
+        {
+          "id": "economic-choices-markets-1",
+          "prompt": "A coffee shop raises coffee’s price. This causes:",
+          "choices": [
+            "Supply to disappear",
+            "Demand to shift right",
+            "Income to rise",
+            "Movement along demand"
+          ],
+          "answer": 3,
+          "explanation": "Own-price changes affect quantity demanded along the curve."
+        },
+        {
+          "id": "economic-choices-markets-2",
+          "prompt": "Cheaper production technology usually shifts:",
+          "choices": [
+            "Demand right",
+            "Demand left",
+            "Supply right",
+            "Supply left"
+          ],
+          "answer": 2,
+          "explanation": "Lower costs permit more supply at a given price."
+        },
+        {
+          "id": "economic-choices-markets-3",
+          "prompt": "A binding ceiling below equilibrium creates:",
+          "choices": [
+            "Surplus",
+            "Unlimited supply",
+            "No change",
+            "Shortage"
+          ],
+          "answer": 3,
+          "explanation": "Quantity demanded exceeds quantity supplied."
+        },
+        {
+          "id": "economic-choices-markets-4",
+          "prompt": "Comparative advantage means:",
+          "choices": [
+            "Highest wages",
+            "Largest output",
+            "Lowest opportunity cost",
+            "Largest population"
+          ],
+          "answer": 2,
+          "explanation": "Compare the alternative output given up."
+        },
+        {
+          "id": "economic-choices-markets-5",
+          "prompt": "Which is productive capital?",
+          "choices": [
+            "A slogan",
+            "Factory machinery",
+            "A natural river",
+            "A finished lunch"
+          ],
+          "answer": 1,
+          "explanation": "Produced equipment is capital; a natural resource is land."
+        }
+      ]
+    },
+    {
+      "id": "macroeconomics-policy",
+      "title": "The economy and policy tools",
+      "summary": "Read GDP, inflation, unemployment, and policy choices.",
+      "sourceIds": [
+        "openstax",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Measure output and purchasing power",
+          "paragraphs": [
+            "GDP measures final goods and services produced within a country during a period. Counting flour and the bread containing it double counts intermediate production. Nominal GDP uses current prices; real GDP adjusts for price change. Inflation is a broad rise in the price level, not just one product becoming expensive. Deflation is a declining price level.",
+            "Consumer spending is an important demand indicator, but increases can reflect prices as well as real purchases. Interest-rate changes affect borrowing costs, saving incentives, asset values, and exchange rates. Different sectors can respond at different speeds."
+          ],
+          "example": {
+            "scenario": "Nominal output rises 8% while the price level rises 5%.",
+            "solution": "Real growth is approximately 3%; exactly, 1.08 / 1.05 − 1 is about 2.86%."
+          }
+        },
+        {
+          "heading": "Understand employment",
+          "paragraphs": [
+            "The labor force comprises employed people and unemployed people actively seeking work under the measure’s definitions. Unemployment rate = unemployed / labor force. Frictional unemployment accompanies job search; structural unemployment involves skills or location mismatch; cyclical unemployment follows weak overall demand. Expansion, peak, contraction, and trough describe the business cycle. Interpret several indicators over time rather than assuming one month establishes a trend."
+          ]
+        },
+        {
+          "heading": "Distinguish fiscal and monetary policy",
+          "paragraphs": [
+            "Fiscal policy changes government taxation and spending. Monetary policy influences money and credit conditions through the central bank. Expansionary policy supports demand; contractionary policy restrains it. Lower interest rates may encourage borrowing, but expectations and credit conditions affect the response. Automatic stabilizers operate without new legislation each downturn. Policies have trade-offs: supporting demand can also raise price pressure when productive capacity is constrained. A policy move does not guarantee a particular outcome.",
+            "Taxes can fund public services, redistribute resources, and influence behavior. A progressive tax takes a rising share as its base increases; proportional taxes apply a constant rate; regressive effects place a larger relative burden on lower-income households. Evaluate the tax base and incidence rather than judging only the posted percentage."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Real GDP",
+          "definition": "Output adjusted for price changes."
+        },
+        {
+          "term": "Fiscal policy",
+          "definition": "Government taxation and spending decisions."
+        }
+      ],
+      "questions": [
+        {
+          "id": "macroeconomics-policy-1",
+          "prompt": "Which is final output counted in GDP?",
+          "choices": [
+            "A family money transfer",
+            "Flour for bakery bread",
+            "A newly produced bakery oven",
+            "A used bicycle resale"
+          ],
+          "answer": 2,
+          "explanation": "New productive equipment is a final investment good."
+        },
+        {
+          "id": "macroeconomics-policy-2",
+          "prompt": "20 unemployed and 180 employed gives unemployment of:",
+          "choices": [
+            "20%",
+            "90%",
+            "10%",
+            "11.1%"
+          ],
+          "answer": 2,
+          "explanation": "The labor force is 200; 20 / 200 = 10%."
+        },
+        {
+          "id": "macroeconomics-policy-3",
+          "prompt": "An obsolete skill causing job mismatch is:",
+          "choices": [
+            "Always seasonal",
+            "Monetary policy",
+            "Structural unemployment",
+            "Frictional only"
+          ],
+          "answer": 2,
+          "explanation": "Structural unemployment reflects mismatch."
+        },
+        {
+          "id": "macroeconomics-policy-4",
+          "prompt": "Which is monetary policy?",
+          "choices": [
+            "Sales-tax increase",
+            "A central-bank rate decision",
+            "A benefit law",
+            "Public school construction"
+          ],
+          "answer": 1,
+          "explanation": "Central banks influence money and credit conditions."
+        },
+        {
+          "id": "macroeconomics-policy-5",
+          "prompt": "Why calculate real output?",
+          "choices": [
+            "To ignore all prices",
+            "To omit production",
+            "To count inputs twice",
+            "To separate price increases from output increases"
+          ],
+          "answer": 3,
+          "explanation": "Real measures help isolate changes in production."
+        }
+      ]
+    },
+    {
+      "id": "business-ownership-operations",
+      "title": "Ownership and operations",
+      "summary": "Understand structures, business functions, and bottlenecks.",
+      "sourceIds": [
+        "openstax",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Connect the business functions",
+          "paragraphs": [
+            "A business combines resources to solve customer problems. Revenue is earned sales; profit is revenue less expenses. Manufacturers transform inputs, wholesalers mainly sell to organizations, retailers mainly sell to consumers, and service providers perform work. Marketing communicates value, operations delivers it, finance plans money, and human resources supports people. A promotion fails if operations cannot fulfill its promise."
+          ]
+        },
+        {
+          "heading": "Compare ownership",
+          "paragraphs": [
+            "Sole proprietorships generally do not separate owners from business liabilities. Partnerships require agreements about decisions, contributions, profit, and exit. Corporations are separate entities with shares and governance. LLCs can limit personal exposure under applicable rules, while tax treatment is a separate question. A franchise is a contractual operating model rather than one universal ownership form. Limited liability does not eliminate every personal obligation.",
+            "Organizational design also matters. Functional structures group people by specialties, divisional structures group by product or region, and matrix structures combine reporting dimensions. Centralization concentrates decisions, while decentralization distributes authority. A wide span of control gives one manager more direct reports. None is always best: task complexity, skills, coordination needs, and scale affect the choice."
+          ]
+        },
+        {
+          "heading": "Manage workflow and quality",
+          "paragraphs": [
+            "Productivity compares outputs with inputs. Quality control detects defects; quality assurance builds processes to prevent them. Supplier reliability, inventory, capacity, and safety affect delivery. A bottleneck limits throughput even if other stations are faster. Standard operating procedures clarify repeatable work, but exceptions still need a responsible decision-maker. Distinguish fixed costs from activity-driven variable costs before changing a production plan.",
+            "Nonprofit organizations can earn revenue and employ staff; they apply resources to their mission rather than distributing profit as owners’ returns. A business model, such as subscription, transaction sales, or a service fee, explains how the organization creates and captures value."
+          ],
+          "example": {
+            "scenario": "Packaging handles 30 kits per hour; checkout handles only 18.",
+            "solution": "Checkout constrains completed sales to 18 per hour. Faster packaging alone cannot increase throughput; a trained checkout helper might."
+          }
+        }
+      ],
+      "terms": [
+        {
+          "term": "Bottleneck",
+          "definition": "A step limiting total process output."
+        },
+        {
+          "term": "Franchise",
+          "definition": "A contract granting use of a brand and operating system."
+        }
+      ],
+      "questions": [
+        {
+          "id": "business-ownership-operations-1",
+          "prompt": "Which is a retailer?",
+          "choices": [
+            "Raw-material mine",
+            "Pallet wholesaler",
+            "Notebook store serving students",
+            "Fabric factory"
+          ],
+          "answer": 2,
+          "explanation": "Retailers primarily sell to final consumers."
+        },
+        {
+          "id": "business-ownership-operations-2",
+          "prompt": "Limited liability:",
+          "choices": [
+            "Eliminates taxes",
+            "Prevents all losses",
+            "Guarantees zero personal liability",
+            "Can limit exposure under applicable rules"
+          ],
+          "answer": 3,
+          "explanation": "The protection has conditions and exceptions."
+        },
+        {
+          "id": "business-ownership-operations-3",
+          "prompt": "Steps process 40, 25, and 35 units/hour. The bottleneck is:",
+          "choices": [
+            "25",
+            "All equally",
+            "35",
+            "40"
+          ],
+          "answer": 0,
+          "explanation": "The slowest necessary step limits overall throughput."
+        },
+        {
+          "id": "business-ownership-operations-4",
+          "prompt": "Quality assurance primarily:",
+          "choices": [
+            "Hides defects",
+            "Prevents defects through process design",
+            "Creates errors",
+            "Checks only invoices"
+          ],
+          "answer": 1,
+          "explanation": "Assurance focuses on reliable processes."
+        },
+        {
+          "id": "business-ownership-operations-5",
+          "prompt": "A franchise is:",
+          "choices": [
+            "A contractual business model",
+            "Always a corporation",
+            "Always nonprofit",
+            "A government office"
+          ],
+          "answer": 0,
+          "explanation": "Different legal structures can operate as franchisees."
+        }
+      ]
+    },
+    {
+      "id": "global-business-trade",
+      "title": "Trade, currency, and global decisions",
+      "summary": "Connect comparative advantage, exchange rates, and international operations.",
+      "sourceIds": [
+        "openstax",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Trade and barriers",
+          "paragraphs": [
+            "Trade reflects different resources, skills, opportunity costs, and customer preferences. Exports go to foreign buyers; imports come from foreign suppliers. Tariffs tax imports, quotas limit quantities, and embargoes restrict designated trade. Agreements may lower barriers without eliminating standards or customs procedures. Evaluate effects on producers, consumers, and trading partners rather than assuming any barrier benefits everyone."
+          ]
+        },
+        {
+          "heading": "Label currency units",
+          "paragraphs": [
+            "Exchange rates express one currency’s price in another. A stronger home currency generally makes foreign goods cheaper at a fixed foreign price and home exports more expensive to foreign buyers. Label the units before multiplying or dividing. Freight, insurance, duties, and delay also belong in landed cost."
+          ],
+          "example": {
+            "scenario": "An invoice is €1,000. The rate changes from $1.10 to $1.20 per euro before payment.",
+            "solution": "The dollar cost rises from $1,100 to $1,200. The euro strengthened against the dollar; the unchanged euro invoice hides a $100 exposure."
+          }
+        },
+        {
+          "heading": "Choose a market-entry method",
+          "paragraphs": [
+            "Exporting sells from home; licensing grants intellectual-property rights; joint ventures share an undertaking; direct investment commits assets abroad. More control often requires more resources and exposure. Research law, labor practices, infrastructure, language, and culture without stereotyping individuals. Contracts should clarify governing law, payment, delivery responsibilities, and dispute resolution. Ethical concerns include bribery and working conditions. Domestic rules cannot simply be assumed to apply worldwide. Localize dates, units, support hours, and meaning as well as words.",
+            "Trade alliances can lower internal barriers and create common rules; compare a free-trade area with a customs union, which also shares an external tariff policy. Geography changes freight routes, climate exposure, and access to ports. Infrastructure and economic development affect purchasing power and delivery capacity. History and political relationships can shape trust and restrictions. Digital communication lowers coordination costs but introduces time-zone, access, security, and translation challenges. These factors help explain why copying a successful home-market model may fail abroad."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Tariff",
+          "definition": "A tax on imports."
+        },
+        {
+          "term": "Joint venture",
+          "definition": "A shared business undertaking."
+        }
+      ],
+      "questions": [
+        {
+          "id": "global-business-trade-1",
+          "prompt": "A numerical import limit is a:",
+          "choices": [
+            "Subsidy",
+            "Quota",
+            "Dividend",
+            "Tariff"
+          ],
+          "answer": 1,
+          "explanation": "Quotas limit quantity; tariffs tax imports."
+        },
+        {
+          "id": "global-business-trade-2",
+          "prompt": "At $1.25 per euro, €400 costs:",
+          "choices": [
+            "$320",
+            "$625",
+            "$500",
+            "$400"
+          ],
+          "answer": 2,
+          "explanation": "400 × 1.25 = 500 dollars."
+        },
+        {
+          "id": "global-business-trade-3",
+          "prompt": "A stronger dollar generally makes fixed foreign-currency imports:",
+          "choices": [
+            "Always more expensive",
+            "Cheaper in dollars",
+            "Illegal",
+            "Unaffected by definition"
+          ],
+          "answer": 1,
+          "explanation": "Each dollar buys more foreign currency."
+        },
+        {
+          "id": "global-business-trade-4",
+          "prompt": "Granting use of a patented process is:",
+          "choices": [
+            "Licensing",
+            "Monetary policy",
+            "An embargo",
+            "A quota"
+          ],
+          "answer": 0,
+          "explanation": "Licensing grants specified intellectual-property rights."
+        },
+        {
+          "id": "global-business-trade-5",
+          "prompt": "Best cross-border preparation?",
+          "choices": [
+            "Assume domestic rules apply",
+            "Ignore customs",
+            "Skip testing translations",
+            "Research local rules and contract responsibilities"
+          ],
+          "answer": 3,
+          "explanation": "Local legal and operational facts affect compliance and delivery."
+        }
+      ]
+    },
+    {
+      "id": "contracts-legal-foundations",
+      "title": "Contracts and legal foundations",
+      "summary": "Identify the right legal issue before choosing a rule.",
+      "sourceIds": [
+        "openstax",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Identify the law and claim",
+          "paragraphs": [
+            "Constitutions establish government authority, legislatures enact statutes, agencies make delegated regulations, and courts interpret law. Civil disputes concern private rights and remedies; criminal proceedings involve government prosecution of offenses. A contract concerns a promised duty; a tort is a separate civil wrong. Negligence generally involves duty, breach, causation, and damage. Actual rules depend on jurisdiction and facts; these distinctions are for competition study.",
+            "The US has both federal and state court systems. A trial court hears evidence and determines facts; an appellate court reviews claimed errors under its authority rather than simply replaying the entire trial. A civil case can involve a complaint, response, discovery, motions, trial, and possible appeal. Mediation uses a neutral facilitator to seek agreement; arbitration uses a third party to decide under the parties’ arrangement."
+          ]
+        },
+        {
+          "heading": "Test the agreement",
+          "paragraphs": [
+            "An enforceable agreement typically requires offer, acceptance, consideration, capacity, and lawful purpose. Consideration is a bargained-for exchange, not a finding that the price was favorable. An invitation to negotiate is not automatically an offer. Duress, misrepresentation, incapacity, or illegality can affect enforcement. Some agreements must meet writing requirements. Distinguish void agreements from agreements a protected party can avoid."
+          ],
+          "example": {
+            "scenario": "A printer offers 100 flyers for $40. The customer replies, “I will pay $30.”",
+            "solution": "Changing the price proposes a counteroffer rather than accepting the $40 offer. Exchanging messages alone does not establish acceptance."
+          }
+        },
+        {
+          "heading": "Commercial rights and remedies",
+          "paragraphs": [
+            "Goods, services, leases, agency, and negotiable instruments raise different questions. An agent acts for a principal within recognized authority. A warranty provides an assurance about a product or performance. Damages often compensate proven loss; specific performance is not the default for every breach. Trademarks identify commercial source, copyright protects original expression, and patents protect qualifying inventions. Buying a physical book does not transfer its copyright. Preserve agreements, communications, and delivery evidence before assessing a remedy.",
+            "Debtor-creditor law concerns obligations, collection, security interests, and remedies. A secured creditor has a claim linked to collateral under applicable rules; an unsecured creditor lacks that specific security. Environmental law concerns pollution, resource use, and related responsibilities. Consumer agencies address deceptive or unfair conduct; a product’s marketing claim should be supported rather than treated as acceptable because competitors repeat it."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Consideration",
+          "definition": "A bargained-for exchange."
+        },
+        {
+          "term": "Agent",
+          "definition": "A person acting on behalf of a principal."
+        }
+      ],
+      "questions": [
+        {
+          "id": "contracts-legal-foundations-1",
+          "prompt": "A changed-price response is usually:",
+          "choices": [
+            "A counteroffer",
+            "Acceptance",
+            "A judgment",
+            "A warranty"
+          ],
+          "answer": 0,
+          "explanation": "It proposes different terms."
+        },
+        {
+          "id": "contracts-legal-foundations-2",
+          "prompt": "Brand symbols are protected primarily by:",
+          "choices": [
+            "Inventory rules",
+            "Payroll records",
+            "Shipping documents",
+            "Trademark"
+          ],
+          "answer": 3,
+          "explanation": "Trademarks identify commercial source."
+        },
+        {
+          "id": "contracts-legal-foundations-3",
+          "prompt": "A negligence claim typically requires:",
+          "choices": [
+            "A conviction",
+            "A sales contract",
+            "Insurance",
+            "Causation connecting breach and harm"
+          ],
+          "answer": 3,
+          "explanation": "Negligence generally requires duty, breach, causation, and damage."
+        },
+        {
+          "id": "contracts-legal-foundations-4",
+          "prompt": "An agent acts for a:",
+          "choices": [
+            "Competitor automatically",
+            "Jury",
+            "Defendant always",
+            "Principal"
+          ],
+          "answer": 3,
+          "explanation": "The principal is the party on whose behalf an agent acts."
+        },
+        {
+          "id": "contracts-legal-foundations-5",
+          "prompt": "Criminal law concerns:",
+          "choices": [
+            "Only money disputes",
+            "All customer complaints",
+            "Every broken promise",
+            "Government prosecution of offenses"
+          ],
+          "answer": 3,
+          "explanation": "Criminal offenses differ from private civil claims."
+        }
+      ]
+    },
+    {
+      "id": "business-regulation",
+      "title": "Employment and business compliance",
+      "summary": "Recognize financial, workplace, tax, and cross-border obligations.",
+      "sourceIds": [
+        "openstax",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Workplace obligations",
+          "paragraphs": [
+            "Employment rules address nondiscrimination, wages and hours, safety, leave, labor relations, and privacy. Use job-related selection criteria, consistent processes, and documented evidence. Protect confidential records and respond to concerns through the proper process. Calling someone an independent contractor does not alone determine legal classification. The relevant jurisdiction, employer, relationship, and actual working facts matter.",
+            "OSHA concerns workplace safety and health; the Americans with Disabilities Act addresses disability-related nondiscrimination and accessibility obligations, including employment provisions. A reasonable-accommodation question requires attention to the relevant task and applicable standards rather than an automatic assumption about a person’s ability. Employment policies should provide a way to report harassment, safety hazards, and grievances without retaliation."
+          ]
+        },
+        {
+          "heading": "Finance and consumer protection",
+          "paragraphs": [
+            "Consumer protection addresses misleading claims and unfair treatment. Competition law concerns harmful restraints, including certain agreements among competitors. Financial institutions face identification, privacy, recordkeeping, and suspicious-activity obligations. Income, payroll, and sales taxes have different bases and responsibilities. Taxes collected for others are not ordinary earned revenue. Reliable records support both reporting and compliance; a book balance does not by itself prove legal compliance."
+          ],
+          "example": {
+            "scenario": "Two competitors agree never to discount below an identical minimum price.",
+            "solution": "Coordinating prices raises a competition-law issue. It is not ordinary internal teamwork; seek the appropriate compliance guidance."
+          }
+        },
+        {
+          "heading": "International and ethical boundaries",
+          "paragraphs": [
+            "International transactions can involve export controls, sanctions, customs, anti-bribery rules, and different contract systems. Evaluate a gift’s purpose, recipient, value, disclosure, and policy rather than assuming custom makes it acceptable. Legal compliance is a minimum; an allowed use of customer data may still violate a promise. Escalate uncertainty with facts. For actual decisions or filings, check current official rules rather than treating a short lesson as legal or tax advice.",
+            "Treaties are formal international agreements, while international custom reflects recognized practice and legal obligation. Customs procedures address goods crossing borders, including classification, valuation, origin, and documentation. A tariff is not the entire compliance process. Accurate records and assigned responsibility help prevent avoidable delays and false declarations."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Compliance",
+          "definition": "Following applicable laws, regulations, and organizational requirements."
+        },
+        {
+          "term": "Tax evasion",
+          "definition": "Illegal tax avoidance through concealment or false reporting."
+        }
+      ],
+      "questions": [
+        {
+          "id": "business-regulation-1",
+          "prompt": "Best hiring criterion?",
+          "choices": [
+            "An age stereotype",
+            "A relevant skill evaluated consistently",
+            "An unrelated protected trait",
+            "A family assumption"
+          ],
+          "answer": 1,
+          "explanation": "A job-related criterion relies on relevant evidence."
+        },
+        {
+          "id": "business-regulation-2",
+          "prompt": "Secret competitor price coordination raises:",
+          "choices": [
+            "Depreciation",
+            "Competition-law issues",
+            "Reconciliation",
+            "Only shrinkage"
+          ],
+          "answer": 1,
+          "explanation": "Price agreements between competitors can harm competition."
+        },
+        {
+          "id": "business-regulation-3",
+          "prompt": "Collected sales tax is generally:",
+          "choices": [
+            "Owner profit",
+            "Held for remittance",
+            "Interest income",
+            "A dividend"
+          ],
+          "answer": 1,
+          "explanation": "The business owes the collected amount to government."
+        },
+        {
+          "id": "business-regulation-4",
+          "prompt": "A contractor label alone settles worker status:",
+          "choices": [
+            "If paid cash",
+            "No; legal tests and facts matter",
+            "If stated verbally",
+            "Always"
+          ],
+          "answer": 1,
+          "explanation": "Classification depends on the relationship under applicable law."
+        },
+        {
+          "id": "business-regulation-5",
+          "prompt": "Which is evasion?",
+          "choices": [
+            "Deliberately hiding taxable income",
+            "Using a permitted deduction",
+            "Filing accurately",
+            "Keeping receipts"
+          ],
+          "answer": 0,
+          "explanation": "Intentional concealment differs from lawful planning."
+        }
+      ]
+    },
+    {
+      "id": "ethical-decisions",
+      "title": "Make and explain an ethical decision",
+      "summary": "Practice self-awareness, stakeholder reasoning, and accountable action.",
+      "sourceIds": [
+        "openstax",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Separate facts, pressure, and assumptions",
+          "paragraphs": [
+            "Ethical decisions begin with accurate facts and the people affected. Identify what you know, what is uncertain, and whose interests are at risk. Notice pressure from loyalty, deadlines, incentives, or authority. Self-awareness means recognizing your own bias and limits, not merely feeling confident. Legal permission and company policy are relevant but do not answer every question about fairness, honesty, privacy, and harm.",
+            "Common biases include favoring familiar people, seeking only confirming evidence, and assuming a good result proves a good process. Ask what information would change your mind and whether you would defend the same decision if the affected people exchanged places."
+          ]
+        },
+        {
+          "heading": "Compare alternatives openly",
+          "paragraphs": [
+            "List feasible actions and compare consequences, duties, rights, fairness, and long-term trust. A conflict of interest arises when personal interests can interfere with responsibilities, even before misconduct happens. Disclose conflicts and follow the appropriate recusal or review process. A professional response explains the reasoning and evidence rather than attacking a person. Do not promise secrecy if reporting obligations may apply."
+          ],
+          "example": {
+            "scenario": "You help choose a vendor and your cousin owns one bidder.",
+            "solution": "Disclose the relationship before evaluation. Follow the organization’s conflict policy and let an independent decision-maker assess the bids; simply promising to be fair leaves the conflict unmanaged."
+          }
+        },
+        {
+          "heading": "Act, document, and learn",
+          "paragraphs": [
+            "Choose a defensible action, identify who must approve it, communicate respectfully, and preserve relevant records. If a supervisor pressures you to falsify numbers, refuse the false entry and use the established escalation channel. Team members can disagree without retaliation. Invite constructive feedback, take responsibility for errors, and correct their effects. Career readiness includes reliability, respectful communication, confidentiality, and ethical use of technology. Afterward, examine whether incentives or weak processes helped create the problem.",
+            "Keep communication constructive: explain the issue, evidence, action, and owner. Accountability includes admitting an error and repairing its effects, not merely explaining why it happened. A useful team norm rewards early reporting of mistakes so they can be corrected before harm grows."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Conflict of interest",
+          "definition": "A personal interest that may interfere with a professional responsibility."
+        },
+        {
+          "term": "Stakeholder",
+          "definition": "A person or group affected by a decision."
+        }
+      ],
+      "questions": [
+        {
+          "id": "ethical-decisions-1",
+          "prompt": "First step in a difficult ethical case?",
+          "choices": [
+            "Choose the most profitable action",
+            "Establish facts and stakeholders",
+            "Ask only friends",
+            "Hide it"
+          ],
+          "answer": 1,
+          "explanation": "Reliable facts and affected interests are necessary before evaluating options."
+        },
+        {
+          "id": "ethical-decisions-2",
+          "prompt": "Your relative bids on a contract you evaluate. Best action?",
+          "choices": [
+            "Disclose and follow conflict procedures",
+            "Delete other bids",
+            "Guarantee their selection",
+            "Keep silent"
+          ],
+          "answer": 0,
+          "explanation": "Disclosure allows independent handling of the conflict."
+        },
+        {
+          "id": "ethical-decisions-3",
+          "prompt": "A legal action can still be unethical because:",
+          "choices": [
+            "Ethics excludes consequences",
+            "Profit is always wrong",
+            "Laws never matter",
+            "It can violate duties or trust"
+          ],
+          "answer": 3,
+          "explanation": "Ethics considers more than minimum legal compliance."
+        },
+        {
+          "id": "ethical-decisions-4",
+          "prompt": "A supervisor asks you to falsify a report. Best response?",
+          "choices": [
+            "Blame a coworker",
+            "Obey without question",
+            "Refuse falsification and use escalation channels",
+            "Delete all records"
+          ],
+          "answer": 2,
+          "explanation": "Protect accurate reporting and preserve relevant evidence."
+        },
+        {
+          "id": "ethical-decisions-5",
+          "prompt": "Which supports self-awareness?",
+          "choices": [
+            "Never admitting mistakes",
+            "Recognizing bias and seeking constructive feedback",
+            "Assuming confidence proves accuracy",
+            "Ignoring feedback"
+          ],
+          "answer": 1,
+          "explanation": "Self-awareness includes understanding one’s limits and learning from evidence."
+        }
+      ]
+    },
+    {
+      "id": "management-strategy",
+      "title": "Plan, organize, lead, and control",
+      "summary": "Turn organizational goals into decisions, resources, and measurable improvement.",
+      "sourceIds": [
+        "openstax",
+        "mba",
+        "pmi"
+      ],
+      "sections": [
+        {
+          "heading": "Understand the management cycle",
+          "paragraphs": [
+            "Planning sets goals and choices; organizing assigns resources and responsibilities; leading coordinates and motivates people; controlling compares results with expectations and responds. Strategic decisions concern direction and advantage, tactical decisions translate strategy into departmental actions, and operational decisions guide daily work. Managers must consider customers, employees, owners, suppliers, government, and the external economic and technological environment.",
+            "Management types include production, marketing, financial, human-resource, and project management, as well as top, middle, and first-line levels. Each level connects decisions across the organization. A contingency approach adapts management to circumstances rather than imposing one method everywhere."
+          ]
+        },
+        {
+          "heading": "Choose a strategy using evidence",
+          "paragraphs": [
+            "A SWOT separates internal strengths and weaknesses from external opportunities and threats. Set specific objectives with measures and deadlines. Compare alternatives against customer value, capability, cost, risk, and capacity. A forecast is an estimate, not a guaranteed outcome. Budgets translate plans into financial expectations. Cash planning matters even when a project appears profitable because payments and receipts occur at different times."
+          ],
+          "example": {
+            "scenario": "A club wants to cut check-in waits from 12 minutes to 5 by the next conference.",
+            "solution": "Measure arrivals and processing times, test an extra check-in station, and compare actual waits with the five-minute target. “Improve check-in” alone is not measurable."
+          }
+        },
+        {
+          "heading": "Control operations without losing the purpose",
+          "paragraphs": [
+            "Use a few relevant indicators rather than rewarding only easy-to-count activity. Track quality, time, cost, and outcomes together. Assign an owner for each action and clarify dependencies. Preventive controls act before an error, concurrent controls monitor current work, and feedback controls use completed results. Continuous improvement tests a change and studies evidence. Avoid optimizing one department while creating delays or rework elsewhere. A contingency plan prepares a response to an identifiable risk.",
+            "Competitive strategy may emphasize lower cost, distinctive value, or a focused segment. A balanced decision considers capabilities and trade-offs: promising premium service while cutting all support capacity is inconsistent. Change management explains the purpose, involves affected people, supplies training, and monitors adoption rather than announcing a policy and assuming behavior changes."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "SWOT",
+          "definition": "Internal strengths/weaknesses and external opportunities/threats."
+        },
+        {
+          "term": "Control",
+          "definition": "Comparing results with a standard and taking appropriate action."
+        }
+      ],
+      "questions": [
+        {
+          "id": "management-strategy-1",
+          "prompt": "Assigning responsibilities is mainly:",
+          "choices": [
+            "Organizing",
+            "Liquidation",
+            "Planning",
+            "Inflation"
+          ],
+          "answer": 0,
+          "explanation": "Organizing arranges roles and resources."
+        },
+        {
+          "id": "management-strategy-2",
+          "prompt": "A new competitor is usually a SWOT:",
+          "choices": [
+            "Fixed cost",
+            "Strength",
+            "Threat",
+            "Internal asset"
+          ],
+          "answer": 2,
+          "explanation": "It is an external development that can harm performance."
+        },
+        {
+          "id": "management-strategy-3",
+          "prompt": "Which objective is measurable?",
+          "choices": [
+            "Be better",
+            "Make everyone happy",
+            "Reduce average wait to five minutes by November",
+            "Try harder"
+          ],
+          "answer": 2,
+          "explanation": "It specifies a measure, target, and time."
+        },
+        {
+          "id": "management-strategy-4",
+          "prompt": "A budget primarily translates plans into:",
+          "choices": [
+            "A legal guarantee",
+            "A mission statement only",
+            "Financial expectations",
+            "A logo"
+          ],
+          "answer": 2,
+          "explanation": "Budgets estimate resources, revenue, and costs."
+        },
+        {
+          "id": "management-strategy-5",
+          "prompt": "Checking completed work and adjusting the next cycle is:",
+          "choices": [
+            "No control",
+            "Feedback control",
+            "A tariff",
+            "Only recruitment"
+          ],
+          "answer": 1,
+          "explanation": "Feedback uses completed outcomes to improve future performance."
+        }
+      ]
+    },
+    {
+      "id": "leadership-teams",
+      "title": "Leadership, teamwork, and stressful situations",
+      "summary": "Adapt your leadership and resolve conflict with evidence and respect.",
+      "sourceIds": [
+        "openstax",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Leadership depends on the situation",
+          "paragraphs": [
+            "Leadership influences people toward a shared purpose; authority alone does not guarantee trust. Autocratic decisions may help in urgent situations, participative leadership gathers input, and delegation gives capable people room to act. Match support and direction to risk, urgency, and experience. Explain expectations and provide resources. Motivation can involve meaningful work, fair treatment, recognition, growth, and autonomy as well as money.",
+            "Power can come from formal authority, rewards, expertise, trust, or coercion. Use it within legitimate responsibilities rather than exploiting dependence. Leading change requires explaining why, listening to concerns, providing resources, and adjusting based on evidence."
+          ]
+        },
+        {
+          "heading": "Build relationships and handle disagreement",
+          "paragraphs": [
+            "Teams need clear roles, goals, norms, and communication. Disagreement about a task can improve reasoning; personal attacks undermine it. Describe observable behavior and its effect, listen for interests, and agree on specific next actions. Collaboration seeks an integrated solution; compromise shares concessions; avoidance may postpone a low-priority issue but can allow serious concerns to grow. Give feedback privately when appropriate and separate performance from personal worth."
+          ],
+          "example": {
+            "scenario": "Two students both expect to lead the presentation.",
+            "solution": "Clarify the rubric and responsibilities, hear each person’s interests, and allocate sections and rehearsal duties explicitly. A popularity vote alone may not solve the underlying role ambiguity."
+          }
+        },
+        {
+          "heading": "Think clearly under pressure",
+          "paragraphs": [
+            "Define the problem before selecting a solution. Compare options, identify constraints, verify assumptions, and consider unintended effects. Prioritize by urgency and impact, break work into manageable steps, and ask for help before failure becomes unavoidable. Stress management includes realistic planning, breaks, and constructive support; ignoring symptoms is not resilience. After a setback, debrief what happened without inventing blame. Ethical leadership models honesty and protects people who raise legitimate concerns.",
+            "Organizational culture consists of shared norms and expectations, including what people actually reward. Office politics involves informal influence and relationships; navigate it by building trust and understanding interests without manipulation. Assertiveness states needs respectfully and directly; it differs from both aggression and silent avoidance. Creativity generates options, while critical evaluation tests their usefulness against constraints."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Delegation",
+          "definition": "Assigning responsibility and sufficient authority while retaining appropriate accountability."
+        },
+        {
+          "term": "Collaboration",
+          "definition": "Working together to address underlying interests."
+        }
+      ],
+      "questions": [
+        {
+          "id": "leadership-teams-1",
+          "prompt": "Best leadership choice for an experienced team?",
+          "choices": [
+            "Withhold context",
+            "Micromanage every step",
+            "Remove all deadlines",
+            "Delegate with clear outcomes and support"
+          ],
+          "answer": 3,
+          "explanation": "Capable teams benefit from autonomy with clear accountability."
+        },
+        {
+          "id": "leadership-teams-2",
+          "prompt": "Useful feedback should focus on:",
+          "choices": [
+            "Personal insults",
+            "Observed behavior and its effect",
+            "Unverified motives",
+            "Public embarrassment"
+          ],
+          "answer": 1,
+          "explanation": "Specific evidence makes improvement possible."
+        },
+        {
+          "id": "leadership-teams-3",
+          "prompt": "Task disagreement can be useful when it:",
+          "choices": [
+            "Tests ideas respectfully",
+            "Becomes personal",
+            "Suppresses questions",
+            "Prevents all decisions"
+          ],
+          "answer": 0,
+          "explanation": "Constructive disagreement improves reasoning."
+        },
+        {
+          "id": "leadership-teams-4",
+          "prompt": "When overwhelmed, the best initial response is:",
+          "choices": [
+            "Prioritize, break down tasks, and seek support",
+            "Hide the delay",
+            "Promise impossible delivery",
+            "Blame the team"
+          ],
+          "answer": 0,
+          "explanation": "A realistic plan and timely communication reduce preventable failure."
+        },
+        {
+          "id": "leadership-teams-5",
+          "prompt": "Critical thinking starts by:",
+          "choices": [
+            "Selecting a familiar answer",
+            "Assuming all data are correct",
+            "Defining the actual problem",
+            "Ignoring constraints"
+          ],
+          "answer": 2,
+          "explanation": "A clear problem statement guides relevant evidence and options."
+        }
+      ]
+    },
+    {
+      "id": "human-resources",
+      "title": "Recruit, develop, and retain people",
+      "summary": "Connect staffing, training, performance, rewards, safety, and employee relations.",
+      "sourceIds": [
+        "openstax",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Start with the job",
+          "paragraphs": [
+            "Human-resource planning compares needed capabilities with available people. A job analysis identifies tasks and requirements; a job description explains duties, while a job specification describes needed qualifications. Recruit through relevant channels, evaluate consistently, and document job-related evidence. Structured interviews ask comparable questions, and selection tools should measure useful requirements rather than irrelevant personal characteristics. Onboarding introduces both the work and the organization’s expectations."
+          ]
+        },
+        {
+          "heading": "Develop and evaluate fairly",
+          "paragraphs": [
+            "Training closes specific skill gaps; development prepares people for broader future roles. Determine the gap before choosing a course, provide practice, and evaluate whether behavior or performance improves. Performance management is an ongoing cycle of clear expectations, feedback, evidence, and support. Avoid halo effects, recency bias, and comparisons based only on personality. An improvement plan should identify the gap, resources, actions, measures, and follow-up date.",
+            "Evaluate both individual and team outcomes. Attendance, task quality, collaboration, and customer impact need evidence and context. A grievance process should receive, investigate, document, and resolve a complaint fairly; serious harassment or violence concerns require prompt escalation through the designated safety or HR process. Separation should follow applicable rules, authorization, documentation, and respectful communication; an exit interview can reveal process problems."
+          ],
+          "example": {
+            "scenario": "A new employee repeatedly enters purchase orders incorrectly.",
+            "solution": "Check whether the procedure and training are clear, demonstrate the correct process, provide guided practice, and review error rates afterward instead of immediately assuming poor motivation."
+          }
+        },
+        {
+          "heading": "Support the employment relationship",
+          "paragraphs": [
+            "Total rewards include pay, benefits, recognition, growth, and working conditions. Internal equity concerns fairness among jobs; external competitiveness compares relevant labor markets. Employee relations includes listening, grievances, conflict resolution, and respectful labor-management communication. Safety requires hazard identification, prevention, training, and reporting rather than merely reacting after injury. Protect personnel data and limit access. HR careers may specialize in recruitment, compensation, learning, employee relations, or organizational development.",
+            "Payroll administration tracks time, calculates gross pay and deductions, pays employees, and remits amounts due. Benefit plans can include health and life coverage, educational assistance, and retirement support. Emergency plans identify roles, communication, evacuation or protective actions, and practice. Professional development can include PHR, SPHR, or GPHR certifications associated with operational, strategic, or global HR work; verify current credential requirements with the issuing organization."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Job analysis",
+          "definition": "Systematic study of tasks and job requirements."
+        },
+        {
+          "term": "Total rewards",
+          "definition": "The combination of pay, benefits, recognition, and other work-related value."
+        }
+      ],
+      "questions": [
+        {
+          "id": "human-resources-1",
+          "prompt": "Which describes duties of a role?",
+          "choices": [
+            "Job specification only",
+            "A tariff",
+            "A bank reconciliation",
+            "Job description"
+          ],
+          "answer": 3,
+          "explanation": "A description explains duties; a specification describes qualifications."
+        },
+        {
+          "id": "human-resources-2",
+          "prompt": "Best interview structure for consistent comparison?",
+          "choices": [
+            "Comparable job-related questions",
+            "Unrelated personal questions",
+            "Different rumors for each candidate",
+            "No evaluation criteria"
+          ],
+          "answer": 0,
+          "explanation": "Structure supports evidence-based comparison."
+        },
+        {
+          "id": "human-resources-3",
+          "prompt": "A supervisor rates everything highly because of one good trait. This is:",
+          "choices": [
+            "Halo bias",
+            "Liquidity",
+            "A quota",
+            "Depreciation"
+          ],
+          "answer": 0,
+          "explanation": "A single favorable impression spills over into unrelated judgments."
+        },
+        {
+          "id": "human-resources-4",
+          "prompt": "What should follow training?",
+          "choices": [
+            "Stop measuring",
+            "Erase feedback",
+            "Evaluate relevant skill and performance changes",
+            "Assume attendance proves learning"
+          ],
+          "answer": 2,
+          "explanation": "Training success depends on application and outcomes."
+        },
+        {
+          "id": "human-resources-5",
+          "prompt": "Total rewards include:",
+          "choices": [
+            "Only salary",
+            "Pay, benefits, growth, and working conditions",
+            "Only bonuses",
+            "Only company shares"
+          ],
+          "answer": 1,
+          "explanation": "Compensation is one part of the broader employment value."
+        }
+      ]
+    },
+    {
+      "id": "career-workplace-procedures",
+      "title": "Careers and dependable workplace procedures",
+      "summary": "Build evidence of your skills and manage information professionally.",
+      "sourceIds": [
+        "openstax",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Plan from evidence",
+          "paragraphs": [
+            "Career planning connects interests, strengths, values, and constraints with researched roles. Look at daily tasks and required skills, not only a job title. Set a development goal, practice it, and retain evidence. A résumé should communicate relevant accomplishments honestly; a cover letter explains fit for a particular role. Prepare interview examples using situation, task, action, and result. Do not invent experience or disclose another organization’s confidential information.",
+            "Research education, credentials, typical working conditions, and opportunities for growth. Networking means building reciprocal professional relationships, not requesting favors from strangers. An informational interview explores a role and should respect the other person’s time. Follow a job application’s instructions and check names, dates, contact details, and attachments before sending."
+          ]
+        },
+        {
+          "heading": "Make everyday work traceable",
+          "paragraphs": [
+            "Professional procedures include scheduling, meeting preparation, phone etiquette, filing, document naming, and version control. Use descriptive subjects and filenames so another person can locate the record. Confirm time zones, participants, deadlines, and responsibilities. Take concise notes of decisions and action owners. Handle visitors and calls respectfully while verifying identity before sharing information. Information management is about accuracy, retrievability, appropriate access, and retention as well as storage."
+          ],
+          "example": {
+            "scenario": "A team has three files called final.docx and different meeting dates.",
+            "solution": "Choose one controlled location, use clear version names, record the approved meeting time and time zone, and identify who can authorize changes."
+          }
+        },
+        {
+          "heading": "Decide and communicate professionally",
+          "paragraphs": [
+            "Prioritize by impact, urgency, and dependencies. Follow workplace policy, use the correct approval route, and escalate issues beyond your authority. Protect confidential data with appropriate permissions; do not forward a whole customer file when only one fact is needed. Use strong authentication and report suspicious requests through established channels. Professional development continues after hiring: seek feedback, update skills, and document what improved. Reliable follow-through matters more than appearing constantly busy."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Version control",
+          "definition": "A method for tracking and identifying document changes."
+        },
+        {
+          "term": "STAR",
+          "definition": "Situation, task, action, result: a structure for explaining experience."
+        }
+      ],
+      "questions": [
+        {
+          "id": "career-workplace-procedures-1",
+          "prompt": "Strong résumé evidence is:",
+          "choices": [
+            "Another person’s work",
+            "A vague boast",
+            "A specific honest accomplishment",
+            "An invented title"
+          ],
+          "answer": 2,
+          "explanation": "Concrete, truthful evidence demonstrates relevant skills."
+        },
+        {
+          "id": "career-workplace-procedures-2",
+          "prompt": "A meeting invitation should specify:",
+          "choices": [
+            "No location",
+            "Time zone and purpose",
+            "Only a decorative title",
+            "Private passwords"
+          ],
+          "answer": 1,
+          "explanation": "Clear logistics prevent avoidable misunderstanding."
+        },
+        {
+          "id": "career-workplace-procedures-3",
+          "prompt": "Best way to share one needed customer fact?",
+          "choices": [
+            "Post it publicly",
+            "Send all files",
+            "Use an unverified link",
+            "Share the minimum necessary through an authorized channel"
+          ],
+          "answer": 3,
+          "explanation": "Limit disclosure to relevant information and authorized access."
+        },
+        {
+          "id": "career-workplace-procedures-4",
+          "prompt": "STAR ends with:",
+          "choices": [
+            "Routine",
+            "Result",
+            "Rumor",
+            "Rank"
+          ],
+          "answer": 1,
+          "explanation": "The result shows what the action achieved or what was learned."
+        },
+        {
+          "id": "career-workplace-procedures-5",
+          "prompt": "An unfamiliar urgent payment request should prompt:",
+          "choices": [
+            "Immediate payment",
+            "Public posting",
+            "Password disclosure",
+            "Independent identity verification"
+          ],
+          "answer": 3,
+          "explanation": "Verify through a known channel rather than trusting urgency or appearance."
+        }
+      ]
+    },
+    {
+      "id": "entrepreneurship-ventures",
+      "title": "From customer problem to viable venture",
+      "summary": "Validate demand, design a model, and plan resources before launch.",
+      "sourceIds": [
+        "openstax",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Discover a real problem",
+          "paragraphs": [
+            "Entrepreneurship combines opportunity recognition, resource coordination, and uncertainty. Start with a specific customer and problem. Interviews, observation, existing data, and small experiments reveal needs; leading questions and compliments do not prove demand. Distinguish a market trend from one anecdote. A value proposition explains why the intended customer would choose this solution over alternatives. Competitors include other ways of solving the problem, including doing nothing."
+          ]
+        },
+        {
+          "heading": "Test the model and economics",
+          "paragraphs": [
+            "A business model explains customers, value, channels, relationships, revenue, activities, resources, partners, and costs. A minimum viable test examines a risky assumption with limited resources; it is not permission to ignore safety or deceive customers. Estimate price, unit costs, demand, break-even, and cash timing. Debt requires repayment; equity exchanges an ownership claim. Resource planning includes skills, suppliers, technology, licenses, and working capital.",
+            "Compare buying, leasing, outsourcing, and partnering for needed resources. Calculate both money and coordination costs. Mentors, accountants, attorneys, community programs, and suppliers can fill expertise gaps, but the entrepreneur remains responsible for decisions. Hire when the expected value and workload justify the commitment rather than because every business appears to need a large staff."
+          ],
+          "example": {
+            "scenario": "A club proposes a $10 lunch kit with $6 variable cost and $200 setup cost.",
+            "solution": "Contribution is $4 per kit; break-even is 50 kits. Test willingness to buy before purchasing enough stock for 200."
+          }
+        },
+        {
+          "heading": "Launch with controls and learn",
+          "paragraphs": [
+            "A plan should identify milestones, responsible people, legal requirements, risks, and evidence of progress. Choose an appropriate ownership form and protect intellectual property where relevant. Set purchasing, recordkeeping, customer-service, and quality procedures before scaling. Compare actual sales, costs, retention, and feedback with assumptions. A pivot changes an important model element in response to learning; random changes without evidence are not a strategy. Growth can increase cash needs even while sales rise."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Value proposition",
+          "definition": "The reason a target customer would choose an offering."
+        },
+        {
+          "term": "Working capital",
+          "definition": "Short-term resources needed to support ongoing operations."
+        }
+      ],
+      "questions": [
+        {
+          "id": "entrepreneurship-ventures-1",
+          "prompt": "Strongest early demand evidence?",
+          "choices": [
+            "A logo",
+            "Friends saying “cool”",
+            "Target customers completing a realistic purchase test",
+            "An expensive office"
+          ],
+          "answer": 2,
+          "explanation": "Behavior in a relevant test is stronger than general praise."
+        },
+        {
+          "id": "entrepreneurship-ventures-2",
+          "prompt": "A value proposition explains:",
+          "choices": [
+            "Only the founder’s biography",
+            "Why the customer chooses the offer",
+            "A payroll rate",
+            "A legal guarantee"
+          ],
+          "answer": 1,
+          "explanation": "It connects customer needs with meaningful value."
+        },
+        {
+          "id": "entrepreneurship-ventures-3",
+          "prompt": "Price $10, variable cost $6, setup $200. Break-even?",
+          "choices": [
+            "20 units",
+            "100 units",
+            "40 units",
+            "50 units"
+          ],
+          "answer": 3,
+          "explanation": "200 / (10 − 6) = 50 units."
+        },
+        {
+          "id": "entrepreneurship-ventures-4",
+          "prompt": "Equity funding usually exchanges money for:",
+          "choices": [
+            "An invoice only",
+            "No future claim",
+            "An ownership interest",
+            "A guaranteed refund"
+          ],
+          "answer": 2,
+          "explanation": "Equity investors obtain an ownership claim and associated risk."
+        },
+        {
+          "id": "entrepreneurship-ventures-5",
+          "prompt": "A useful pivot follows:",
+          "choices": [
+            "No measurement",
+            "A desire to avoid customers",
+            "Random preference",
+            "Evidence that a key assumption needs changing"
+          ],
+          "answer": 3,
+          "explanation": "A pivot should respond to learning about the model."
+        }
+      ]
+    },
+    {
+      "id": "clear-business-writing",
+      "title": "Write so a busy reader can act",
+      "summary": "Choose structure, grammar, and evidence that make communication useful.",
+      "sourceIds": [
+        "openstax",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Begin with audience and purpose",
+          "paragraphs": [
+            "Communication involves a sender, message, channel, receiver, feedback, and possible noise. Decide what the reader needs to know or do before drafting. Choose a channel appropriate to urgency, complexity, sensitivity, and the need for a record. A routine request can begin with its main point; sensitive or unfavorable news may need respectful context. Avoid unnecessary jargon and define essential terms."
+          ]
+        },
+        {
+          "heading": "Construct clear sentences and documents",
+          "paragraphs": [
+            "Use a clear subject, an accurate verb, and parallel structure. Match subjects and verbs, keep pronoun references clear, and distinguish commonly confused words. Revise long sentences into logical units. Business correspondence should identify the purpose, essential facts, requested action, and deadline. Reports separate findings from recommendations. Tables need informative headings and units. Cite sources and distinguish quotation, paraphrase, and your own conclusion.",
+            "A complete independent clause can stand alone; joining two with only a comma creates a comma splice. Use a period, a semicolon, or an appropriate conjunction. Keep items parallel: “researching, drafting, and revising,” rather than mixing grammatical forms. Use punctuation to clarify relationships, not decorate. Direct quotations require quotation marks and attribution; paraphrases still need a source when they rely on another person’s work."
+          ],
+          "example": {
+            "scenario": "Draft: “It has been determined that completion of the form should occur soon.”",
+            "solution": "Revision: “Please submit the permission form by 3 p.m. Friday.” The revision supplies an actor, action, and deadline."
+          }
+        },
+        {
+          "heading": "Read, revise, and proofread",
+          "paragraphs": [
+            "Read for the main claim, supporting evidence, assumptions, and implied meaning. A chart can be misleading through an omitted baseline, unequal intervals, or missing denominator. Revise first for organization and completeness, then edit sentences, then proofread spelling, names, numbers, and attachments. Check tone from the reader’s perspective. A spellchecker will not reliably catch a correctly spelled but wrong word. Preserve confidentiality and accessibility when formatting the final document."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Noise",
+          "definition": "Anything that interferes with understanding a message."
+        },
+        {
+          "term": "Parallel structure",
+          "definition": "Using consistent grammatical forms for comparable ideas."
+        }
+      ],
+      "questions": [
+        {
+          "id": "clear-business-writing-1",
+          "prompt": "Before drafting, identify:",
+          "choices": [
+            "A complex synonym",
+            "Only document length",
+            "A decorative font",
+            "Audience and desired action"
+          ],
+          "answer": 3,
+          "explanation": "Purpose and audience drive structure and channel."
+        },
+        {
+          "id": "clear-business-writing-2",
+          "prompt": "Which request is clearest?",
+          "choices": [
+            "It should happen",
+            "Submit the form by 3 p.m. Friday",
+            "Your attention is requested",
+            "Do it soon"
+          ],
+          "answer": 1,
+          "explanation": "It supplies a specific action and deadline."
+        },
+        {
+          "id": "clear-business-writing-3",
+          "prompt": "A correctly spelled wrong word is best caught by:",
+          "choices": [
+            "Contextual proofreading",
+            "Changing all fonts",
+            "Relying only on spellcheck",
+            "Adding more jargon"
+          ],
+          "answer": 0,
+          "explanation": "Spellcheck may not identify a real word used incorrectly."
+        },
+        {
+          "id": "clear-business-writing-4",
+          "prompt": "Which belongs in a useful table heading?",
+          "choices": [
+            "An unexplained symbol",
+            "Only a color",
+            "A slogan",
+            "The measure and its units"
+          ],
+          "answer": 3,
+          "explanation": "Readers need to know what values represent."
+        },
+        {
+          "id": "clear-business-writing-5",
+          "prompt": "Best revision order?",
+          "choices": [
+            "Only punctuation",
+            "Organization, sentence editing, then proofreading",
+            "Spelling before purpose",
+            "Never revise"
+          ],
+          "answer": 1,
+          "explanation": "Fix meaning and structure before polishing details."
+        }
+      ]
+    },
+    {
+      "id": "listening-workplace-communication",
+      "title": "Listen, present, and work through misunderstanding",
+      "summary": "Practice active listening, verbal delivery, and interpersonal communication.",
+      "sourceIds": [
+        "openstax",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Listen for meaning",
+          "paragraphs": [
+            "Active listening means paying attention, withholding premature judgment, asking useful questions, and checking understanding. A paraphrase restates the speaker’s meaning in your own words; it is not agreement. Reading to understand similarly requires separating central ideas, details, inference, and unsupported claims. Minimize distractions and notice nonverbal signals without assuming one gesture proves a person’s intent.",
+            "Use open questions to explore and closed questions to confirm specific details. Distinguish literal information from an inference that needs evidence. A summary captures several key points; a paraphrase checks a particular meaning. In a reading passage, identify who made a claim and whether the passage actually supports it rather than importing an assumption from your own experience."
+          ]
+        },
+        {
+          "heading": "Make spoken communication usable",
+          "paragraphs": [
+            "Organize speaking around a clear purpose, a few supported points, and a next action. Use a pace and volume suited to the room, explain unfamiliar terms, and pause where listeners need time. Visual aids should support the explanation rather than duplicate a script. For questions, listen fully, clarify if needed, answer directly, and acknowledge limits. Inventing a confident answer can damage trust."
+          ],
+          "example": {
+            "scenario": "A customer says, “The order was wrong and nobody answers.”",
+            "solution": "Respond: “You received the wrong items and have had trouble reaching us. Which order number should I check?” This confirms the concern and obtains useful information."
+          }
+        },
+        {
+          "heading": "Maintain professional relationships",
+          "paragraphs": [
+            "Adapt language and channel to context without stereotyping. In disagreement, separate observable facts from interpretation and express the effect and requested change. Respect personal space, confidentiality, and cultural differences. Written digital messages lack vocal cues, so reread tone and avoid unnecessary reply-all messages. A meeting should end with decisions, owners, and deadlines. Communication is successful when shared understanding supports action, not merely when the sender has spoken."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Paraphrase",
+          "definition": "Restating meaning in your own words to check understanding."
+        },
+        {
+          "term": "Feedback",
+          "definition": "Information showing how a message was received or how work can improve."
+        }
+      ],
+      "questions": [
+        {
+          "id": "listening-workplace-communication-1",
+          "prompt": "Which shows active listening?",
+          "choices": [
+            "Planning your rebuttal",
+            "Assuming motives",
+            "Paraphrasing and checking understanding",
+            "Interrupting repeatedly"
+          ],
+          "answer": 2,
+          "explanation": "A check of meaning reduces misunderstanding."
+        },
+        {
+          "id": "listening-workplace-communication-2",
+          "prompt": "A paraphrase means:",
+          "choices": [
+            "Repeating without thought",
+            "Agreeing with every claim",
+            "Changing the subject",
+            "Restating the meaning"
+          ],
+          "answer": 3,
+          "explanation": "It verifies understanding without requiring agreement."
+        },
+        {
+          "id": "listening-workplace-communication-3",
+          "prompt": "When you do not know an answer, you should:",
+          "choices": [
+            "Attack the question",
+            "Ignore the person",
+            "Invent one",
+            "Acknowledge the limit and explain follow-up"
+          ],
+          "answer": 3,
+          "explanation": "Honesty and a concrete follow-up preserve trust."
+        },
+        {
+          "id": "listening-workplace-communication-4",
+          "prompt": "A productive meeting ends with:",
+          "choices": [
+            "No written decisions",
+            "Only enthusiasm",
+            "More unrelated topics",
+            "Actions, owners, and deadlines"
+          ],
+          "answer": 3,
+          "explanation": "Specific responsibilities translate discussion into work."
+        },
+        {
+          "id": "listening-workplace-communication-5",
+          "prompt": "Best conflict statement?",
+          "choices": [
+            "Everyone dislikes your work",
+            "You are always careless",
+            "The report missed two totals; please verify them before noon",
+            "You never listen"
+          ],
+          "answer": 2,
+          "explanation": "It names observable facts and a specific request."
+        }
+      ]
+    },
+    {
+      "id": "personal-money-credit",
+      "title": "Plan spending, borrowing, and financial goals",
+      "summary": "Use cash-flow planning, interest, credit terms, and consumer awareness.",
+      "sourceIds": [
+        "cfpb",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Connect goals to a budget",
+          "paragraphs": [
+            "Money functions as a medium of exchange, unit of account, and store of value. A useful goal specifies an amount and date. Track income and spending before creating a plan. Gross income is before deductions; take-home income funds the household budget. Fixed expenses are relatively stable, variable expenses change, and irregular expenses still require planning. A budget is a decision tool, not a prediction that life will never change."
+          ],
+          "example": {
+            "scenario": "You need $240 in eight weeks and already saved $40.",
+            "solution": "The remaining $200 requires $25 per week. Compare that amount with expected take-home income and essential costs."
+          }
+        },
+        {
+          "heading": "Borrow using total cost",
+          "paragraphs": [
+            "Credit lets a borrower use funds now with an obligation to repay. Compare APR, fees, term, total payments, security, and consequences of missed payments. A smaller monthly payment can cost more overall when the term is longer. Simple interest = principal × rate × time, with matching units. Compound interest adds interest to the balance. Credit reports record borrowing history; credit scores summarize information using a model. They are related but not identical.",
+            "For annual compounding, future value = present value × (1 + rate)^years. A $100 deposit earning a hypothetical 5% annually becomes $110.25 after two years: $100 × 1.05 × 1.05. Discounting reverses the process to compare a future amount in today’s terms. A nominal return does not remove inflation; a rough real return subtracts inflation, while the exact calculation divides growth factors."
+          ]
+        },
+        {
+          "heading": "Protect and adapt the plan",
+          "paragraphs": [
+            "Compare financial providers on fees, access, service, and appropriate account protections. Reconcile statements and report suspicious activity promptly through verified channels. Inflation reduces what a fixed dollar amount buys. Emergency savings, diversification, and insurance address different kinds of risk. Distinguish saving for a near-term need from investing for uncertain future return. Taxes and benefits affect take-home income; use current official information for real filings or product decisions rather than treating a practice example as a recommendation.",
+            "Personal net worth equals assets minus liabilities. Income is a flow over time; net worth is a position at a date. An emergency fund addresses unexpected expenses and short-term disruption, while insurance transfers specified large-loss exposures."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "APR",
+          "definition": "An annualized borrowing-cost measure defined by applicable rules."
+        },
+        {
+          "term": "Compound interest",
+          "definition": "Interest calculated on a balance that includes prior interest."
+        }
+      ],
+      "questions": [
+        {
+          "id": "personal-money-credit-1",
+          "prompt": "$240 goal, $40 saved, eight weeks left. Weekly saving needed?",
+          "choices": [
+            "$25",
+            "$30",
+            "$20",
+            "$35"
+          ],
+          "answer": 0,
+          "explanation": "Subtract the $40 already saved from the $240 goal, leaving $200. Divide that remaining amount by eight weeks to find the required weekly saving of $25."
+        },
+        {
+          "id": "personal-money-credit-2",
+          "prompt": "Simple interest on $500 at 6% for one year?",
+          "choices": [
+            "$30",
+            "$300",
+            "$530",
+            "$60"
+          ],
+          "answer": 0,
+          "explanation": "500 × .06 × 1 = 30 interest."
+        },
+        {
+          "id": "personal-money-credit-3",
+          "prompt": "A lower monthly payment can still cost more when:",
+          "choices": [
+            "Interest is always zero",
+            "All fees vanish",
+            "The repayment term is longer",
+            "The loan is forgiven"
+          ],
+          "answer": 2,
+          "explanation": "More payment periods can produce higher total interest."
+        },
+        {
+          "id": "personal-money-credit-4",
+          "prompt": "A credit report differs from a score because the report:",
+          "choices": [
+            "Contains recorded credit-history information",
+            "Guarantees approval",
+            "Is always one number",
+            "Is unrelated to borrowing"
+          ],
+          "answer": 0,
+          "explanation": "A score is a modeled summary; a report contains underlying information."
+        },
+        {
+          "id": "personal-money-credit-5",
+          "prompt": "Inflation generally means a fixed dollar amount buys:",
+          "choices": [
+            "No goods at all",
+            "More forever",
+            "Exactly the same basket always",
+            "Less when prices rise"
+          ],
+          "answer": 3,
+          "explanation": "A higher price level reduces purchasing power."
+        }
+      ]
+    },
+    {
+      "id": "banking-financial-systems",
+      "title": "Banking services and financial institutions",
+      "summary": "Understand deposits, lending, daily controls, and customer relationships.",
+      "sourceIds": [
+        "cfpb",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Explain what institutions do",
+          "paragraphs": [
+            "Financial institutions connect savers, borrowers, payments, and investment activity. Commercial banks and credit unions offer deposit and lending services under different ownership structures. Central banks serve a different role in money and credit conditions. Checking accounts support transactions; savings accounts support reserves; term deposits trade flexibility for stated terms. Deposits and investments have different risk and protection structures. Never assume every product sold in a bank carries deposit insurance.",
+            "Money markets generally concern short-term debt instruments; capital markets concern longer-term financing such as stocks and bonds. Insurance markets pool specified risks, and commodity markets trade raw materials or related contracts. Industry consolidation combines institutions, while convergence brings previously separate services together. Retail banking serves individuals, business banking serves organizations, and universal banking combines a wider range of activities."
+          ]
+        },
+        {
+          "heading": "Evaluate a loan and the balance sheet",
+          "paragraphs": [
+            "Banks earn revenue through interest and fees while managing funding costs, credit losses, liquidity, and operating expenses. Credit risk concerns repayment; liquidity risk concerns meeting cash obligations when due. Underwriting evaluates capacity, credit history, collateral, and other relevant evidence. A secured loan has pledged collateral; it does not eliminate all borrower responsibility. Analyze ratios and cash flow together, because an asset-rich borrower can still struggle with near-term payments.",
+            "Loan pricing reflects funding cost, expected credit loss, operating cost, term, collateral, and competition. Business services can include payroll, merchant payment processing, cash management, and working-capital credit. Apply time-value formulas with matching periods: at hypothetical 5% annual compounding, $1,000 becomes $1,102.50 in two years."
+          ],
+          "example": {
+            "scenario": "A borrower has $2,000 monthly take-home income and $700 existing monthly debt payments.",
+            "solution": "Existing debt payments consume 35% of take-home income. That observation alone is not approval: required underwriting definitions, additional costs, and lender criteria also matter."
+          }
+        },
+        {
+          "heading": "Daily operations and professional conduct",
+          "paragraphs": [
+            "Reconcile transactions, verify authorization, safeguard customer information, and investigate discrepancies. Account-opening and monitoring procedures support identification and financial-crime controls. Follow the institution’s escalation process for suspicious activity rather than confronting someone or promising an outcome. Good customer relations combine listening, plain explanations of terms and fees, accurate records, and respectful complaint resolution. Careers include tellers, relationship specialists, loan officers, analysts, and compliance staff; each requires both technical competence and trust.",
+            "The Federal Reserve influences monetary conditions and supports banking-system functions; other banking, deposit-insurance, and consumer regulators have distinct responsibilities. Identify the correct authority for the issue rather than assuming one agency regulates every product. Teller standards include accurate balancing, authorization, privacy, and clear customer explanations. Professional associations and credentials support continuing learning; they do not replace institutional procedures."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Credit risk",
+          "definition": "Risk that a borrower does not repay as agreed."
+        },
+        {
+          "term": "Liquidity risk",
+          "definition": "Risk of being unable to meet obligations when due."
+        }
+      ],
+      "questions": [
+        {
+          "id": "banking-financial-systems-1",
+          "prompt": "A credit union is generally:",
+          "choices": [
+            "A member-owned financial cooperative",
+            "An insurance policy",
+            "A central bank",
+            "A stock exchange"
+          ],
+          "answer": 0,
+          "explanation": "Credit unions are financial cooperatives owned by members."
+        },
+        {
+          "id": "banking-financial-systems-2",
+          "prompt": "Risk of borrower default is:",
+          "choices": [
+            "Credit risk",
+            "Only currency risk",
+            "A dividend",
+            "Only inflation"
+          ],
+          "answer": 0,
+          "explanation": "Credit risk is failure to repay as promised."
+        },
+        {
+          "id": "banking-financial-systems-3",
+          "prompt": "A secured loan has:",
+          "choices": [
+            "Guaranteed approval",
+            "No risk",
+            "No repayment obligation",
+            "Pledged collateral"
+          ],
+          "answer": 3,
+          "explanation": "Collateral supports the lender’s claim but does not erase repayment duties."
+        },
+        {
+          "id": "banking-financial-systems-4",
+          "prompt": "Which practice protects daily operations?",
+          "choices": [
+            "Share passwords",
+            "Ignore discrepancies",
+            "Skip reconciliation",
+            "Verify authorization and reconcile records"
+          ],
+          "answer": 3,
+          "explanation": "Independent checks and authorization reduce errors and misuse."
+        },
+        {
+          "id": "banking-financial-systems-5",
+          "prompt": "Every investment sold at a bank is deposit-insured:",
+          "choices": [
+            "False; product type matters",
+            "True if advertised",
+            "True if expensive",
+            "Always true"
+          ],
+          "answer": 0,
+          "explanation": "Investment products and insured deposits have different protections."
+        }
+      ]
+    },
+    {
+      "id": "investment-analysis",
+      "title": "Investments, markets, and investment analysis",
+      "summary": "Compare products, returns, risk, costs, and reliable research.",
+      "sourceIds": [
+        "investor",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Know the claim you are buying",
+          "paragraphs": [
+            "A stock represents ownership; a bond represents debt. Bond investors face default and interest-rate risk; existing fixed-rate bond prices generally move opposite market interest rates. Mutual funds and ETFs pool investments but differ in trading mechanics and terms. A primary market raises funds through new securities; secondary markets trade existing ones. Market orders prioritize execution at available prices; limit orders specify an acceptable price and may not execute.",
+            "A margin account permits borrowing against securities and can magnify losses as well as gains. Short selling involves selling borrowed securities with an obligation to return them; a rising price can create large losses. Investment banks help issuers raise capital in primary offerings. Interest rates, earnings expectations, economic conditions, and new information influence security prices."
+          ]
+        },
+        {
+          "heading": "Calculate and compare",
+          "paragraphs": [
+            "Total holding-period return includes price change and income relative to initial cost. Compare fees, time horizon, liquidity, diversification, and risk rather than chasing the highest recent return. Diversification can reduce concentration risk but cannot eliminate all losses. A portfolio’s allocation should match goals and ability to bear uncertainty. Fundamental analysis examines business and financial evidence; technical analysis studies price and volume patterns. Neither guarantees prediction."
+          ],
+          "example": {
+            "scenario": "Buy a share for $50, receive a $2 dividend, then sell for $53, ignoring fees and taxes.",
+            "solution": "Total return is ($53 − $50 + $2) / $50 = 10%. Counting only the price rise would omit the dividend."
+          }
+        },
+        {
+          "heading": "Research the industry and avoid deception",
+          "paragraphs": [
+            "Read official disclosures, financial statements, prospectuses, and fee schedules. Understand the role of brokers, investment advisers, issuers, exchanges, and regulators. Verify professionals through official tools and be wary of guaranteed high returns or pressure to act immediately. Money’s time value means the timing of cash flows affects their value; inflation reduces real purchasing power. This module teaches exam concepts rather than recommending a product, trade, or allocation.",
+            "Retirement and education accounts are account structures with applicable tax and withdrawal rules, not investments that automatically earn a return. A derivative derives value from an underlying item; an option gives specified rights, while futures establish contractual obligations. Commodity, real-estate, venture-capital, and hedge-fund exposures have different liquidity and risk. Variable annuities combine insurance features with investment exposure and can involve significant fees or restrictions. Market timing attempts to predict entry and exit points; past success does not establish reliable future prediction."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Bond",
+          "definition": "A debt security representing an issuer’s borrowing obligation."
+        },
+        {
+          "term": "Diversification",
+          "definition": "Spreading exposure across different investments."
+        }
+      ],
+      "questions": [
+        {
+          "id": "investment-analysis-1",
+          "prompt": "A share of common stock represents:",
+          "choices": [
+            "Ownership",
+            "A fixed loan repayment",
+            "A bank deposit",
+            "An insurance claim"
+          ],
+          "answer": 0,
+          "explanation": "Stock gives an ownership claim rather than a debt claim."
+        },
+        {
+          "id": "investment-analysis-2",
+          "prompt": "Buy $50, sell $53, dividend $2. Return?",
+          "choices": [
+            "4%",
+            "10%",
+            "6%",
+            "110%"
+          ],
+          "answer": 1,
+          "explanation": "The price gain is $53 − $50 = $3. Add the $2 dividend for $5 total gain, then divide by the original $50 investment to obtain a 10% holding-period return."
+        },
+        {
+          "id": "investment-analysis-3",
+          "prompt": "Market rates rise. Existing fixed-rate bond prices generally:",
+          "choices": [
+            "Always rise",
+            "Remain identical",
+            "Become insured deposits",
+            "Fall"
+          ],
+          "answer": 3,
+          "explanation": "Their fixed coupons become less attractive relative to new higher-rate bonds."
+        },
+        {
+          "id": "investment-analysis-4",
+          "prompt": "A limit order:",
+          "choices": [
+            "Ignores price",
+            "Eliminates risk",
+            "Guarantees execution",
+            "Sets a price condition and may not execute"
+          ],
+          "answer": 3,
+          "explanation": "The market may never reach the specified price."
+        },
+        {
+          "id": "investment-analysis-5",
+          "prompt": "A guaranteed high return with pressure to act is:",
+          "choices": [
+            "Proof of safety",
+            "A warning sign requiring verification",
+            "A normal disclosure",
+            "A deposit guarantee"
+          ],
+          "answer": 1,
+          "explanation": "Promises and urgency are common fraud warning signs."
+        }
+      ]
+    },
+    {
+      "id": "insurance-risk",
+      "title": "Insurance and risk management",
+      "summary": "Match a loss exposure with a risk treatment and understand the policy.",
+      "sourceIds": [
+        "naic",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Identify and treat risk",
+          "paragraphs": [
+            "Risk management identifies exposures, assesses likelihood and severity, selects treatment, and reviews results. Avoidance stops an activity, reduction lowers probability or severity, retention accepts a loss exposure, and transfer shifts financial consequences through arrangements such as insurance. Pure risk involves loss or no loss; speculative risk also includes gain. Insurance pools eligible losses, but it does not eliminate the underlying hazard.",
+            "Enterprise risk management considers connected exposures across the whole organization, including operations, finance, reputation, and technology. Self-insurance retains planned exposure, a captive is an insurer established for its owners’ risks, and reinsurance transfers an insurer’s risk to another insurer. Analytics can reveal patterns but must protect privacy and account for data quality."
+          ]
+        },
+        {
+          "heading": "Read the coverage structure",
+          "paragraphs": [
+            "A premium is the price of coverage. A deductible is the insured’s specified share of covered loss; a limit caps payment, and exclusions identify situations outside coverage. Life insurance addresses a covered death; health covers defined medical expenses; property covers specified damage; liability addresses covered claims against the insured. Commercial exposures may require business property, liability, workers’ compensation, professional liability, or business-interruption coverage. Actual payment depends on all policy terms.",
+            "Auto coverage can include liability, collision, and comprehensive protections with different triggers. Homeowners and renters policies address different property interests; renters need coverage for their own belongings. Flood and earthquake losses may require separate coverage. Disability coverage concerns lost earning ability; title insurance addresses specified title defects. Workers’ compensation addresses covered work-related injuries, while unemployment insurance serves a different income-support purpose. Medicare and Medicaid are different public health programs with distinct eligibility and administration."
+          ],
+          "example": {
+            "scenario": "A covered property loss is $3,000, with a $500 deductible and an adequate limit, assuming no other policy adjustment.",
+            "solution": "The insurer pays $2,500 and the insured bears $500. Do not subtract the deductible from an uncovered loss and assume it becomes covered."
+          }
+        },
+        {
+          "heading": "Underwriting, claims, and integrity",
+          "paragraphs": [
+            "Underwriters evaluate risk and eligibility for terms; actuaries analyze patterns to support pricing and reserves; claims staff investigate and resolve reported losses. Insurable interest and accurate disclosure help distinguish insurance from a wager. Indemnity generally aims to compensate covered loss rather than create a profit. Preserve evidence and report claims honestly. Fraud can involve fabricated losses or misrepresented facts. Licensed producers explain products, while adjusters handle claims; state regulation and professional ethics support fair treatment.",
+            "A claim workflow identifies the policy and date, documents circumstances, evaluates coverage, verifies evidence, values the covered loss, and communicates the decision. Subrogation can allow an insurer that paid a loss to pursue the responsible party under applicable rights. Claims analytics can flag anomalies but a flag is not proof of fraud. Professional licensing requirements vary by role and jurisdiction; continuing education and ethical conduct matter after the initial credential."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Deductible",
+          "definition": "The insured’s specified share of a covered loss."
+        },
+        {
+          "term": "Underwriting",
+          "definition": "Evaluating risks and terms for accepting coverage."
+        }
+      ],
+      "questions": [
+        {
+          "id": "insurance-risk-1",
+          "prompt": "Installing a sprinkler is primarily risk:",
+          "choices": [
+            "Transfer",
+            "Speculation",
+            "Reduction",
+            "Creation"
+          ],
+          "answer": 2,
+          "explanation": "It can reduce loss severity or probability."
+        },
+        {
+          "id": "insurance-risk-2",
+          "prompt": "$3,000 covered loss and $500 deductible, with adequate limits: insurer pays?",
+          "choices": [
+            "$2,500",
+            "$3,500",
+            "$500",
+            "$3,000 always"
+          ],
+          "answer": 0,
+          "explanation": "Subtract the deductible under the stated assumptions."
+        },
+        {
+          "id": "insurance-risk-3",
+          "prompt": "An exclusion identifies:",
+          "choices": [
+            "A situation outside specified coverage",
+            "A savings goal",
+            "A premium refund",
+            "A guaranteed payment"
+          ],
+          "answer": 0,
+          "explanation": "Exclusions limit which losses are covered."
+        },
+        {
+          "id": "insurance-risk-4",
+          "prompt": "Who evaluates proposed risks for coverage terms?",
+          "choices": [
+            "An underwriter",
+            "Only a retailer",
+            "A customs agent",
+            "Only the claimant"
+          ],
+          "answer": 0,
+          "explanation": "Underwriters assess risks and acceptance terms."
+        },
+        {
+          "id": "insurance-risk-5",
+          "prompt": "Fabricating receipts for a claim is:",
+          "choices": [
+            "A normal deductible",
+            "Diversification",
+            "A required policy step",
+            "Potential insurance fraud"
+          ],
+          "answer": 3,
+          "explanation": "False evidence can be fraudulent; claims require honest information."
+        }
+      ]
+    },
+    {
+      "id": "fbla-history-purpose",
+      "title": "FBLA’s history and purpose",
+      "summary": "Build a short timeline and connect organizational values to action.",
+      "sourceIds": [
+        "national",
+        "maryland"
+      ],
+      "sections": [
+        {
+          "heading": "Keep the essential timeline",
+          "paragraphs": [
+            "Hamden L. Forkner developed the FBLA concept in 1937. The first high-school chapter was chartered at Science Hill High School in Johnson City, Tennessee, in 1942. FBLA Collegiate developed from Phi Beta Lambda; the organization unified its student divisions under the FBLA name in 2022. Study the sequence and meaning instead of treating every old handout as current."
+          ]
+        },
+        {
+          "heading": "Distinguish purpose and commitments",
+          "paragraphs": [
+            "FBLA connects career preparation, leadership, and community responsibility. The mission expresses its purpose, goals describe intended outcomes, the pledge is a commitment, and the creed expresses beliefs. Study the exact current wording in the official source separately; a paraphrase is useful for understanding but is not a quotation to memorize. Connect each value to a practical behavior such as accurate work, service, respectful collaboration, or responsible money management.",
+            "Group the goals by theme: leadership and confidence, understanding business, community contribution and citizenship, responsible money management, scholarship, career planning, and the transition to work. These themes help you reconstruct meaning without replacing the exact official wording. For a scenario question, connect the conduct to a theme: a well-documented service project develops responsibility and community contribution; budgeting a fundraiser practices money management."
+          ]
+        },
+        {
+          "heading": "Make a usable organization study sheet",
+          "paragraphs": [
+            "Organize your notes under history, structure, governing documents, programs, policies, publications, communications, and deadlines. Write each fact with its source and date. Use recall prompts such as “Who, where, when, and why?” rather than rereading passively. Keep changing details on a separate current-season card. The Introduction to FBLA guide supplies knowledge areas but no test composition, so this site does not invent topic weights. Current officers, partners, publications, and deadlines must be checked against official pages before a conference."
+          ],
+          "example": {
+            "scenario": "An old practice sheet uses a former division name.",
+            "solution": "Treat it as historical vocabulary, compare its date with the current official website, and record the current term alongside it instead of silently memorizing the older name."
+          }
+        }
+      ],
+      "terms": [
+        {
+          "term": "Mission",
+          "definition": "An organization’s central purpose."
+        },
+        {
+          "term": "Creed",
+          "definition": "A statement of beliefs."
+        }
+      ],
+      "questions": [
+        {
+          "id": "fbla-history-purpose-1",
+          "prompt": "Who developed the FBLA concept?",
+          "choices": [
+            "Henry Ford",
+            "Hamden L. Forkner",
+            "Robert Henry",
+            "Andrew Carnegie"
+          ],
+          "answer": 1,
+          "explanation": "The official history identifies Hamden L. Forkner."
+        },
+        {
+          "id": "fbla-history-purpose-2",
+          "prompt": "The first high-school chapter was in:",
+          "choices": [
+            "Johnson City, Tennessee",
+            "Baltimore, Maryland",
+            "Reston, Virginia",
+            "Chicago, Illinois"
+          ],
+          "answer": 0,
+          "explanation": "Science Hill High School in Johnson City was chartered in 1942."
+        },
+        {
+          "id": "fbla-history-purpose-3",
+          "prompt": "Which date belongs to the first high-school chapter?",
+          "choices": [
+            "1930",
+            "1937",
+            "1942",
+            "2022"
+          ],
+          "answer": 2,
+          "explanation": "1937 refers to the concept; 1942 to the first high-school chapter."
+        },
+        {
+          "id": "fbla-history-purpose-4",
+          "prompt": "A mission primarily communicates:",
+          "choices": [
+            "A vote total",
+            "The organization’s purpose",
+            "An invoice",
+            "An insurance limit"
+          ],
+          "answer": 1,
+          "explanation": "Distinguish purpose from policies, beliefs, and dates."
+        },
+        {
+          "id": "fbla-history-purpose-5",
+          "prompt": "The current guide provides Introduction to FBLA topic percentages:",
+          "choices": [
+            "Only for dress code",
+            "Only for history",
+            "Yes, equal weights",
+            "No; no test composition is supplied"
+          ],
+          "answer": 3,
+          "explanation": "Do not fabricate a distribution where the official guide supplies none."
+        },
+        {
+          "id": "fbla-history-purpose-6",
+          "prompt": "The FBLA concept was developed in which year?",
+          "choices": [
+            "1937",
+            "1942",
+            "1958",
+            "2022"
+          ],
+          "answer": 0,
+          "explanation": "The concept dates to 1937; the first high-school chapter followed in 1942."
+        },
+        {
+          "id": "fbla-history-purpose-7",
+          "prompt": "The first high-school chapter was at which school?",
+          "choices": [
+            "Glenelg Country School",
+            "Science Hill High School",
+            "Howard High School",
+            "The University of Northern Iowa"
+          ],
+          "answer": 1,
+          "explanation": "The official history identifies Science Hill High School in Johnson City, Tennessee."
+        },
+        {
+          "id": "fbla-history-purpose-8",
+          "prompt": "Which activity best fits responsible money-management goals?",
+          "choices": [
+            "Promising unverified returns",
+            "Ignoring receipts",
+            "Budgeting and reconciling a fundraiser",
+            "Spending all reserves without approval"
+          ],
+          "answer": 2,
+          "explanation": "A budget and reliable records apply responsible financial decision-making."
+        },
+        {
+          "id": "fbla-history-purpose-9",
+          "prompt": "Which describes a creed?",
+          "choices": [
+            "A loan schedule",
+            "A timing chart",
+            "A purchase order",
+            "A statement of beliefs"
+          ],
+          "answer": 3,
+          "explanation": "A creed expresses beliefs, while a mission describes purpose."
+        },
+        {
+          "id": "fbla-history-purpose-10",
+          "prompt": "When an old handout and current official wording differ, use:",
+          "choices": [
+            "Neither source",
+            "Whichever is shorter",
+            "The oldest wording automatically",
+            "The current source, retaining the old term as historical context"
+          ],
+          "answer": 3,
+          "explanation": "Version-aware study distinguishes historical information from present organization terminology."
+        }
+      ]
+    },
+    {
+      "id": "fbla-governance-programs",
+      "title": "FBLA governance and current-season preparation",
+      "summary": "Use official rules, program pages, and conference documents in the right context.",
+      "sourceIds": [
+        "national",
+        "maryland"
+      ],
+      "sections": [
+        {
+          "heading": "Understand the organizational layers",
+          "paragraphs": [
+            "FBLA has Middle School, High School, and Collegiate student divisions, with local and state structures. Corporate bylaws address the overall organization; division bylaws address that division. The corporate board manages the organization, while the president and CEO administers its affairs. Student officer leadership differs from staff administration. The current corporate bylaws define the membership and fiscal year as August 1 through July 31. Always compare document versions when studying governance."
+          ]
+        },
+        {
+          "heading": "Recognize programs and partners",
+          "paragraphs": [
+            "The official high-school page highlights LifeSmarts, Virtual Business Challenge, the Stock Market Game, and Lead4Change as education programs. Learn what a program develops, not just its logo: consumer knowledge, business decision-making, investing simulation, or service leadership. A partner or sponsor supplies a relationship or opportunity; it is not automatically a rulemaking body. Use official program and partner pages for current descriptions, availability, and requirements.",
+            "Examples on the current official partner page include the National Consumers League’s LifeSmarts consumer-education program, the College Board relationship around AP Business with Personal Finance, and AICPA career resources for exploring accounting. Tomorrow’s Business Leader is identified on FBLA’s publication page as its flagship magazine, featuring organization updates, chapter achievements, alumni, and business perspectives. Archived issues can teach context but do not set current event deadlines."
+          ]
+        },
+        {
+          "heading": "Keep rules and dates in their proper place",
+          "paragraphs": [
+            "Use current event guidelines for the event and stage, the operations manual for shared procedures, and the Honor Code, Code of Conduct, and Dress Code for participation expectations. Official communications and CONNECT provide current updates and member resources. Maryland district instructions can differ from later stages. Record the season, jurisdiction, document date, and deadline purpose. A chapter’s internal deadline may be earlier. No fixed weighting is published for Future Business Leader’s broad test, so these readings do not claim a complete test blueprint.",
+            "The Dress Code supports a professional appearance at conferences; examine the actual illustrated official policy for permitted attire rather than relying on an old summary. Read the Honor Code for independent work and conduct expectations. A current competition sheet should record event name, season, stage, format, materials, timing, scoring, and submission obligations. Current Maryland dates belong in the Maryland Guide so a change does not leave conflicting dates scattered through lessons."
+          ],
+          "example": {
+            "scenario": "A national role-play event is test-only at Maryland districts.",
+            "solution": "Prepare for the district test now and retain the later-stage role-play requirements separately. Do not import the national format into the district checklist."
+          }
+        }
+      ],
+      "terms": [
+        {
+          "term": "Bylaws",
+          "definition": "The organization’s fundamental internal governing rules."
+        },
+        {
+          "term": "Jurisdiction",
+          "definition": "The authority or competition level to which a rule applies."
+        }
+      ],
+      "questions": [
+        {
+          "id": "fbla-governance-programs-1",
+          "prompt": "Corporate bylaws primarily address:",
+          "choices": [
+            "A bank account",
+            "The overall organization",
+            "Only a slide design",
+            "Only one chapter meeting"
+          ],
+          "answer": 1,
+          "explanation": "Division and local rules operate at different organizational levels."
+        },
+        {
+          "id": "fbla-governance-programs-2",
+          "prompt": "The stated corporate membership year runs:",
+          "choices": [
+            "January 1–December 31",
+            "August 1–July 31",
+            "June 1–May 31",
+            "Only during conferences"
+          ],
+          "answer": 1,
+          "explanation": "The current corporate bylaws state August through July."
+        },
+        {
+          "id": "fbla-governance-programs-3",
+          "prompt": "Which is a program highlighted on the high-school page?",
+          "choices": [
+            "Federal Reserve policy",
+            "A private mortgage",
+            "The Stock Market Game",
+            "A customs tariff"
+          ],
+          "answer": 2,
+          "explanation": "The high-school page lists this investing simulation among its education programs."
+        },
+        {
+          "id": "fbla-governance-programs-4",
+          "prompt": "A district format should be checked in:",
+          "choices": [
+            "An undated forum",
+            "A sponsor logo",
+            "A decade-old quiz",
+            "Current Maryland stage-specific instructions"
+          ],
+          "answer": 3,
+          "explanation": "Use the current jurisdiction and stage rather than assuming national format applies."
+        },
+        {
+          "id": "fbla-governance-programs-5",
+          "prompt": "Why keep a document’s season and date?",
+          "choices": [
+            "To make lessons longer",
+            "They replace all content",
+            "To detect outdated or conflicting rules",
+            "To avoid official sources"
+          ],
+          "answer": 2,
+          "explanation": "Version context helps distinguish current requirements from historical material."
+        },
+        {
+          "id": "fbla-governance-programs-6",
+          "prompt": "FBLA identifies which as its flagship magazine?",
+          "choices": [
+            "Tomorrow’s Business Leader",
+            "The Wall Street Journal",
+            "The Maryland Gazette",
+            "The Federal Register"
+          ],
+          "answer": 0,
+          "explanation": "The official publication page identifies Tomorrow’s Business Leader as FBLA’s flagship publication."
+        },
+        {
+          "id": "fbla-governance-programs-7",
+          "prompt": "LifeSmarts is associated with which kind of learning?",
+          "choices": [
+            "Consumer knowledge and skills",
+            "Inventory cost accounting only",
+            "Foreign exchange dealing only",
+            "Corporate tax preparation only"
+          ],
+          "answer": 0,
+          "explanation": "LifeSmarts is a consumer-education program associated with the National Consumers League."
+        },
+        {
+          "id": "fbla-governance-programs-8",
+          "prompt": "Which role differs from the elected student leader’s role?",
+          "choices": [
+            "The organization’s president and CEO",
+            "A voting delegate",
+            "A chapter participant",
+            "A team captain"
+          ],
+          "answer": 0,
+          "explanation": "The president and CEO administers the organization; student officers provide a different leadership function."
+        },
+        {
+          "id": "fbla-governance-programs-9",
+          "prompt": "Which document is the appropriate starting point for conference attire?",
+          "choices": [
+            "A practice answer key",
+            "An old sponsor flyer",
+            "The official Dress Code",
+            "An unrelated school form"
+          ],
+          "answer": 2,
+          "explanation": "The current Dress Code supplies the relevant policy, including illustrated guidance."
+        },
+        {
+          "id": "fbla-governance-programs-10",
+          "prompt": "A current event-preparation sheet should include:",
+          "choices": [
+            "Only the event’s logo",
+            "Season, stage, format, materials, timing, and scoring",
+            "Only the competitor’s initials",
+            "Only an old score"
+          ],
+          "answer": 1,
+          "explanation": "Those details connect preparation to the actual current requirements."
+        }
+      ]
+    },
+    {
+      "id": "parliamentary-foundations",
+      "title": "Parliamentary foundations and meeting structure",
+      "summary": "Protect members’ rights while moving through a lawful meeting.",
+      "sourceIds": [
+        "roberts",
+        "maryland",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Know the authority and basic terms",
+          "paragraphs": [
+            "Parliamentary procedure helps an assembly decide business fairly and efficiently, balancing majority decision with minority participation and individual rights. A quorum is the minimum required attendance to transact business. The chair presides, a member has the floor when recognized to speak, and a pending motion awaits disposal. Applicable law and governing documents take priority over default parliamentary rules. Maryland’s guide identifies Robert’s Rules of Order Newly Revised, 12th edition, for this event.",
+            "A useful hierarchy places applicable law and the corporate charter above bylaws, followed by special rules of order and the adopted parliamentary authority; standing rules address administration. Check the organization’s actual documents. One question at a time means the assembly resolves the immediately pending question before returning to the underlying business; it does not mean subsidiary motions can never interrupt a main motion."
+          ]
+        },
+        {
+          "heading": "Use an orderly meeting",
+          "paragraphs": [
+            "A standard order includes reading and approval of minutes, officer and board reports, committee reports, special orders, unfinished business and general orders, then new business. Minutes record what was done rather than a transcript of everything said. Correct minutes through the approval process. The chair maintains impartiality, states questions clearly, manages debate, and announces results. The secretary preserves the record. A special meeting is limited by its call and governing rules."
+          ],
+          "example": {
+            "scenario": "Several members leave and attendance falls below the quorum.",
+            "solution": "Do not continue substantive decisions as if the original attendance permanently established a quorum. Follow permitted procedural steps and restore attendance before transacting business."
+          }
+        },
+        {
+          "heading": "Distinguish roles and documents",
+          "paragraphs": [
+            "A president leads while presiding impartially; a vice president performs assigned duties and substitutes as appropriate; the treasurer reports finances; the secretary maintains records. “Pro tem” means serving temporarily, while “ex officio” means membership by virtue of another office. Voting rights depend on applicable rules; an organization can expressly create a nonvoting position. Executive session is confidential, not a license to disregard rules. Study the actual bylaws before assuming every organization follows an identical procedure.",
+            "Previous notice alerts members that specified business will be proposed under applicable timing and content rules. The notice can affect the vote required for actions such as rescinding. A notice requirement is not satisfied merely because someone privately mentioned an idea."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Quorum",
+          "definition": "The minimum attendance required for conducting substantive business."
+        },
+        {
+          "term": "Pro tem",
+          "definition": "Serving temporarily in a role."
+        }
+      ],
+      "questions": [
+        {
+          "id": "parliamentary-foundations-1",
+          "prompt": "A quorum is:",
+          "choices": [
+            "Minimum required attendance",
+            "A nomination",
+            "The agenda",
+            "A winning vote"
+          ],
+          "answer": 0,
+          "explanation": "It concerns attendance, not votes for a motion."
+        },
+        {
+          "id": "parliamentary-foundations-2",
+          "prompt": "Minutes primarily record:",
+          "choices": [
+            "Only the chair’s opinions",
+            "Every spoken word",
+            "What the assembly did",
+            "Private rumors"
+          ],
+          "answer": 2,
+          "explanation": "Minutes preserve actions rather than a full transcript of debate."
+        },
+        {
+          "id": "parliamentary-foundations-3",
+          "prompt": "Which takes priority over default parliamentary rules?",
+          "choices": [
+            "Applicable law and governing documents",
+            "A rumor",
+            "A speaker’s preference",
+            "An old handout"
+          ],
+          "answer": 0,
+          "explanation": "RONR supplies default rules subject to higher authority."
+        },
+        {
+          "id": "parliamentary-foundations-4",
+          "prompt": "Ex officio means:",
+          "choices": [
+            "By virtue of an office",
+            "A permanent employee",
+            "Without a vote in every case",
+            "An illegal meeting"
+          ],
+          "answer": 0,
+          "explanation": "The term describes why a person holds membership, not automatically whether they vote."
+        },
+        {
+          "id": "parliamentary-foundations-5",
+          "prompt": "After quorum is lost, the assembly may:",
+          "choices": [
+            "Ignore attendance",
+            "Declare every earlier action void automatically",
+            "Not transact substantive business without quorum",
+            "Continue all substantive votes"
+          ],
+          "answer": 2,
+          "explanation": "Quorum must be present for substantive business."
+        }
+      ]
+    },
+    {
+      "id": "motions-debate",
+      "title": "Motions, amendments, and debate",
+      "summary": "Follow a main motion and distinguish the tools used to handle it.",
+      "sourceIds": [
+        "roberts",
+        "maryland",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Follow the six-step main-motion path",
+          "paragraphs": [
+            "A member obtains recognition and makes a motion; another member seconds it when required; the chair states the question; members debate; the chair puts the question to a vote; the chair announces the result. A second means another member wants consideration, not necessarily agreement. Once stated by the chair, the motion belongs to the assembly. Amendments change wording and must be germane; vote on an amendment before the affected main motion."
+          ],
+          "example": {
+            "scenario": "A member moves to spend $100; an amendment changes $100 to $80.",
+            "solution": "Resolve the amendment first. If adopted, then debate and vote on the main motion to spend $80. Adopting the amendment alone does not adopt the spending proposal."
+          }
+        },
+        {
+          "heading": "Choose the right class",
+          "paragraphs": [
+            "Main motions introduce business. Subsidiary motions help dispose of a pending question, such as amend, commit, or postpone. Privileged motions address urgent assembly needs. Incidental motions handle procedural questions arising from business, such as a point of order or appeal. Motions bringing a question again before the assembly include reconsider and rescind. Laying on the table temporarily sets aside business for an urgent matter; it should not be confused with postponing to a chosen time or defeating a proposal."
+          ]
+        },
+        {
+          "heading": "Manage precedence and debate",
+          "paragraphs": [
+            "Higher-ranking motions can take precedence over lower-ranking pending motions in the relevant circumstances. Study both rank and the rule for debate, amendment, and voting; not every motion is debatable or requires the same threshold. Address remarks to the chair and discuss the question without personal attacks. A demand for an immediate vote is not automatically adopted: the previous question requires the appropriate vote. Consult the adopted authority for exceptions, qualifications, and special circumstances.",
+            "In an ordinary deliberative assembly under default rules, a member ordinarily has up to two speeches on the same question in one day, up to ten minutes each, and must yield priority to someone who has not spoken. The assembly’s rules can change these limits. A primary amendment can itself be amended once; an amendment to an amendment is resolved before the primary amendment. Reconsider generally concerns a recent vote and has special maker and timing requirements. Rescind addresses an earlier action, subject to notice, vote, and limits on what can be undone."
+          ],
+          "table": {
+            "headers": [
+              "Rank: low to high",
+              "Motion",
+              "Usual function"
+            ],
+            "rows": [
+              [
+                "1",
+                "Main motion",
+                "Introduce business"
+              ],
+              [
+                "2",
+                "Postpone indefinitely",
+                "Dispose without a direct vote on the main question"
+              ],
+              [
+                "3",
+                "Amend",
+                "Change germane wording"
+              ],
+              [
+                "4",
+                "Commit or refer",
+                "Send for committee work"
+              ],
+              [
+                "5",
+                "Postpone definitely",
+                "Defer to a specified time"
+              ],
+              [
+                "6",
+                "Limit or extend debate",
+                "Change debate limits; normally two thirds"
+              ],
+              [
+                "7",
+                "Previous question",
+                "Close debate; normally two thirds"
+              ],
+              [
+                "8",
+                "Lay on the table",
+                "Temporarily set aside for urgent intervening business"
+              ],
+              [
+                "9",
+                "Call for orders of the day",
+                "Require the adopted order, subject to applicable rules"
+              ],
+              [
+                "10",
+                "Raise a question of privilege",
+                "Address urgent rights or comfort"
+              ],
+              [
+                "11",
+                "Recess",
+                "Take a short intermission"
+              ],
+              [
+                "12",
+                "Adjourn",
+                "End the meeting"
+              ],
+              [
+                "13",
+                "Fix the time to which to adjourn",
+                "Set an adjourned meeting"
+              ]
+            ]
+          }
+        }
+      ],
+      "terms": [
+        {
+          "term": "Pending",
+          "definition": "Before the assembly and not yet disposed of."
+        },
+        {
+          "term": "Germane",
+          "definition": "Relevant to the subject of the motion being amended."
+        }
+      ],
+      "questions": [
+        {
+          "id": "motions-debate-1",
+          "prompt": "A second normally means:",
+          "choices": [
+            "Debate is forbidden",
+            "The motion already passed",
+            "Another member wants consideration",
+            "The member must vote yes"
+          ],
+          "answer": 2,
+          "explanation": "A seconder may later oppose the motion."
+        },
+        {
+          "id": "motions-debate-2",
+          "prompt": "An amendment passes. What follows?",
+          "choices": [
+            "Automatically spend the money",
+            "Adjourn immediately",
+            "Consider the main motion as amended",
+            "Erase the record"
+          ],
+          "answer": 2,
+          "explanation": "The amendment changes the pending main motion; it does not itself adopt that motion."
+        },
+        {
+          "id": "motions-debate-3",
+          "prompt": "A point of order is generally:",
+          "choices": [
+            "An incidental motion",
+            "A main motion",
+            "A budget",
+            "A payroll item"
+          ],
+          "answer": 0,
+          "explanation": "It raises a procedural rule issue arising from business."
+        },
+        {
+          "id": "motions-debate-4",
+          "prompt": "Which changes a motion’s wording?",
+          "choices": [
+            "A quorum",
+            "An amendment",
+            "A nomination always",
+            "A bank deposit"
+          ],
+          "answer": 1,
+          "explanation": "An amendment proposes a germane change."
+        },
+        {
+          "id": "motions-debate-5",
+          "prompt": "Calling “question” from a seat automatically closes debate:",
+          "choices": [
+            "No; the required procedure and vote apply",
+            "Only when shouted",
+            "Only by the youngest member",
+            "Always"
+          ],
+          "answer": 0,
+          "explanation": "Closing debate requires proper handling of the previous question, usually a two-thirds vote."
+        }
+      ]
+    },
+    {
+      "id": "votes-committees",
+      "title": "Voting, elections, boards, and committees",
+      "summary": "Calculate thresholds and distinguish who recommends from who decides.",
+      "sourceIds": [
+        "roberts",
+        "maryland",
+        "mba"
+      ],
+      "sections": [
+        {
+          "heading": "Count the correct denominator",
+          "paragraphs": [
+            "A majority is more than half; a two-thirds requirement is at least two thirds, without rounding down. A plurality is the largest number and need not be a majority. Under ordinary votes-cast rules, abstentions are not votes; rules based on members present or total membership behave differently. Check the stated denominator before calculating. Tie votes fail when a majority is required."
+          ],
+          "example": {
+            "scenario": "Seventeen votes are cast. How many affirmative votes are needed?",
+            "solution": "A majority needs nine. Two thirds of 17 is 11.33, so a two-thirds requirement needs twelve. Do not round down."
+          }
+        },
+        {
+          "heading": "Choose a method and conduct elections",
+          "paragraphs": [
+            "Voice votes suit ordinary questions; rising or counted votes clarify results; ballots can protect secrecy and may be required by rules. A division requests a rising vote under the applicable procedure; it is not automatically a demand for a roll call. Nominations propose candidates, while election votes select them. A presiding member’s voting rights depend on the body, method, and rules; “the chair only votes to break ties” is an inaccurate universal rule. Do not assume plurality elects when a majority is required.",
+            "Unanimous consent allows routine action when the chair asks for objection and no one objects. An objection does not itself defeat the proposal; it requires handling it through the regular procedure. In a large assembly, the chair ordinarily remains impartial and votes by ballot or when the vote affects the result under the applicable rules. Small boards and committees can follow different procedures."
+          ]
+        },
+        {
+          "heading": "Use committees and boards within authority",
+          "paragraphs": [
+            "Standing committees handle continuing work; special committees serve a defined task. Referral sends a pending matter for study and recommendation as authorized. A committee report can recommend action, but the assembly may still need to adopt the recommendation. Boards operate under powers granted by the governing documents; they are not automatically above the membership in every matter. Record scope, deadline, resources, and reporting responsibility so delegation does not become unexplained authority."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Majority",
+          "definition": "More than half of the applicable voting base."
+        },
+        {
+          "term": "Standing committee",
+          "definition": "A committee for continuing responsibilities."
+        }
+      ],
+      "questions": [
+        {
+          "id": "votes-committees-1",
+          "prompt": "A majority of 17 votes cast is at least:",
+          "choices": [
+            "12",
+            "10",
+            "8",
+            "9"
+          ],
+          "answer": 3,
+          "explanation": "Nine is more than half of seventeen."
+        },
+        {
+          "id": "votes-committees-2",
+          "prompt": "A two-thirds vote out of 17 needs at least:",
+          "choices": [
+            "11",
+            "9",
+            "12",
+            "8"
+          ],
+          "answer": 2,
+          "explanation": "The threshold is at least 11.33, so twelve affirmative votes are required."
+        },
+        {
+          "id": "votes-committees-3",
+          "prompt": "Under ordinary votes-cast rules, abstentions:",
+          "choices": [
+            "Automatically adjourn",
+            "Count as yes",
+            "Are excluded from votes cast",
+            "Count as no"
+          ],
+          "answer": 2,
+          "explanation": "Abstention means not voting; special denominator rules can change the practical effect."
+        },
+        {
+          "id": "votes-committees-4",
+          "prompt": "A committee for an ongoing budget function is usually:",
+          "choices": [
+            "An emergency embargo",
+            "A standing committee",
+            "A special meeting",
+            "A plurality"
+          ],
+          "answer": 1,
+          "explanation": "Standing committees handle recurring responsibilities."
+        },
+        {
+          "id": "votes-committees-5",
+          "prompt": "A committee recommendation automatically becomes assembly policy:",
+          "choices": [
+            "Always",
+            "If written in blue",
+            "No; assembly action may still be needed",
+            "If presented first"
+          ],
+          "answer": 2,
+          "explanation": "The authority and required adoption procedure depend on the governing rules."
+        }
+      ]
+    },
+    {
+      "id": "business-technology-marketing",
+      "title": "Business technology and customer value",
+      "summary": "Connect marketing fundamentals with information systems, security, and evidence.",
+      "sourceIds": [
+        "mba",
+        "openstax"
+      ],
+      "sections": [
+        {
+          "heading": "Start with the customer",
+          "paragraphs": [
+            "Marketing identifies, creates, communicates, and delivers value; it is broader than advertising. Segment a market into meaningful groups, select a target, and position the offering against relevant alternatives. Product, price, place, and promotion must work together. A lower price will not fix an inaccessible distribution channel. Research can use primary data collected for the question or secondary data already available; check sampling, bias, and source quality.",
+            "Positioning is the intended place in the customer’s mind, not merely physical shelf space. Research quality depends on asking a clear question, choosing a relevant sample, avoiding leading wording, and using a meaningful comparison. A campaign measure should connect to its goal: reach concerns exposure, engagement concerns response, conversion concerns a desired action, and retention concerns continued relationships."
+          ]
+        },
+        {
+          "heading": "Use information systems purposefully",
+          "paragraphs": [
+            "Hardware, software, networks, data, people, and procedures work together in a business information system. A database stores related records, while a spreadsheet supports flexible calculation and analysis. Data quality requires accuracy, completeness, consistency, and timeliness. A dashboard summarizes selected measures, not all reality. Algorithms follow instructions; a plausible automated output still needs validation. Distinguish a correlation from proof of cause when interpreting business data."
+          ],
+          "example": {
+            "scenario": "Website visits rise from 1,000 to 2,000, but orders remain 50.",
+            "solution": "The conversion rate falls from 5% to 2.5%. More traffic alone does not show better sales performance. Investigate traffic quality and the purchase process."
+          }
+        },
+        {
+          "heading": "Protect confidentiality, integrity, and availability",
+          "paragraphs": [
+            "Confidentiality limits unauthorized disclosure, integrity protects accuracy and authorized change, and availability supports access when needed. Use unique strong authentication, timely updates, least-privilege access, and tested backups. Phishing manipulates people into unsafe actions; verify unusual requests independently. A backup is useful only if restoration works. Responsible technology use includes privacy, accessibility, citation, licensing, and review of automated content. Future Business Leader has a broad general-business and technology area rather than a closed list of every possible question."
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "Conversion rate",
+          "definition": "Desired actions divided by the relevant opportunities, such as orders per visit."
+        },
+        {
+          "term": "Least privilege",
+          "definition": "Giving only the access needed for a role."
+        }
+      ],
+      "questions": [
+        {
+          "id": "business-technology-marketing-1",
+          "prompt": "Marketing is:",
+          "choices": [
+            "Only payroll",
+            "The broader work of creating and delivering customer value",
+            "Only filing",
+            "Only advertising"
+          ],
+          "answer": 1,
+          "explanation": "Advertising is one promotional activity within marketing."
+        },
+        {
+          "id": "business-technology-marketing-2",
+          "prompt": "50 orders from 2,000 visits gives conversion of:",
+          "choices": [
+            "5%",
+            "25%",
+            "40%",
+            "2.5%"
+          ],
+          "answer": 3,
+          "explanation": "50 / 2,000 = .025, or 2.5%."
+        },
+        {
+          "id": "business-technology-marketing-3",
+          "prompt": "Protecting data against unauthorized changes supports:",
+          "choices": [
+            "Integrity",
+            "A dividend",
+            "Only branding",
+            "Only speed"
+          ],
+          "answer": 0,
+          "explanation": "Integrity concerns accuracy and authorized changes."
+        },
+        {
+          "id": "business-technology-marketing-4",
+          "prompt": "A tested backup mainly supports:",
+          "choices": [
+            "Unlimited permissions",
+            "A marketing slogan",
+            "A higher stock price",
+            "Recovery and availability"
+          ],
+          "answer": 3,
+          "explanation": "Restoration testing shows whether data can actually be recovered."
+        },
+        {
+          "id": "business-technology-marketing-5",
+          "prompt": "A suspicious urgent credential request should be:",
+          "choices": [
+            "Forwarded publicly",
+            "Trusted because urgent",
+            "Verified independently through a known channel",
+            "Answered with the password"
+          ],
+          "answer": 2,
+          "explanation": "Independent verification reduces phishing risk."
+        }
+      ]
+    }
+  ],
+  "eventModules": {
+    "Accounting": [
+      "accounting-cycle",
+      "financial-statements",
+      "accounting-controls-careers",
+      "advanced-cost-accounting"
+    ],
+    "Advanced Accounting": [
+      "accounting-cycle",
+      "advanced-cost-accounting",
+      "financial-statements",
+      "accounting-controls-careers"
+    ],
+    "Economics": [
+      "economic-choices-markets",
+      "macroeconomics-policy",
+      "business-ownership-operations",
+      "global-business-trade"
+    ],
+    "Business Law": [
+      "contracts-legal-foundations",
+      "business-regulation",
+      "ethical-decisions",
+      "global-business-trade"
+    ],
+    "Business Ethics": [
+      "ethical-decisions",
+      "listening-workplace-communication",
+      "leadership-teams",
+      "career-workplace-procedures"
+    ],
+    "Business Management": [
+      "management-strategy",
+      "business-ownership-operations",
+      "financial-statements",
+      "leadership-teams",
+      "human-resources"
+    ],
+    "Organizational Leadership": [
+      "management-strategy",
+      "leadership-teams",
+      "human-resources",
+      "listening-workplace-communication"
+    ],
+    "Human Resource Management": [
+      "human-resources",
+      "business-regulation",
+      "leadership-teams",
+      "career-workplace-procedures"
+    ],
+    "Entrepreneurship": [
+      "entrepreneurship-ventures",
+      "business-ownership-operations",
+      "contracts-legal-foundations",
+      "financial-statements",
+      "business-technology-marketing",
+      "business-regulation"
+    ],
+    "International Business": [
+      "global-business-trade",
+      "economic-choices-markets",
+      "macroeconomics-policy",
+      "business-regulation",
+      "business-ownership-operations"
+    ],
+    "Introduction to Business Concepts": [
+      "economic-choices-markets",
+      "business-ownership-operations",
+      "career-workplace-procedures",
+      "management-strategy"
+    ],
+    "Introduction to Business Procedures": [
+      "career-workplace-procedures",
+      "clear-business-writing",
+      "listening-workplace-communication",
+      "business-technology-marketing"
+    ],
+    "Introduction to Business Communication": [
+      "clear-business-writing",
+      "listening-workplace-communication",
+      "career-workplace-procedures",
+      "leadership-teams"
+    ],
+    "Business Communication": [
+      "clear-business-writing",
+      "listening-workplace-communication",
+      "career-workplace-procedures",
+      "ethical-decisions"
+    ],
+    "Personal Finance": [
+      "personal-money-credit",
+      "banking-financial-systems",
+      "investment-analysis",
+      "insurance-risk"
+    ],
+    "Banking & Financial Systems": [
+      "banking-financial-systems",
+      "personal-money-credit",
+      "financial-statements",
+      "business-regulation",
+      "listening-workplace-communication"
+    ],
+    "Securities & Investments": [
+      "investment-analysis",
+      "personal-money-credit",
+      "financial-statements",
+      "banking-financial-systems"
+    ],
+    "Insurance & Risk Management": [
+      "insurance-risk",
+      "business-regulation",
+      "personal-money-credit",
+      "ethical-decisions"
+    ],
+    "Introduction to FBLA": [
+      "fbla-history-purpose",
+      "fbla-governance-programs",
+      "career-workplace-procedures",
+      "parliamentary-foundations"
+    ],
+    "Future Business Leader": [
+      "fbla-history-purpose",
+      "fbla-governance-programs",
+      "business-ownership-operations",
+      "accounting-cycle",
+      "banking-financial-systems",
+      "contracts-legal-foundations",
+      "entrepreneurship-ventures",
+      "global-business-trade",
+      "management-strategy",
+      "leadership-teams",
+      "business-technology-marketing"
+    ],
+    "Parliamentary Procedure": [
+      "parliamentary-foundations",
+      "motions-debate",
+      "votes-committees",
+      "fbla-governance-programs"
+    ],
+    "Introduction to Parliamentary Procedure": [
+      "parliamentary-foundations",
+      "motions-debate",
+      "votes-committees",
+      "fbla-governance-programs"
+    ]
+  },
+  "coverage": {
+    "Accounting": {
+      "Foundations of Accounting": [
+        "accounting-cycle",
+        "accounting-controls-careers"
+      ],
+      "Standards and Compliance": [
+        "accounting-controls-careers"
+      ],
+      "The Accounting Cycle": [
+        "accounting-cycle"
+      ],
+      "Accounts Payable and Receivable": [
+        "financial-statements"
+      ],
+      "Tax Accounting": [
+        "accounting-controls-careers"
+      ],
+      "Financial Reports": [
+        "financial-statements"
+      ],
+      "Technology and Accounting": [
+        "accounting-controls-careers"
+      ],
+      "Career Opportunities": [
+        "accounting-controls-careers"
+      ]
+    },
+    "Securities & Investments": {
+      "Principles of Money": [
+        "personal-money-credit"
+      ],
+      "Financial Markets": [
+        "banking-financial-systems",
+        "investment-analysis"
+      ],
+      "Investment Analysis": [
+        "investment-analysis",
+        "financial-statements"
+      ],
+      "Selecting Investments": [
+        "investment-analysis",
+        "financial-statements"
+      ],
+      "Securities & Investments Industry": [
+        "investment-analysis"
+      ],
+      "Securities Products": [
+        "investment-analysis"
+      ]
+    },
+    "Personal Finance": {
+      "Principles of Money": [
+        "personal-money-credit"
+      ],
+      "Financial Needs and Goals": [
+        "personal-money-credit"
+      ],
+      "Financial-Services Providers": [
+        "personal-money-credit",
+        "banking-financial-systems"
+      ],
+      "Investment Strategies": [
+        "investment-analysis"
+      ],
+      "Financial Literacy": [
+        "personal-money-credit"
+      ],
+      "Risk Management": [
+        "insurance-risk"
+      ]
+    },
+    "Organizational Leadership": {
+      "Role of Management in Business": [
+        "management-strategy"
+      ],
+      "Leadership": [
+        "leadership-teams"
+      ],
+      "Manage Business Relationships": [
+        "leadership-teams",
+        "listening-workplace-communication"
+      ],
+      "Human Resources Management": [
+        "human-resources"
+      ],
+      "Critical-Thinking Skills": [
+        "leadership-teams"
+      ],
+      "Manage Stressful Situations": [
+        "leadership-teams"
+      ]
+    },
+    "Introduction to Parliamentary Procedure": {
+      "Foundations of Parliamentary Procedure": [
+        "parliamentary-foundations"
+      ],
+      "Parliamentary Terminology": [
+        "parliamentary-foundations"
+      ],
+      "Meeting Structure and Order of Business": [
+        "parliamentary-foundations"
+      ],
+      "Handling a Main Motion": [
+        "motions-debate"
+      ],
+      "Classification of Motions": [
+        "motions-debate"
+      ],
+      "Voting and Elections": [
+        "votes-committees"
+      ]
+    },
+    "Introduction to FBLA": {
+      "FBLA History": [
+        "fbla-history-purpose"
+      ],
+      "FBLA Corporate & Division Bylaws": [
+        "fbla-governance-programs"
+      ],
+      "FBLA Programs": [
+        "fbla-governance-programs"
+      ],
+      "FBLA Pledge, Mission, Goals, Creed": [
+        "fbla-history-purpose"
+      ],
+      "FBLA High School Competitive Events": [
+        "fbla-governance-programs"
+      ],
+      "FBLA Structure": [
+        "fbla-governance-programs"
+      ],
+      "FBLA Dress Code": [
+        "fbla-governance-programs"
+      ],
+      "FBLA Publications": [
+        "fbla-governance-programs"
+      ],
+      "FBLA Deadlines": [
+        "fbla-governance-programs"
+      ],
+      "FBLA Website & Communications": [
+        "fbla-governance-programs"
+      ],
+      "FBLA Partners": [
+        "fbla-governance-programs"
+      ]
+    },
+    "Introduction to Business Procedures": {
+      "Professional Communication & Correspondence": [
+        "clear-business-writing",
+        "listening-workplace-communication"
+      ],
+      "Information Management & Technology": [
+        "career-workplace-procedures",
+        "business-technology-marketing"
+      ],
+      "Workplace Protocols & Decision Making": [
+        "career-workplace-procedures"
+      ],
+      "Professional Development & Career Readiness": [
+        "career-workplace-procedures"
+      ]
+    },
+    "Introduction to Business Concepts": {
+      "Fundamental Economic Concepts": [
+        "economic-choices-markets"
+      ],
+      "Nature of Business": [
+        "business-ownership-operations"
+      ],
+      "Economic Systems": [
+        "economic-choices-markets"
+      ],
+      "Cost/Profit Relationships": [
+        "business-ownership-operations"
+      ],
+      "Owning a Business": [
+        "business-ownership-operations"
+      ],
+      "Types of Business Activities": [
+        "business-ownership-operations"
+      ],
+      "Career Planning": [
+        "career-workplace-procedures"
+      ],
+      "Job-Search Skills": [
+        "career-workplace-procedures"
+      ]
+    },
+    "Introduction to Business Communication": {
+      "Communication Basics": [
+        "clear-business-writing"
+      ],
+      "Written Communication": [
+        "clear-business-writing"
+      ],
+      "Reading to Understand": [
+        "clear-business-writing",
+        "listening-workplace-communication"
+      ],
+      "Active Listening": [
+        "listening-workplace-communication"
+      ],
+      "Verbal Communication": [
+        "listening-workplace-communication"
+      ],
+      "Workplace Communication": [
+        "career-workplace-procedures",
+        "listening-workplace-communication"
+      ],
+      "Interpersonal Relationships": [
+        "listening-workplace-communication",
+        "leadership-teams"
+      ]
+    },
+    "Insurance & Risk Management": {
+      "Risk Management Fundamentals": [
+        "insurance-risk"
+      ],
+      "Insurance Industry & Legal Principles": [
+        "insurance-risk"
+      ],
+      "Personal Insurance Products": [
+        "insurance-risk"
+      ],
+      "Commercial & Specialized Insurance Products": [
+        "insurance-risk"
+      ],
+      "Insurance Operations & Underwriting": [
+        "insurance-risk"
+      ],
+      "Claims & Fraud Management": [
+        "insurance-risk",
+        "ethical-decisions"
+      ],
+      "Professional Development in Insurance": [
+        "insurance-risk"
+      ]
+    },
+    "Human Resource Management": {
+      "Nature of Human Resources Management": [
+        "human-resources"
+      ],
+      "Staffing and Talent Acquisition": [
+        "human-resources"
+      ],
+      "Training and Development": [
+        "human-resources"
+      ],
+      "Performance Management": [
+        "human-resources"
+      ],
+      "Employee Relations and Issue Resolution": [
+        "human-resources",
+        "leadership-teams"
+      ],
+      "Compensation and Total Rewards": [
+        "human-resources"
+      ],
+      "Health and Safety": [
+        "human-resources",
+        "business-regulation"
+      ],
+      "Professional Development in Human Resources": [
+        "human-resources",
+        "career-workplace-procedures"
+      ]
+    },
+    "Economics": {
+      "Fundamental Economic Concepts": [
+        "economic-choices-markets"
+      ],
+      "Nature of Business": [
+        "business-ownership-operations"
+      ],
+      "Economic Systems": [
+        "economic-choices-markets"
+      ],
+      "Government’s Impact on Business": [
+        "macroeconomics-policy"
+      ],
+      "Cost/Profit Relationships": [
+        "economic-choices-markets",
+        "business-ownership-operations"
+      ],
+      "Economic Indicators": [
+        "macroeconomics-policy"
+      ],
+      "Global Trade": [
+        "global-business-trade"
+      ]
+    },
+    "Business Law": {
+      "Legal Foundations": [
+        "contracts-legal-foundations",
+        "business-regulation"
+      ],
+      "Commercial Law": [
+        "contracts-legal-foundations",
+        "business-regulation"
+      ],
+      "Employment Law": [
+        "business-regulation"
+      ],
+      "Business Ethics": [
+        "ethical-decisions"
+      ],
+      "Financial & Tax Law": [
+        "business-regulation"
+      ],
+      "International Trade & Commerce Law": [
+        "global-business-trade",
+        "business-regulation"
+      ]
+    },
+    "Business Communication": {
+      "Communication Basics": [
+        "clear-business-writing"
+      ],
+      "Written Communication": [
+        "clear-business-writing"
+      ],
+      "Verbal Communication": [
+        "listening-workplace-communication"
+      ],
+      "Workplace Communication": [
+        "career-workplace-procedures",
+        "listening-workplace-communication"
+      ],
+      "Interpersonal Relationships": [
+        "listening-workplace-communication",
+        "ethical-decisions"
+      ]
+    },
+    "Advanced Accounting": {
+      "Foundations of Accounting": [
+        "accounting-cycle",
+        "accounting-controls-careers"
+      ],
+      "Standards and Compliance": [
+        "accounting-controls-careers"
+      ],
+      "The Accounting Cycle": [
+        "accounting-cycle"
+      ],
+      "Inventory": [
+        "advanced-cost-accounting"
+      ],
+      "Payroll": [
+        "advanced-cost-accounting"
+      ],
+      "Financial Statements": [
+        "financial-statements"
+      ],
+      "Managerial Accounting": [
+        "advanced-cost-accounting"
+      ]
+    },
+    "Business Ethics": {
+      "Communication Skills": [
+        "listening-workplace-communication"
+      ],
+      "Self-Awareness": [
+        "ethical-decisions"
+      ],
+      "Doing the Right Thing": [
+        "ethical-decisions"
+      ],
+      "Teamwork Skills": [
+        "leadership-teams"
+      ],
+      "Leadership Skills": [
+        "leadership-teams"
+      ],
+      "Career Readiness": [
+        "career-workplace-procedures"
+      ]
+    },
+    "Future Business Leader": {
+      "FBLA Organization": [
+        "fbla-governance-programs"
+      ],
+      "FBLA Bylaws & Handbook": [
+        "fbla-governance-programs"
+      ],
+      "FBLA National Competitive Event Guidelines": [
+        "fbla-governance-programs"
+      ],
+      "FBLA National Publications": [
+        "fbla-governance-programs"
+      ],
+      "FBLA Mission, Pledge and Goals": [
+        "fbla-history-purpose"
+      ],
+      "General Business and Technology Knowledge (including, but not limited to, accounting, banking, law, entrepreneurship, marketing, international business, management, organizational leadership, information technology, cybersecurity)": [
+        "business-ownership-operations",
+        "accounting-cycle",
+        "banking-financial-systems",
+        "contracts-legal-foundations",
+        "entrepreneurship-ventures",
+        "global-business-trade",
+        "management-strategy",
+        "leadership-teams",
+        "business-technology-marketing"
+      ]
+    },
+    "Parliamentary Procedure": {
+      "Foundations of Parliamentary Procedure": [
+        "parliamentary-foundations"
+      ],
+      "Parliamentary Terminology": [
+        "parliamentary-foundations"
+      ],
+      "Meeting Structure and Order of Business": [
+        "parliamentary-foundations"
+      ],
+      "Handling Motions and Rules of Debate": [
+        "motions-debate"
+      ],
+      "Classification of Motions": [
+        "motions-debate"
+      ],
+      "Voting, Elections, and Nominations": [
+        "votes-committees"
+      ],
+      "Boards and Committees": [
+        "votes-committees"
+      ]
+    },
+    "Business Management": {
+      "Business Environment": [
+        "business-ownership-operations",
+        "management-strategy"
+      ],
+      "Management Types": [
+        "management-strategy",
+        "leadership-teams"
+      ],
+      "Business Finance": [
+        "financial-statements"
+      ],
+      "Operations": [
+        "business-ownership-operations"
+      ],
+      "Strategic Management": [
+        "management-strategy"
+      ]
+    },
+    "Entrepreneurship": {
+      "Fundamentals of Entrepreneurship": [
+        "entrepreneurship-ventures"
+      ],
+      "Discovery Strategies": [
+        "entrepreneurship-ventures"
+      ],
+      "Business Venture Concepts": [
+        "entrepreneurship-ventures",
+        "contracts-legal-foundations"
+      ],
+      "Business Venture Resources": [
+        "entrepreneurship-ventures"
+      ],
+      "New Business Venture Activities": [
+        "entrepreneurship-ventures",
+        "business-ownership-operations"
+      ],
+      "Business Law and Regulations": [
+        "business-regulation",
+        "contracts-legal-foundations"
+      ]
+    },
+    "International Business": {
+      "Fundamental Economic Concepts": [
+        "economic-choices-markets"
+      ],
+      "The Nature of Business": [
+        "business-ownership-operations"
+      ],
+      "Economic Systems": [
+        "economic-choices-markets"
+      ],
+      "Impact of Government": [
+        "macroeconomics-policy",
+        "business-regulation"
+      ],
+      "Business Law": [
+        "business-regulation"
+      ],
+      "Global Trade": [
+        "global-business-trade"
+      ]
+    },
+    "Banking & Financial Systems": {
+      "Fundamental Principles of Money": [
+        "personal-money-credit"
+      ],
+      "Financial Institutions & Markets": [
+        "banking-financial-systems"
+      ],
+      "Financial Analysis & Decision-Making": [
+        "banking-financial-systems",
+        "personal-money-credit",
+        "financial-statements"
+      ],
+      "Regulatory Compliance in Finance": [
+        "banking-financial-systems",
+        "business-regulation"
+      ],
+      "Banking Services & Daily Operations": [
+        "banking-financial-systems"
+      ],
+      "Loans & Credit": [
+        "banking-financial-systems",
+        "personal-money-credit"
+      ],
+      "Customer Relations in Banking": [
+        "banking-financial-systems",
+        "listening-workplace-communication"
+      ],
+      "Professional Development in Banking": [
+        "banking-financial-systems"
+      ]
+    }
+  },
+  "coverageNotes": [
+    "Coverage maps the published knowledge-area headings to original focused lessons. It is not an assertion that a short question bank exhausts every detailed competency or possible test item.",
+    "FBLA mission, pledge, creed, goals, and detailed dress policy are explained in context; exact wording and changing officers, partner opportunities, and deadlines must be checked in the current official originals.",
+    "Parliamentary lessons teach the principal concepts and precedence, with RONR 12th-edition references. They do not reproduce every special case or complete motion-characteristics chart.",
+    "Introduction to FBLA and Future Business Leader have no published test-composition percentages in the supplied Maryland guides. Do not invent equal topic weights."
+  ]
+}
