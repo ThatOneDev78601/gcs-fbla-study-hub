@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-27T14:25:46.3005846Z",
+  "title": "Design System: GCS FBLA Study Hub",
+  "extensions": {
+    "colorMeta": {
+      "teal": {
+        "role": "primary",
+        "displayName": "Study Teal"
+      },
+      "navy": {
+        "role": "primary",
+        "displayName": "Handbook Navy"
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper"
+      },
+      "pale": {
+        "role": "secondary",
+        "displayName": "Pale Sage"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Deep Ink"
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Slate"
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Soft Rule"
+      },
+      "amber": {
+        "role": "secondary",
+        "displayName": "Warm Amber"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Editorial Display",
+        "purpose": "Homepage reading title."
+      },
+      "body": {
+        "displayName": "Lesson Prose",
+        "purpose": "Comfortable long-form reading, capped at 72ch."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "control-background",
+        "value": "background .15s",
+        "purpose": "Button and event-row hover transitions; disabled for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1450px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1000px"
+      },
+      {
+        "name": "mobile",
+        "value": "720px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Compact teal action with clear keyboard focus.",
+      "html": "<button class=\"ds-button\">Check answer</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:6px;padding:11px 17px;border:1px solid transparent;font-family:'DM Sans',sans-serif;font-size:.86rem;font-weight:600;line-height:1.4;background:var(--teal,#136c61);color:white;cursor:pointer;transition:background .15s}.ds-button:hover{background:#0d574e}.ds-button:focus-visible{outline:3px solid #147d71;outline-offset:4px}.ds-button:disabled{cursor:default;opacity:.5}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}"
+    },
+    {
+      "name": "Preparation Chip",
+      "kind": "chip",
+      "refersTo": "filter-chip-selected",
+      "description": "Pressed preparation-format filter.",
+      "html": "<button class=\"ds-chip\" aria-pressed=\"true\">Objective tests</button>",
+      "css": ".ds-chip{border:1px solid var(--navy,#183845);border-radius:100px;padding:6px 12px;font-family:'DM Sans',sans-serif;font-size:.75rem;background:var(--navy,#183845);color:white;cursor:pointer}.ds-chip:hover{border-color:var(--navy,#183845)}.ds-chip:focus-visible{outline:3px solid #147d71;outline-offset:4px}"
+    },
+    {
+      "name": "Stage Panel",
+      "kind": "card",
+      "refersTo": "stage-panel",
+      "description": "Flat sage grouping for stage-specific preparation.",
+      "html": "<section class=\"ds-panel\"><h2>District preparation</h2><p>Read the focused lessons, then check your recall.</p></section>",
+      "css": ".ds-panel{background:var(--pale,#e9f2ed);color:var(--ink,#182d37);border-radius:8px;padding:23px 25px;font-family:'DM Sans',sans-serif}.ds-panel h2{font-family:'Source Serif 4',Georgia,serif;font-size:1.6rem;font-weight:500;letter-spacing:-.025em;margin:0 0 10px}.ds-panel p{font-size:.88rem;line-height:1.7;margin:0}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The School Study Handbook",
+    "overview": "Warm paper, navy typography and restrained teal actions make long lessons approachable. Serif headings establish a reading hierarchy, while compact sans-serif controls support finding material and checking recall. Thin rules and flat tonal panels keep the interface calm and purposeful.",
+    "keyCharacteristics": [
+      "Generous reading space",
+      "Serif titles and sans-serif controls",
+      "Ruled alphabetical directories",
+      "Flat tonal grouping",
+      "Keyboard, mobile and print support"
+    ],
+    "rules": [
+      {
+        "name": "The Functional Accent Rule",
+        "body": "Reserve stronger color for actions, selection, navigation and meaningful status.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reading Hierarchy Rule",
+        "body": "Use serif for reading titles and major headings; keep navigation, metadata and controls in DM Sans.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Handbook Rule",
+        "body": "Use rules and tonal grouping for hierarchy; preserve the incumbent shadow-free treatment.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do preserve warm paper, navy text and teal actions.",
+      "Do retain comfortable prose leading and constrained reading measures.",
+      "Do keep visible focus, mobile contents and print readability."
+    ],
+    "donts": [
+      "Don't add decorative stock photography or a generic dashboard card grid.",
+      "Don't add shadows or enclose every text block.",
+      "Don't use serif for dense controls or metadata."
+    ]
+  }
+}
