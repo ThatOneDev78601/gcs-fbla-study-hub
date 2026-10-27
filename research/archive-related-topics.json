@@ -1,0 +1,28 @@
+{
+  "Spreadsheet Applications": [
+    { "eventId": "computer-applications", "relationship": "Related skill practice", "note": "Spreadsheet formulas, formatting and production practice. This retired standalone event is not the current Computer Applications event." },
+    { "eventId": "data-analysis", "relationship": "Related skill practice", "note": "Optional spreadsheet practice for working with data; the old production test does not reflect the current Data Analysis rubric." }
+  ],
+  "Word Processing": [
+    { "eventId": "computer-applications", "relationship": "Related skill practice", "note": "Document formatting and production practice. Old software versions and standalone event rules differ from the current event." }
+  ],
+  "Database Design _ Applications": [
+    { "eventId": "management-information-systems", "relationship": "Related skill practice", "note": "Background practice for data and information management; not a current MIS practice exam." },
+    { "eventId": "data-analysis", "relationship": "Related skill practice", "note": "Optional database concepts for organizing data; the old database production requirements do not apply." }
+  ],
+  "Database Design / Testfrenzy Rehost": [
+    { "eventId": "management-information-systems", "relationship": "Related skill practice", "note": "Rehosted database exercises with unverified provenance and answers; use only as supplementary concept practice." },
+    { "eventId": "data-analysis", "relationship": "Related skill practice", "note": "Rehosted database exercises for optional background practice, not the current event format." }
+  ],
+  "Publication Design": [
+    { "eventId": "graphic-design", "relationship": "Related skill practice", "note": "Older Desktop Publishing material for typography and layout practice; not the current Graphic Design topic or rubric." },
+    { "eventId": "visual-design", "relationship": "Related skill practice", "note": "Older Desktop Publishing material for layout practice; not the current Visual Design topic or rubric." }
+  ],
+  "Business Calculations": [
+    { "eventId": "personal-finance", "relationship": "Related skill practice", "note": "Optional business-math practice. Check the current Personal Finance objectives before choosing exercises." },
+    { "eventId": "accounting", "relationship": "Related skill practice", "note": "Optional business calculations; these are not Accounting tests or current eligibility rules." }
+  ],
+  "Introduction to Financial Math": [
+    { "eventId": "personal-finance", "relationship": "Related skill practice", "note": "Older Business Math and Financial Math material for calculation practice; the former event’s rules do not apply to Personal Finance." }
+  ]
+}

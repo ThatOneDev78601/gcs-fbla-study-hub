@@ -141,6 +141,8 @@ The central container has a maximum width (1320px) and fluid side padding (4.5vw
 
 The lesson reader pairs sticky contents (210px) with an article column capped at (740px), separated by (65px). Prose is further constrained to (72ch). Event pages and guides use a main column with supporting source information at the side. Resources use a two-column ruled list.
 
+Event materials pages keep current guidance first, followed by lesson sources and optional historical practice. Archive entries use a single ruled column, explicit dates, relationship labels and native disclosures for same-title files. Search, competition and material-type filters reuse the directory controls. A pale sage explanation establishes the limits of older material; no archive file is presented as current guidance. Mobile layouts stack the materials sidebar and filter controls.
+
 At (1000px) and below, sidebars and gaps contract and lower-priority event metadata disappears. At (720px) and below, major layouts stack, filters become two columns, event format moves below its title, navigation wraps beneath the brand and the sticky contents becomes a native disclosure. Mobile page padding is (5vw). The homepage title becomes (2.85rem); lesson titles become (2.45rem).
 
 Print styles remove navigation, practice and action controls, expand reading width and set prose to (11pt). Preserve this readable print path when extending lessons.

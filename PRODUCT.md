@@ -24,7 +24,7 @@ Readable topic lessons and quick reviews first; search, filters, quizzes, flashc
 Study-handbook design, warm neutral surfaces, navy and teal, strong typography and generous reading space. User approved the plan and delegated aesthetic implementation.
 
 ## Evidence on Hand
-Current Maryland guides for all 76 events, national roster, MBA Research guides, public educational references. Historic Drive is supplementary and unverified. No fabricated outcome claims.
+Current Maryland guides for all 76 events, national roster, 43 directly linked MBA Research guides, public educational references. All 274 inventoried historical Drive files are accessible in 227 grouped entries. Folder names, checked event aliases and explicit related-skill mappings associate archive entries with 38 current events. Every event has a materials page; events without an archive match say so. Historical contents and answers remain unverified. No fabricated outcome claims.
 
 ## Accessibility & Inclusion
 Keyboard-accessible, responsive, WCAG AA text contrast; readable without client JavaScript; reduced-motion support.

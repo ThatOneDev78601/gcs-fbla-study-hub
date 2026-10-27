@@ -1,0 +1,26 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import {events,eventModules,sources,currentGuide,eventArchive} from '../../../lib/catalog';
+import {ArchiveEntries} from '../../../components/ArchiveLibrary';
+export function getStaticPaths(){return events.map(event=>({params:{id:event.id},props:{event}}))}
+const {event}=Astro.props;
+const guide=currentGuide(event.id),historical=eventArchive(event.id);
+const sourceIds=new Set(eventModules(event).flatMap(module=>module.sourceIds));
+const reading=sources.filter(source=>sourceIds.has(source.id)&&source.status!=='Historical'&&!['maryland','national','connect','mba'].includes(source.id));
+---
+<Layout title={event.name+' study materials'}>
+  <div class="page-top"><div class="breadcrumb"><a href="/">Events</a><span>/</span><a href={'/events/'+event.id+'/'}>{event.name}</a><span>/ Study materials</span></div><h1>{event.name} study materials</h1><p>Read the focused lessons first, then choose extra review for the topics you want to strengthen.</p><a class="plain-link" href={'/events/'+event.id+'/#lessons'}>← Back to the study guide</a></div>
+  <div class="materials-layout"><div>
+    <section id="current"><h2>Start with current guidance</h2><ul class="study-source-links">
+      <li><a href={event.sourceUrl} target="_blank" rel="noreferrer">Maryland {event.name} event guide ↗</a><span class="small muted">Maryland FBLA · 2026–2027 · District requirements and event scope · Checked October 27, 2026</span></li>
+      {guide&&<li><a href={guide.url} target="_blank" rel="noreferrer">{guide.title} ↗</a><span class="small muted">{guide.publisher} · {guide.season} · {guide.access} · Checked October 27, 2026</span>{guide.note&&<p class="inline-alert">{guide.note}</p>}</li>}
+      <li><a href="https://www.fbla.org/high-school/competitive-events/" target="_blank" rel="noreferrer">National guidelines and event topics ↗</a><span class="small muted">FBLA · Select {event.name} · National requirements can differ from Maryland districts</span></li>
+      <li><a href="https://support.fbla.org/hc/en-us/articles/4416902542996-Competition-Prep-Sample-Objective-Tests-Role-Plays-Production-Tests-and-Case-Competitions" target="_blank" rel="noreferrer">Official sample tests and scenarios: access instructions ↗</a><span class="small muted">FBLA CONNECT membership required · Ask your adviser for access</span></li>
+    </ul></section>
+    {reading.length>0&&<section id="further-reading" class="materials-section"><h2>Explore the lesson sources</h2><p class="section-description">Optional further reading linked to this event’s lessons. Pick the relevant topic; there is no whole-textbook assignment.</p><div class="resource-list">{reading.map(source=><article class="resource-item"><h3><a href={source.url} target="_blank" rel="noreferrer">{source.title} ↗</a></h3><p>{source.description}</p><div class="resource-meta"><span>{source.publisher}</span><span>· {source.access}</span><span>· {source.season}</span></div></article>)}</div></section>}
+    <section id="historical" class="materials-section"><h2>Older practice from Google Drive</h2><div class="archive-notice"><p><strong>Use for extra practice, not current rules.</strong> These files come from the original shared collection. Their answers and contents have not been independently reviewed. Old names, software, laws, topics and competition formats may differ.</p><p>Dates are taken from filenames; “Date not stated” means the filename gives no date. Same-title files are grouped without assuming their contents are identical. Indexed October 27, 2026. Files open in the owner’s Drive; access may change.</p></div>
+      {historical.length?<><p class="directory-note">{historical.length} entries · {historical.reduce((n,group)=>n+group.files.length,0)} original files</p><ArchiveEntries groups={historical} events={events.map(({id,name})=>({id,name}))} eventId={event.id}/></>:<p class="section-description">The original collection has no confirmed event-specific match for {event.name}. Use the current sources above and this event’s on-site lessons.</p>}
+      <p style="margin-top:24px"><a class="plain-link" href="/resources/archive/">Browse the complete historical collection →</a></p>
+    </section>
+  </div><aside class="materials-aside"><h3>A useful study order</h3><ol><li>Read your on-site lessons and worked examples.</li><li>Check the current objectives or rubric.</li><li>Practice a topic you found difficult.</li><li>Check older answers against a current source.</li></ol><a class="plain-link" href={'/events/'+event.id+'/'}>Return to {event.name} →</a></aside></div>
+</Layout>

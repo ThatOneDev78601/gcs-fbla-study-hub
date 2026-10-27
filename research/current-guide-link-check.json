@@ -1,0 +1,263 @@
+{
+  "checked": "2026-10-27",
+  "results": [
+    {
+      "eventId": "accounting",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/07/FBLA-HS-Accounting-Study-Guide.pdf"
+    },
+    {
+      "eventId": "advanced-accounting",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/07/FBLA-HS-Advanced-Accounting-Study-Guide.pdf"
+    },
+    {
+      "eventId": "advertising",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/07/FBLA-HS-Advertising-Study-Guide.pdf"
+    },
+    {
+      "eventId": "agribusiness",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/07/FBLA-HS-Agribusiness-Study-Guide.pdf"
+    },
+    {
+      "eventId": "banking-and-financial-systems",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/07/FBLA-HS-Banking-Financial-Systems-Study-Guide.pdf"
+    },
+    {
+      "eventId": "business-communication",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/07/FBLA-HS-Business-Communication-Study-Guide.pdf"
+    },
+    {
+      "eventId": "business-ethics",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/03/FBLA-HS-Business-Ethics-Study-Guide.pdf"
+    },
+    {
+      "eventId": "business-law",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/07/FBLA-HS-Business-Law-Study-Guide.pdf"
+    },
+    {
+      "eventId": "business-management",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/03/FBLA-HS-Business-Management-Study-Guide.pdf"
+    },
+    {
+      "eventId": "computer-problem-solving",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/03/FBLA-HS-Computer-Problem-Solving-Study-Guide.pdf"
+    },
+    {
+      "eventId": "customer-service",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/03/FBLA-HS-Customer-Service-Study-Guide.pdf"
+    },
+    {
+      "eventId": "cybersecurity",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/03/FBLA-HS-Cybersecurity-Study-Guide.pdf"
+    },
+    {
+      "eventId": "data-science-and-ai",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/03/FBLA-HS-Data-Science-and-AI-Study-Guide.pdf"
+    },
+    {
+      "eventId": "economics",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/03/FBLA-HS-Economics-Study-Guide.pdf"
+    },
+    {
+      "eventId": "entrepreneurship",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/07/FBLA-HS-Entrepreneurship-Study-Guide.pdf"
+    },
+    {
+      "eventId": "healthcare-administration",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/07/FBLA-HS-Healthcare-Administration-Study-Guide.pdf"
+    },
+    {
+      "eventId": "hospitality-and-event-management",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/07/FBLA-HS-Hospitality-And-Event-Management-Study-Guide.pdf"
+    },
+    {
+      "eventId": "human-resource-management",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/07/FBLA-HS-Human-Resource-Management-Study-Guide.pdf"
+    },
+    {
+      "eventId": "insurance-and-risk-management",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/07/FBLA-HS-Insurance-Risk-Management-Study-Guide.pdf"
+    },
+    {
+      "eventId": "international-business",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/07/FBLA-HS-International-Business-Study-Guide.pdf"
+    },
+    {
+      "eventId": "introduction-to-business-communication",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/07/FBLA-HS-Intro-to-Business-Communication-Study-Guide.pdf"
+    },
+    {
+      "eventId": "introduction-to-business-concepts",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/03/FBLA-HS-Introduction-to-Business-Concepts-Study-Guide.pdf"
+    },
+    {
+      "eventId": "introduction-to-business-procedures",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/07/FBLA-HS-Intro-to-Business-Procedures-Study-Guide.pdf"
+    },
+    {
+      "eventId": "introduction-to-information-technology",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/03/FBLA-HS-Introduction-to-Information-Technology-Study-Guide.pdf"
+    },
+    {
+      "eventId": "introduction-to-marketing-concepts",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/03/FBLA-HS-Introduction-to-Marketing-Concepts-Study-Guide.pdf"
+    },
+    {
+      "eventId": "introduction-to-parliamentary-procedure",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/07/FBLA-HS-Intro-to-Parliamentary-Procedure-Study-Guide.pdf"
+    },
+    {
+      "eventId": "introduction-to-retail-and-merchandising",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/03/FBLA-HS-Introduction-to-Retail-Merchandising-Study-Guide.pdf"
+    },
+    {
+      "eventId": "introduction-to-supply-chain-management",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/07/FBLA-HS-Intro-to-Supply-Chain-Management-Study-Guide.pdf"
+    },
+    {
+      "eventId": "journalism",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/07/FBLA-HS-Journalism-Study-Guide.pdf"
+    },
+    {
+      "eventId": "management-information-systems",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/03/FBLA-HS-Management-Information-Systems-Study-Guide.pdf"
+    },
+    {
+      "eventId": "marketing",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/03/FBLA-HS-Marketing-Study-Guide.pdf"
+    },
+    {
+      "eventId": "network-design",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/03/FBLA-HS-Network-Design-Study-Guide.pdf"
+    },
+    {
+      "eventId": "networking-infrastructures",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/03/FBLA-HS-Networking-Infrastructures-Study-Guide.pdf"
+    },
+    {
+      "eventId": "parliamentary-procedure",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/07/FBLA-HS-Parliamentary-Procedure-Study-Guide.pdf"
+    },
+    {
+      "eventId": "personal-finance",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/03/FBLA-HS-Personal-Finance-Study-Guide.pdf"
+    },
+    {
+      "eventId": "project-management",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/03/FBLA-HS-Project-Management-Study-Guide.pdf"
+    },
+    {
+      "eventId": "public-administration-and-management",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/03/FBLA-HS-Public-Administration-and-Management-Study-Guide.pdf"
+    },
+    {
+      "eventId": "real-estate",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/03/FBLA-HS-Real-Estate-Study-Guide.pdf"
+    },
+    {
+      "eventId": "retail-management",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/03/FBLA-HS-Retail-Management-Study-Guide.pdf"
+    },
+    {
+      "eventId": "securities-and-investments",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/07/FBLA-HS-Securities-Investments-Study-Guide.pdf"
+    },
+    {
+      "eventId": "sports-and-entertainment-management",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/07/FBLA-HS-Sports-Entertainment-Management-Study-Guide.pdf"
+    },
+    {
+      "eventId": "technology-support-and-services",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2026/03/FBLA-HS-Technology-Support-and-Services-Study-Guide.pdf"
+    },
+    {
+      "eventId": "organizational-leadership",
+      "status": 200,
+      "type": "application/pdf",
+      "url": "https://www.mbaresearch.org/wp-content/uploads/2025/10/HS-Organizational-Leadership-Study-Guide.pdf"
+    }
+  ]
+}
