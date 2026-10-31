@@ -231,13 +231,13 @@
     "id": "connect",
     "title": "Official sample tests and scenarios",
     "publisher": "FBLA CONNECT",
-    "url": "https://support.fbla.org/hc/en-us/articles/4416902542996-Competition-Prep-Sample-Objective-Tests-Role-Plays-Production-Tests-and-Case-Competitions",
+    "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351",
     "type": "Official practice",
     "season": "Current access instructions",
     "access": "FBLA member/adviser login",
     "status": "Current",
-    "checked": "2026-10-27",
-    "description": "Sign into CONNECT, open More → Courses for practice tests; use preparation resources for samples. Ask your adviser to activate your account."
+    "checked": "2026-10-31",
+    "description": "Official high-school sample practice course. Event pages link directly to the matching test. Member login required; tests open on CONNECT because FBLA blocks embedding."
   },
   {
     "id": "archive",

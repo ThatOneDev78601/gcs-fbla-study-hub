@@ -18,7 +18,7 @@ Make each event easy to find and its published test objectives understandable th
 District tests November 9–12, submissions October 31, Central District conference November 21, 2026; sourced and checked October 27. All 76 events, with district/state/national differences.
 
 ## Capabilities and Constraints
-Readable topic lessons and quick reviews first; search, filters, quizzes, flashcards, rehearsal timers, checklists, local progress and export/import. No accounts. No private Drive credentials in the website. Source conflicts remain visible.
+Readable topic lessons and quick reviews first; search, filters, official FBLA sample-test links, independent lesson checks, flashcards, rehearsal timers, checklists, local progress and export/import. Event practice uses FBLA CONNECT rather than independently authored test simulations. CONNECT blocks embedding with X-Frame-Options: DENY and frame-ancestors 'self'; direct links select each event’s test without searching the course menu. Students use their own FBLA login; this site never handles CONNECT credentials or scores. Earlier local quiz results remain labeled and exportable. No site accounts or private Drive credentials. Source conflicts remain visible.
 
 ## Brand Commitments
 Study-handbook design, warm neutral surfaces, navy and teal, strong typography and generous reading space. User approved the plan and delegated aesthetic implementation.

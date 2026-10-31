@@ -1,0 +1,233 @@
+{
+  "publisher": "FBLA",
+  "courseUrl": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351",
+  "verified": "2026-10-31",
+  "access": "FBLA CONNECT member login required",
+  "embedding": {
+    "supported": false,
+    "xFrameOptions": "DENY",
+    "frameAncestors": "'self'"
+  },
+  "tests": [
+    {
+      "eventId": "agribusiness",
+      "title": "Agribusiness Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1745"
+    },
+    {
+      "eventId": "journalism",
+      "title": "Journalism Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1744"
+    },
+    {
+      "eventId": "computer-problem-solving",
+      "title": "Computer Problem Solving Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1736"
+    },
+    {
+      "eventId": "cybersecurity",
+      "title": "Cybersecurity Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1737"
+    },
+    {
+      "eventId": "data-science-and-ai",
+      "title": "Data Science & AI Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1738"
+    },
+    {
+      "eventId": "introduction-to-information-technology",
+      "title": "Introduction to Information Technology Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1739"
+    },
+    {
+      "eventId": "management-information-systems",
+      "title": "Management Information Systems Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1740"
+    },
+    {
+      "eventId": "network-design",
+      "title": "Network Design Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1741"
+    },
+    {
+      "eventId": "networking-infrastructures",
+      "title": "Networking Infrastructures Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1742"
+    },
+    {
+      "eventId": "technology-support-and-services",
+      "title": "Technology Support & Services Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1743"
+    },
+    {
+      "eventId": "accounting",
+      "title": "Accounting Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1728"
+    },
+    {
+      "eventId": "advanced-accounting",
+      "title": "Advanced Accounting Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1729"
+    },
+    {
+      "eventId": "banking-and-financial-systems",
+      "title": "Banking & Financial Systems Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1730"
+    },
+    {
+      "eventId": "economics",
+      "title": "Economics Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1731"
+    },
+    {
+      "eventId": "insurance-and-risk-management",
+      "title": "Insurance & Risk Management Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1732"
+    },
+    {
+      "eventId": "personal-finance",
+      "title": "Personal Finance Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1733"
+    },
+    {
+      "eventId": "real-estate",
+      "title": "Real Estate Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1734"
+    },
+    {
+      "eventId": "securities-and-investments",
+      "title": "Securities & Investments Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1735"
+    },
+    {
+      "eventId": "healthcare-administration",
+      "title": "Healthcare Administration Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1727"
+    },
+    {
+      "eventId": "hospitality-and-event-management",
+      "title": "Hospitality & Event Management Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1725"
+    },
+    {
+      "eventId": "sports-and-entertainment-management",
+      "title": "Sports & Entertainment Management Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1726"
+    },
+    {
+      "eventId": "business-ethics",
+      "title": "Business Ethics Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1715"
+    },
+    {
+      "eventId": "business-management",
+      "title": "Business Management Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1716"
+    },
+    {
+      "eventId": "entrepreneurship",
+      "title": "Entrepreneurship Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1717"
+    },
+    {
+      "eventId": "future-business-leader",
+      "title": "Future Business Leader Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1718"
+    },
+    {
+      "eventId": "human-resource-management",
+      "title": "Human Resource Management Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1719"
+    },
+    {
+      "eventId": "international-business",
+      "title": "International Business Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1720"
+    },
+    {
+      "eventId": "introduction-to-business-concepts",
+      "title": "Introduction to Business Concepts Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1721"
+    },
+    {
+      "eventId": "introduction-to-business-procedures",
+      "title": "Introduction to Business Procedures Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1722"
+    },
+    {
+      "eventId": "organizational-leadership",
+      "title": "Organizational Leadership Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1723"
+    },
+    {
+      "eventId": "project-management",
+      "title": "Project Management Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1724"
+    },
+    {
+      "eventId": "advertising",
+      "title": "Advertising Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1707"
+    },
+    {
+      "eventId": "business-communication",
+      "title": "Business Communication Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1708"
+    },
+    {
+      "eventId": "customer-service",
+      "title": "Customer Service Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1709"
+    },
+    {
+      "eventId": "introduction-to-business-communication",
+      "title": "Introduction to Business Communication Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1710"
+    },
+    {
+      "eventId": "introduction-to-marketing-concepts",
+      "title": "Introduction to Marketing Concepts Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1711"
+    },
+    {
+      "eventId": "introduction-to-retail-and-merchandising",
+      "title": "Introduction to Retail & Merchandising Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1712"
+    },
+    {
+      "eventId": "marketing",
+      "title": "Marketing Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1713"
+    },
+    {
+      "eventId": "retail-management",
+      "title": "Retail Management Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1714"
+    },
+    {
+      "eventId": "business-law",
+      "title": "Business Law Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1703"
+    },
+    {
+      "eventId": "introduction-to-parliamentary-procedure",
+      "title": "Introduction to Parliamentary Procedure & Parliamentary Procedure Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1704"
+    },
+    {
+      "eventId": "parliamentary-procedure",
+      "title": "Introduction to Parliamentary Procedure & Parliamentary Procedure Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1704"
+    },
+    {
+      "eventId": "public-administration-and-management",
+      "title": "Public Administration & Management Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1706"
+    },
+    {
+      "eventId": "introduction-to-supply-chain-management",
+      "title": "Introduction to Supply Chain Management Practice Test",
+      "url": "https://connect.fbla.org/glenelg-country-school/memberhome.php?action=viewCourse&courseId=351&contentId=1702"
+    }
+  ]
+}

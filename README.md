@@ -12,6 +12,8 @@ The three src/data/*-content.json packs contain original lessons, glossaries and
 
 Build checks verify 76 events, at least four lessons/event, 20 questions/test event, source references, mapped knowledge areas, and valid answers. A coverage mapping records editorial association; it is not proof of competition readiness. Lessons are focused explanations, and external textbooks are optional further reading. Source changes require editorial review and redeployment.
 
+Event practice now uses official FBLA CONNECT sample tests. `research/official-practice-links.json` records course links observed on October 31, 2026; `scripts/prepare-resources.mjs` maps 43 tests to 44 events in `src/data/official-practice.json`. The parliamentary events share a test; Introduction to FBLA was not listed and uses a clearly labeled course fallback. CONNECT sends `X-Frame-Options: DENY` and `frame-ancestors 'self'`, so tests open in their own tab. Never proxy authenticated pages, copy member credentials, or treat old local quiz scores as official results. Independent lesson checks and flashcards remain study aids; the former generated event-quiz interface has been removed.
+
 ## Data & privacy
 
 Progress lives only in browser localStorage. My Study supports versioned JSON export/import; importing replaces local data. No accounts, cloud database, private Drive credentials, or analytics. Restricted official practice materials are linked, not copied. The original historical Drive is linked with an explicit age/access label.
