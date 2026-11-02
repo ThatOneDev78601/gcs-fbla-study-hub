@@ -1,6 +1,6 @@
 ---
-title: "Build a household financial plan around goals and tradeoffs"
-summary: "Connect cash flow, reserves, debt, protection, education, and retirement with realistic assumptions."
+title: "Planning household finances"
+summary: "Planning household spending, debt, savings, insurance, education, and retirement."
 sourceIds: ["investor","openstax","maryland","cfpb"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ A household plan begins with goals, income, essential and discretionary expenses
 
 An emergency reserve provides accessible money for unexpected expenses or income disruption. Its appropriate size depends on household stability and obligations. Paying expensive debt reduces interest costs, while maintaining some liquidity can prevent a new emergency from creating more debt. Compare interest rate, fees, minimum payments, and repayment timing. Insurance transfers specified risks for a premium; deductibles, limits, exclusions, and coverage needs determine the tradeoff. The cheapest premium alone does not show the best protection.
 
-> **Work through an example**
+> **Example**
 >
 > A fictional household has a $200 monthly surplus, no reserve, and credit-card debt charging substantial interest. It also expects a $360 annual insurance bill in six months.
 >
@@ -27,7 +27,7 @@ Compare college options using total net cost after realistic grants, not only ad
 - Common mistake: investing an emergency reserve in a volatile asset without considering access and loss risk.
 - Common mistake: presenting projected returns as guaranteed.
 
-## Key terms to remember
+## Key terms
 
 **Net worth.** Assets minus liabilities at a point in time.
 

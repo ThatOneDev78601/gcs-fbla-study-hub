@@ -1,15 +1,15 @@
 ---
 title: "Plan spending, borrowing, and financial goals"
-summary: "Use cash-flow planning, interest, credit terms, and consumer awareness."
+summary: "Budgets, interest, borrowing costs, and saving for a goal."
 sourceIds: ["cfpb","mba"]
 reviewed: "2026-10-27"
 ---
 
 ## Connect goals to a budget
 
-Money functions as a medium of exchange, unit of account, and store of value. A useful goal specifies an amount and date. Track income and spending before creating a plan. Gross income is before deductions; take-home income funds the household budget. Fixed expenses are relatively stable, variable expenses change, and irregular expenses still require planning. A budget is a decision tool, not a prediction that life will never change.
+Money functions as a medium of exchange, unit of account, and store of value. A useful goal specifies an amount and date. Track income and spending before creating a plan. Gross income is before deductions; take-home income funds the household budget. Fixed expenses are relatively stable, variable expenses change, and irregular expenses still require planning. Review your budget when income, costs, or priorities change.
 
-> **Work through an example**
+> **Example**
 >
 > You need $240 in eight weeks and already saved $40.
 >
@@ -27,7 +27,7 @@ Compare financial providers on fees, access, service, and appropriate account pr
 
 Personal net worth equals assets minus liabilities. Income is a flow over time; net worth is a position at a date. An emergency fund addresses unexpected expenses and short-term disruption, while insurance transfers specified large-loss exposures.
 
-## Key terms to remember
+## Key terms
 
 **APR.** An annualized borrowing-cost measure defined by applicable rules.
 

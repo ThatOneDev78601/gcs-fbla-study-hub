@@ -1,6 +1,6 @@
 ---
 title: "The economy and policy tools"
-summary: "Read GDP, inflation, unemployment, and policy choices."
+summary: "What GDP, inflation, and unemployment measure, and how policy affects them."
 sourceIds: ["openstax","mba"]
 reviewed: "2026-10-27"
 ---
@@ -11,7 +11,7 @@ GDP measures final goods and services produced within a country during a period.
 
 Consumer spending is an important demand indicator, but increases can reflect prices as well as real purchases. Interest-rate changes affect borrowing costs, saving incentives, asset values, and exchange rates. Different sectors can respond at different speeds.
 
-> **Work through an example**
+> **Example**
 >
 > Nominal output rises 8% while the price level rises 5%.
 >
@@ -27,7 +27,7 @@ Fiscal policy changes government taxation and spending. Monetary policy influenc
 
 Taxes can fund public services, redistribute resources, and influence behavior. A progressive tax takes a rising share as its base increases; proportional taxes apply a constant rate; regressive effects place a larger relative burden on lower-income households. Evaluate the tax base and incidence rather than judging only the posted percentage.
 
-## Key terms to remember
+## Key terms
 
 **Real GDP.** Output adjusted for price changes.
 

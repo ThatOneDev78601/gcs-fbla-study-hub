@@ -1,6 +1,6 @@
 ---
 title: "Complaints, conflict, and guest recovery"
-summary: "Resolve service failures with facts, appropriate options, and reliable follow-through."
+summary: "Handling complaints, offering remedies, and following up."
 sourceIds: ["mba","openstax"]
 reviewed: "2026-10-27"
 ---
@@ -13,13 +13,13 @@ Conflict often escalates when a person feels unheard, surprised, or dismissed. L
 
 Service recovery restores trust after a failure. Identify the promised service, the actual gap, the customer’s constraints, and available remedies. Explain policy honestly and offer feasible choices within your authority. Escalate when the request exceeds that authority or involves a serious safety or privacy concern. A remedy should address the underlying need; compensation alone may not solve the problem. State who will act, what will happen, and when an update will arrive.
 
-> **Work through an example**
+> **Example**
 >
 > A hotel guest booked an accessible room, but it is unavailable at arrival. The guest needs suitable accommodation that evening.
 >
 > Acknowledge the failure, clarify essential access needs privately, and promptly involve a manager to arrange an appropriate authorized alternative. A small coupon does not replace the missing accommodation.
 
-## Close the loop and improve the system
+## Follow up and prevent repeat problems
 
 Record the issue, facts, agreed action, responsible person, deadline, and outcome. Confirm that the remedy occurred, not merely that a message was sent. Look for repeated causes: unclear descriptions, poor handoffs, system errors, understaffing, or unrealistic promises. During peak demand, triage urgent needs, give accurate wait information, and coordinate staffing while preserving service standards. Evaluate recovery using resolution time, repeat contacts, satisfaction, and recurrence.
 
@@ -27,7 +27,7 @@ Record the issue, facts, agreed action, responsible person, deadline, and outcom
 - Common mistake: admitting invented facts to sound sympathetic.
 - Common mistake: marking a complaint closed before the promised action occurs.
 
-## Key terms to remember
+## Key terms
 
 **Service recovery.** Actions taken to address a service failure and restore trust.
 

@@ -1,6 +1,6 @@
 ---
 title: "Healthcare finance, insurance and information"
-summary: "Connect budgets and billing workflows to accurate records and responsible access."
+summary: "Healthcare billing, insurance, budgets, and patient records."
 sourceIds: ["healthcare","mba","hhs-hipaa","hhs-fraud","hhs-programs","osha-healthcare"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ The revenue cycle spans scheduling and registration through billing, payment and
 
 A premium maintains insurance coverage. A deductible is an amount a covered person may need to pay before specified benefits apply; a copayment is a stated charge and coinsurance is a percentage share. Actual obligations depend on the plan and service, so avoid universal promises. Administrators budget labor, supplies, facilities, technology and other costs. Fixed costs can remain over a relevant range of volume, while variable costs change with activity. Compare actual revenue and spending with the budget and investigate significant variances. Cash flow matters because a service may incur costs well before a claim is paid.
 
-> **Work through an example**
+> **Example**
 >
 > A simplified plan applies 20% coinsurance after the deductible is met to an allowed $500 service.
 >
@@ -27,7 +27,7 @@ HIPAA’s Privacy Rule governs protected health information use and disclosure; 
 
 Electronic health records organize clinical information, while practice-management systems support scheduling and administrative workflows. Interoperability means systems can exchange and meaningfully use information, not merely send a file. Role-based access, audit logs, secure communication and appropriate retention protect sensitive records. Privacy laws and payer requirements must be checked through current authoritative guidance; a study summary cannot replace compliance advice. Common mistakes include assuming all staff need access to every record, treating software as a cure for poor documentation and using billing codes to imply services that records do not support. Accuracy and ethical stewardship connect finance, care and trust.
 
-## Key terms to remember
+## Key terms
 
 **Claim.** A request to a payer for payment of a covered service.
 

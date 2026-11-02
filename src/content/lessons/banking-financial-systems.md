@@ -1,6 +1,6 @@
 ---
 title: "Banking services and financial institutions"
-summary: "Understand deposits, lending, daily controls, and customer relationships."
+summary: "How banks handle deposits, lending, records, and customer service."
 sourceIds: ["cfpb","mba"]
 reviewed: "2026-10-27"
 ---
@@ -17,7 +17,7 @@ Banks earn revenue through interest and fees while managing funding costs, credi
 
 Loan pricing reflects funding cost, expected credit loss, operating cost, term, collateral, and competition. Business services can include payroll, merchant payment processing, cash management, and working-capital credit. Apply time-value formulas with matching periods: at hypothetical 5% annual compounding, $1,000 becomes $1,102.50 in two years.
 
-> **Work through an example**
+> **Example**
 >
 > A borrower has $2,000 monthly take-home income and $700 existing monthly debt payments.
 >
@@ -29,7 +29,7 @@ Reconcile transactions, verify authorization, safeguard customer information, an
 
 The Federal Reserve influences monetary conditions and supports banking-system functions; other banking, deposit-insurance, and consumer regulators have distinct responsibilities. Identify the correct authority for the issue rather than assuming one agency regulates every product. Teller standards include accurate balancing, authorization, privacy, and clear customer explanations. Professional associations and credentials support continuing learning; they do not replace institutional procedures.
 
-## Key terms to remember
+## Key terms
 
 **Credit risk.** Risk that a borrower does not repay as agreed.
 

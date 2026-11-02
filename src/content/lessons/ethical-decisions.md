@@ -1,6 +1,6 @@
 ---
-title: "Make and explain an ethical decision"
-summary: "Practice self-awareness, stakeholder reasoning, and accountable action."
+title: "Making ethical decisions"
+summary: "How to compare choices, consider who is affected, and explain your decision."
 sourceIds: ["openstax","mba"]
 reviewed: "2026-10-27"
 ---
@@ -15,7 +15,7 @@ Common biases include favoring familiar people, seeking only confirming evidence
 
 List feasible actions and compare consequences, duties, rights, fairness, and long-term trust. A conflict of interest arises when personal interests can interfere with responsibilities, even before misconduct happens. Disclose conflicts and follow the appropriate recusal or review process. A professional response explains the reasoning and evidence rather than attacking a person. Do not promise secrecy if reporting obligations may apply.
 
-> **Work through an example**
+> **Example**
 >
 > You help choose a vendor and your cousin owns one bidder.
 >
@@ -27,7 +27,7 @@ Choose a defensible action, identify who must approve it, communicate respectful
 
 Keep communication constructive: explain the issue, evidence, action, and owner. Accountability includes admitting an error and repairing its effects, not merely explaining why it happened. A useful team norm rewards early reporting of mistakes so they can be corrected before harm grows.
 
-## Key terms to remember
+## Key terms
 
 **Conflict of interest.** A personal interest that may interfere with a professional responsibility.
 

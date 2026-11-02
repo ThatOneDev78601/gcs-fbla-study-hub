@@ -22,8 +22,8 @@ writeFileSync('src/data/modules.json',JSON.stringify(modules,null,2)+'\n');
 mkdirSync('src/content/lessons',{recursive:true});
 const escapeCell=s=>s.replace(/\|/g,'\\|').replace(/\n/g,' ');
 for(const m of modules){let md='---\ntitle: '+JSON.stringify(m.title)+'\nsummary: '+JSON.stringify(m.summary)+'\nsourceIds: '+JSON.stringify(m.sourceIds)+'\nreviewed: "2026-10-27"\n---\n\n';
-for(const s of m.sections){md+='## '+s.heading+'\n\n'+s.paragraphs.join('\n\n')+'\n\n';if(s.bullets?.length)md+=s.bullets.map(b=>'- '+b).join('\n')+'\n\n';if(s.table){md+='| '+s.table.headers.map(escapeCell).join(' | ')+' |\n| '+s.table.headers.map(()=>'---').join(' | ')+' |\n'+s.table.rows.map(row=>'| '+row.map(escapeCell).join(' | ')+' |').join('\n')+'\n\n'}if(s.example)md+='> **Work through an example**\n>\n> '+s.example.scenario+'\n>\n> '+s.example.solution+'\n\n';}
-md+='## Key terms to remember\n\n'+m.terms.map(t=>'**'+t.term+'.** '+t.definition).join('\n\n')+'\n';
+for(const s of m.sections){md+='## '+s.heading+'\n\n'+s.paragraphs.join('\n\n')+'\n\n';if(s.bullets?.length)md+=s.bullets.map(b=>'- '+b).join('\n')+'\n\n';if(s.table){md+='| '+s.table.headers.map(escapeCell).join(' | ')+' |\n| '+s.table.headers.map(()=>'---').join(' | ')+' |\n'+s.table.rows.map(row=>'| '+row.map(escapeCell).join(' | ')+' |').join('\n')+'\n\n'}if(s.example)md+='> **Example**\n>\n> '+s.example.scenario+'\n>\n> '+s.example.solution+'\n\n';}
+md+='## Key terms\n\n'+m.terms.map(t=>'**'+t.term+'.** '+t.definition).join('\n\n')+'\n';
 writeFileSync('src/content/lessons/'+m.id+'.md',md)}
 mkdirSync('research',{recursive:true});writeFileSync('research/coverage.json',JSON.stringify(coverage,null,2)+'\n');
 console.log('Prepared '+modules.length+' original lessons for '+events.length+' events; '+modules.reduce((n,m)=>n+m.questions.length,0)+' original questions.');

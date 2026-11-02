@@ -1,6 +1,6 @@
 ---
 title: "Reporting: questions, interviews, and verification"
-summary: "Find a worthwhile story and build an accurate record before drafting."
+summary: "Finding a story, interviewing sources, and verifying the facts."
 sourceIds: ["spj","mba"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ A reportable story connects a clear development with people affected by it. Ask 
 
 Arrange a suitable time, identify yourself and the topic, and clarify recording and attribution expectations before proceeding. Prepare open questions followed by precise factual checks. Listen actively, take organized notes, and ask follow-ups when an answer is vague. Do not infer honesty from body language alone. Confirm spelling, titles, dates, numbers, and the context of quotations. Separate direct quotation, paraphrase, and your own observation in the notes.
 
-> **Work through an example**
+> **Example**
 >
 > A student says cafeteria waste doubled this month. One social post repeats the claim, and a custodian recalls two unusually busy days.
 >
@@ -27,7 +27,7 @@ Build a claim checklist and verify each item against reliable evidence. Corrobor
 - Common mistake: confusing a witness’s interpretation with direct observation.
 - Common mistake: promising confidentiality casually without considering whether it can be protected.
 
-## Key terms to remember
+## Key terms
 
 **Corroboration.** Independent evidence that supports or checks a claim.
 

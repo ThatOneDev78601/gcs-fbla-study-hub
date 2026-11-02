@@ -1,6 +1,6 @@
 ---
 title: "Machine learning, evaluation and AI reasoning"
-summary: "Choose learning methods and judge models using unseen data and relevant metrics."
+summary: "Learning methods, model evaluation, and the limits of AI predictions."
 sourceIds: ["mba","openstax"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ Artificial intelligence is a broad field concerned with tasks such as perception
 
 Separate training, validation and test data so model selection does not contaminate the final evaluation. Overfitting learns details that fail to generalize; underfitting misses useful structure. Leakage occurs when information unavailable at prediction time enters training or evaluation. Accuracy is correct predictions divided by all predictions. Precision measures how often positive predictions are correct; recall measures how many actual positives are found. Choose metrics based on the cost of mistakes. A model that always predicts the majority class can appear accurate while failing the very cases that matter.
 
-> **Work through an example**
+> **Example**
 >
 > Only 2% of transactions are fraudulent. A model labels every transaction legitimate.
 >
@@ -23,7 +23,7 @@ Separate training, validation and test data so model selection does not contamin
 
 Models represent information through features, rules, graphs, vectors or learned parameters. Computer vision interprets images; natural language processing works with language. Search explores candidate states or solutions, while rule systems apply explicit conditions. Generative models produce plausible content from learned patterns but can produce false statements. Monitor deployment for drift when data or behavior changes. Human review, suitable uncertainty and limits on automated action matter in consequential settings. Common mistakes include calling every automated rule machine learning, testing on training examples, optimizing one metric without business context and presenting a confident generated explanation as verified evidence.
 
-## Key terms to remember
+## Key terms
 
 **Overfitting.** Learning patterns too specific to training data to generalize well.
 

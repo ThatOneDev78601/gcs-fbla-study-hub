@@ -1,6 +1,6 @@
 ---
 title: "Insurance and risk management"
-summary: "Match a loss exposure with a risk treatment and understand the policy."
+summary: "Types of risk, ways to manage them, and how insurance coverage works."
 sourceIds: ["naic","mba"]
 reviewed: "2026-10-27"
 ---
@@ -17,7 +17,7 @@ A premium is the price of coverage. A deductible is the insured’s specified sh
 
 Auto coverage can include liability, collision, and comprehensive protections with different triggers. Homeowners and renters policies address different property interests; renters need coverage for their own belongings. Flood and earthquake losses may require separate coverage. Disability coverage concerns lost earning ability; title insurance addresses specified title defects. Workers’ compensation addresses covered work-related injuries, while unemployment insurance serves a different income-support purpose. Medicare and Medicaid are different public health programs with distinct eligibility and administration.
 
-> **Work through an example**
+> **Example**
 >
 > A covered property loss is $3,000, with a $500 deductible and an adequate limit, assuming no other policy adjustment.
 >
@@ -29,7 +29,7 @@ Underwriters evaluate risk and eligibility for terms; actuaries analyze patterns
 
 A claim workflow identifies the policy and date, documents circumstances, evaluates coverage, verifies evidence, values the covered loss, and communicates the decision. Subrogation can allow an insurer that paid a loss to pursue the responsible party under applicable rights. Claims analytics can flag anomalies but a flag is not proof of fraud. Professional licensing requirements vary by role and jurisdiction; continuing education and ethical conduct matter after the initial credential.
 
-## Key terms to remember
+## Key terms
 
 **Deductible.** The insured’s specified share of a covered loss.
 

@@ -1,6 +1,6 @@
 ---
 title: "Contracts and legal foundations"
-summary: "Identify the right legal issue before choosing a rule."
+summary: "The parts of a valid contract, legal claims, and possible remedies."
 sourceIds: ["openstax","mba"]
 reviewed: "2026-10-27"
 ---
@@ -15,7 +15,7 @@ The US has both federal and state court systems. A trial court hears evidence an
 
 An enforceable agreement typically requires offer, acceptance, consideration, capacity, and lawful purpose. Consideration is a bargained-for exchange, not a finding that the price was favorable. An invitation to negotiate is not automatically an offer. Duress, misrepresentation, incapacity, or illegality can affect enforcement. Some agreements must meet writing requirements. Distinguish void agreements from agreements a protected party can avoid.
 
-> **Work through an example**
+> **Example**
 >
 > A printer offers 100 flyers for $40. The customer replies, “I will pay $30.”
 >
@@ -27,7 +27,7 @@ Goods, services, leases, agency, and negotiable instruments raise different ques
 
 Debtor-creditor law concerns obligations, collection, security interests, and remedies. A secured creditor has a claim linked to collateral under applicable rules; an unsecured creditor lacks that specific security. Environmental law concerns pollution, resource use, and related responsibilities. Consumer agencies address deceptive or unfair conduct; a product’s marketing claim should be supported rather than treated as acceptable because competitors repeat it.
 
-## Key terms to remember
+## Key terms
 
 **Consideration.** A bargained-for exchange.
 

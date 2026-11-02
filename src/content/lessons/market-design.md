@@ -1,6 +1,6 @@
 ---
 title: "Advertising copy and visual communication"
-summary: "Write a clear message and use layout, typography, and color with purpose."
+summary: "Advertising messages, layout, typography, and color choices."
 sourceIds: ["mba","adobe","hubspot"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ An effective advertisement has a specific audience and action. A headline attrac
 
 Contrast, alignment, repetition, proximity, balance, and whitespace make relationships visible. Group related information and establish a clear reading order. Typography includes typeface, size, weight, line spacing, and line length; decorative type should not obscure essential information. Color harmony can unify a composition, but use labels and contrast rather than color alone. RGB is used for screens, while print workflows often use CMYK; preview output in its intended medium.
 
-> **Work through an example**
+> **Example**
 >
 > A poster for a beginner repair workshop contains five equal-size headlines, pale yellow text, and no registration instruction.
 >
@@ -33,7 +33,7 @@ Serif type has small finishing strokes; sans-serif type omits them. Display face
 
 Vector artwork uses scalable paths and is useful for logos and diagrams. Raster artwork uses pixels and suits photographs or painted textures; enlarging a small raster image can reveal pixelation. Pencil, ink, paint, photography, and digital illustration offer different textures and production needs. For print, check effective resolution, bleed, safe margins, and printer specifications. For digital output, check responsive cropping, file size, color contrast, and readable text at the actual display size.
 
-## Key terms to remember
+## Key terms
 
 **Hierarchy.** A visual order that shows what should be noticed first, next, and last.
 

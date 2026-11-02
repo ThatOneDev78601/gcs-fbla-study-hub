@@ -1,11 +1,11 @@
 ---
 title: "Agribusiness economics, finance and marketing"
-summary: "Trace value from farm inputs to customers and manage the uncertainty of seasonal production."
+summary: "Farm markets, seasonal budgets, contracts, and business risks."
 sourceIds: ["mba","openstax","epa-agriculture"]
 reviewed: "2026-10-27"
 ---
 
-## Agribusiness is a connected value system
+## How agribusinesses work together
 
 Agribusiness includes input suppliers, producers, processors, distributors, retailers and service organizations. A farm is one part of this larger chain. Inputs such as seed, feed, labor and equipment become outputs sold into markets. Demand reflects consumers’ willingness and ability to buy; supply reflects producers’ willingness and ability to sell. Weather, disease, energy prices and trade conditions can shift supply or demand. Many biological production processes take time, so producers cannot instantly adjust output when prices change. Opportunity cost is the value of the best alternative use of a scarce resource such as land or labor.
 
@@ -13,7 +13,7 @@ Agribusiness includes input suppliers, producers, processors, distributors, reta
 
 An enterprise budget estimates revenue and costs for a particular activity. Revenue equals quantity sold multiplied by price, but profit requires subtracting all relevant costs. Distinguish cash costs from noncash costs such as depreciation. Break-even price equals total relevant cost divided by units sold. Working capital supports seasonal expenses before harvest receipts arrive. Market research examines buyers, quality requirements, channels and competition. Commodity marketing often emphasizes standardized grades and volume; differentiated products may compete on origin, attributes or service. A contract can allocate delivery and price risk, but its obligations must be understood before agreement.
 
-> **Work through an example**
+> **Example**
 >
 > A school greenhouse expects to sell 800 plants and has $2,400 in relevant costs.
 >
@@ -27,7 +27,7 @@ Sole proprietorships center ownership in one person; partnerships share ownershi
 
 Accurate weights, truthful claims, fair dealing and responsible labor practices build trust. Business arrangements involve contracts, ownership and liability, but exact legal duties depend on current jurisdiction and the activity. Use qualified guidance for real decisions. Manage risk through suitable diversification, insurance, safety, reserves and sound operations rather than assuming one tool removes all uncertainty. Common mistakes include treating sales as profit, ignoring family labor or equipment wear in economic analysis and planning from an unusually favorable season alone. Evaluate a range of yield and price outcomes and explain the assumptions behind a recommendation.
 
-## Key terms to remember
+## Key terms
 
 **Enterprise budget.** An estimate of revenue and costs for a particular production activity.
 

@@ -1,6 +1,6 @@
 ---
 title: "Investments, markets, and investment analysis"
-summary: "Compare products, returns, risk, costs, and reliable research."
+summary: "Investment types, returns, risks, fees, and sources of research."
 sourceIds: ["investor","mba"]
 reviewed: "2026-10-27"
 ---
@@ -15,7 +15,7 @@ A margin account permits borrowing against securities and can magnify losses as 
 
 Total holding-period return includes price change and income relative to initial cost. Compare fees, time horizon, liquidity, diversification, and risk rather than chasing the highest recent return. Diversification can reduce concentration risk but cannot eliminate all losses. A portfolio’s allocation should match goals and ability to bear uncertainty. Fundamental analysis examines business and financial evidence; technical analysis studies price and volume patterns. Neither guarantees prediction.
 
-> **Work through an example**
+> **Example**
 >
 > Buy a share for $50, receive a $2 dividend, then sell for $53, ignoring fees and taxes.
 >
@@ -27,7 +27,7 @@ Read official disclosures, financial statements, prospectuses, and fee schedules
 
 Retirement and education accounts are account structures with applicable tax and withdrawal rules, not investments that automatically earn a return. A derivative derives value from an underlying item; an option gives specified rights, while futures establish contractual obligations. Commodity, real-estate, venture-capital, and hedge-fund exposures have different liquidity and risk. Variable annuities combine insurance features with investment exposure and can involve significant fees or restrictions. Market timing attempts to predict entry and exit points; past success does not establish reliable future prediction.
 
-## Key terms to remember
+## Key terms
 
 **Bond.** A debt security representing an issuer’s borrowing obligation.
 

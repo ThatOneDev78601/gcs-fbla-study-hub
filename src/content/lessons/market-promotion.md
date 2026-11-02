@@ -1,6 +1,6 @@
 ---
 title: "Promotion, media planning, and measurement"
-summary: "Coordinate messages, calculate media measures, and distinguish promotional tools."
+summary: "Promotional tools, media planning, and ways to measure a campaign."
 sourceIds: ["mba","hubspot","ftc-advertising"]
 reviewed: "2026-10-27"
 ---
@@ -13,13 +13,13 @@ Advertising buys message placement; publicity earns media attention; public rela
 
 Reach is the number of distinct people exposed; frequency is how often they are exposed; impressions count total exposures. A media schedule states what runs, where, when, and at what cost. Compare geography, audience fit, accessibility, timing, creative format, and cost rather than price alone. Cost per thousand impressions, or CPM, equals media cost divided by impressions times 1,000. Click-through rate measures clicks divided by impressions, while conversion requires a defined desired action.
 
-> **Work through an example**
+> **Example**
 >
 > An event ad costs $120 and receives 30,000 impressions. A different ad costs $80 for 8,000 impressions.
 >
 > The CPMs are $4 and $10 respectively. The first buys cheaper exposure, but the second could still perform better if it reaches likely attendees and produces more qualified purchases.
 
-## Promote honestly and learn
+## Check claims and campaign results
 
 Create a plan with objective, audience, message, channels, budget, schedule, and evaluation. For a loyalty program, explain qualification, reward, expiry, and privacy terms. Cross-promotion pairs complementary partners, but both must agree to responsibilities and message use. Endorsements and paid relationships need appropriate disclosure. Do not claim results that evidence does not support. Evaluate awareness, traffic, qualified actions, cost per acquisition, and retention according to the original goal.
 
@@ -27,11 +27,11 @@ Create a plan with objective, audience, message, channels, budget, schedule, and
 - Common mistake: calling a paid placement independent publicity.
 - Common mistake: comparing campaign performance when the measurement windows differ.
 
-## Stable rules for responsible promotion
+## Advertising claims and disclosures
 
 Advertisements should be truthful, supported by evidence, and clear about material conditions. Disclose a paid endorsement or other material relationship so the audience can recognize the incentive. Permission to use a logo, photograph, music track, or likeness is distinct from simply crediting its creator. Evaluate sweepstakes, customer data, comparative claims, and direct messages against current official guidance before launch. The source library links to official guidance; exact legal requirements depend on the activity and jurisdiction.
 
-## Key terms to remember
+## Key terms
 
 **Reach.** The number of distinct people exposed to a message.
 

@@ -1,6 +1,6 @@
 ---
 title: "Scarcity and markets"
-summary: "Explain incentives, prices, systems, and specialization."
+summary: "How scarcity, incentives, and prices shape economic choices."
 sourceIds: ["openstax","mba"]
 reviewed: "2026-10-27"
 ---
@@ -11,7 +11,7 @@ Scarcity means wants exceed available resources. Opportunity cost is the best al
 
 Goods are tangible items; services are activities. Business can add form utility by transforming inputs, place utility by moving a product where needed, time utility by making it available when needed, and possession utility by enabling acquisition. Prices signal scarcity, coordinate choices, and provide incentives.
 
-> **Work through an example**
+> **Example**
 >
 > You spend your only free hour volunteering instead of earning $16.
 >
@@ -27,7 +27,7 @@ Market systems rely heavily on prices and private decisions; command systems use
 
 Division of labor can improve productivity through specialization but can create coordination costs or narrow tasks. Diminishing marginal returns occur when adding more of one input to fixed other inputs eventually produces smaller extra output. A union represents workers in collective bargaining about employment terms. Negotiation and agreed procedures differ from assuming either side can obtain every requested outcome.
 
-## Key terms to remember
+## Key terms
 
 **Comparative advantage.** Production at a lower opportunity cost.
 

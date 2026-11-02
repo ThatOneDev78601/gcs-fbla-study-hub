@@ -1,6 +1,6 @@
 ---
 title: "Purchasing, supplier selection and responsible sourcing"
-summary: "Buy against a clear need, evaluate total cost and manage supplier performance."
+summary: "Writing purchasing requirements, comparing suppliers, and checking performance."
 sourceIds: ["ascm","mba"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ Purchasing obtains goods and services needed by the organization. A useful speci
 
 Total cost of ownership includes purchase price plus relevant transport, installation, operation, support, quality and disposal costs. Supplier evaluation can consider capacity, delivery reliability, quality, financial stability, ethical practices and support. Use criteria and evidence consistently. A low price can be expensive if defects shut down operations. Single sourcing can simplify coordination but creates dependency; multiple sources can improve resilience while adding coordination cost. Negotiate clear terms and responsibilities. Contracts allocate obligations and risk but do not eliminate the need to monitor actual performance or resolve ambiguity before a problem becomes urgent.
 
-> **Work through an example**
+> **Example**
 >
 > Supplier A charges $900 but needs $250 freight. Supplier B charges $1,050 with freight included; quality and delivery are otherwise equal.
 >
@@ -23,7 +23,7 @@ Total cost of ownership includes purchase price plus relevant transport, install
 
 Maintain appropriate confidentiality and avoid gifts or personal interests that could distort selection. Disclose conflicts through the organization’s process. Responsible sourcing considers labor conditions, environmental effects and lawful practices alongside operational needs. Scorecards can track on-time delivery, defect rates and responsiveness, using definitions both parties understand. Collaborate on root causes rather than accepting repeated emergency expediting as normal. Common mistakes include choosing the cheapest unit price without lifecycle costs, changing specifications after offers without a fair process and treating a long relationship as a reason to stop checking supplier performance. Evidence and clear expectations support trust.
 
-## Key terms to remember
+## Key terms
 
 **Purchase order.** An authorized order stating goods or services and agreed terms.
 

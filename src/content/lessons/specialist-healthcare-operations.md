@@ -1,6 +1,6 @@
 ---
 title: "Healthcare organizations, people and quality"
-summary: "Understand how care settings coordinate safe services and operational improvement."
+summary: "Care settings, staffing, communication, and quality improvement."
 sourceIds: ["healthcare","mba"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ Healthcare organizations include hospitals, outpatient clinics, long-term care f
 
 Workforce planning matches skills, credentials and staffing to service demand. Orientation, continuing training, supervision and clear roles support safe practice. Recruitment alone cannot solve retention problems caused by poor scheduling or an unsafe workplace. Strategic planning links community needs and organizational capacity to measurable priorities. Communicate changes with patients and staff using accessible language; confirm understanding rather than assuming a message was received. Standardized handoffs can reduce missing information at transitions. Effective leadership encourages staff to report near misses so the organization can learn before a preventable harm occurs.
 
-> **Work through an example**
+> **Example**
 >
 > A clinic has long waits even though daily visit totals are stable.
 >
@@ -27,7 +27,7 @@ Functional structures group people by specialty; matrix structures combine repor
 
 Quality includes safety, effectiveness, timeliness, patient-centeredness, efficiency and equity. Measure the process before changing it, choose an intervention and check the result. A root-cause analysis examines system contributors rather than stopping at 'someone made a mistake.' Track both intended outcomes and balancing measures, such as whether shorter visits increase callbacks. Patient satisfaction is useful but cannot alone establish clinical quality. Common mistakes include treating every delay as a staffing shortage, using averages that hide underserved groups and discouraging reporting to make incident counts appear low. Support a culture that distinguishes learning from concealment.
 
-## Key terms to remember
+## Key terms
 
 **Continuum of care.** Connected services across a person’s different health needs and settings.
 

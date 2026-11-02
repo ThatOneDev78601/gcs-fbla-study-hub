@@ -1,6 +1,6 @@
 ---
 title: "Trade, currency, and global decisions"
-summary: "Connect comparative advantage, exchange rates, and international operations."
+summary: "Why countries trade, how exchange rates work, and ways to enter foreign markets."
 sourceIds: ["openstax","mba"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ Trade reflects different resources, skills, opportunity costs, and customer pref
 
 Exchange rates express one currency’s price in another. A stronger home currency generally makes foreign goods cheaper at a fixed foreign price and home exports more expensive to foreign buyers. Label the units before multiplying or dividing. Freight, insurance, duties, and delay also belong in landed cost.
 
-> **Work through an example**
+> **Example**
 >
 > An invoice is €1,000. The rate changes from $1.10 to $1.20 per euro before payment.
 >
@@ -25,7 +25,7 @@ Exporting sells from home; licensing grants intellectual-property rights; joint 
 
 Trade alliances can lower internal barriers and create common rules; compare a free-trade area with a customs union, which also shares an external tariff policy. Geography changes freight routes, climate exposure, and access to ports. Infrastructure and economic development affect purchasing power and delivery capacity. History and political relationships can shape trust and restrictions. Digital communication lowers coordination costs but introduces time-zone, access, security, and translation challenges. These factors help explain why copying a successful home-market model may fail abroad.
 
-## Key terms to remember
+## Key terms
 
 **Tariff.** A tax on imports.
 

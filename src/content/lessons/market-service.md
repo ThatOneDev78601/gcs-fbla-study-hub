@@ -1,11 +1,11 @@
 ---
 title: "Customer relationships, empathy, and CRM"
-summary: "Make service promises concrete and use customer information responsibly."
+summary: "Customer service, brand promises, and responsible use of customer records."
 sourceIds: ["mba","hubspot"]
 reviewed: "2026-10-27"
 ---
 
-## Make respect observable
+## Listen and respond respectfully
 
 A service mindset treats the customer’s goal as a problem to understand. Greet people appropriately, listen without interrupting, ask relevant questions, summarize the request, and explain the next step. Empathy means recognizing a person’s feelings and circumstances without pretending to agree with an inaccurate claim. Adapt pace, language, channel, and format to the individual instead of assuming preferences from their background. Ask before helping and accommodate access needs within authorized procedures.
 
@@ -13,7 +13,7 @@ A service mindset treats the customer’s goal as a problem to understand. Greet
 
 A brand promise becomes real in moments of truth: a checkout, arrival, support request, delay, or return. Employees reinforce the organization’s image through accuracy, reliability, courtesy, and ownership. Anticipate likely needs, such as directions or an accessible format, but confirm rather than stereotype. Explain policies in plain language, including what can be done within the policy. Set realistic expectations for timing and communicate early when circumstances change.
 
-> **Work through an example**
+> **Example**
 >
 > A guest cannot read a small-print registration form and is worried about holding up the queue.
 >
@@ -27,7 +27,7 @@ Customer relationship management combines processes and technology to maintain i
 - Common mistake: collecting personal information because a form happens to have a field for it.
 - Common mistake: giving a standard script without checking whether it answered the actual inquiry.
 
-## Key terms to remember
+## Key terms
 
 **Empathy.** Recognizing another person’s perspective and feelings.
 

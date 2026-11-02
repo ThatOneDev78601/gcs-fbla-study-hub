@@ -1,6 +1,6 @@
 ---
 title: "Leadership, teamwork, and stressful situations"
-summary: "Adapt your leadership and resolve conflict with evidence and respect."
+summary: "Leadership styles, team conflict, and decisions under pressure."
 sourceIds: ["openstax","mba"]
 reviewed: "2026-10-27"
 ---
@@ -15,7 +15,7 @@ Power can come from formal authority, rewards, expertise, trust, or coercion. Us
 
 Teams need clear roles, goals, norms, and communication. Disagreement about a task can improve reasoning; personal attacks undermine it. Describe observable behavior and its effect, listen for interests, and agree on specific next actions. Collaboration seeks an integrated solution; compromise shares concessions; avoidance may postpone a low-priority issue but can allow serious concerns to grow. Give feedback privately when appropriate and separate performance from personal worth.
 
-> **Work through an example**
+> **Example**
 >
 > Two students both expect to lead the presentation.
 >
@@ -25,9 +25,9 @@ Teams need clear roles, goals, norms, and communication. Disagreement about a ta
 
 Define the problem before selecting a solution. Compare options, identify constraints, verify assumptions, and consider unintended effects. Prioritize by urgency and impact, break work into manageable steps, and ask for help before failure becomes unavoidable. Stress management includes realistic planning, breaks, and constructive support; ignoring symptoms is not resilience. After a setback, debrief what happened without inventing blame. Ethical leadership models honesty and protects people who raise legitimate concerns.
 
-Organizational culture consists of shared norms and expectations, including what people actually reward. Office politics involves informal influence and relationships; navigate it by building trust and understanding interests without manipulation. Assertiveness states needs respectfully and directly; it differs from both aggression and silent avoidance. Creativity generates options, while critical evaluation tests their usefulness against constraints.
+Organizational culture consists of shared norms and expectations, including what people actually reward. Office politics involves informal influence and relationships. Build trust, understand people’s interests, and avoid manipulating others. Assertiveness states needs respectfully and directly; it differs from both aggression and silent avoidance. Creativity generates options, while critical evaluation tests their usefulness against constraints.
 
-## Key terms to remember
+## Key terms
 
 **Delegation.** Assigning responsibility and sufficient authority while retaining appropriate accountability.
 

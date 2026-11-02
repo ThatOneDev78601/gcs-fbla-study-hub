@@ -1,6 +1,6 @@
 ---
-title: "Plan, organize, lead, and control"
-summary: "Turn organizational goals into decisions, resources, and measurable improvement."
+title: "Management and business strategy"
+summary: "How managers set goals, assign work, choose strategies, and check results."
 sourceIds: ["openstax","mba","pmi"]
 reviewed: "2026-10-27"
 ---
@@ -15,19 +15,19 @@ Management types include production, marketing, financial, human-resource, and p
 
 A SWOT separates internal strengths and weaknesses from external opportunities and threats. Set specific objectives with measures and deadlines. Compare alternatives against customer value, capability, cost, risk, and capacity. A forecast is an estimate, not a guaranteed outcome. Budgets translate plans into financial expectations. Cash planning matters even when a project appears profitable because payments and receipts occur at different times.
 
-> **Work through an example**
+> **Example**
 >
 > A club wants to cut check-in waits from 12 minutes to 5 by the next conference.
 >
 > Measure arrivals and processing times, test an extra check-in station, and compare actual waits with the five-minute target. “Improve check-in” alone is not measurable.
 
-## Control operations without losing the purpose
+## Checking progress and adjusting the plan
 
 Use a few relevant indicators rather than rewarding only easy-to-count activity. Track quality, time, cost, and outcomes together. Assign an owner for each action and clarify dependencies. Preventive controls act before an error, concurrent controls monitor current work, and feedback controls use completed results. Continuous improvement tests a change and studies evidence. Avoid optimizing one department while creating delays or rework elsewhere. A contingency plan prepares a response to an identifiable risk.
 
 Competitive strategy may emphasize lower cost, distinctive value, or a focused segment. A balanced decision considers capabilities and trade-offs: promising premium service while cutting all support capacity is inconsistent. Change management explains the purpose, involves affected people, supplies training, and monitors adoption rather than announcing a policy and assuming behavior changes.
 
-## Key terms to remember
+## Key terms
 
 **SWOT.** Internal strengths/weaknesses and external opportunities/threats.
 

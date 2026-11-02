@@ -1,6 +1,6 @@
 ---
-title: "Business documents with structure and consistency"
-summary: "Use styles, tables, page layout, and mail merge to produce readable documents."
+title: "Formatting business documents"
+summary: "Using styles, tables, page layout, and mail merge in business documents."
 sourceIds: ["microsoft","maryland","national"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ A business document should have a clear purpose, audience, and hierarchy. Use pa
 
 Tables align related information using rows and columns; tabs or strings of spaces rarely survive changes reliably. Repeat header rows across pages where appropriate and avoid splitting a short logical record unnecessarily. A business letter needs the requested date, recipient, salutation, message, closing, and sender information in the required format. Mail merge combines a main document with a structured data source to create personalized outputs. Verify field names, filters, and representative records before producing the entire batch.
 
-> **Work through an example**
+> **Example**
 >
 > You need to send a personalized invitation to twelve members from a spreadsheet.
 >
@@ -26,7 +26,7 @@ Check spelling and grammar while also verifying meaning, names, numbers, and dat
 - Practice task: format a two-page business report using heading styles, a table, a header, and page numbers; export it as a PDF.
 - Common mistake: formatting every heading separately, then missing one during a revision.
 
-## Key terms to remember
+## Key terms
 
 **Paragraph style.** A reusable collection of paragraph and text-formatting settings.
 

@@ -1,6 +1,6 @@
 ---
 title: "Inventory, payroll, and managerial costs"
-summary: "Calculate cost flows and break-even decisions."
+summary: "Inventory costs, payroll calculations, and break-even analysis."
 sourceIds: ["openstax","mba"]
 reviewed: "2026-10-27"
 ---
@@ -11,7 +11,7 @@ Cost of goods sold = beginning inventory + net purchases − ending inventory. P
 
 LIFO assigns latest costs to sales first. In the 20-unit example, LIFO cost of 12 sold is $68: 10 × $6 + 2 × $4; ending inventory is $32. Shrinkage means recorded inventory exceeds the physical count; adjust the record rather than continuing to report missing goods. Returns and obsolescence also require appropriate adjustments.
 
-> **Work through an example**
+> **Example**
 >
 > Buy 10 units at $4 and 10 at $6, then sell 12.
 >
@@ -29,13 +29,13 @@ Fixed costs stay constant within a relevant range; variable costs change with ac
 
 Variance analysis compares actual results with a budget or standard. A $500 cost budget and $560 actual cost produce a $60 unfavorable cost variance. First check whether actual activity differs from planned activity; a flexible budget makes the comparison at a comparable activity level.
 
-> **Work through an example**
+> **Example**
 >
 > Price is $20, variable cost $12, and fixed costs $240.
 >
 > Each unit contributes $8. Break-even is 30 units. At 40 units, $320 contribution less $240 fixed costs leaves $80.
 
-## Key terms to remember
+## Key terms
 
 **Sunk cost.** A past cost unaffected by the current choice.
 

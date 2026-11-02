@@ -1,6 +1,6 @@
 ---
 title: "Public budgets, revenue and performance"
-summary: "Read a public budget as a statement of priorities, constraints and accountability."
+summary: "How governments raise money, set budgets, and report results."
 sourceIds: ["usa","mba","openstax"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ A public budget authorizes and plans the use of resources for community purposes
 
 Distinguish fixed costs from costs that change with service volume. Cost per service unit divides relevant spending by the number of units, but it does not measure quality by itself. A program can lower unit cost by serving easier cases while neglecting people with complex needs. Cost-benefit analysis compares costs and valued benefits; cost-effectiveness compares ways to achieve an outcome when benefits are difficult to price. Debt can finance long-lived assets but creates future repayment obligations. A one-time grant should not be treated as permanent recurring funding without a plan for continuing expenses.
 
-> **Work through an example**
+> **Example**
 >
 > A tutoring program spends $12,000 and delivers 600 sessions.
 >
@@ -23,7 +23,7 @@ Distinguish fixed costs from costs that change with service volume. Cost per ser
 
 Internal controls such as authorization, separation of duties and reconciliations reduce errors and misuse. Procurement specifications should define needs clearly so offers can be evaluated fairly. Competitive selection processes protect accountability, but exact requirements must be checked for the jurisdiction. Monitor budget-to-actual results and explain material variances. An output counts activity, such as permits processed; an outcome measures the effect, such as reduced unsafe construction. Common mistakes include equating spending the entire budget with success, ignoring lifecycle maintenance costs of a new asset and reporting a favorable average while hiding unequal access or declining service quality.
 
-## Key terms to remember
+## Key terms
 
 **Operating budget.** A plan for recurring service and administrative activities.
 

@@ -1,6 +1,6 @@
 ---
 title: "Measure chapter participation and community impact"
-summary: "Document a real need, organized action, outcomes, publicity, and honest reflection."
+summary: "Planning a chapter project and recording participation and results."
 sourceIds: ["maryland","national","pmi"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ A community-service project should address a real need identified through releva
 
 Set goals, tasks, owners, timeline, resources, budget, and partner responsibilities. Track member participation consistently, including which members participated and what they contributed. Calculate participation percentage using the defined membership denominator, not the number invited to one activity. Keep evidence such as authorized logs, expenditure records, delivered quantities, partner confirmations, and dated publicity. Protect participant privacy and obtain appropriate permissions for images or testimonials.
 
-> **Work through an example**
+> **Example**
 >
 > A fictional chapter has 40 members. Twenty-four unique members help prepare 120 learning kits across three sessions; some attend every session.
 >
@@ -27,7 +27,7 @@ Inputs are resources; activities are what the chapter does; outputs are immediat
 - Common mistake: equating volunteer hours with a proven long-term outcome.
 - Common mistake: reporting only successes and omitting meaningful constraints or lessons.
 
-## Key terms to remember
+## Key terms
 
 **Output.** An immediate product or service delivered by an activity.
 

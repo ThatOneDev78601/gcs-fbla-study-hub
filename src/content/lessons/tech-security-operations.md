@@ -1,6 +1,6 @@
 ---
 title: "Respond to incidents and maintain continuity"
-summary: "Reduce harm, preserve useful evidence and restore systems safely."
+summary: "Preparing for incidents, containing damage, and restoring services."
 sourceIds: ["cisco"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ Security operations turn policy into repeatable daily work. Maintain an inventor
 
 When an incident is suspected, follow the approved response plan rather than improvising a destructive cleanup. Confirm what is known and isolate affected resources when authorized to limit spread. Preserve logs and other evidence, record actions and maintain a chain of custody if formal investigation requires it. Eradication removes the cause; recovery restores trustworthy services and watches for recurrence. Notify the appropriate responsible people using established channels. Avoid promises about legal reporting deadlines without current jurisdiction-specific guidance. Evidence collection and service restoration can conflict, so the designated incident authority should direct priorities.
 
-> **Work through an example**
+> **Example**
 >
 > A workstation begins encrypting shared files.
 >
@@ -23,7 +23,7 @@ When an incident is suspected, follow the approved response plan rather than imp
 
 A post-incident review explains the timeline, impact, detection gaps and corrective actions without replacing evidence with blame. Assign owners and deadlines to improvements. Verify restored data, required permissions and application behavior before returning to normal work. Recovery point and recovery time targets help judge whether restoration met business needs. Common mistakes include restoring backups without removing the attack path, deleting logs before investigation, and confusing an absence of alerts with proof of safety. Test communication and manual workarounds too: a technically valid backup is less useful when staff cannot access the procedure or contact the recovery team.
 
-## Key terms to remember
+## Key terms
 
 **Containment.** Limiting the spread or impact of an incident.
 

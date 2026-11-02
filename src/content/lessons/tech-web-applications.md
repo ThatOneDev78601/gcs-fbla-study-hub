@@ -1,6 +1,6 @@
 ---
 title: "How web applications work"
-summary: "Understand web structure, browser behavior, accessibility and responsible data handling."
+summary: "Browser requests, page structure, accessible forms, and data storage."
 sourceIds: ["mdn"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ A browser uses a URL to identify a resource and sends an HTTP request to a serve
 
 Semantic headings, real buttons, labels and meaningful link text help people and assistive technology understand a page. Keyboard users need a visible focus indicator and a sensible interaction order. Responsive layouts adapt to available space without hiding required content. Forms should explain constraints and show specific errors beside the relevant fields. Validate on the server as well as in the browser, because browser checks can be bypassed. Handle loading, empty and failure states explicitly. A useful interface remains understandable when a request fails; it does not silently discard a student’s work.
 
-> **Work through an example**
+> **Example**
 >
 > A registration form marks errors only by turning field borders red.
 >
@@ -23,7 +23,7 @@ Semantic headings, real buttons, labels and meaningful link text help people and
 
 Cookies, local storage and server databases serve different purposes. Local storage persists in one browser but can be unavailable or cleared; it is unsuitable as the sole home of important shared records. Treat user input as untrusted, encode output for its context and use parameterized database queries. Authentication and authorization must protect sensitive server operations. Cache static resources thoughtfully and measure performance on constrained devices. Common mistakes include using clickable generic elements instead of buttons, trusting hidden form fields, assuming a successful network response means valid business data, and promising cross-device synchronization when information exists only in one browser.
 
-## Key terms to remember
+## Key terms
 
 **HTML.** Markup describing the semantic structure of a web document.
 

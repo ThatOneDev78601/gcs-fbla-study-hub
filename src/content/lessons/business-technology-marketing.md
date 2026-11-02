@@ -1,6 +1,6 @@
 ---
 title: "Business technology and customer value"
-summary: "Connect marketing fundamentals with information systems, security, and evidence."
+summary: "Marketing basics, business information systems, and data security."
 sourceIds: ["mba","openstax"]
 reviewed: "2026-10-27"
 ---
@@ -15,7 +15,7 @@ Positioning is the intended place in the customer’s mind, not merely physical 
 
 Hardware, software, networks, data, people, and procedures work together in a business information system. A database stores related records, while a spreadsheet supports flexible calculation and analysis. Data quality requires accuracy, completeness, consistency, and timeliness. A dashboard summarizes selected measures, not all reality. Algorithms follow instructions; a plausible automated output still needs validation. Distinguish a correlation from proof of cause when interpreting business data.
 
-> **Work through an example**
+> **Example**
 >
 > Website visits rise from 1,000 to 2,000, but orders remain 50.
 >
@@ -25,7 +25,7 @@ Hardware, software, networks, data, people, and procedures work together in a bu
 
 Confidentiality limits unauthorized disclosure, integrity protects accuracy and authorized change, and availability supports access when needed. Use unique strong authentication, timely updates, least-privilege access, and tested backups. Phishing manipulates people into unsafe actions; verify unusual requests independently. A backup is useful only if restoration works. Responsible technology use includes privacy, accessibility, citation, licensing, and review of automated content. Future Business Leader has a broad general-business and technology area rather than a closed list of every possible question.
 
-## Key terms to remember
+## Key terms
 
 **Conversion rate.** Desired actions divided by the relevant opportunities, such as orders per visit.
 

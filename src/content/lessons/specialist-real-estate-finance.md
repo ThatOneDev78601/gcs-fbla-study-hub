@@ -1,6 +1,6 @@
 ---
 title: "Transactions, mortgages and property calculations"
-summary: "Follow a transaction and distinguish price, financing cost and cash required."
+summary: "The steps in a property sale, mortgage costs, and common calculations."
 sourceIds: ["mba","openstax"]
 reviewed: "2026-10-27"
 ---
@@ -15,17 +15,17 @@ A mortgage loan creates a repayment obligation secured by property. Principal is
 
 The secondary mortgage market involves trading existing mortgage loans or related securities, which can provide lenders with funds for further lending. It is distinct from the primary market where a borrower obtains a new loan.
 
-> **Work through an example**
+> **Example**
 >
 > A buyer finances $240,000 of a property valued at $300,000.
 >
 > Loan-to-value is $240,000 ÷ $300,000 = 80%. The $60,000 difference is a 20% down payment in this simplified example, before closing costs.
 
-## Common mistakes and test decisions
+## Checking property calculations
 
 Read the basis of every percentage: a commission calculated on sale price differs from an interest charge calculated on outstanding principal. Simple annual interest is principal multiplied by annual rate and time in years, but actual loan disclosures may use more complex payment conventions. Compare financing using total relevant costs and terms rather than a payment alone. Lower payments can result from a longer repayment period that increases total interest. Common mistakes include treating gross rent as profit, assuming approval removes every contingency and presenting an illustrative calculation as a current loan offer or individualized financial recommendation.
 
-## Key terms to remember
+## Key terms
 
 **Principal.** The amount borrowed or remaining unpaid on a loan.
 

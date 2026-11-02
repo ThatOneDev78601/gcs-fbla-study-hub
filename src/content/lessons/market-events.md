@@ -1,6 +1,6 @@
 ---
 title: "Event budgets, logistics, staffing, and risk"
-summary: "Build an executable event plan with costs, responsibilities, and contingencies."
+summary: "Planning an event’s budget, schedule, staffing, and backup arrangements."
 sourceIds: ["mba","pmi","maryland"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ Define the event purpose, audience, attendance target, service level, budget, lo
 
 An event budget includes fixed and variable expenses, expected revenue, donations, in-kind contributions, and a contingency allowance. Keep cash costs distinct from donated value. Plan staffing by function, workload, training, shift, and backup coverage; volunteers still need clear responsibilities. A run-of-show records time, action, location, owner, and equipment. Check registration, transport, queues, signage, food needs, accessible routes, sanitation, communications, and teardown.
 
-> **Work through an example**
+> **Example**
 >
 > A workshop has $400 venue cost, $200 equipment cost, and $6 materials per attendee. Forty attendees pay $25 each.
 >
@@ -27,7 +27,7 @@ Risk assessment considers likelihood and impact, then chooses prevention, mitiga
 - Common mistake: counting an in-kind donation as spendable cash.
 - Common mistake: claiming success from attendance while ignoring the event’s actual purpose.
 
-## Key terms to remember
+## Key terms
 
 **Run-of-show.** A timed operating schedule specifying actions and responsibilities.
 

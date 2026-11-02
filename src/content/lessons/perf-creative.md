@@ -1,6 +1,6 @@
 ---
 title: "Plan and produce original visual and audiovisual work"
-summary: "Move from a communication brief to storyboard, production, credits, and verified export."
+summary: "Planning, producing, crediting, and checking visual and audiovisual work."
 sourceIds: ["adobe","maryland","national","copyright-visual"]
 reviewed: "2026-10-27"
 ---
@@ -13,13 +13,13 @@ Define the intended audience, communication goal, message, medium, constraints, 
 
 A storyboard describes scenes, framing, action, narration, text, sound, and timing. For animation, plan key poses, transitions, pace, and continuity. For video, create a shot list and production schedule; prioritize intelligible audio and usable lighting. For graphic or visual design, establish hierarchy, typography, composition, color, and output dimensions. Maintain an asset log with creator, source, permission or license, required attribution, and changes. Include only material permitted by the event’s current rules.
 
-> **Work through an example**
+> **Example**
 >
 > An illustrative bicycle-safety clip has a powerful closing message but unreadable captions and background music covering the narration.
 >
 > Reduce competing audio, check narration on ordinary speakers, use readable captions with enough time on screen, and align the final action with the opening problem. Verify music permission before export.
 
-## Review the finished experience
+## Check the finished work
 
 Evaluate whether the work communicates the intended message without an explanation from its creator. Test pacing, legibility, contrast, continuity, sound, captions, credits, aspect ratio, resolution, and playback format. Use audience feedback to identify confusion, then document why revisions improve the result. Keep planning files, original assets, and version history as evidence of process. Check the exact exported file and playback equipment rather than assuming the editor preview proves readiness.
 
@@ -27,7 +27,7 @@ Evaluate whether the work communicates the intended message without an explanati
 - Common mistake: spending all production time on effects while the message stays unclear.
 - Common mistake: treating the current competition topic as a request for someone else to create the submission.
 
-## Key terms to remember
+## Key terms
 
 **Storyboard.** A planned sequence of visual and audio content with timing and action.
 

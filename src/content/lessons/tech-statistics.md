@@ -1,6 +1,6 @@
 ---
 title: "Probability, distributions and uncertainty"
-summary: "Interpret summaries and probabilities without overstating what the data show."
+summary: "Distributions, probability, sampling, and what you can conclude from data."
 sourceIds: ["openstax","mba"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ A population is the full group of interest; a sample is the subset observed. The
 
 Probability ranges from zero to one. For equally likely outcomes, an event’s probability is favorable outcomes divided by all possible outcomes. Independent events do not change one another’s probabilities; mutually exclusive events cannot occur together. These are different ideas. Conditional probability asks about an event given additional information. A test can be highly accurate yet produce many false alarms when the condition is rare. Expected value multiplies each outcome by its probability and adds the results; it is a long-run average, not a guaranteed result for one attempt. Use counts or a two-way table to make probability relationships concrete.
 
-> **Work through an example**
+> **Example**
 >
 > Three delivery times are 2, 3 and 16 days.
 >
@@ -23,7 +23,7 @@ Probability ranges from zero to one. For equally likely outcomes, an event’s p
 
 Random sampling helps reduce selection bias, but a large sample can still be biased if it systematically excludes important groups. Correlation describes association, not proof that one variable causes another. A confounder can influence both. Statistical significance does not establish practical importance, and failing to find significance does not prove no effect exists. Confidence intervals express uncertainty in estimates under stated methods; do not read them as a guarantee about each individual observation. Common mistakes include averaging percentages with different denominators, treating missing values as zero, and comparing groups collected through incompatible methods.
 
-## Key terms to remember
+## Key terms
 
 **Median.** The middle value after observations are ordered.
 

@@ -1,6 +1,6 @@
 ---
 title: "News writing, structure, editing, and platform choice"
-summary: "Turn verified reporting into clear stories with accurate headlines and attribution."
+summary: "Story structure, headlines, attribution, and editing for publication."
 sourceIds: ["spj","mba"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ The inverted pyramid begins with the most newsworthy verified information, follo
 
 A strong lead answers the most important questions without cramming every fact into one sentence. Use concrete nouns, active verbs, accurate grammar, and language appropriate to the audience. Diction is word choice; syntax is sentence arrangement; tone is the attitude readers perceive. Attribute information close to the claim, distinguish allegations from established facts, and use quotations to add voice or insight rather than repeat simple facts. Headlines and captions must remain accurate when seen alone.
 
-> **Work through an example**
+> **Example**
 >
 > A meeting approved a pilot tutoring program for 30 students, subject to funding. A draft headline says “School guarantees tutoring for everyone.”
 >
@@ -31,7 +31,7 @@ First check substance: accuracy, logic, fairness, missing context, and organizat
 
 Check subject–verb agreement: “The list of activities is ready,” because list is the subject. Make pronoun references clear, avoid sentence fragments, and separate complete clauses correctly rather than joining them with a comma alone. Prefer precise verbs and consistent tense. “The committee approved the plan” identifies the actor more directly than “The plan was approved.” Choose tone and vocabulary for the audience without losing accuracy. Read a sentence aloud to find ambiguity, then verify that editing has not changed the source’s meaning.
 
-## Key terms to remember
+## Key terms
 
 **Lead.** The opening that presents the story’s most important information or entry point.
 

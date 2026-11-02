@@ -1,6 +1,6 @@
 ---
-title: "Find evidence before choosing a strategy"
-summary: "Choose research methods, judge data quality, and turn findings into decisions."
+title: "Market research"
+summary: "Choosing a research method, checking data quality, and using the findings."
 sourceIds: ["mba","openstax","hubspot"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ A useful research question names the decision and the uncertainty: should a stor
 
 Interviews uncover reasons but do not establish how common a belief is. Observation shows behavior but may not reveal motives. A survey can estimate patterns if its sample represents the intended population; a voluntary social-media poll may overrepresent enthusiastic followers. Ask one neutral question at a time. Separate satisfaction, purchase intention, and actual behavior. Use consistent measurement periods and document missing responses rather than quietly removing inconvenient answers.
 
-> **Work through an example**
+> **Example**
 >
 > A store asks only lunchtime shoppers whether it should open later. Eighty percent say no.
 >
@@ -27,7 +27,7 @@ Marketing-information management continuously collects and organizes data for de
 - Common mistake: confusing correlation with causation; an experiment needs a meaningful comparison.
 - Practice: write a research question, select a method, and name the most likely source of bias.
 
-## Key terms to remember
+## Key terms
 
 **Primary data.** Information collected specifically for the current research question.
 

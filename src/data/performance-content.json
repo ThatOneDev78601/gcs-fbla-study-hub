@@ -3,7 +3,7 @@
     {
       "id": "market-foundations",
       "title": "Marketing: from customer need to a plan",
-      "summary": "Connect customer needs, segmentation, the marketing mix, and measurable business goals.",
+      "summary": "Customer needs, market segments, the marketing mix, and writing a plan.",
       "sourceIds": [
         "mba",
         "openstax"
@@ -146,8 +146,8 @@
     },
     {
       "id": "market-research",
-      "title": "Find evidence before choosing a strategy",
-      "summary": "Choose research methods, judge data quality, and turn findings into decisions.",
+      "title": "Market research",
+      "summary": "Choosing a research method, checking data quality, and using the findings.",
       "sourceIds": [
         "mba",
         "openstax",
@@ -261,8 +261,8 @@
     },
     {
       "id": "market-brand",
-      "title": "Products, brands, and the value promise",
-      "summary": "Understand product mix, life cycles, warranties, positioning, and service promises.",
+      "title": "Products and brands",
+      "summary": "Product ranges, brands, warranties, and product life cycles.",
       "sourceIds": [
         "mba",
         "openstax"
@@ -275,7 +275,7 @@
           ]
         },
         {
-          "heading": "Make the promise credible",
+          "heading": "Support the brand’s promises",
           "paragraphs": [
             "A brand identifies an offering and creates expectations about it. Corporate branding concerns the organization; product branding concerns an individual offer. Position using attributes that matter to the target, such as convenience, reliability, service, or price. A feature describes what exists; a benefit explains its value to the customer. A warranty describes specified obligations if a product fails, while a guarantee communicates a promise whose exact terms still need checking."
           ],
@@ -375,7 +375,7 @@
     {
       "id": "market-pricing",
       "title": "Pricing, margins, and distribution",
-      "summary": "Calculate price measures and choose channels that deliver customer value.",
+      "summary": "Pricing decisions, margin calculations, and distribution channels.",
       "sourceIds": [
         "mba",
         "openstax"
@@ -489,7 +489,7 @@
     {
       "id": "market-promotion",
       "title": "Promotion, media planning, and measurement",
-      "summary": "Coordinate messages, calculate media measures, and distinguish promotional tools.",
+      "summary": "Promotional tools, media planning, and ways to measure a campaign.",
       "sourceIds": [
         "mba",
         "hubspot",
@@ -513,7 +513,7 @@
           }
         },
         {
-          "heading": "Promote honestly and learn",
+          "heading": "Check claims and campaign results",
           "paragraphs": [
             "Create a plan with objective, audience, message, channels, budget, schedule, and evaluation. For a loyalty program, explain qualification, reward, expiry, and privacy terms. Cross-promotion pairs complementary partners, but both must agree to responsibilities and message use. Endorsements and paid relationships need appropriate disclosure. Do not claim results that evidence does not support. Evaluate awareness, traffic, qualified actions, cost per acquisition, and retention according to the original goal."
           ],
@@ -524,7 +524,7 @@
           ]
         },
         {
-          "heading": "Stable rules for responsible promotion",
+          "heading": "Advertising claims and disclosures",
           "paragraphs": [
             "Advertisements should be truthful, supported by evidence, and clear about material conditions. Disclose a paid endorsement or other material relationship so the audience can recognize the incentive. Permission to use a logo, photograph, music track, or likeness is distinct from simply crediting its creator. Evaluate sweepstakes, customer data, comparative claims, and direct messages against current official guidance before launch. The source library links to official guidance; exact legal requirements depend on the activity and jurisdiction."
           ]
@@ -622,7 +622,7 @@
     {
       "id": "market-design",
       "title": "Advertising copy and visual communication",
-      "summary": "Write a clear message and use layout, typography, and color with purpose.",
+      "summary": "Advertising messages, layout, typography, and color choices.",
       "sourceIds": [
         "mba",
         "adobe",
@@ -780,7 +780,7 @@
     {
       "id": "market-retail-operations",
       "title": "Retail stock, transactions, and inventory control",
-      "summary": "Follow merchandise from receiving through storage, sales, returns, and reconciliation.",
+      "summary": "Receiving stock, tracking inventory, processing sales, and handling returns.",
       "sourceIds": [
         "mba",
         "openstax"
@@ -894,7 +894,7 @@
     {
       "id": "market-merchandising",
       "title": "Assortments, displays, and the retail experience",
-      "summary": "Use product data and visual merchandising to make shopping useful and profitable.",
+      "summary": "Choosing products, planning displays, and checking sales results.",
       "sourceIds": [
         "mba",
         "adobe"
@@ -1008,14 +1008,14 @@
     {
       "id": "market-selling",
       "title": "Ethical selling: needs, demonstrations, and objections",
-      "summary": "Turn product knowledge into a relevant recommendation and an informed purchase.",
+      "summary": "Understanding a buyer’s needs, demonstrating a product, and answering objections.",
       "sourceIds": [
         "mba",
         "hubspot"
       ],
       "sections": [
         {
-          "heading": "Discover before recommending",
+          "heading": "Ask about the buyer’s needs",
           "paragraphs": [
             "Selling helps a buyer select an appropriate solution, rather than pressuring everyone into the same purchase. Establish rapport, ask open questions about needs and constraints, listen, then confirm understanding. Research accurate product specifications and company selling policies before making claims. A customer choosing shoes for occasional walking has different needs from a competitive runner; recommending the most expensive model without understanding that distinction can damage trust."
           ]
@@ -1031,7 +1031,7 @@
           }
         },
         {
-          "heading": "Close and support the relationship",
+          "heading": "Complete the sale and follow up",
           "paragraphs": [
             "A close asks for a decision after the needs and concerns have been addressed. Summarize the agreed solution, explain total price and terms, and offer a clear next step. Suggestion selling recommends a genuinely useful complement rather than an unrelated extra. Process the transaction and documentation accurately, confirm delivery or pickup, and explain support and returns. Follow up when appropriate and with permission. Service quality after the sale supports repeat business and the brand promise."
           ],
@@ -1122,14 +1122,14 @@
     {
       "id": "market-service",
       "title": "Customer relationships, empathy, and CRM",
-      "summary": "Make service promises concrete and use customer information responsibly.",
+      "summary": "Customer service, brand promises, and responsible use of customer records.",
       "sourceIds": [
         "mba",
         "hubspot"
       ],
       "sections": [
         {
-          "heading": "Make respect observable",
+          "heading": "Listen and respond respectfully",
           "paragraphs": [
             "A service mindset treats the customer’s goal as a problem to understand. Greet people appropriately, listen without interrupting, ask relevant questions, summarize the request, and explain the next step. Empathy means recognizing a person’s feelings and circumstances without pretending to agree with an inaccurate claim. Adapt pace, language, channel, and format to the individual instead of assuming preferences from their background. Ask before helping and accommodate access needs within authorized procedures."
           ]
@@ -1236,7 +1236,7 @@
     {
       "id": "market-recovery",
       "title": "Complaints, conflict, and guest recovery",
-      "summary": "Resolve service failures with facts, appropriate options, and reliable follow-through.",
+      "summary": "Handling complaints, offering remedies, and following up.",
       "sourceIds": [
         "mba",
         "openstax"
@@ -1259,7 +1259,7 @@
           }
         },
         {
-          "heading": "Close the loop and improve the system",
+          "heading": "Follow up and prevent repeat problems",
           "paragraphs": [
             "Record the issue, facts, agreed action, responsible person, deadline, and outcome. Confirm that the remedy occurred, not merely that a message was sent. Look for repeated causes: unclear descriptions, poor handoffs, system errors, understaffing, or unrealistic promises. During peak demand, triage urgent needs, give accurate wait information, and coordinate staffing while preserving service standards. Evaluate recovery using resolution time, repeat contacts, satisfaction, and recurrence."
           ],
@@ -1350,20 +1350,20 @@
     {
       "id": "market-hospitality",
       "title": "Hospitality operations and the guest journey",
-      "summary": "Connect tourism services, guest expectations, information, finance, and sustainable operations.",
+      "summary": "Guest services, bookings, budgets, and risks in hospitality.",
       "sourceIds": [
         "mba",
         "openstax"
       ],
       "sections": [
         {
-          "heading": "Understand the connected experience",
+          "heading": "How hospitality services work together",
           "paragraphs": [
             "Hospitality and tourism include lodging, food and beverage, transportation, attractions, travel services, and events. These segments depend on one another: a transport delay can affect hotel arrivals and event attendance. Service is often perishable because an unused room-night cannot be sold tomorrow as yesterday’s room. Demand can be seasonal and sensitive to income, business conditions, weather, and perceived safety. Careers range from front-office and food-service operations to revenue management, destination marketing, and event coordination."
           ]
         },
         {
-          "heading": "Design a dependable guest journey",
+          "heading": "Plan each part of the guest’s visit",
           "paragraphs": [
             "Map discovery, booking, arrival, participation, departure, and follow-up. Confirm reservations, preferences, access needs, cancellation terms, and guarantees accurately. Distribution may use direct bookings, agents, or online platforms, each with different costs and control. Guests choose based on location, price, trust, experience, amenities, and accessibility. Mobile check-in and messaging can improve convenience but need a workable alternative for guests without a suitable device."
           ],
@@ -1464,7 +1464,7 @@
     {
       "id": "market-events",
       "title": "Event budgets, logistics, staffing, and risk",
-      "summary": "Build an executable event plan with costs, responsibilities, and contingencies.",
+      "summary": "Planning an event’s budget, schedule, staffing, and backup arrangements.",
       "sourceIds": [
         "mba",
         "pmi",
@@ -1579,7 +1579,7 @@
     {
       "id": "market-sports",
       "title": "Sports and entertainment products, sponsorship, and ticketing",
-      "summary": "Connect fan motivations, venue readiness, rights, promotion, and community effects.",
+      "summary": "Fans, sponsorships, ticketing, promotion, and venue preparation.",
       "sourceIds": [
         "mba",
         "openstax",
@@ -1594,7 +1594,7 @@
           ]
         },
         {
-          "heading": "Sell a coherent experience",
+          "heading": "Plan tickets, pricing, and the fan experience",
           "paragraphs": [
             "Ticket pricing depends on demand, seat location, timing, capacity, competition, cost, and the organization’s objectives. Distribution can include direct ticketing, agents, partners, and digital platforms; clear terms and reliable access matter. Sponsorship exchanges money or services for defined association benefits and rights. Specify deliverables such as signage, announcements, hospitality, or permitted logo use. A celebrity appearance needs confirmed scheduling, access, promotion rights, security, and realistic expectations."
           ],
@@ -1713,7 +1713,7 @@
     {
       "id": "market-journalism-reporting",
       "title": "Reporting: questions, interviews, and verification",
-      "summary": "Find a worthwhile story and build an accurate record before drafting.",
+      "summary": "Finding a story, interviewing sources, and verifying the facts.",
       "sourceIds": [
         "spj",
         "mba"
@@ -1827,7 +1827,7 @@
     {
       "id": "market-journalism-writing",
       "title": "News writing, structure, editing, and platform choice",
-      "summary": "Turn verified reporting into clear stories with accurate headlines and attribution.",
+      "summary": "Story structure, headlines, attribution, and editing for publication.",
       "sourceIds": [
         "spj",
         "mba"
@@ -1959,7 +1959,7 @@
     {
       "id": "market-journalism-ethics",
       "title": "Journalism ethics, independence, and responsible publication",
-      "summary": "Balance public interest, verification, harm, attribution, and accountability.",
+      "summary": "Accuracy, fairness, independence, and responsibility in reporting.",
       "sourceIds": [
         "spj",
         "mba",
@@ -1967,7 +1967,7 @@
       ],
       "sections": [
         {
-          "heading": "Accuracy and fairness are active work",
+          "heading": "Verify facts and represent people fairly",
           "paragraphs": [
             "Ethical reporting seeks truth and reports it carefully. Verify information, provide context, identify sources when appropriate, and distinguish fact from opinion. Fairness means representing relevant evidence and giving people a meaningful opportunity to respond; it does not mean giving an unsupported rumor equal status with verified records. A correction policy and transparent explanation of limits help audiences judge the work. Objectivity is strengthened by a consistent verification method rather than a claim that reporters have no perspectives."
           ]
@@ -2073,8 +2073,8 @@
     },
     {
       "id": "perf-rubric",
-      "title": "Turn a rubric into evidence and a work plan",
-      "summary": "Translate judging criteria into specific work, proof, and an honest self-review.",
+      "title": "Planning your work around the rubric",
+      "summary": "Using the judging criteria to plan your work and check what is missing.",
       "sourceIds": [
         "maryland",
         "national",
@@ -2082,7 +2082,7 @@
       ],
       "sections": [
         {
-          "heading": "Identify the actual assignment",
+          "heading": "Read the event requirements",
           "paragraphs": [
             "Read the current event document for the season and competition stage before planning. A district report and a later live presentation are different deliverables even within one event. Record topic, eligibility, format, timing, submission method, permitted materials, and scoring criteria. Keep factual rules separate from your own preparation choices. If two official documents conflict, preserve both references and ask the adviser to resolve the discrepancy rather than inventing a combined rule."
           ]
@@ -2094,13 +2094,13 @@
           ],
           "example": {
             "scenario": "A sample rubric asks for a logical recommendation, an implementation plan, and measurable evaluation. A draft contains only a recommendation slide.",
-            "solution": "Add comparison evidence for the choice, a sequenced plan with owners and resources, and measures with a baseline and review date. The goal is demonstrated reasoning, not adding decorative pages."
+            "solution": "Add comparison evidence for the choice, a sequenced plan with owners and resources, and measures with a baseline and review date. Each addition should help a judge understand your reasoning."
           }
         },
         {
-          "heading": "Review honestly against the criterion",
+          "heading": "Check your work against the rubric",
           "paragraphs": [
-            "Self-assess using the rubric’s described performance levels and point to the exact supporting evidence. Separate completed work, planned work, assumptions, and estimates. Explain limitations rather than fabricating data or results. Practice examples in this hub teach methods; competitors must create their own competition work and follow the event’s assistance rules. Conduct a final compliance check on the exported artifact and presentation setup, since a strong idea can still be hard to judge if evidence is missing or inaccessible."
+            "Self-assess using the rubric’s described performance levels and point to the exact supporting evidence. Separate completed work, planned work, assumptions, and estimates. Explain limitations rather than fabricating data or results. Practice examples in this hub teach methods; competitors must create their own competition work and follow the event’s assistance rules. Before submitting, open the exported file and check the event requirements. Make sure judges can find your evidence and view it on the required equipment."
           ],
           "bullets": [
             "Common mistake: organizing entirely around personal preference while omitting a scored requirement.",
@@ -2188,8 +2188,8 @@
     },
     {
       "id": "perf-reports",
-      "title": "Write a report that makes reasoning easy to judge",
-      "summary": "Organize claims, methods, evidence, and reflection into a readable document.",
+      "title": "Writing a competition report",
+      "summary": "Organizing a report so judges can follow your methods, evidence, and conclusions.",
       "sourceIds": [
         "maryland",
         "national",
@@ -2203,7 +2203,7 @@
           ]
         },
         {
-          "heading": "Make claims traceable",
+          "heading": "Show the evidence behind each claim",
           "paragraphs": [
             "A strong paragraph makes a claim, provides evidence, explains its meaning, and connects it to the purpose. Cite facts, borrowed ideas, figures, and quotations close to their use, and maintain a source list with publisher, title, date, and location. Tables should have clear labels, units, periods, and source notes. Distinguish actual outcomes from forecasts and donated value from cash. Include relevant methods and limitations so readers can assess the evidence rather than trusting a confident tone."
           ],
@@ -2213,7 +2213,7 @@
           }
         },
         {
-          "heading": "Edit for meaning and usability",
+          "heading": "Edit and check the final report",
           "paragraphs": [
             "Review content first: missing criteria, unsupported claims, contradictions, and unclear reasoning. Then edit sentence length, jargon, grammar, and consistency. Use whitespace, readable type, and concise tables to reduce effort; an attractive layout cannot replace evidence. Export to the required format and inspect every page for clipped text, broken tables, small captions, missing citations, and excess pages. Confirm file naming and submission instructions from the current stage guide."
           ],
@@ -2304,7 +2304,7 @@
     {
       "id": "perf-speaking",
       "title": "Present a clear argument and handle questions",
-      "summary": "Structure a short presentation around a useful claim, evidence, and an action.",
+      "summary": "Planning a short presentation, rehearsing it, and answering questions.",
       "sourceIds": [
         "toastmasters",
         "maryland",
@@ -2312,15 +2312,15 @@
       ],
       "sections": [
         {
-          "heading": "Give the audience a route",
+          "heading": "Organize your main points",
           "paragraphs": [
             "Define what the audience should understand or decide by the end. Open with relevant context and a clear central claim, then organize two or three main points with evidence and transitions. End by connecting the recommendation or lesson to the opening purpose. For an impromptu prompt, use preparation time to identify the question, choose a position, select reasons, and plan an example. A clear structure is more valuable than a memorized opening that does not fit the prompt."
           ]
         },
         {
-          "heading": "Make delivery support meaning",
+          "heading": "Pace, slides, and speaker handoffs",
           "paragraphs": [
-            "Speak at a pace that allows understanding, vary emphasis, pause at transitions, and project to the room. Use posture, purposeful gestures, and eye contact to support the message without forcing a performance style. Slides should display necessary evidence or visuals, not a transcript. Explain charts aloud and ensure text is readable from the audience’s position. Team presentations need intentional handoffs and balanced contribution rather than abrupt changes of speaker."
+            "Speak at a pace that allows understanding, vary emphasis, pause at transitions, and project to the room. Use posture, purposeful gestures, and eye contact to support the message without forcing a performance style. Slides should display necessary evidence or visuals, not a transcript. Explain charts aloud and ensure text is readable from the audience’s position. Plan transitions between speakers and give each team member a clear part."
           ],
           "example": {
             "scenario": "A rehearsal exceeds its allowed time because every slide repeats a full paragraph and each speaker reintroduces the project.",
@@ -2419,7 +2419,7 @@
     {
       "id": "perf-creative",
       "title": "Plan and produce original visual and audiovisual work",
-      "summary": "Move from a communication brief to storyboard, production, credits, and verified export.",
+      "summary": "Planning, producing, crediting, and checking visual and audiovisual work.",
       "sourceIds": [
         "adobe",
         "maryland",
@@ -2444,7 +2444,7 @@
           }
         },
         {
-          "heading": "Review the finished experience",
+          "heading": "Check the finished work",
           "paragraphs": [
             "Evaluate whether the work communicates the intended message without an explanation from its creator. Test pacing, legibility, contrast, continuity, sound, captions, credits, aspect ratio, resolution, and playback format. Use audience feedback to identify confusion, then document why revisions improve the result. Keep planning files, original assets, and version history as evidence of process. Check the exact exported file and playback equipment rather than assuming the editor preview proves readiness."
           ],
@@ -2535,7 +2535,7 @@
     {
       "id": "perf-software",
       "title": "Build and explain a usable software product",
-      "summary": "Translate requirements into design, implementation, testing, and maintainable documentation.",
+      "summary": "Planning an app, building it, testing it, and explaining how it works.",
       "sourceIds": [
         "maryland",
         "national"
@@ -2550,7 +2550,7 @@
         {
           "heading": "Implement for clarity and reliability",
           "paragraphs": [
-            "Use clear names, small coherent units, appropriate data structures, and validation at meaningful boundaries. Separate presentation, rules, and data handling enough that each can be understood. Handle missing, invalid, duplicate, and unexpected input with useful messages. Avoid exposing credentials or collecting unnecessary personal data. Document external libraries, templates, licenses, and sources. Comments should explain purpose or non-obvious decisions rather than repeat every line. Documentation must allow another person to run and evaluate the work."
+            "Use clear names and small functions. Choose data structures that fit the task, and validate data when it enters the system. Separate presentation, rules, and data handling enough that each can be understood. Handle missing, invalid, duplicate, and unexpected input with useful messages. Avoid exposing credentials or collecting unnecessary personal data. Document external libraries, templates, licenses, and sources. Comments should explain purpose or non-obvious decisions rather than repeat every line. Documentation must allow another person to run and evaluate the work."
           ],
           "example": {
             "scenario": "An illustrative equipment-loan app works when an item is available but permits two users to reserve the same item and crashes on an empty return date.",
@@ -2560,7 +2560,7 @@
         {
           "heading": "Show evidence of testing and design",
           "paragraphs": [
-            "A test case includes input or steps, expected behavior, actual result, and status. Cover normal use, boundaries, invalid input, persistence, access, and recovery. Usability feedback is different from functional correctness; both matter. Demonstrate the main user journey, explain a meaningful design tradeoff, and show a limitation honestly. Prepare a README with setup, dependencies, operation, tests, and attribution. Follow the current stage’s requirements: a district report may require process evidence rather than a live demonstration."
+            "A test case includes input or steps, expected behavior, actual result, and status. Cover normal use, boundaries, invalid input, persistence, access, and recovery. Usability feedback is different from functional correctness; both matter. Demonstrate the main task, explain a design choice and its tradeoffs, and describe a known limitation. Prepare a README with setup, dependencies, operation, tests, and attribution. Follow the current stage’s requirements: a district report may require process evidence rather than a live demonstration."
           ],
           "bullets": [
             "Common mistake: testing only the path the developer already knows works.",
@@ -2649,7 +2649,7 @@
     {
       "id": "perf-financial-analysis",
       "title": "Interpret financial statements and support recommendations",
-      "summary": "Connect ratios, trends, cash flows, and assumptions without overstating conclusions.",
+      "summary": "Using statements, ratios, and cash flows to support a recommendation.",
       "sourceIds": [
         "openstax",
         "investor",
@@ -2673,7 +2673,7 @@
           }
         },
         {
-          "heading": "Recommend with evidence and limits",
+          "heading": "Explain your recommendation and its limits",
           "paragraphs": [
             "Tie a recommendation to an observed issue, explain its mechanism, identify costs and tradeoffs, and define a monitoring measure. Separate a historical observation from an explanation and a future forecast. For personal financial planning, begin with goals, income, expenses, assets, debts, time horizon, emergency needs, and risk tolerance; compare alternatives using stated assumptions. Educational examples teach analysis and are not personalized financial advice. Use original source statements and cite exact periods and line items."
           ],
@@ -2763,8 +2763,8 @@
     },
     {
       "id": "perf-business-plan",
-      "title": "Test a business idea and build a coherent plan",
-      "summary": "Connect customer evidence, operations, competitive advantage, and financial viability.",
+      "title": "Testing a business idea and writing a plan",
+      "summary": "Testing a business idea and planning its customers, operations, and finances.",
       "sourceIds": [
         "openstax",
         "maryland",
@@ -2788,9 +2788,9 @@
           }
         },
         {
-          "heading": "Model viability and uncertainty",
+          "heading": "Forecast costs, revenue, and cash flow",
           "paragraphs": [
-            "Build revenue from explicit units, prices, timing, and demand assumptions. Separate startup spending, fixed operating costs, variable costs, and working-capital needs. Forecast income and cash flow; a profitable month can still create a cash shortage if customers pay late. Calculate contribution and break-even, then test lower demand, higher costs, or slower collection. Identify risks, contingencies, and milestones. Write the executive summary after the plan is coherent and supported."
+            "Build revenue from explicit units, prices, timing, and demand assumptions. Separate startup spending, fixed operating costs, variable costs, and working-capital needs. Forecast income and cash flow; a profitable month can still create a cash shortage if customers pay late. Calculate contribution and break-even, then test lower demand, higher costs, or slower collection. Identify risks, contingencies, and milestones. Write the executive summary last, once you have checked the plan and its supporting evidence."
           ],
           "bullets": [
             "Common mistake: projecting a market share without explaining how customers will be acquired.",
@@ -2879,7 +2879,7 @@
     {
       "id": "perf-career",
       "title": "Career evidence, portfolios, and job interviews",
-      "summary": "Show relevant skills with authentic examples and a clear professional narrative.",
+      "summary": "Choosing work samples and preparing specific examples for interviews.",
       "sourceIds": [
         "maryland",
         "national",
@@ -2895,7 +2895,7 @@
         {
           "heading": "Build a portfolio with context",
           "paragraphs": [
-            "Select artifacts that show different relevant capabilities, such as planning, communication, analysis, design, teamwork, or technical execution. For each, explain the task, your role, the process, result, and reflection. Identify team contributions accurately and remove private or confidential information. A polished artifact without context does not show what you personally did. Organize the portfolio for easy retrieval and check the current event’s format and permitted-material rules."
+            "Choose work samples that show skills relevant to the role, such as planning, communication, analysis, design, teamwork, or programming. For each, explain the task, your role, the process, result, and reflection. Identify team contributions accurately and remove private or confidential information. Explain your contribution to each sample, even when the finished work looks impressive. Organize the portfolio for easy retrieval and check the current event’s format and permitted-material rules."
           ],
           "example": {
             "scenario": "A student helped run a club workshop with four teammates and wants to claim “Managed the entire event.”",
@@ -2993,8 +2993,8 @@
     },
     {
       "id": "perf-office-data",
-      "title": "Spreadsheets, documents, slides, and data storytelling",
-      "summary": "Produce accurate business outputs and verify the information that connects them.",
+      "title": "Working with spreadsheets, documents, and slides",
+      "summary": "Creating spreadsheets, documents, and slides, then checking that their data agrees.",
       "sourceIds": [
         "microsoft",
         "maryland",
@@ -3109,7 +3109,7 @@
     {
       "id": "perf-supply-chain",
       "title": "Design a supply chain and explain the tradeoffs",
-      "summary": "Connect sourcing, inventory, transport, information, resilience, and customer service.",
+      "summary": "Comparing suppliers, inventory, and transport choices for a supply chain.",
       "sourceIds": [
         "mba",
         "maryland",
@@ -3224,7 +3224,7 @@
     {
       "id": "perf-community",
       "title": "Measure chapter participation and community impact",
-      "summary": "Document a real need, organized action, outcomes, publicity, and honest reflection.",
+      "summary": "Planning a chapter project and recording participation and results.",
       "sourceIds": [
         "maryland",
         "national",
@@ -3339,7 +3339,7 @@
     {
       "id": "perf-teaching",
       "title": "Design a lesson and find out whether students learned",
-      "summary": "Align a learning objective, explanation, practice, and assessment with evidence of understanding.",
+      "summary": "Setting a learning goal, teaching it, and checking what students understood.",
       "sourceIds": [
         "maryland",
         "national",
@@ -3365,7 +3365,7 @@
         {
           "heading": "Assess, respond, and reflect",
           "paragraphs": [
-            "Formative assessment gathers evidence during learning so instruction can change; summative assessment evaluates learning after an instructional period. A check for understanding should require the target skill, not merely “Does everyone understand?” Use a short explanation, classification, calculation, or exit ticket. Diagnose whether an incorrect response reflects vocabulary, a misconception, a calculation error, or an unclear prompt. Give specific feedback tied to the objective and allow meaningful correction. Reflect on actual responses, participation, time, and access rather than equating entertainment with learning."
+            "Formative assessment gathers evidence during learning so instruction can change; summative assessment evaluates learning after an instructional period. A check for understanding should require the target skill, not merely “Does everyone understand?” Use a short explanation, classification, calculation, or exit ticket. Diagnose whether an incorrect response reflects vocabulary, a misconception, a calculation error, or an unclear prompt. Tell students what needs work and give them a chance to correct it. Reflect on actual responses, participation, time, and access rather than equating entertainment with learning."
           ],
           "bullets": [
             "Common mistake: teaching one skill but assessing an unrelated fact.",
@@ -3453,8 +3453,8 @@
     },
     {
       "id": "perf-household-finance",
-      "title": "Build a household financial plan around goals and tradeoffs",
-      "summary": "Connect cash flow, reserves, debt, protection, education, and retirement with realistic assumptions.",
+      "title": "Planning household finances",
+      "summary": "Planning household spending, debt, savings, insurance, education, and retirement.",
       "sourceIds": [
         "investor",
         "openstax",

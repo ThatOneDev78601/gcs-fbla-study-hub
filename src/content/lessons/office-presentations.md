@@ -1,6 +1,6 @@
 ---
 title: "Slides that explain the evidence"
-summary: "Turn a business message into readable slides with accurate charts and a dependable handoff."
+summary: "Building readable slides, labeling charts, and checking the presentation files."
 sourceIds: ["microsoft","maryland","national"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ Begin with the audience’s decision or question, then outline the sequence befo
 
 Use a bar chart to compare categories, a line chart for ordered time trends, and a scatterplot to explore a relationship between two numerical variables. Label units, periods, categories, and sources. A chart cannot establish causation simply because two values move together. Avoid distorted scales, decorative 3D, tiny legends, and colors that are the only way to identify a series. Crop images deliberately without stretching their proportions, and add alternative text where supported.
 
-> **Work through an example**
+> **Example**
 >
 > A slide shows monthly sales, but the axis omits units and the chart uses a truncated vertical scale to exaggerate a small increase.
 >
@@ -26,7 +26,7 @@ Use transitions only when they help show a meaningful change. Excess animation t
 - Practice task: create five slides explaining a small sales dataset, with a central claim, two evidence slides, a recommendation, and sources.
 - Common mistake: pasting a full spreadsheet into a slide and assuming the audience can read it.
 
-## Key terms to remember
+## Key terms
 
 **Slide master.** A shared layout system governing repeated slide formatting.
 

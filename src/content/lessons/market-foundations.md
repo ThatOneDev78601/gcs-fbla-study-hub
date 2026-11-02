@@ -1,6 +1,6 @@
 ---
 title: "Marketing: from customer need to a plan"
-summary: "Connect customer needs, segmentation, the marketing mix, and measurable business goals."
+summary: "Customer needs, market segments, the marketing mix, and writing a plan."
 sourceIds: ["mba","openstax"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ Marketing identifies needs and builds an offering that customers value enough to
 
 A market is a group of potential customers with needs and the ability and willingness to buy. Segmentation divides it into useful groups: demographic, geographic, psychographic, or behavioral. Select a reachable target, then explain why its members should prefer your offer. Cultural influences, friends, income, perceived risk, and previous experience can change buying decisions. Business buyers also evaluate specifications, reliability, total cost, and approval procedures.
 
-> **Work through an example**
+> **Example**
 >
 > A bicycle shop can serve commuters or weekend mountain bikers. Its research finds nearby commuters dislike unpredictable repair times.
 >
@@ -32,7 +32,7 @@ Retailing developed from local shops and markets into department stores, superma
 
 Ecommerce takes orders online but still needs payment, inventory, service, and fulfillment. A marketplace connects buyers with multiple sellers; a direct-to-consumer brand sells without a traditional retailer. Subscription retail provides recurring deliveries under agreed terms. Omnichannel retail coordinates channels, such as online ordering with store pickup and consistent stock information; merely having both a website and shop does not guarantee integration.
 
-## Key terms to remember
+## Key terms
 
 **Segmentation.** Dividing a market into groups with shared characteristics or needs.
 

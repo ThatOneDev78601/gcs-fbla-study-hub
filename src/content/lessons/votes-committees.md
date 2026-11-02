@@ -1,6 +1,6 @@
 ---
 title: "Voting, elections, boards, and committees"
-summary: "Calculate thresholds and distinguish who recommends from who decides."
+summary: "Voting thresholds, election methods, and the authority of boards and committees."
 sourceIds: ["roberts","maryland","mba"]
 reviewed: "2026-10-27"
 ---
@@ -9,7 +9,7 @@ reviewed: "2026-10-27"
 
 A majority is more than half; a two-thirds requirement is at least two thirds, without rounding down. A plurality is the largest number and need not be a majority. Under ordinary votes-cast rules, abstentions are not votes; rules based on members present or total membership behave differently. Check the stated denominator before calculating. Tie votes fail when a majority is required.
 
-> **Work through an example**
+> **Example**
 >
 > Seventeen votes are cast. How many affirmative votes are needed?
 >
@@ -25,7 +25,7 @@ Unanimous consent allows routine action when the chair asks for objection and no
 
 Standing committees handle continuing work; special committees serve a defined task. Referral sends a pending matter for study and recommendation as authorized. A committee report can recommend action, but the assembly may still need to adopt the recommendation. Boards operate under powers granted by the governing documents; they are not automatically above the membership in every matter. Record scope, deadline, resources, and reporting responsibility so delegation does not become unexplained authority.
 
-## Key terms to remember
+## Key terms
 
 **Majority.** More than half of the applicable voting base.
 

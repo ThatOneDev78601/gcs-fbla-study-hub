@@ -1,19 +1,19 @@
 ---
 title: "Present a clear argument and handle questions"
-summary: "Structure a short presentation around a useful claim, evidence, and an action."
+summary: "Planning a short presentation, rehearsing it, and answering questions."
 sourceIds: ["toastmasters","maryland","national"]
 reviewed: "2026-10-27"
 ---
 
-## Give the audience a route
+## Organize your main points
 
 Define what the audience should understand or decide by the end. Open with relevant context and a clear central claim, then organize two or three main points with evidence and transitions. End by connecting the recommendation or lesson to the opening purpose. For an impromptu prompt, use preparation time to identify the question, choose a position, select reasons, and plan an example. A clear structure is more valuable than a memorized opening that does not fit the prompt.
 
-## Make delivery support meaning
+## Pace, slides, and speaker handoffs
 
-Speak at a pace that allows understanding, vary emphasis, pause at transitions, and project to the room. Use posture, purposeful gestures, and eye contact to support the message without forcing a performance style. Slides should display necessary evidence or visuals, not a transcript. Explain charts aloud and ensure text is readable from the audience’s position. Team presentations need intentional handoffs and balanced contribution rather than abrupt changes of speaker.
+Speak at a pace that allows understanding, vary emphasis, pause at transitions, and project to the room. Use posture, purposeful gestures, and eye contact to support the message without forcing a performance style. Slides should display necessary evidence or visuals, not a transcript. Explain charts aloud and ensure text is readable from the audience’s position. Plan transitions between speakers and give each team member a clear part.
 
-> **Work through an example**
+> **Example**
 >
 > A rehearsal exceeds its allowed time because every slide repeats a full paragraph and each speaker reintroduces the project.
 >
@@ -27,7 +27,7 @@ Practice under the actual stage timing, equipment, and materials rules. Record y
 - Common mistake: speaking faster to fit an overlong script.
 - Common mistake: bluffing when a judge asks about an untested assumption.
 
-## Key terms to remember
+## Key terms
 
 **Central claim.** The main idea the audience should understand or accept.
 

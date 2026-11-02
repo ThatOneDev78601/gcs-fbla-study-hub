@@ -237,7 +237,7 @@
     "access": "FBLA member/adviser login",
     "status": "Current",
     "checked": "2026-10-31",
-    "description": "Official high-school sample practice course. Event pages link directly to the matching test. Member login required; tests open on CONNECT because FBLA blocks embedding."
+    "description": "Official high-school sample tests. Each event page links to its test in FBLA CONNECT. You’ll need your FBLA member login."
   },
   {
     "id": "archive",
@@ -249,6 +249,6 @@
     "access": "Public Drive access may vary",
     "status": "Historical",
     "checked": "2026-10-27",
-    "description": "274 inventoried files including duplicates. Content and reuse rights are not independently verified. Do not use for current rules or deadlines."
+    "description": "274 older files, including duplicates. Their contents and reuse rights have not been checked. Use current guides for rules and deadlines."
   }
 ]

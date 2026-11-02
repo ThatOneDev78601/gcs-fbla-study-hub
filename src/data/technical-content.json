@@ -3,7 +3,7 @@
     {
       "id": "tech-hardware",
       "title": "How computers, mobile devices and peripherals work",
-      "summary": "Match a symptom to the component responsible before choosing a repair.",
+      "summary": "What computer components do and how to match a fault to its likely cause.",
       "sourceIds": [
         "cisco",
         "microsoft"
@@ -26,7 +26,7 @@
           }
         },
         {
-          "heading": "Common mistakes and test decisions",
+          "heading": "Diagnosing hardware faults",
           "paragraphs": [
             "Start with safe, reversible checks: confirm power, inspect connections, read the exact error and reproduce the symptom. Shut down and follow manufacturer procedures before internal service; protect components from electrostatic discharge. Never open a power supply as a routine troubleshooting step. Distinguish capacity from speed: a nearly full disk and insufficient RAM can both slow a computer for different reasons. For printing, test another document and inspect the queue before reinstalling everything. A peripheral working on another computer narrows the cause toward the original device, driver or connection rather than proving every component healthy."
           ]
@@ -112,7 +112,7 @@
     {
       "id": "tech-operating-systems",
       "title": "Operating systems, files and software",
-      "summary": "Understand what the OS manages and isolate application, permission and system faults.",
+      "summary": "How operating systems manage files, permissions, software, and common faults.",
       "sourceIds": [
         "microsoft",
         "cisco"
@@ -135,7 +135,7 @@
           }
         },
         {
-          "heading": "Common mistakes and test decisions",
+          "heading": "Diagnosing software and permission faults",
           "paragraphs": [
             "Determine whether a problem affects one file, one application, one account or the whole machine. Observe resource usage and logs rather than guessing from a slow interface. Closing a hung process may recover responsiveness but can lose unsaved work. A safe restart is different from abruptly removing power. When an update causes a fault, check compatibility and use an approved recovery path. Avoid deleting unfamiliar system files to free space. Test the repaired workflow under the original user account and document the result; successful operation under an administrator account alone may hide the actual permission problem."
           ]
@@ -220,15 +220,15 @@
     },
     {
       "id": "tech-service-desk",
-      "title": "A reliable troubleshooting and service-desk method",
-      "summary": "Use evidence, respectful questions and verified fixes to resolve support incidents.",
+      "title": "Troubleshooting and service-desk support",
+      "summary": "How to ask about a problem, test possible causes, and check the fix.",
       "sourceIds": [
         "cisco",
         "microsoft"
       ],
       "sections": [
         {
-          "heading": "Turn a complaint into a useful incident",
+          "heading": "Ask questions and record the problem",
           "paragraphs": [
             "An incident is an interruption or reduction in service. A service request asks for a standard item such as approved software or access. A problem investigation seeks the underlying cause of recurring incidents. Record the user, device, exact symptom, onset, impact and recent changes. Ask open questions first, then narrow them with specific tests. Prioritize using business impact and urgency: a shared checkout outage can outrank one employee’s cosmetic issue. Avoid asking users to expose passwords or unnecessary personal data. Explain what you are testing in language the user understands."
           ]
@@ -244,7 +244,7 @@
           }
         },
         {
-          "heading": "Close the loop and prevent recurrence",
+          "heading": "Confirm the fix and document it",
           "paragraphs": [
             "After a fix, reproduce the original task with the user and check related functions that the change could affect. Record the cause when known, the action, validation and any follow-up. Useful metrics include first-response time, resolution time and repeat incidents; speed alone should not reward premature closure. Asset records track ownership, configurations and lifecycle status. Change management reviews risk and rollback before altering shared services. A service-level agreement defines service commitments rather than guaranteeing every incident vanishes instantly. Clear status updates and respectful listening remain part of the technical solution, especially during delays."
           ]
@@ -330,7 +330,7 @@
     {
       "id": "tech-network-foundations",
       "title": "Networks, addressing and physical connections",
-      "summary": "Understand how devices share a network and what common equipment actually does.",
+      "summary": "How devices connect, use addresses, and send data through network equipment.",
       "sourceIds": [
         "cisco"
       ],
@@ -352,7 +352,7 @@
           }
         },
         {
-          "heading": "Common mistakes and test decisions",
+          "heading": "Checking network connections",
           "paragraphs": [
             "Bandwidth is a link’s capacity, throughput is achieved data transfer, and latency is delay. A high-bandwidth link can still feel slow when latency or packet loss is high. Compare wired and wireless results to isolate radio issues. Verify physical link, address, subnet and gateway before blaming the application. Two devices using the same IP address can create intermittent connectivity. A connected Wi-Fi icon only confirms association, not successful internet access. Network diagrams should show devices, links and boundaries clearly enough that another person can trace the path from a client to a service."
           ]
@@ -437,8 +437,8 @@
     },
     {
       "id": "tech-protocols",
-      "title": "Network protocols, services and layered diagnosis",
-      "summary": "Trace a request through naming, addressing, transport and application services.",
+      "title": "Network protocols and troubleshooting",
+      "summary": "The services and protocols involved in a network request, and how to troubleshoot them.",
       "sourceIds": [
         "cisco",
         "mdn"
@@ -461,7 +461,7 @@
           }
         },
         {
-          "heading": "Common mistakes and test decisions",
+          "heading": "Testing each part of a network request",
           "paragraphs": [
             "Ping tests one kind of reachability using ICMP; a blocked ping does not prove the host is down. A successful ping also does not prove that a web service is listening. Trace tools reveal responding hops, but some routers deliberately do not answer. Test progressively: physical connection, local address, gateway, remote destination, name resolution and application response. Distinguish a DNS error from a server’s HTTP error. Encryption protects data during transport, but it does not establish that a website’s claims are trustworthy. Never treat a familiar port number as proof that traffic is harmless."
           ]
@@ -547,7 +547,7 @@
     {
       "id": "tech-network-design",
       "title": "Plan, segment and recover a business network",
-      "summary": "Choose a network design from requirements, constraints and failure consequences.",
+      "summary": "Planning a network around the business’s needs, limits, and recovery requirements.",
       "sourceIds": [
         "cisco"
       ],
@@ -655,13 +655,13 @@
     {
       "id": "tech-security-threats",
       "title": "Recognize threats, vulnerabilities and risk",
-      "summary": "Identify what could happen, why it could happen and what matters to the organization.",
+      "summary": "Common attacks, weaknesses they exploit, and ways to assess the risk.",
       "sourceIds": [
         "cisco"
       ],
       "sections": [
         {
-          "heading": "Separate the security vocabulary",
+          "heading": "Threats, vulnerabilities, and risk",
           "paragraphs": [
             "An asset is something valuable, such as customer records or service availability. A threat is a possible cause of harm; a vulnerability is a weakness a threat could exploit. Risk combines the likelihood and impact of that harm. Confidentiality limits disclosure, integrity protects accuracy and authorized change, and availability keeps services usable. A stolen password can affect all three. Controls reduce risk but rarely remove it completely. A risk assessment considers the asset, plausible attacks, existing controls and consequences before choosing a response. Technical sophistication alone does not determine business impact."
           ]
@@ -677,7 +677,7 @@
           }
         },
         {
-          "heading": "Common mistakes and test decisions",
+          "heading": "Assessing the risk",
           "paragraphs": [
             "Distinguish an accidental disclosure from a deliberate intrusion, while recognizing that either can cause harm. Assess suspicious links without entering credentials or opening attachments. Report suspected incidents using the organization’s process. Security awareness is a control, but blaming users does not replace safer systems. Treating every risk as equally important wastes resources; prioritize severe plausible consequences. Risk can be reduced, avoided, transferred or accepted by an authorized decision maker. Insurance may transfer some financial consequences but does not prevent an attack or repair trust. Reassess as systems, threats and business needs change."
           ]
@@ -763,14 +763,14 @@
     {
       "id": "tech-security-controls",
       "title": "Protect identities, systems and data",
-      "summary": "Select layers of prevention that match the information and workflow.",
+      "summary": "Access controls, encryption, backups, and other ways to protect data.",
       "sourceIds": [
         "cisco",
         "mdn"
       ],
       "sections": [
         {
-          "heading": "Control access deliberately",
+          "heading": "Control who can access systems and data",
           "paragraphs": [
             "Authentication establishes an identity; authorization determines what that identity may do. Multifactor authentication combines different factor types, such as something known and something possessed. Two passwords are not two different factors. Least privilege gives a person or service only the rights its job requires. Role-based access assigns permissions through job functions. Review access when people join, change roles or leave. Shared accounts weaken accountability because actions are harder to attribute. A password manager supports unique credentials; a documented account recovery process reduces the temptation to bypass controls during an emergency."
           ]
@@ -786,7 +786,7 @@
           }
         },
         {
-          "heading": "Common mistakes and test decisions",
+          "heading": "Checking security controls",
           "paragraphs": [
             "Choose controls for the risk and confirm they do not prevent legitimate work unnecessarily. A preventive control blocks an event, a detective control reveals it, and a corrective control helps restore a safer state. Logging detects activity only if records are collected, protected and reviewed. Physical access controls and secure disposal matter alongside software protections. Test authorization with both permitted and denied actions. Common errors include treating hashing as decryptable, assuming multifactor authentication makes phishing impossible, and believing a secure connection means the recipient should receive the data. Access policy and trustworthy handling remain necessary."
           ]
@@ -872,7 +872,7 @@
     {
       "id": "tech-security-operations",
       "title": "Respond to incidents and maintain continuity",
-      "summary": "Reduce harm, preserve useful evidence and restore systems safely.",
+      "summary": "Preparing for incidents, containing damage, and restoring services.",
       "sourceIds": [
         "cisco"
       ],
@@ -980,7 +980,7 @@
     {
       "id": "tech-data-management",
       "title": "Databases, information quality and business systems",
-      "summary": "Turn stored facts into reliable information while keeping relationships and access clear.",
+      "summary": "Database relationships, data quality, access, and business information systems.",
       "sourceIds": [
         "mdn",
         "openstax"
@@ -1089,7 +1089,7 @@
     {
       "id": "tech-software-design",
       "title": "Systems analysis, programming and testing",
-      "summary": "Translate a user need into a model, an implementation and evidence that it works.",
+      "summary": "Turning a user’s requirements into software you can test and maintain.",
       "sourceIds": [
         "mdn",
         "microsoft"
@@ -1198,7 +1198,7 @@
     {
       "id": "tech-web-applications",
       "title": "How web applications work",
-      "summary": "Understand web structure, browser behavior, accessibility and responsible data handling.",
+      "summary": "Browser requests, page structure, accessible forms, and data storage.",
       "sourceIds": [
         "mdn"
       ],
@@ -1306,7 +1306,7 @@
     {
       "id": "tech-statistics",
       "title": "Probability, distributions and uncertainty",
-      "summary": "Interpret summaries and probabilities without overstating what the data show.",
+      "summary": "Distributions, probability, sampling, and what you can conclude from data.",
       "sourceIds": [
         "openstax",
         "mba"
@@ -1415,7 +1415,7 @@
     {
       "id": "tech-data-analysis",
       "title": "Collect, clean, analyze and communicate data",
-      "summary": "Produce a reproducible analysis with clear units, honest charts and useful conclusions.",
+      "summary": "How to collect and clean data, check calculations, and present the results.",
       "sourceIds": [
         "mba",
         "openstax",
@@ -1429,7 +1429,7 @@
           ]
         },
         {
-          "heading": "Clean deliberately and calculate correctly",
+          "heading": "Clean the data and check calculations",
           "paragraphs": [
             "Check missing values, duplicate records, impossible ranges, inconsistent categories and mismatched units. Decide and document how each issue will be handled. A missing sale is not automatically a zero sale. Standardize dates and identifiers before merging datasets. Sorting changes order; filtering changes the visible subset. A pivot table summarizes data by categories, but its result depends on the aggregation selected. Relative spreadsheet references move when copied, while absolute references lock a row or column. Calculate percentage change as new minus old, divided by old; a zero baseline requires a different description."
           ],
@@ -1439,7 +1439,7 @@
           }
         },
         {
-          "heading": "Communicate without distortion",
+          "heading": "Present results accurately",
           "paragraphs": [
             "Choose a chart that fits the question: lines for ordered time trends, bars for category comparisons and scatterplots for relationships between numerical variables. Label units, period, source and relevant uncertainty. Truncated bar axes can exaggerate differences; a line chart may use a narrower scale if it is clearly labeled and justified. Separate results from interpretation and limitations. Provide a recommendation that the evidence supports rather than inventing certainty. Common mistakes include claiming causation from a trend, reporting many decimal places unsupported by measurement quality, and making a chart attractive while leaving the denominator or comparison group undefined."
           ]
@@ -1525,7 +1525,7 @@
     {
       "id": "tech-machine-learning",
       "title": "Machine learning, evaluation and AI reasoning",
-      "summary": "Choose learning methods and judge models using unseen data and relevant metrics.",
+      "summary": "Learning methods, model evaluation, and the limits of AI predictions.",
       "sourceIds": [
         "mba",
         "openstax"
@@ -1634,7 +1634,7 @@
     {
       "id": "tech-data-ethics",
       "title": "Privacy, AI fairness and responsible information use",
-      "summary": "Use data for a defined purpose and examine who can be harmed by a system.",
+      "summary": "Privacy, consent, bias, and who is responsible for decisions made with data.",
       "sourceIds": [
         "mba",
         "mdn",
@@ -1658,7 +1658,7 @@
           }
         },
         {
-          "heading": "Common mistakes and test decisions",
+          "heading": "Consent, privacy, and AI claims",
           "paragraphs": [
             "Use a practical review: identify the purpose, necessary fields, affected groups, likely harms, protective controls and an accountable decision maker. Provide human review when errors could materially affect people. Distinguish explaining a model from proving that it is correct or fair. A statistically useful proxy can still reproduce sensitive distinctions. Avoid uploading private member records into unapproved tools. Common mistakes include assuming public access grants unrestricted reuse, treating name removal as complete anonymization, and describing an algorithm as neutral merely because it uses mathematics. Review real outcomes after deployment as well as before launch."
           ]
@@ -1744,7 +1744,7 @@
     {
       "id": "specialist-project-planning",
       "title": "Initiate and plan a project",
-      "summary": "Define a temporary effort with clear outcomes, accountable people and a realistic plan.",
+      "summary": "Setting a project’s scope, assigning responsibilities, and planning the work.",
       "sourceIds": [
         "pmi",
         "mba"
@@ -1767,7 +1767,7 @@
           }
         },
         {
-          "heading": "Common mistakes and test decisions",
+          "heading": "Scope, estimates, and project risks",
           "paragraphs": [
             "Write acceptance criteria that someone can verify: 'report contains a reconciled budget and three sourced recommendations' is stronger than 'report is great.' Build a communication plan around who needs which information and when. A responsibility matrix clarifies who performs, approves or advises on work, preventing duplicate effort and missing decisions. Do not confuse effort with elapsed duration or assume every task can run simultaneously. A risk is uncertain; an issue is already occurring. Planning should be sufficient for the project’s size and uncertainty, then updated as evidence changes rather than treated as an unchangeable prediction."
           ]
@@ -1853,7 +1853,7 @@
     {
       "id": "specialist-project-delivery",
       "title": "Execute, monitor and close a project",
-      "summary": "Control change, communicate tradeoffs and hand over a result that can be used.",
+      "summary": "Tracking progress, handling changes, and handing over a finished project.",
       "sourceIds": [
         "pmi",
         "mba"
@@ -1876,7 +1876,7 @@
           }
         },
         {
-          "heading": "Close deliberately",
+          "heading": "Hand over and close the project",
           "paragraphs": [
             "Closure verifies deliverables against acceptance criteria, obtains approval, transfers ownership and records unresolved items. Reconcile spending, archive useful records and release resources. Capture lessons about both successful practices and failures so future projects can act on them. Benefits may appear after closure, so name the person responsible for measuring them. A deployment is not finished if no one can maintain or use it. Common mistakes include declaring completion when work is merely submitted, hiding overruns, confusing extra features with required quality and leaving handover instructions or account ownership with someone who is leaving the organization."
           ]
@@ -1962,7 +1962,7 @@
     {
       "id": "specialist-public-governance",
       "title": "Public institutions, policy and ethical service",
-      "summary": "Explain how public organizations make decisions and remain accountable to the community.",
+      "summary": "How public organizations make policy, provide services, and answer to the community.",
       "sourceIds": [
         "usa",
         "mba"
@@ -2071,7 +2071,7 @@
     {
       "id": "specialist-public-finance",
       "title": "Public budgets, revenue and performance",
-      "summary": "Read a public budget as a statement of priorities, constraints and accountability.",
+      "summary": "How governments raise money, set budgets, and report results.",
       "sourceIds": [
         "usa",
         "mba",
@@ -2181,7 +2181,7 @@
     {
       "id": "specialist-healthcare-operations",
       "title": "Healthcare organizations, people and quality",
-      "summary": "Understand how care settings coordinate safe services and operational improvement.",
+      "summary": "Care settings, staffing, communication, and quality improvement.",
       "sourceIds": [
         "healthcare",
         "mba"
@@ -2308,7 +2308,7 @@
     {
       "id": "specialist-healthcare-finance",
       "title": "Healthcare finance, insurance and information",
-      "summary": "Connect budgets and billing workflows to accurate records and responsible access.",
+      "summary": "Healthcare billing, insurance, budgets, and patient records.",
       "sourceIds": [
         "healthcare",
         "mba",
@@ -2463,7 +2463,7 @@
     {
       "id": "specialist-agribusiness-markets",
       "title": "Agribusiness economics, finance and marketing",
-      "summary": "Trace value from farm inputs to customers and manage the uncertainty of seasonal production.",
+      "summary": "Farm markets, seasonal budgets, contracts, and business risks.",
       "sourceIds": [
         "mba",
         "openstax",
@@ -2471,7 +2471,7 @@
       ],
       "sections": [
         {
-          "heading": "Agribusiness is a connected value system",
+          "heading": "How agribusinesses work together",
           "paragraphs": [
             "Agribusiness includes input suppliers, producers, processors, distributors, retailers and service organizations. A farm is one part of this larger chain. Inputs such as seed, feed, labor and equipment become outputs sold into markets. Demand reflects consumers’ willingness and ability to buy; supply reflects producers’ willingness and ability to sell. Weather, disease, energy prices and trade conditions can shift supply or demand. Many biological production processes take time, so producers cannot instantly adjust output when prices change. Opportunity cost is the value of the best alternative use of a scarce resource such as land or labor."
           ]
@@ -2591,7 +2591,7 @@
     {
       "id": "specialist-agricultural-operations",
       "title": "Agricultural operations, safety and natural resources",
-      "summary": "Balance production efficiency with traceability, stewardship and safe procedures.",
+      "summary": "Production schedules, equipment, safety, and natural resource management.",
       "sourceIds": [
         "mba",
         "openstax",
@@ -2707,7 +2707,7 @@
     {
       "id": "specialist-real-estate-foundations",
       "title": "Property, ownership and real-estate markets",
-      "summary": "Distinguish the physical property, the rights attached to it and the evidence used to describe it.",
+      "summary": "Property rights, ownership, valuation, and real estate careers.",
       "sourceIds": [
         "mba",
         "openstax"
@@ -2720,7 +2720,7 @@
           ]
         },
         {
-          "heading": "Describe property and market value carefully",
+          "heading": "Property descriptions and market value",
           "paragraphs": [
             "A deed transfers an ownership interest; title describes ownership rights and claims rather than simply naming one piece of paper. Legal descriptions identify a parcel more precisely than a casual street address. Land-use controls, private restrictions and physical conditions can affect permitted use. Supply, demand, location, condition and available financing influence markets. An appraisal is an informed opinion of value for a stated purpose and date, not a guarantee of a selling price. The sales-comparison approach uses comparable properties and justified adjustments; the cost and income approaches answer different valuation questions."
           ],
@@ -2736,7 +2736,7 @@
           ]
         },
         {
-          "heading": "Common mistakes and test decisions",
+          "heading": "Ownership and valuation mistakes",
           "paragraphs": [
             "Distinguish a leasehold right to occupy from ownership of the property. An encumbrance affects rights or interests but does not always prevent transfer. Zoning permission does not automatically satisfy every permit, covenant or safety requirement. Review source documents and use qualified professionals for actual transactions; definitions here are educational and exact state rules can differ. Common mistakes include confusing a deed with a mortgage, assuming attached equipment always transfers regardless of an agreement, and equating asking price with market value. Read the question’s stated property rights and facts before selecting an answer based on ordinary everyday language."
           ]
@@ -2822,7 +2822,7 @@
     {
       "id": "specialist-real-estate-finance",
       "title": "Transactions, mortgages and property calculations",
-      "summary": "Follow a transaction and distinguish price, financing cost and cash required.",
+      "summary": "The steps in a property sale, mortgage costs, and common calculations.",
       "sourceIds": [
         "mba",
         "openstax"
@@ -2846,7 +2846,7 @@
           }
         },
         {
-          "heading": "Common mistakes and test decisions",
+          "heading": "Checking property calculations",
           "paragraphs": [
             "Read the basis of every percentage: a commission calculated on sale price differs from an interest charge calculated on outstanding principal. Simple annual interest is principal multiplied by annual rate and time in years, but actual loan disclosures may use more complex payment conventions. Compare financing using total relevant costs and terms rather than a payment alone. Lower payments can result from a longer repayment period that increases total interest. Common mistakes include treating gross rent as profit, assuming approval removes every contingency and presenting an illustrative calculation as a current loan offer or individualized financial recommendation."
           ]
@@ -2932,7 +2932,7 @@
     {
       "id": "specialist-real-estate-agency",
       "title": "Agency, disclosure and ethical transactions",
-      "summary": "Recognize duties, conflicts and fair treatment without guessing at jurisdiction-specific law.",
+      "summary": "Who an agent represents, what they must disclose, and how local rules apply.",
       "sourceIds": [
         "mba",
         "maryland",
@@ -2964,7 +2964,7 @@
           ]
         },
         {
-          "heading": "Common mistakes and test decisions",
+          "heading": "Checking duties and local requirements",
           "paragraphs": [
             "Separate ethical principles from a claim about a specific state deadline, form or license rule. Use the current official event guide for the test’s expected scope and current regulators for real activity. When a question presents a conflict, identify the principal, duty, known fact and proper authorization before choosing a response. Common mistakes include assuming a friendly agent represents everyone, confusing confidentiality with permission to conceal a required material disclosure and following a client’s unlawful instruction. Accurate records and candid explanations protect all parties more effectively than vague assurances that everything will work out."
           ]
@@ -3062,7 +3062,7 @@
     {
       "id": "specialist-supply-operations",
       "title": "Supply chains, operations and inventory",
-      "summary": "Connect customer demand to the flow of goods, information and money.",
+      "summary": "How goods, information, and money move from suppliers to customers.",
       "sourceIds": [
         "ascm",
         "mba"
@@ -3075,7 +3075,7 @@
           ]
         },
         {
-          "heading": "Inventory serves a purpose and has a cost",
+          "heading": "Inventory benefits and costs",
           "paragraphs": [
             "Inventory can include raw materials, work in process, finished goods and supplies needed to operate. Cycle stock supports normal replenishment, while safety stock buffers uncertainty. Carrying inventory ties up money and creates storage, damage and obsolescence costs. Too little inventory can cause stockouts and lost service. A reorder point combines expected demand during replenishment lead time with any chosen safety stock. Inventory turnover compares cost of goods sold with average inventory value, using compatible accounting units. Physical counts and cycle counts check records against reality; accurate records are essential for dependable planning."
           ],
@@ -3085,7 +3085,7 @@
           }
         },
         {
-          "heading": "Improve flow, not just one metric",
+          "heading": "Check the effect on the whole supply chain",
           "paragraphs": [
             "Capacity is the output a process can sustain under stated conditions. A bottleneck constrains the flow, so improving a nonconstraint may not increase overall output. Lean approaches reduce waste and improve flow; just-in-time arrangements need reliable processes and suppliers rather than magical zero-risk inventory. Quality should be built into work, with checks that detect defects before they travel downstream. Common mistakes include treating all inventory as waste, comparing turnover using sales revenue against cost-valued inventory and maximizing machine utilization when customer demand does not need the extra output. Evaluate service, quality, cost and resilience together."
           ]
@@ -3171,7 +3171,7 @@
     {
       "id": "specialist-procurement",
       "title": "Purchasing, supplier selection and responsible sourcing",
-      "summary": "Buy against a clear need, evaluate total cost and manage supplier performance.",
+      "summary": "Writing purchasing requirements, comparing suppliers, and checking performance.",
       "sourceIds": [
         "ascm",
         "mba"
@@ -3280,7 +3280,7 @@
     {
       "id": "specialist-logistics",
       "title": "Distribution, transportation and returns",
-      "summary": "Choose movement and storage strategies from service requirements and total consequences.",
+      "summary": "Transport, storage, order fulfillment, and returns.",
       "sourceIds": [
         "ascm",
         "mba"
@@ -3293,7 +3293,7 @@
           ]
         },
         {
-          "heading": "Choose transport through tradeoffs",
+          "heading": "Compare transport options",
           "paragraphs": [
             "Road, rail, water, air and pipeline offer different combinations of speed, flexibility, capacity and cost. Air is often fast but expensive; water can move large international volumes economically but slowly. Rail is useful for suitable high-volume routes, while road transport offers flexible local access. Intermodal transportation combines modes. Lead time includes more than travel: order processing, waiting, handling and customs can matter. Track reliability as well as average speed. A cheaper slow mode can require more inventory, so compare total logistics cost and service risk rather than freight price in isolation."
           ],
@@ -3303,7 +3303,7 @@
           }
         },
         {
-          "heading": "Measure fulfillment and reverse flows",
+          "heading": "Track deliveries and returns",
           "paragraphs": [
             "Useful measures include order accuracy, on-time delivery, damage, fulfillment time and total cost per order. Define 'on time' against an agreed promise rather than moving the deadline after delivery. Reverse logistics handles returns, repairs, reuse, recycling and disposal. Returned items require identification and condition checks before being put back into saleable stock. Plan for disruption through alternative routes, suitable buffers and clear communication. Common mistakes include speeding shipping to compensate for avoidable warehouse delays, ignoring last-mile constraints and assuming every return has no value. Trace the full order cycle to find the actual cause of missed service."
           ]

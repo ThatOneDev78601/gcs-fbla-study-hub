@@ -1,6 +1,6 @@
 ---
-title: "Spreadsheets, documents, slides, and data storytelling"
-summary: "Produce accurate business outputs and verify the information that connects them."
+title: "Working with spreadsheets, documents, and slides"
+summary: "Creating spreadsheets, documents, and slides, then checking that their data agrees."
 sourceIds: ["microsoft","maryland","national"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ Identify the requested output, audience, required format, source data, calculati
 
 Spreadsheet formulas start with references and operators; functions such as SUM, AVERAGE, IF, and COUNTIF solve common tasks. Relative references change when copied; absolute references fix a location. Use number formats appropriately but remember that formatting does not change the underlying value. Word-processing styles create consistent headings and paragraphs; tables, page breaks, headers, and footers support structured documents. Slides need readable charts and a clear message rather than pasted spreadsheet clutter.
 
-> **Work through an example**
+> **Example**
 >
 > A worksheet calculates each item’s total as quantity times unit price and applies a tax rate stored in cell H2. Copying the formula changes H2 to H3 and H4.
 >
@@ -27,7 +27,7 @@ Choose whether linked, embedded, or static content fits the task and software in
 - Common mistake: sorting one column and corrupting the record relationships.
 - Common mistake: trusting a copied formula without checking its references.
 
-## Key terms to remember
+## Key terms
 
 **Absolute reference.** A spreadsheet reference fixed during copying, such as $H$2.
 

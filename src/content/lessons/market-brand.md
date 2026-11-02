@@ -1,6 +1,6 @@
 ---
-title: "Products, brands, and the value promise"
-summary: "Understand product mix, life cycles, warranties, positioning, and service promises."
+title: "Products and brands"
+summary: "Product ranges, brands, warranties, and product life cycles."
 sourceIds: ["mba","openstax"]
 reviewed: "2026-10-27"
 ---
@@ -9,11 +9,11 @@ reviewed: "2026-10-27"
 
 A product can be a good, service, experience, or combination. Product/service management selects, develops, improves, and retires offerings to meet customer needs. A product mix contains all the lines a company offers. Width counts distinct lines; depth counts variants within a line. Bundling combines complementary items, but customers should understand the package price and what is optional. Grades classify quality levels; standards define consistent criteria.
 
-## Make the promise credible
+## Support the brand’s promises
 
 A brand identifies an offering and creates expectations about it. Corporate branding concerns the organization; product branding concerns an individual offer. Position using attributes that matter to the target, such as convenience, reliability, service, or price. A feature describes what exists; a benefit explains its value to the customer. A warranty describes specified obligations if a product fails, while a guarantee communicates a promise whose exact terms still need checking.
 
-> **Work through an example**
+> **Example**
 >
 > A backpack has water-resistant fabric, a 15-liter capacity, and a repair promise covering faulty seams for one year.
 >
@@ -26,7 +26,7 @@ Introduction often requires awareness and trial; growth demands dependable capac
 - Common mistake: assuming an attractive brand can compensate indefinitely for poor delivery.
 - Common mistake: adding variants without checking demand, inventory costs, or confusion.
 
-## Key terms to remember
+## Key terms
 
 **Product mix width.** The number of product lines offered.
 

@@ -7,14 +7,14 @@ const materialsUrl='/events/'+event.id+'/resources/';
 ---
 <section id="resources" class="event-resources">
   <div class="section-line"><h2>Study materials</h2><a class="plain-link" href={materialsUrl}>All materials for this event →</a></div>
-  <p class="section-description">Keep learning independently with current sources and optional older practice.</p>
+  <p class="section-description">Check the current event guide or find extra reading and older practice materials.</p>
   <ul class="study-source-links">
     <li><a href={event.sourceUrl} target="_blank" rel="noreferrer">Maryland’s current {event.name} guide ↗</a><span class="small muted">2026–2027 · Rules, scope & rubric</span></li>
     {guide&&<li><a href={guide.url} target="_blank" rel="noreferrer">{guide.title} ↗</a><span class="small muted">MBA Research · Free PDF · Current publisher collection</span></li>}
   </ul>
   {historical.length?<>
     <h3>From the original Google Drive</h3>
-    <p class="section-description">Historical, optional practice. Dates and formats may differ from today’s event; answers have not been independently checked.</p>
+    <p class="section-description">Older practice materials. Dates and formats may have changed, and the answers have not been checked.</p>
     <ul class="archive-preview">{historical.slice(0,3).map(group=><li><a href={group.files[0].url} target="_blank" rel="noreferrer">{group.title} ↗</a><span class="small muted">{group.date} · {group.eventLinks.find(link=>link.eventId===event.id)?.relationship} · {group.files[0].format}</span></li>)}</ul>
     <a class="plain-link" href={materialsUrl+'#historical'}>Browse all {historical.length} archive entries for {event.name} →</a>
   </>:<p class="section-description">No event-specific match was found in the older Drive collection. <a href={materialsUrl}>Use this event’s current sources and further reading →</a></p>}

@@ -1,6 +1,6 @@
 ---
 title: "Employment and business compliance"
-summary: "Recognize financial, workplace, tax, and cross-border obligations."
+summary: "Workplace, financial, tax, and international business requirements."
 sourceIds: ["openstax","mba"]
 reviewed: "2026-10-27"
 ---
@@ -15,7 +15,7 @@ OSHA concerns workplace safety and health; the Americans with Disabilities Act a
 
 Consumer protection addresses misleading claims and unfair treatment. Competition law concerns harmful restraints, including certain agreements among competitors. Financial institutions face identification, privacy, recordkeeping, and suspicious-activity obligations. Income, payroll, and sales taxes have different bases and responsibilities. Taxes collected for others are not ordinary earned revenue. Reliable records support both reporting and compliance; a book balance does not by itself prove legal compliance.
 
-> **Work through an example**
+> **Example**
 >
 > Two competitors agree never to discount below an identical minimum price.
 >
@@ -27,7 +27,7 @@ International transactions can involve export controls, sanctions, customs, anti
 
 Treaties are formal international agreements, while international custom reflects recognized practice and legal obligation. Customs procedures address goods crossing borders, including classification, valuation, origin, and documentation. A tariff is not the entire compliance process. Accurate records and assigned responsibility help prevent avoidable delays and false declarations.
 
-## Key terms to remember
+## Key terms
 
 **Compliance.** Following applicable laws, regulations, and organizational requirements.
 

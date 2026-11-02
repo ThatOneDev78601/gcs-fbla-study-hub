@@ -1,6 +1,6 @@
 ---
-title: "Spreadsheet formulas that survive a real task"
-summary: "Calculate, summarize, and verify a business worksheet before polishing its appearance."
+title: "Business spreadsheet formulas and checks"
+summary: "Formulas, cell references, summaries, and checks for a business worksheet."
 sourceIds: ["microsoft","maryland","national"]
 reviewed: "2026-10-27"
 ---
@@ -9,11 +9,11 @@ reviewed: "2026-10-27"
 
 Start by identifying which columns are inputs and which are calculated outputs. Keep units consistent: a percentage entered as 0.08 represents eight percent when formatted as a percentage. Multiplication and division occur before addition and subtraction unless parentheses change the order. A formula such as =B2*C2 calculates line revenue. SUM adds a range; AVERAGE computes its arithmetic mean; COUNT counts numeric values, while COUNTA counts nonempty cells. Blank cells and zero values have different meanings, so inspect missing data before calculating an average.
 
-## Choose the function and reference deliberately
+## Choose functions and cell references
 
 IF selects an output based on a condition; COUNTIF counts matching records; SUMIF totals records matching a condition. A lookup retrieves a related value using a key. Confirm whether an exact match is required and what happens when the key is missing. Relative references move when copied, absolute references hold both row and column, and mixed references hold one. Use a fixed reference for a shared assumption such as a discount rate, then test the copied formula in the first and last rows.
 
-> **Work through an example**
+> **Example**
 >
 > Quantity is in B2, price in C2, and a discount of 10% is stored in H2. You need revenue after discount for each row.
 >
@@ -26,7 +26,7 @@ Sort the entire dataset so values stay attached to the correct records. Filters 
 - Practice task: create six sales rows, calculate discounted revenue, total revenue by product, and produce one labeled comparison chart.
 - Common mistake: typing a total over a formula or including a subtotal twice in a grand total.
 
-## Key terms to remember
+## Key terms
 
 **Mixed reference.** A reference fixing only its row or its column, such as A$2 or $A2.
 

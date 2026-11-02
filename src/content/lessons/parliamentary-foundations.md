@@ -1,6 +1,6 @@
 ---
 title: "Parliamentary foundations and meeting structure"
-summary: "Protect members’ rights while moving through a lawful meeting."
+summary: "Meeting rules, members’ rights, and the roles of officers."
 sourceIds: ["roberts","maryland","mba"]
 reviewed: "2026-10-27"
 ---
@@ -15,7 +15,7 @@ A useful hierarchy places applicable law and the corporate charter above bylaws,
 
 A standard order includes reading and approval of minutes, officer and board reports, committee reports, special orders, unfinished business and general orders, then new business. Minutes record what was done rather than a transcript of everything said. Correct minutes through the approval process. The chair maintains impartiality, states questions clearly, manages debate, and announces results. The secretary preserves the record. A special meeting is limited by its call and governing rules.
 
-> **Work through an example**
+> **Example**
 >
 > Several members leave and attendance falls below the quorum.
 >
@@ -27,7 +27,7 @@ A president leads while presiding impartially; a vice president performs assigne
 
 Previous notice alerts members that specified business will be proposed under applicable timing and content rules. The notice can affect the vote required for actions such as rescinding. A notice requirement is not satisfied merely because someone privately mentioned an idea.
 
-## Key terms to remember
+## Key terms
 
 **Quorum.** The minimum attendance required for conducting substantive business.
 

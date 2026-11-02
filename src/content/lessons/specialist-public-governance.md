@@ -1,6 +1,6 @@
 ---
 title: "Public institutions, policy and ethical service"
-summary: "Explain how public organizations make decisions and remain accountable to the community."
+summary: "How public organizations make policy, provide services, and answer to the community."
 sourceIds: ["usa","mba"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ Public organizations provide services and carry out policies under authority gra
 
 Public policy begins with identifying a problem, understanding affected groups and comparing possible responses. Options may include direct service, regulation, incentives or partnerships. Analyze evidence, costs, expected benefits and unintended effects before recommending a choice. Implementation translates a decision into staffing, procedures, communication and delivery. Evaluation examines whether outcomes improved and for whom. Stakeholder engagement should reach more than the most vocal participants. Public communication uses clear language, accessible formats and accurate explanations of eligibility, process and appeal options. Informing people is different from collecting meaningful feedback that can influence a decision.
 
-> **Work through an example**
+> **Example**
 >
 > A town proposes moving a bus stop to save travel time.
 >
@@ -23,7 +23,7 @@ Public policy begins with identifying a problem, understanding affected groups a
 
 A conflict of interest occurs when a personal interest could improperly influence an official responsibility. Disclose potential conflicts and use the organization’s recusal process rather than assuming good intentions solve the problem. Stewardship means using entrusted resources responsibly. Transparency supports scrutiny, while legitimate privacy and security needs still require protection. Keep accurate records and apply procedures consistently. Common mistakes include treating equal treatment as always equivalent to equitable access, promising a policy without authority or funding, and using service volume as the only measure of success. Measure service quality, public outcomes and access alongside cost and speed.
 
-## Key terms to remember
+## Key terms
 
 **Public policy.** A course of action adopted to address a public issue.
 

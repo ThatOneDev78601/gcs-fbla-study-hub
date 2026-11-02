@@ -1,6 +1,6 @@
 ---
 title: "Recruit, develop, and retain people"
-summary: "Connect staffing, training, performance, rewards, safety, and employee relations."
+summary: "Hiring, training, performance reviews, pay, and employee relations."
 sourceIds: ["openstax","mba"]
 reviewed: "2026-10-27"
 ---
@@ -15,7 +15,7 @@ Training closes specific skill gaps; development prepares people for broader fut
 
 Evaluate both individual and team outcomes. Attendance, task quality, collaboration, and customer impact need evidence and context. A grievance process should receive, investigate, document, and resolve a complaint fairly; serious harassment or violence concerns require prompt escalation through the designated safety or HR process. Separation should follow applicable rules, authorization, documentation, and respectful communication; an exit interview can reveal process problems.
 
-> **Work through an example**
+> **Example**
 >
 > A new employee repeatedly enters purchase orders incorrectly.
 >
@@ -27,7 +27,7 @@ Total rewards include pay, benefits, recognition, growth, and working conditions
 
 Payroll administration tracks time, calculates gross pay and deductions, pays employees, and remits amounts due. Benefit plans can include health and life coverage, educational assistance, and retirement support. Emergency plans identify roles, communication, evacuation or protective actions, and practice. Professional development can include PHR, SPHR, or GPHR certifications associated with operational, strategic, or global HR work; verify current credential requirements with the issuing organization.
 
-## Key terms to remember
+## Key terms
 
 **Job analysis.** Systematic study of tasks and job requirements.
 

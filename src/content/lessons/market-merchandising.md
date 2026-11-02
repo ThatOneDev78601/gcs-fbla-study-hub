@@ -1,6 +1,6 @@
 ---
 title: "Assortments, displays, and the retail experience"
-summary: "Use product data and visual merchandising to make shopping useful and profitable."
+summary: "Choosing products, planning displays, and checking sales results."
 sourceIds: ["mba","adobe"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ Merchandising selects, buys, presents, and manages goods for the intended shoppe
 
 Visual merchandising includes store layout, lighting, signage, fixtures, and product presentation. A display is a specific arrangement within that larger experience. A planogram shows intended product placement and shelf allocation. Cross-merchandising places complementary products together, such as notebooks and pens, to solve a customer need. A focal point, balanced arrangement, readable signs, and clear prices guide attention; reachable products and uncluttered routes make the arrangement usable.
 
-> **Work through an example**
+> **Example**
 >
 > A school store stocks many novelty pen colors but frequently runs out of basic black pens. Its display hides prices behind the merchandise.
 >
@@ -27,7 +27,7 @@ Inspect displays for dust, empty positions, damage, outdated offers, incorrect p
 - Common mistake: claiming a display caused higher sales without considering a simultaneous discount.
 - Common mistake: allowing decorative fixtures to obstruct accessible routes or product labels.
 
-## Key terms to remember
+## Key terms
 
 **Planogram.** A diagram specifying merchandise placement and shelf allocation.
 

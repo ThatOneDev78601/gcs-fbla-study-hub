@@ -1,6 +1,6 @@
 ---
 title: "Execute, monitor and close a project"
-summary: "Control change, communicate tradeoffs and hand over a result that can be used."
+summary: "Tracking progress, handling changes, and handing over a finished project."
 sourceIds: ["pmi","mba"]
 reviewed: "2026-10-27"
 ---
@@ -13,17 +13,17 @@ Execution produces the planned deliverables and coordinates people, resources an
 
 A change request should describe the proposed adjustment and its effects on scope, time, cost, quality and risk. Obtain approval through the project’s agreed authority before treating the change as a commitment. Scope creep is uncontrolled expansion. Adaptive teams can reprioritize a backlog within a defined process, but flexibility does not mean unlimited resources. Track issues, owners and actions separately from potential risks. Escalate decisions the team cannot make. If a supplier delay affects the critical path, evaluate alternatives such as resequencing, reducing scope or adding appropriate resources; each has costs and limits.
 
-> **Work through an example**
+> **Example**
 >
 > Two days before a report is due, a stakeholder requests an additional survey of 300 students.
 >
 > Estimate effort and impact, explain the tradeoff and seek an authorized scope or deadline decision. Silently accepting the request hides a predictable delivery risk.
 
-## Close deliberately
+## Hand over and close the project
 
 Closure verifies deliverables against acceptance criteria, obtains approval, transfers ownership and records unresolved items. Reconcile spending, archive useful records and release resources. Capture lessons about both successful practices and failures so future projects can act on them. Benefits may appear after closure, so name the person responsible for measuring them. A deployment is not finished if no one can maintain or use it. Common mistakes include declaring completion when work is merely submitted, hiding overruns, confusing extra features with required quality and leaving handover instructions or account ownership with someone who is leaving the organization.
 
-## Key terms to remember
+## Key terms
 
 **Scope creep.** Uncontrolled expansion of a project’s work or requirements.
 

@@ -1,6 +1,6 @@
 ---
 title: "Motions, amendments, and debate"
-summary: "Follow a main motion and distinguish the tools used to handle it."
+summary: "How to introduce a motion, amend it, and handle debate."
 sourceIds: ["roberts","maryland","mba"]
 reviewed: "2026-10-27"
 ---
@@ -9,7 +9,7 @@ reviewed: "2026-10-27"
 
 A member obtains recognition and makes a motion; another member seconds it when required; the chair states the question; members debate; the chair puts the question to a vote; the chair announces the result. A second means another member wants consideration, not necessarily agreement. Once stated by the chair, the motion belongs to the assembly. Amendments change wording and must be germane; vote on an amendment before the affected main motion.
 
-> **Work through an example**
+> **Example**
 >
 > A member moves to spend $100; an amendment changes $100 to $80.
 >
@@ -41,7 +41,7 @@ In an ordinary deliberative assembly under default rules, a member ordinarily ha
 | 12 | Adjourn | End the meeting |
 | 13 | Fix the time to which to adjourn | Set an adjourned meeting |
 
-## Key terms to remember
+## Key terms
 
 **Pending.** Before the assembly and not yet disposed of.
 

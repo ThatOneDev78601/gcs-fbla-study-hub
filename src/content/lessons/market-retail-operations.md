@@ -1,6 +1,6 @@
 ---
 title: "Retail stock, transactions, and inventory control"
-summary: "Follow merchandise from receiving through storage, sales, returns, and reconciliation."
+summary: "Receiving stock, tracking inventory, processing sales, and handling returns."
 sourceIds: ["mba","openstax"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ Receiving compares delivered goods with the purchase order and packing slip. Cou
 
 A perpetual system updates inventory as transactions occur; a periodic system uses counts at intervals. Physical counts verify the records because theft, breakage, recording mistakes, and returns can create discrepancies. Shrinkage is the difference between recorded and actual inventory, measured on a consistent cost or retail basis. Reorder planning considers sales rate, lead time, and safety stock. Report an out-of-stock promptly, check other locations, and record lost-demand information.
 
-> **Work through an example**
+> **Example**
 >
 > A store expects 120 mugs at $5 cost each but counts 114. Average demand is 10 per day and replenishment takes four days.
 >
@@ -27,7 +27,7 @@ Prepare a cash drawer with an authorized starting float. Record each sale, tende
 - Common mistake: confronting a suspected shoplifter instead of following trained safety procedures.
 - Common mistake: treating book inventory as unquestionable after a mismatch.
 
-## Key terms to remember
+## Key terms
 
 **Shrinkage.** Recorded inventory minus inventory actually present, on a consistent valuation basis.
 

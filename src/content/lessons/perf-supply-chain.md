@@ -1,6 +1,6 @@
 ---
 title: "Design a supply chain and explain the tradeoffs"
-summary: "Connect sourcing, inventory, transport, information, resilience, and customer service."
+summary: "Comparing suppliers, inventory, and transport choices for a supply chain."
 sourceIds: ["mba","maryland","national"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ A supply chain connects suppliers, production or service preparation, storage, d
 
 Supplier selection considers quality, total cost, reliability, capacity, lead time, ethics, and risk rather than unit price alone. Inventory provides availability and buffers uncertainty but requires cash, storage, and handling. Transportation trades off speed, cost, reliability, size, perishability, and environmental effect. Information systems improve visibility when records and definitions are accurate. Demand variability can be amplified by delayed information and oversized orders, producing unnecessary swings upstream.
 
-> **Work through an example**
+> **Example**
 >
 > A fictional club merchandise supplier offers a cheaper unit price but requires a large minimum order and a six-week lead time. A local supplier charges more but replenishes weekly.
 >
@@ -27,7 +27,7 @@ Identify critical dependencies, likely disruptions, and the impact of losing a s
 - Common mistake: claiming zero risk after adding a backup supplier.
 - Common mistake: comparing supplier prices without minimum quantities, returns, or freight.
 
-## Key terms to remember
+## Key terms
 
 **Total delivered cost.** The combined relevant cost of obtaining and delivering an item.
 

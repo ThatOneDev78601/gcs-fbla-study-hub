@@ -1,11 +1,11 @@
 ---
 title: "Journalism ethics, independence, and responsible publication"
-summary: "Balance public interest, verification, harm, attribution, and accountability."
+summary: "Accuracy, fairness, independence, and responsibility in reporting."
 sourceIds: ["spj","mba","copyright-visual"]
 reviewed: "2026-10-27"
 ---
 
-## Accuracy and fairness are active work
+## Verify facts and represent people fairly
 
 Ethical reporting seeks truth and reports it carefully. Verify information, provide context, identify sources when appropriate, and distinguish fact from opinion. Fairness means representing relevant evidence and giving people a meaningful opportunity to respond; it does not mean giving an unsupported rumor equal status with verified records. A correction policy and transparent explanation of limits help audiences judge the work. Objectivity is strengthened by a consistent verification method rather than a claim that reporters have no perspectives.
 
@@ -13,7 +13,7 @@ Ethical reporting seeks truth and reports it carefully. Verify information, prov
 
 Public availability is not the same as an ethical reason to republish every detail. Consider relevance, privacy, vulnerability, consent, and foreseeable harm, especially when covering minors or distress. Confidential sources require a clear public-interest justification and careful discussion of what can realistically be protected. Avoid publishing unnecessary identifying information. Legal responsibilities vary by context and jurisdiction, so ask the editor or adviser to verify current rules before making a publication decision involving uncertain rights.
 
-> **Work through an example**
+> **Example**
 >
 > A student reporter receives a screenshot naming a minor in an unverified disciplinary allegation. It is already circulating online.
 >
@@ -27,7 +27,7 @@ Disclose conflicts of interest, distinguish advertising from editorial content, 
 - Common mistake: presenting sponsored material as independent reporting.
 - Common mistake: promising anonymity without understanding publication and record-access constraints.
 
-## Key terms to remember
+## Key terms
 
 **Conflict of interest.** A relationship or incentive that may compromise independent judgment.
 

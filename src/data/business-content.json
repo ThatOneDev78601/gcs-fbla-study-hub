@@ -3,7 +3,7 @@
     {
       "id": "accounting-cycle",
       "title": "The accounting cycle",
-      "summary": "Trace transactions from source documents to closed accounts.",
+      "summary": "How to record transactions, post entries, and close the books.",
       "sourceIds": [
         "openstax",
         "mba"
@@ -110,7 +110,7 @@
     {
       "id": "financial-statements",
       "title": "Statements and receivables",
-      "summary": "Distinguish profit, financial position, and cash flow.",
+      "summary": "What financial statements tell you about profit, cash, and money owed.",
       "sourceIds": [
         "openstax",
         "mba"
@@ -220,7 +220,7 @@
     {
       "id": "advanced-cost-accounting",
       "title": "Inventory, payroll, and managerial costs",
-      "summary": "Calculate cost flows and break-even decisions.",
+      "summary": "Inventory costs, payroll calculations, and break-even analysis.",
       "sourceIds": [
         "openstax",
         "mba"
@@ -331,15 +331,15 @@
     },
     {
       "id": "accounting-controls-careers",
-      "title": "Reliable accounting and professional roles",
-      "summary": "Connect standards, records, taxes, and controls.",
+      "title": "Accounting standards, controls, and careers",
+      "summary": "Accounting standards, internal controls, tax records, and accounting jobs.",
       "sourceIds": [
         "openstax",
         "mba"
       ],
       "sections": [
         {
-          "heading": "Use standards honestly",
+          "heading": "Accounting standards and disclosure",
           "paragraphs": [
             "US GAAP and IFRS are reporting frameworks, not tax codes. Consistent recognition, disclosure, and separation of personal from business activity help users compare information. Estimates require judgment and evidence. Changing a bad-debt estimate merely to hit a target can mislead even when the books balance. Document methods and uncertainty rather than hiding inconvenient results.",
             "Financial disclosure includes material information that could affect users’ decisions, often in statement notes. A reporting framework supports comparable recognition and presentation, while an independent assurance engagement evaluates evidence against criteria. Internal audit works within an organization’s governance system; an external audit provides an independent examination. Neither means management can transfer responsibility for accurate records to the auditor."
@@ -356,7 +356,7 @@
           }
         },
         {
-          "heading": "Know the tax record and career",
+          "heading": "Tax records and accounting careers",
           "paragraphs": [
             "Retain invoices, receipts, payroll records, asset details, and business-purpose evidence. Sales tax collected for government is generally a payable. Book income can differ from taxable income. Use current official instructions for real filings. CPAs work across public and other accounting roles; CMAs emphasize management accounting, CIAs internal audit, and CFEs fraud examination. Professional organizations provide education and standards. Audits examine evidence and provide assurance; they do not promise that every fraud will be found.",
             "Keep tax records linked to the correct period and transaction. A sales-tax liability records tax collected; payroll liabilities record withheld amounts; an income-tax expense and payable concern the entity’s own tax obligation under the stated facts. Differences between financial and taxable income need investigation rather than a forced matching of unrelated totals."
@@ -439,7 +439,7 @@
     {
       "id": "economic-choices-markets",
       "title": "Scarcity and markets",
-      "summary": "Explain incentives, prices, systems, and specialization.",
+      "summary": "How scarcity, incentives, and prices shape economic choices.",
       "sourceIds": [
         "openstax",
         "mba"
@@ -546,7 +546,7 @@
     {
       "id": "macroeconomics-policy",
       "title": "The economy and policy tools",
-      "summary": "Read GDP, inflation, unemployment, and policy choices.",
+      "summary": "What GDP, inflation, and unemployment measure, and how policy affects them.",
       "sourceIds": [
         "openstax",
         "mba"
@@ -653,7 +653,7 @@
     {
       "id": "business-ownership-operations",
       "title": "Ownership and operations",
-      "summary": "Understand structures, business functions, and bottlenecks.",
+      "summary": "Business structures, departments, and the work they do.",
       "sourceIds": [
         "openstax",
         "mba"
@@ -760,7 +760,7 @@
     {
       "id": "global-business-trade",
       "title": "Trade, currency, and global decisions",
-      "summary": "Connect comparative advantage, exchange rates, and international operations.",
+      "summary": "Why countries trade, how exchange rates work, and ways to enter foreign markets.",
       "sourceIds": [
         "openstax",
         "mba"
@@ -866,7 +866,7 @@
     {
       "id": "contracts-legal-foundations",
       "title": "Contracts and legal foundations",
-      "summary": "Identify the right legal issue before choosing a rule.",
+      "summary": "The parts of a valid contract, legal claims, and possible remedies.",
       "sourceIds": [
         "openstax",
         "mba"
@@ -973,7 +973,7 @@
     {
       "id": "business-regulation",
       "title": "Employment and business compliance",
-      "summary": "Recognize financial, workplace, tax, and cross-border obligations.",
+      "summary": "Workplace, financial, tax, and international business requirements.",
       "sourceIds": [
         "openstax",
         "mba"
@@ -1079,8 +1079,8 @@
     },
     {
       "id": "ethical-decisions",
-      "title": "Make and explain an ethical decision",
-      "summary": "Practice self-awareness, stakeholder reasoning, and accountable action.",
+      "title": "Making ethical decisions",
+      "summary": "How to compare choices, consider who is affected, and explain your decision.",
       "sourceIds": [
         "openstax",
         "mba"
@@ -1186,8 +1186,8 @@
     },
     {
       "id": "management-strategy",
-      "title": "Plan, organize, lead, and control",
-      "summary": "Turn organizational goals into decisions, resources, and measurable improvement.",
+      "title": "Management and business strategy",
+      "summary": "How managers set goals, assign work, choose strategies, and check results.",
       "sourceIds": [
         "openstax",
         "mba",
@@ -1212,7 +1212,7 @@
           }
         },
         {
-          "heading": "Control operations without losing the purpose",
+          "heading": "Checking progress and adjusting the plan",
           "paragraphs": [
             "Use a few relevant indicators rather than rewarding only easy-to-count activity. Track quality, time, cost, and outcomes together. Assign an owner for each action and clarify dependencies. Preventive controls act before an error, concurrent controls monitor current work, and feedback controls use completed results. Continuous improvement tests a change and studies evidence. Avoid optimizing one department while creating delays or rework elsewhere. A contingency plan prepares a response to an identifiable risk.",
             "Competitive strategy may emphasize lower cost, distinctive value, or a focused segment. A balanced decision considers capabilities and trade-offs: promising premium service while cutting all support capacity is inconsistent. Change management explains the purpose, involves affected people, supplies training, and monitors adoption rather than announcing a policy and assuming behavior changes."
@@ -1295,7 +1295,7 @@
     {
       "id": "leadership-teams",
       "title": "Leadership, teamwork, and stressful situations",
-      "summary": "Adapt your leadership and resolve conflict with evidence and respect.",
+      "summary": "Leadership styles, team conflict, and decisions under pressure.",
       "sourceIds": [
         "openstax",
         "mba"
@@ -1322,7 +1322,7 @@
           "heading": "Think clearly under pressure",
           "paragraphs": [
             "Define the problem before selecting a solution. Compare options, identify constraints, verify assumptions, and consider unintended effects. Prioritize by urgency and impact, break work into manageable steps, and ask for help before failure becomes unavoidable. Stress management includes realistic planning, breaks, and constructive support; ignoring symptoms is not resilience. After a setback, debrief what happened without inventing blame. Ethical leadership models honesty and protects people who raise legitimate concerns.",
-            "Organizational culture consists of shared norms and expectations, including what people actually reward. Office politics involves informal influence and relationships; navigate it by building trust and understanding interests without manipulation. Assertiveness states needs respectfully and directly; it differs from both aggression and silent avoidance. Creativity generates options, while critical evaluation tests their usefulness against constraints."
+            "Organizational culture consists of shared norms and expectations, including what people actually reward. Office politics involves informal influence and relationships. Build trust, understand people’s interests, and avoid manipulating others. Assertiveness states needs respectfully and directly; it differs from both aggression and silent avoidance. Creativity generates options, while critical evaluation tests their usefulness against constraints."
           ]
         }
       ],
@@ -1402,7 +1402,7 @@
     {
       "id": "human-resources",
       "title": "Recruit, develop, and retain people",
-      "summary": "Connect staffing, training, performance, rewards, safety, and employee relations.",
+      "summary": "Hiring, training, performance reviews, pay, and employee relations.",
       "sourceIds": [
         "openstax",
         "mba"
@@ -1508,22 +1508,22 @@
     },
     {
       "id": "career-workplace-procedures",
-      "title": "Careers and dependable workplace procedures",
-      "summary": "Build evidence of your skills and manage information professionally.",
+      "title": "Career planning and office procedures",
+      "summary": "Researching careers, showing your skills, and handling everyday office work.",
       "sourceIds": [
         "openstax",
         "mba"
       ],
       "sections": [
         {
-          "heading": "Plan from evidence",
+          "heading": "Research careers and prepare applications",
           "paragraphs": [
             "Career planning connects interests, strengths, values, and constraints with researched roles. Look at daily tasks and required skills, not only a job title. Set a development goal, practice it, and retain evidence. A résumé should communicate relevant accomplishments honestly; a cover letter explains fit for a particular role. Prepare interview examples using situation, task, action, and result. Do not invent experience or disclose another organization’s confidential information.",
             "Research education, credentials, typical working conditions, and opportunities for growth. Networking means building reciprocal professional relationships, not requesting favors from strangers. An informational interview explores a role and should respect the other person’s time. Follow a job application’s instructions and check names, dates, contact details, and attachments before sending."
           ]
         },
         {
-          "heading": "Make everyday work traceable",
+          "heading": "Keep organized office records",
           "paragraphs": [
             "Professional procedures include scheduling, meeting preparation, phone etiquette, filing, document naming, and version control. Use descriptive subjects and filenames so another person can locate the record. Confirm time zones, participants, deadlines, and responsibilities. Take concise notes of decisions and action owners. Handle visitors and calls respectfully while verifying identity before sharing information. Information management is about accuracy, retrievability, appropriate access, and retention as well as storage."
           ],
@@ -1533,7 +1533,7 @@
           }
         },
         {
-          "heading": "Decide and communicate professionally",
+          "heading": "Workplace decisions and communication",
           "paragraphs": [
             "Prioritize by impact, urgency, and dependencies. Follow workplace policy, use the correct approval route, and escalate issues beyond your authority. Protect confidential data with appropriate permissions; do not forward a whole customer file when only one fact is needed. Use strong authentication and report suspicious requests through established channels. Professional development continues after hiring: seek feedback, update skills, and document what improved. Reliable follow-through matters more than appearing constantly busy."
           ]
@@ -1614,15 +1614,15 @@
     },
     {
       "id": "entrepreneurship-ventures",
-      "title": "From customer problem to viable venture",
-      "summary": "Validate demand, design a model, and plan resources before launch.",
+      "title": "Starting a business",
+      "summary": "How to test demand, plan a business, and work out what it needs to launch.",
       "sourceIds": [
         "openstax",
         "mba"
       ],
       "sections": [
         {
-          "heading": "Discover a real problem",
+          "heading": "Find a customer need",
           "paragraphs": [
             "Entrepreneurship combines opportunity recognition, resource coordination, and uncertainty. Start with a specific customer and problem. Interviews, observation, existing data, and small experiments reveal needs; leading questions and compliments do not prove demand. Distinguish a market trend from one anecdote. A value proposition explains why the intended customer would choose this solution over alternatives. Competitors include other ways of solving the problem, including doing nothing."
           ]
@@ -1639,7 +1639,7 @@
           }
         },
         {
-          "heading": "Launch with controls and learn",
+          "heading": "Launch and review the results",
           "paragraphs": [
             "A plan should identify milestones, responsible people, legal requirements, risks, and evidence of progress. Choose an appropriate ownership form and protect intellectual property where relevant. Set purchasing, recordkeeping, customer-service, and quality procedures before scaling. Compare actual sales, costs, retention, and feedback with assumptions. A pivot changes an important model element in response to learning; random changes without evidence are not a strategy. Growth can increase cash needs even while sales rise."
           ]
@@ -1720,8 +1720,8 @@
     },
     {
       "id": "clear-business-writing",
-      "title": "Write so a busy reader can act",
-      "summary": "Choose structure, grammar, and evidence that make communication useful.",
+      "title": "Clear business writing",
+      "summary": "Writing clear sentences, organizing documents, and checking your work.",
       "sourceIds": [
         "openstax",
         "mba"
@@ -1734,7 +1734,7 @@
           ]
         },
         {
-          "heading": "Construct clear sentences and documents",
+          "heading": "Write clear sentences and documents",
           "paragraphs": [
             "Use a clear subject, an accurate verb, and parallel structure. Match subjects and verbs, keep pronoun references clear, and distinguish commonly confused words. Revise long sentences into logical units. Business correspondence should identify the purpose, essential facts, requested action, and deadline. Reports separate findings from recommendations. Tables need informative headings and units. Cite sources and distinguish quotation, paraphrase, and your own conclusion.",
             "A complete independent clause can stand alone; joining two with only a comma creates a comma splice. Use a period, a semicolon, or an appropriate conjunction. Keep items parallel: “researching, drafting, and revising,” rather than mixing grammatical forms. Use punctuation to clarify relationships, not decorate. Direct quotations require quotation marks and attribution; paraphrases still need a source when they rely on another person’s work."
@@ -1827,7 +1827,7 @@
     {
       "id": "listening-workplace-communication",
       "title": "Listen, present, and work through misunderstanding",
-      "summary": "Practice active listening, verbal delivery, and interpersonal communication.",
+      "summary": "Listening carefully, speaking clearly, and handling misunderstandings at work.",
       "sourceIds": [
         "openstax",
         "mba"
@@ -1841,7 +1841,7 @@
           ]
         },
         {
-          "heading": "Make spoken communication usable",
+          "heading": "Speak clearly and check understanding",
           "paragraphs": [
             "Organize speaking around a clear purpose, a few supported points, and a next action. Use a pace and volume suited to the room, explain unfamiliar terms, and pause where listeners need time. Visual aids should support the explanation rather than duplicate a script. For questions, listen fully, clarify if needed, answer directly, and acknowledge limits. Inventing a confident answer can damage trust."
           ],
@@ -1933,7 +1933,7 @@
     {
       "id": "personal-money-credit",
       "title": "Plan spending, borrowing, and financial goals",
-      "summary": "Use cash-flow planning, interest, credit terms, and consumer awareness.",
+      "summary": "Budgets, interest, borrowing costs, and saving for a goal.",
       "sourceIds": [
         "cfpb",
         "mba"
@@ -1942,7 +1942,7 @@
         {
           "heading": "Connect goals to a budget",
           "paragraphs": [
-            "Money functions as a medium of exchange, unit of account, and store of value. A useful goal specifies an amount and date. Track income and spending before creating a plan. Gross income is before deductions; take-home income funds the household budget. Fixed expenses are relatively stable, variable expenses change, and irregular expenses still require planning. A budget is a decision tool, not a prediction that life will never change."
+            "Money functions as a medium of exchange, unit of account, and store of value. A useful goal specifies an amount and date. Track income and spending before creating a plan. Gross income is before deductions; take-home income funds the household budget. Fixed expenses are relatively stable, variable expenses change, and irregular expenses still require planning. Review your budget when income, costs, or priorities change."
           ],
           "example": {
             "scenario": "You need $240 in eight weeks and already saved $40.",
@@ -2040,7 +2040,7 @@
     {
       "id": "banking-financial-systems",
       "title": "Banking services and financial institutions",
-      "summary": "Understand deposits, lending, daily controls, and customer relationships.",
+      "summary": "How banks handle deposits, lending, records, and customer service.",
       "sourceIds": [
         "cfpb",
         "mba"
@@ -2148,7 +2148,7 @@
     {
       "id": "investment-analysis",
       "title": "Investments, markets, and investment analysis",
-      "summary": "Compare products, returns, risk, costs, and reliable research.",
+      "summary": "Investment types, returns, risks, fees, and sources of research.",
       "sourceIds": [
         "investor",
         "mba"
@@ -2255,7 +2255,7 @@
     {
       "id": "insurance-risk",
       "title": "Insurance and risk management",
-      "summary": "Match a loss exposure with a risk treatment and understand the policy.",
+      "summary": "Types of risk, ways to manage them, and how insurance coverage works.",
       "sourceIds": [
         "naic",
         "mba"
@@ -2363,27 +2363,27 @@
     {
       "id": "fbla-history-purpose",
       "title": "FBLA’s history and purpose",
-      "summary": "Build a short timeline and connect organizational values to action.",
+      "summary": "FBLA’s main milestones, purpose, and values.",
       "sourceIds": [
         "national",
         "maryland"
       ],
       "sections": [
         {
-          "heading": "Keep the essential timeline",
+          "heading": "FBLA’s main milestones",
           "paragraphs": [
             "Hamden L. Forkner developed the FBLA concept in 1937. The first high-school chapter was chartered at Science Hill High School in Johnson City, Tennessee, in 1942. FBLA Collegiate developed from Phi Beta Lambda; the organization unified its student divisions under the FBLA name in 2022. Study the sequence and meaning instead of treating every old handout as current."
           ]
         },
         {
-          "heading": "Distinguish purpose and commitments",
+          "heading": "Purpose and values",
           "paragraphs": [
             "FBLA connects career preparation, leadership, and community responsibility. The mission expresses its purpose, goals describe intended outcomes, the pledge is a commitment, and the creed expresses beliefs. Study the exact current wording in the official source separately; a paraphrase is useful for understanding but is not a quotation to memorize. Connect each value to a practical behavior such as accurate work, service, respectful collaboration, or responsible money management.",
             "Group the goals by theme: leadership and confidence, understanding business, community contribution and citizenship, responsible money management, scholarship, career planning, and the transition to work. These themes help you reconstruct meaning without replacing the exact official wording. For a scenario question, connect the conduct to a theme: a well-documented service project develops responsibility and community contribution; budgeting a fundraiser practices money management."
           ]
         },
         {
-          "heading": "Make a usable organization study sheet",
+          "heading": "Create an FBLA study sheet",
           "paragraphs": [
             "Organize your notes under history, structure, governing documents, programs, policies, publications, communications, and deadlines. Write each fact with its source and date. Use recall prompts such as “Who, where, when, and why?” rather than rereading passively. Keep changing details on a separate current-season card. The Introduction to FBLA guide supplies knowledge areas but no test composition, so this site does not invent topic weights. Current officers, partners, publications, and deadlines must be checked against official pages before a conference."
           ],
@@ -2529,14 +2529,14 @@
     {
       "id": "fbla-governance-programs",
       "title": "FBLA governance and current-season preparation",
-      "summary": "Use official rules, program pages, and conference documents in the right context.",
+      "summary": "How FBLA is organized and where to find its rules and programs.",
       "sourceIds": [
         "national",
         "maryland"
       ],
       "sections": [
         {
-          "heading": "Understand the organizational layers",
+          "heading": "How FBLA is organized",
           "paragraphs": [
             "FBLA has Middle School, High School, and Collegiate student divisions, with local and state structures. Corporate bylaws address the overall organization; division bylaws address that division. The corporate board manages the organization, while the president and CEO administers its affairs. Student officer leadership differs from staff administration. The current corporate bylaws define the membership and fiscal year as August 1 through July 31. Always compare document versions when studying governance."
           ]
@@ -2549,7 +2549,7 @@
           ]
         },
         {
-          "heading": "Keep rules and dates in their proper place",
+          "heading": "Check the season and competition stage",
           "paragraphs": [
             "Use current event guidelines for the event and stage, the operations manual for shared procedures, and the Honor Code, Code of Conduct, and Dress Code for participation expectations. Official communications and CONNECT provide current updates and member resources. Maryland district instructions can differ from later stages. Record the season, jurisdiction, document date, and deadline purpose. A chapter’s internal deadline may be earlier. No fixed weighting is published for Future Business Leader’s broad test, so these readings do not claim a complete test blueprint.",
             "The Dress Code supports a professional appearance at conferences; examine the actual illustrated official policy for permitted attire rather than relying on an old summary. Read the Honor Code for independent work and conduct expectations. A current competition sheet should record event name, season, stage, format, materials, timing, scoring, and submission obligations. Current Maryland dates belong in the Maryland Guide so a change does not leave conflicting dates scattered through lessons."
@@ -2696,7 +2696,7 @@
     {
       "id": "parliamentary-foundations",
       "title": "Parliamentary foundations and meeting structure",
-      "summary": "Protect members’ rights while moving through a lawful meeting.",
+      "summary": "Meeting rules, members’ rights, and the roles of officers.",
       "sourceIds": [
         "roberts",
         "maryland",
@@ -2804,7 +2804,7 @@
     {
       "id": "motions-debate",
       "title": "Motions, amendments, and debate",
-      "summary": "Follow a main motion and distinguish the tools used to handle it.",
+      "summary": "How to introduce a motion, amend it, and handle debate.",
       "sourceIds": [
         "roberts",
         "maryland",
@@ -2985,7 +2985,7 @@
     {
       "id": "votes-committees",
       "title": "Voting, elections, boards, and committees",
-      "summary": "Calculate thresholds and distinguish who recommends from who decides.",
+      "summary": "Voting thresholds, election methods, and the authority of boards and committees.",
       "sourceIds": [
         "roberts",
         "maryland",
@@ -3092,7 +3092,7 @@
     {
       "id": "business-technology-marketing",
       "title": "Business technology and customer value",
-      "summary": "Connect marketing fundamentals with information systems, security, and evidence.",
+      "summary": "Marketing basics, business information systems, and data security.",
       "sourceIds": [
         "mba",
         "openstax"

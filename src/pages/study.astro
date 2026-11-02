@@ -1,5 +1,5 @@
 ---
 import Layout from '../layouts/Layout.astro';import MyStudy from '../components/MyStudy';import {events,modules} from '../lib/catalog';
 ---
-<Layout title="My Study" active="My Study"><div class="page-top"><h1>A place to pick back up.</h1><p>Your saved events, bookmarked lessons, and practice results. Build your preparation one focused session at a time.</p></div><MyStudy client:load events={events.map(({id,name,subject,moduleIds})=>({id,name,subject,moduleIds}))} lessons={modules.map(({id,title})=>({id,title}))}/><noscript>Enable JavaScript to save progress. You can always read the <a href="/">event guides</a> without it.</noscript></Layout>
+<Layout title="My Study" active="My Study"><div class="page-top"><h1>My Study</h1><p>Your saved events, bookmarked lessons, and past practice results are here.</p></div><MyStudy client:load events={events.map(({id,name,subject,moduleIds})=>({id,name,subject,moduleIds}))} lessons={modules.map(({id,title})=>({id,title}))}/><noscript>Enable JavaScript to save progress. You can always read the <a href="/">event guides</a> without it.</noscript></Layout>
 

@@ -1,6 +1,6 @@
 ---
 title: "Pricing, margins, and distribution"
-summary: "Calculate price measures and choose channels that deliver customer value."
+summary: "Pricing decisions, margin calculations, and distribution channels."
 sourceIds: ["mba","openstax"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ Cost-based pricing starts with costs; competition-based pricing examines alterna
 
 Markup on cost equals selling price minus cost, divided by cost. Gross margin percentage uses selling price as the denominator. Contribution per unit is price minus variable cost; it pays fixed costs before becoming operating profit. Break-even units equal fixed cost divided by unit contribution, rounded up when whole units are sold. Distinguish total revenue from profit and check whether a question asks for a percentage or dollar amount.
 
-> **Work through an example**
+> **Example**
 >
 > A ticket sells for $20, costs $8 per attendee to deliver, and the event has $600 in fixed costs.
 >
@@ -27,7 +27,7 @@ A direct channel connects producer and buyer; an indirect channel uses intermedi
 - Common mistake: using revenue instead of contribution in break-even calculations.
 - Practice: compare a direct website with a reseller using total service and fulfillment cost.
 
-## Key terms to remember
+## Key terms
 
 **Contribution margin.** Selling price minus variable cost per unit.
 

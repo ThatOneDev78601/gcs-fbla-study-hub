@@ -1,6 +1,6 @@
 ---
 title: "Interpret financial statements and support recommendations"
-summary: "Connect ratios, trends, cash flows, and assumptions without overstating conclusions."
+summary: "Using statements, ratios, and cash flows to support a recommendation."
 sourceIds: ["openstax","investor","maryland"]
 reviewed: "2026-10-27"
 ---
@@ -13,13 +13,13 @@ The income statement summarizes revenues and expenses over a period; the balance
 
 Current ratio equals current assets divided by current liabilities. Net profit margin equals net income divided by revenue. Debt measures describe financing obligations, while turnover measures evaluate how efficiently resources support sales. Trend analysis compares periods; common-size analysis expresses line items as a percentage of a relevant total. Industry comparisons need compatible definitions and business models. A higher ratio is not always better: unusually high inventory may improve a current ratio while tying up cash.
 
-> **Work through an example**
+> **Example**
 >
 > A fictional retailer reports revenue of $500,000, net income of $20,000, current assets of $90,000, and current liabilities of $60,000.
 >
 > Net margin is 4%, and the current ratio is 1.5. Those numbers describe profitability and short-term coverage, but conclusions need prior periods, inventory quality, cash flows, and comparable businesses.
 
-## Recommend with evidence and limits
+## Explain your recommendation and its limits
 
 Tie a recommendation to an observed issue, explain its mechanism, identify costs and tradeoffs, and define a monitoring measure. Separate a historical observation from an explanation and a future forecast. For personal financial planning, begin with goals, income, expenses, assets, debts, time horizon, emergency needs, and risk tolerance; compare alternatives using stated assumptions. Educational examples teach analysis and are not personalized financial advice. Use original source statements and cite exact periods and line items.
 
@@ -27,7 +27,7 @@ Tie a recommendation to an observed issue, explain its mechanism, identify costs
 - Common mistake: assuming accounting profit means enough cash exists to pay every bill.
 - Common mistake: presenting a forecast as a guaranteed outcome.
 
-## Key terms to remember
+## Key terms
 
 **Current ratio.** Current assets divided by current liabilities.
 

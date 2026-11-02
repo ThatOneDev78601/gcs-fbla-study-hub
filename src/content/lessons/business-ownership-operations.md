@@ -1,6 +1,6 @@
 ---
 title: "Ownership and operations"
-summary: "Understand structures, business functions, and bottlenecks."
+summary: "Business structures, departments, and the work they do."
 sourceIds: ["openstax","mba"]
 reviewed: "2026-10-27"
 ---
@@ -21,13 +21,13 @@ Productivity compares outputs with inputs. Quality control detects defects; qual
 
 Nonprofit organizations can earn revenue and employ staff; they apply resources to their mission rather than distributing profit as owners’ returns. A business model, such as subscription, transaction sales, or a service fee, explains how the organization creates and captures value.
 
-> **Work through an example**
+> **Example**
 >
 > Packaging handles 30 kits per hour; checkout handles only 18.
 >
 > Checkout constrains completed sales to 18 per hour. Faster packaging alone cannot increase throughput; a trained checkout helper might.
 
-## Key terms to remember
+## Key terms
 
 **Bottleneck.** A step limiting total process output.
 

@@ -1,6 +1,6 @@
 ---
 title: "Design a lesson and find out whether students learned"
-summary: "Align a learning objective, explanation, practice, and assessment with evidence of understanding."
+summary: "Setting a learning goal, teaching it, and checking what students understood."
 sourceIds: ["maryland","national","toastmasters"]
 reviewed: "2026-10-27"
 ---
@@ -13,7 +13,7 @@ A learning objective states what learners should be able to do after the lesson.
 
 Introduce the purpose and connect it with a familiar situation. Define essential terms, model a worked example while explaining the reasoning, and invite learners to try a related task with support. Gradually remove that support as they become more independent. Use visuals, spoken explanations, and written instructions where they improve access and comprehension. Differentiation adjusts support, pace, examples, or challenge to the learner; it does not require changing the objective arbitrarily or stereotyping learning ability.
 
-> **Work through an example**
+> **Example**
 >
 > An illustrative lesson asks students to distinguish fixed and variable event costs. The teacher explains the terms and immediately gives a final test.
 >
@@ -21,13 +21,13 @@ Introduce the purpose and connect it with a familiar situation. Define essential
 
 ## Assess, respond, and reflect
 
-Formative assessment gathers evidence during learning so instruction can change; summative assessment evaluates learning after an instructional period. A check for understanding should require the target skill, not merely “Does everyone understand?” Use a short explanation, classification, calculation, or exit ticket. Diagnose whether an incorrect response reflects vocabulary, a misconception, a calculation error, or an unclear prompt. Give specific feedback tied to the objective and allow meaningful correction. Reflect on actual responses, participation, time, and access rather than equating entertainment with learning.
+Formative assessment gathers evidence during learning so instruction can change; summative assessment evaluates learning after an instructional period. A check for understanding should require the target skill, not merely “Does everyone understand?” Use a short explanation, classification, calculation, or exit ticket. Diagnose whether an incorrect response reflects vocabulary, a misconception, a calculation error, or an unclear prompt. Tell students what needs work and give them a chance to correct it. Reflect on actual responses, participation, time, and access rather than equating entertainment with learning.
 
 - Common mistake: teaching one skill but assessing an unrelated fact.
 - Common mistake: treating silence or confidence as proof of understanding.
 - Common mistake: collecting assessment responses without using them to adjust teaching.
 
-## Key terms to remember
+## Key terms
 
 **Formative assessment.** Evidence gathered during learning to guide instruction and feedback.
 

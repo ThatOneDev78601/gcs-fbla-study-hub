@@ -1,6 +1,6 @@
 ---
 title: "Statements and receivables"
-summary: "Distinguish profit, financial position, and cash flow."
+summary: "What financial statements tell you about profit, cash, and money owed."
 sourceIds: ["openstax","mba"]
 reviewed: "2026-10-27"
 ---
@@ -9,7 +9,7 @@ reviewed: "2026-10-27"
 
 The income statement reports revenue less expenses for a period. A balance sheet reports assets, liabilities, and equity at one date. The statement of equity explains owners’ changes; the cash-flow statement groups operating, investing, and financing cash movements. Profit differs from cash because accrual timing, borrowing, and noncash expenses matter.
 
-> **Work through an example**
+> **Example**
 >
 > Revenue is $8,000 and expenses are $6,000, but only $5,000 of revenue is collected.
 >
@@ -25,13 +25,13 @@ Straight-line annual depreciation = (cost − estimated residual value) / useful
 
 Current ratio = current assets / current liabilities. Working capital = current assets − current liabilities. Gross profit = net sales − cost of goods sold; gross margin divides gross profit by net sales. Net margin uses net income. Compare similar businesses and periods. Annual-report notes explain accounting methods, commitments, and risks; one good ratio cannot guarantee timely collections.
 
-> **Work through an example**
+> **Example**
 >
 > Current assets are $18,000 and current liabilities $9,000.
 >
 > Current ratio is 2.0; working capital is $9,000. Both describe liquidity but neither guarantees cash will arrive before bills.
 
-## Key terms to remember
+## Key terms
 
 **Receivable.** An amount owed by a customer.
 
