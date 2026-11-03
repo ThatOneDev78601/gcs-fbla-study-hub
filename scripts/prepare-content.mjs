@@ -5,7 +5,7 @@ const packs=['business','technical','performance','supplemental'].map(name=>read
 const modules=packs.flatMap(p=>p.modules);
 const events=read('src/data/events.json');
 const mapping=new Map(),coverageMapping=new Map();
-for(const pack of packs){for(const[name,ids]of Object.entries(pack.eventModules??{})){const key=normal(name);mapping.set(key,[...new Set([...(mapping.get(key)??[]),...ids])])}for(const[name,areas]of Object.entries(pack.coverage??{})){const key=normal(name);coverageMapping.set(key,{...(coverageMapping.get(key)??{}),...areas})}}
+for(const pack of packs){for(const[name,ids]of Object.entries(pack.eventModules??{})){const key=normal(name);mapping.set(key,[...new Set([...(mapping.get(key)??[]),...ids])])}for(const[name,areas]of Object.entries(pack.coverage??{})){const key=normal(name);const merged={...(coverageMapping.get(key)??{})};for(const[area,ids]of Object.entries(areas))merged[area]=[...new Set([...(merged[area]??[]),...ids])];coverageMapping.set(key,merged)}}
 const moduleIds=new Set(modules.map(m=>m.id));
 const coverage=[];
 for(const event of events){event.moduleIds=mapping.get(normal(event.name))??[];
@@ -21,8 +21,8 @@ writeFileSync('src/data/events.json',JSON.stringify(events,null,2)+'\n');
 writeFileSync('src/data/modules.json',JSON.stringify(modules,null,2)+'\n');
 mkdirSync('src/content/lessons',{recursive:true});
 const escapeCell=s=>s.replace(/\|/g,'\\|').replace(/\n/g,' ');
-for(const m of modules){let md='---\ntitle: '+JSON.stringify(m.title)+'\nsummary: '+JSON.stringify(m.summary)+'\nsourceIds: '+JSON.stringify(m.sourceIds)+'\nreviewed: "2026-10-27"\n---\n\n';
-for(const s of m.sections){md+='## '+s.heading+'\n\n'+s.paragraphs.join('\n\n')+'\n\n';if(s.bullets?.length)md+=s.bullets.map(b=>'- '+b).join('\n')+'\n\n';if(s.table){md+='| '+s.table.headers.map(escapeCell).join(' | ')+' |\n| '+s.table.headers.map(()=>'---').join(' | ')+' |\n'+s.table.rows.map(row=>'| '+row.map(escapeCell).join(' | ')+' |').join('\n')+'\n\n'}if(s.example)md+='> **Example**\n>\n> '+s.example.scenario+'\n>\n> '+s.example.solution+'\n\n';}
+for(const m of modules){let md='---\ntitle: '+JSON.stringify(m.title)+'\nsummary: '+JSON.stringify(m.summary)+'\nsourceIds: '+JSON.stringify(m.sourceIds)+'\nreviewed: '+JSON.stringify(m.reviewed??'2026-10-27')+'\n---\n\n';
+for(const s of m.sections){md+='## '+s.heading+'\n\n'+s.paragraphs.join('\n\n')+'\n\n';if(s.steps?.length)md+=s.steps.map((b,i)=>(i+1)+'. '+b).join('\n')+'\n\n';if(s.code)md+='```'+(s.code.language??'')+'\n'+s.code.content.replace(/\n$/,'')+'\n```\n\n';if(s.table){md+='| '+s.table.headers.map(escapeCell).join(' | ')+' |\n| '+s.table.headers.map(()=>'---').join(' | ')+' |\n'+s.table.rows.map(row=>'| '+row.map(escapeCell).join(' | ')+' |').join('\n')+'\n\n'}if(s.bullets?.length)md+=s.bullets.map(b=>'- '+b).join('\n')+'\n\n';if(s.example)md+='> **Example**\n>\n> '+s.example.scenario+'\n>\n'+(s.example.steps?.length?s.example.steps.map((b,i)=>'> '+(i+1)+'. '+b).join('\n')+'\n>\n':'')+'> '+s.example.solution+'\n\n';if(s.practice)md+='> **Try it yourself**\n>\n> '+s.practice.task+'\n\n<details>\n<summary>Check your answer</summary>\n\n'+s.practice.answer+'\n\n</details>\n\n';}
 md+='## Key terms\n\n'+m.terms.map(t=>'**'+t.term+'.** '+t.definition).join('\n\n')+'\n';
 writeFileSync('src/content/lessons/'+m.id+'.md',md)}
 mkdirSync('research',{recursive:true});writeFileSync('research/coverage.json',JSON.stringify(coverage,null,2)+'\n');

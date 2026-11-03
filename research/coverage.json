@@ -12,7 +12,8 @@
     "eventId": "accounting",
     "area": "Standards and Compliance",
     "lessonIds": [
-      "accounting-controls-careers"
+      "accounting-controls-careers",
+      "acct-standards-tax-technology"
     ],
     "status": "Mapped to lessons"
   },
@@ -20,7 +21,8 @@
     "eventId": "accounting",
     "area": "The Accounting Cycle",
     "lessonIds": [
-      "accounting-cycle"
+      "accounting-cycle",
+      "acct-cycle-workbook"
     ],
     "status": "Mapped to lessons"
   },
@@ -28,7 +30,8 @@
     "eventId": "accounting",
     "area": "Accounts Payable and Receivable",
     "lessonIds": [
-      "financial-statements"
+      "financial-statements",
+      "acct-purchases-receivables"
     ],
     "status": "Mapped to lessons"
   },
@@ -36,7 +39,8 @@
     "eventId": "accounting",
     "area": "Tax Accounting",
     "lessonIds": [
-      "accounting-controls-careers"
+      "accounting-controls-careers",
+      "acct-standards-tax-technology"
     ],
     "status": "Mapped to lessons"
   },
@@ -44,7 +48,9 @@
     "eventId": "accounting",
     "area": "Financial Reports",
     "lessonIds": [
-      "financial-statements"
+      "financial-statements",
+      "acct-cycle-workbook",
+      "acct-standards-tax-technology"
     ],
     "status": "Mapped to lessons"
   },
@@ -52,7 +58,8 @@
     "eventId": "accounting",
     "area": "Technology and Accounting",
     "lessonIds": [
-      "accounting-controls-careers"
+      "accounting-controls-careers",
+      "acct-standards-tax-technology"
     ],
     "status": "Mapped to lessons"
   },
@@ -60,7 +67,8 @@
     "eventId": "accounting",
     "area": "Career Opportunities",
     "lessonIds": [
-      "accounting-controls-careers"
+      "accounting-controls-careers",
+      "acct-standards-tax-technology"
     ],
     "status": "Mapped to lessons"
   },
@@ -77,7 +85,8 @@
     "eventId": "advanced-accounting",
     "area": "Standards and Compliance",
     "lessonIds": [
-      "accounting-controls-careers"
+      "accounting-controls-careers",
+      "acct-standards-tax-technology"
     ],
     "status": "Mapped to lessons"
   },
@@ -85,7 +94,8 @@
     "eventId": "advanced-accounting",
     "area": "The Accounting Cycle",
     "lessonIds": [
-      "accounting-cycle"
+      "accounting-cycle",
+      "acct-cycle-workbook"
     ],
     "status": "Mapped to lessons"
   },
@@ -93,7 +103,8 @@
     "eventId": "advanced-accounting",
     "area": "Inventory",
     "lessonIds": [
-      "advanced-cost-accounting"
+      "advanced-cost-accounting",
+      "acct-inventory-methods"
     ],
     "status": "Mapped to lessons"
   },
@@ -101,7 +112,8 @@
     "eventId": "advanced-accounting",
     "area": "Payroll",
     "lessonIds": [
-      "advanced-cost-accounting"
+      "advanced-cost-accounting",
+      "acct-payroll-workbook"
     ],
     "status": "Mapped to lessons"
   },
@@ -109,7 +121,8 @@
     "eventId": "advanced-accounting",
     "area": "Financial Statements",
     "lessonIds": [
-      "financial-statements"
+      "financial-statements",
+      "acct-cash-flow-ratios"
     ],
     "status": "Mapped to lessons"
   },
@@ -117,7 +130,8 @@
     "eventId": "advanced-accounting",
     "area": "Managerial Accounting",
     "lessonIds": [
-      "advanced-cost-accounting"
+      "advanced-cost-accounting",
+      "acct-managerial-decisions"
     ],
     "status": "Mapped to lessons"
   },
@@ -241,7 +255,8 @@
     "eventId": "banking-and-financial-systems",
     "area": "Fundamental Principles of Money",
     "lessonIds": [
-      "personal-money-credit"
+      "personal-money-credit",
+      "bank-institutions-regulation"
     ],
     "status": "Mapped to lessons"
   },
@@ -249,7 +264,8 @@
     "eventId": "banking-and-financial-systems",
     "area": "Financial Institutions & Markets",
     "lessonIds": [
-      "banking-financial-systems"
+      "banking-financial-systems",
+      "bank-institutions-regulation"
     ],
     "status": "Mapped to lessons"
   },
@@ -259,7 +275,8 @@
     "lessonIds": [
       "banking-financial-systems",
       "personal-money-credit",
-      "financial-statements"
+      "financial-statements",
+      "bank-teller-lending"
     ],
     "status": "Mapped to lessons"
   },
@@ -268,7 +285,8 @@
     "area": "Regulatory Compliance in Finance",
     "lessonIds": [
       "banking-financial-systems",
-      "business-regulation"
+      "business-regulation",
+      "bank-institutions-regulation"
     ],
     "status": "Mapped to lessons"
   },
@@ -276,7 +294,8 @@
     "eventId": "banking-and-financial-systems",
     "area": "Banking Services & Daily Operations",
     "lessonIds": [
-      "banking-financial-systems"
+      "banking-financial-systems",
+      "bank-teller-lending"
     ],
     "status": "Mapped to lessons"
   },
@@ -285,7 +304,8 @@
     "area": "Loans & Credit",
     "lessonIds": [
       "banking-financial-systems",
-      "personal-money-credit"
+      "personal-money-credit",
+      "bank-teller-lending"
     ],
     "status": "Mapped to lessons"
   },
@@ -294,7 +314,8 @@
     "area": "Customer Relations in Banking",
     "lessonIds": [
       "banking-financial-systems",
-      "listening-workplace-communication"
+      "listening-workplace-communication",
+      "bank-teller-lending"
     ],
     "status": "Mapped to lessons"
   },
@@ -302,7 +323,8 @@
     "eventId": "banking-and-financial-systems",
     "area": "Professional Development in Banking",
     "lessonIds": [
-      "banking-financial-systems"
+      "banking-financial-systems",
+      "bank-teller-lending"
     ],
     "status": "Mapped to lessons"
   },
@@ -310,7 +332,8 @@
     "eventId": "business-communication",
     "area": "Communication Basics",
     "lessonIds": [
-      "clear-business-writing"
+      "clear-business-writing",
+      "comm-documents-workshop"
     ],
     "status": "Mapped to lessons"
   },
@@ -318,7 +341,9 @@
     "eventId": "business-communication",
     "area": "Written Communication",
     "lessonIds": [
-      "clear-business-writing"
+      "clear-business-writing",
+      "comm-documents-workshop",
+      "comm-grammar-editing"
     ],
     "status": "Mapped to lessons"
   },
@@ -326,7 +351,8 @@
     "eventId": "business-communication",
     "area": "Verbal Communication",
     "lessonIds": [
-      "listening-workplace-communication"
+      "listening-workplace-communication",
+      "comm-speaking-listening-conflict"
     ],
     "status": "Mapped to lessons"
   },
@@ -335,7 +361,8 @@
     "area": "Workplace Communication",
     "lessonIds": [
       "career-workplace-procedures",
-      "listening-workplace-communication"
+      "listening-workplace-communication",
+      "comm-speaking-listening-conflict"
     ],
     "status": "Mapped to lessons"
   },
@@ -344,7 +371,8 @@
     "area": "Interpersonal Relationships",
     "lessonIds": [
       "listening-workplace-communication",
-      "ethical-decisions"
+      "ethical-decisions",
+      "comm-speaking-listening-conflict"
     ],
     "status": "Mapped to lessons"
   },
@@ -352,7 +380,8 @@
     "eventId": "business-ethics",
     "area": "Communication Skills",
     "lessonIds": [
-      "listening-workplace-communication"
+      "listening-workplace-communication",
+      "comm-speaking-listening-conflict"
     ],
     "status": "Mapped to lessons"
   },
@@ -360,7 +389,8 @@
     "eventId": "business-ethics",
     "area": "Self-Awareness",
     "lessonIds": [
-      "ethical-decisions"
+      "ethical-decisions",
+      "ethics-analysis-method"
     ],
     "status": "Mapped to lessons"
   },
@@ -368,7 +398,8 @@
     "eventId": "business-ethics",
     "area": "Doing the Right Thing",
     "lessonIds": [
-      "ethical-decisions"
+      "ethical-decisions",
+      "ethics-analysis-method"
     ],
     "status": "Mapped to lessons"
   },
@@ -376,7 +407,8 @@
     "eventId": "business-ethics",
     "area": "Teamwork Skills",
     "lessonIds": [
-      "leadership-teams"
+      "leadership-teams",
+      "lead-decisions-cases"
     ],
     "status": "Mapped to lessons"
   },
@@ -384,7 +416,8 @@
     "eventId": "business-ethics",
     "area": "Leadership Skills",
     "lessonIds": [
-      "leadership-teams"
+      "leadership-teams",
+      "lead-decisions-cases"
     ],
     "status": "Mapped to lessons"
   },
@@ -401,7 +434,8 @@
     "area": "Legal Foundations",
     "lessonIds": [
       "contracts-legal-foundations",
-      "business-regulation"
+      "business-regulation",
+      "law-courts-torts"
     ],
     "status": "Mapped to lessons"
   },
@@ -410,7 +444,8 @@
     "area": "Commercial Law",
     "lessonIds": [
       "contracts-legal-foundations",
-      "business-regulation"
+      "business-regulation",
+      "law-commercial-employment"
     ],
     "status": "Mapped to lessons"
   },
@@ -418,7 +453,8 @@
     "eventId": "business-law",
     "area": "Employment Law",
     "lessonIds": [
-      "business-regulation"
+      "business-regulation",
+      "law-commercial-employment"
     ],
     "status": "Mapped to lessons"
   },
@@ -434,7 +470,8 @@
     "eventId": "business-law",
     "area": "Financial & Tax Law",
     "lessonIds": [
-      "business-regulation"
+      "business-regulation",
+      "law-commercial-employment"
     ],
     "status": "Mapped to lessons"
   },
@@ -443,7 +480,8 @@
     "area": "International Trade & Commerce Law",
     "lessonIds": [
       "global-business-trade",
-      "business-regulation"
+      "business-regulation",
+      "intl-trade-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -452,7 +490,8 @@
     "area": "Business Environment",
     "lessonIds": [
       "business-ownership-operations",
-      "management-strategy"
+      "management-strategy",
+      "biz-systems-models"
     ],
     "status": "Mapped to lessons"
   },
@@ -461,7 +500,8 @@
     "area": "Management Types",
     "lessonIds": [
       "management-strategy",
-      "leadership-teams"
+      "leadership-teams",
+      "mgmt-specialties-improvement"
     ],
     "status": "Mapped to lessons"
   },
@@ -469,7 +509,9 @@
     "eventId": "business-management",
     "area": "Business Finance",
     "lessonIds": [
-      "financial-statements"
+      "financial-statements",
+      "acct-managerial-decisions",
+      "mgmt-specialties-improvement"
     ],
     "status": "Mapped to lessons"
   },
@@ -477,7 +519,8 @@
     "eventId": "business-management",
     "area": "Operations",
     "lessonIds": [
-      "business-ownership-operations"
+      "business-ownership-operations",
+      "mgmt-specialties-improvement"
     ],
     "status": "Mapped to lessons"
   },
@@ -485,7 +528,8 @@
     "eventId": "business-management",
     "area": "Strategic Management",
     "lessonIds": [
-      "management-strategy"
+      "management-strategy",
+      "mgmt-specialties-improvement"
     ],
     "status": "Mapped to lessons"
   },
@@ -601,6 +645,7 @@
     "eventId": "customer-service",
     "area": "Conflict Resolution",
     "lessonIds": [
+      "comm-speaking-listening-conflict",
       "market-recovery"
     ],
     "status": "Mapped to lessons"
@@ -753,7 +798,8 @@
     "eventId": "economics",
     "area": "Fundamental Economic Concepts",
     "lessonIds": [
-      "economic-choices-markets"
+      "economic-choices-markets",
+      "econ-applied-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -761,7 +807,8 @@
     "eventId": "economics",
     "area": "Nature of Business",
     "lessonIds": [
-      "business-ownership-operations"
+      "business-ownership-operations",
+      "biz-systems-models"
     ],
     "status": "Mapped to lessons"
   },
@@ -769,7 +816,8 @@
     "eventId": "economics",
     "area": "Economic Systems",
     "lessonIds": [
-      "economic-choices-markets"
+      "economic-choices-markets",
+      "biz-systems-models"
     ],
     "status": "Mapped to lessons"
   },
@@ -777,7 +825,8 @@
     "eventId": "economics",
     "area": "Government’s Impact on Business",
     "lessonIds": [
-      "macroeconomics-policy"
+      "macroeconomics-policy",
+      "econ-applied-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -786,7 +835,8 @@
     "area": "Cost/Profit Relationships",
     "lessonIds": [
       "economic-choices-markets",
-      "business-ownership-operations"
+      "business-ownership-operations",
+      "econ-applied-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -794,7 +844,8 @@
     "eventId": "economics",
     "area": "Economic Indicators",
     "lessonIds": [
-      "macroeconomics-policy"
+      "macroeconomics-policy",
+      "econ-applied-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -802,7 +853,8 @@
     "eventId": "economics",
     "area": "Global Trade",
     "lessonIds": [
-      "global-business-trade"
+      "global-business-trade",
+      "intl-trade-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -818,7 +870,8 @@
     "eventId": "entrepreneurship",
     "area": "Discovery Strategies",
     "lessonIds": [
-      "entrepreneurship-ventures"
+      "entrepreneurship-ventures",
+      "entre-discovery-launch"
     ],
     "status": "Mapped to lessons"
   },
@@ -835,7 +888,8 @@
     "eventId": "entrepreneurship",
     "area": "Business Venture Resources",
     "lessonIds": [
-      "entrepreneurship-ventures"
+      "entrepreneurship-ventures",
+      "entre-discovery-launch"
     ],
     "status": "Mapped to lessons"
   },
@@ -844,7 +898,8 @@
     "area": "New Business Venture Activities",
     "lessonIds": [
       "entrepreneurship-ventures",
-      "business-ownership-operations"
+      "business-ownership-operations",
+      "entre-discovery-launch"
     ],
     "status": "Mapped to lessons"
   },
@@ -853,7 +908,9 @@
     "area": "Business Law and Regulations",
     "lessonIds": [
       "business-regulation",
-      "contracts-legal-foundations"
+      "contracts-legal-foundations",
+      "entre-discovery-launch",
+      "law-commercial-employment"
     ],
     "status": "Mapped to lessons"
   },
@@ -861,7 +918,8 @@
     "eventId": "future-business-leader",
     "area": "FBLA Organization",
     "lessonIds": [
-      "fbla-governance-programs"
+      "fbla-governance-programs",
+      "fbla-bylaws-structure"
     ],
     "status": "Mapped to lessons"
   },
@@ -869,7 +927,8 @@
     "eventId": "future-business-leader",
     "area": "FBLA Bylaws & Handbook",
     "lessonIds": [
-      "fbla-governance-programs"
+      "fbla-governance-programs",
+      "fbla-bylaws-structure"
     ],
     "status": "Mapped to lessons"
   },
@@ -1055,7 +1114,8 @@
     "eventId": "human-resource-management",
     "area": "Nature of Human Resources Management",
     "lessonIds": [
-      "human-resources"
+      "human-resources",
+      "hr-employment-lifecycle"
     ],
     "status": "Mapped to lessons"
   },
@@ -1063,7 +1123,8 @@
     "eventId": "human-resource-management",
     "area": "Staffing and Talent Acquisition",
     "lessonIds": [
-      "human-resources"
+      "human-resources",
+      "hr-employment-lifecycle"
     ],
     "status": "Mapped to lessons"
   },
@@ -1071,7 +1132,8 @@
     "eventId": "human-resource-management",
     "area": "Training and Development",
     "lessonIds": [
-      "human-resources"
+      "human-resources",
+      "hr-employment-lifecycle"
     ],
     "status": "Mapped to lessons"
   },
@@ -1079,7 +1141,8 @@
     "eventId": "human-resource-management",
     "area": "Performance Management",
     "lessonIds": [
-      "human-resources"
+      "human-resources",
+      "hr-employment-lifecycle"
     ],
     "status": "Mapped to lessons"
   },
@@ -1088,7 +1151,8 @@
     "area": "Employee Relations and Issue Resolution",
     "lessonIds": [
       "human-resources",
-      "leadership-teams"
+      "leadership-teams",
+      "hr-employment-lifecycle"
     ],
     "status": "Mapped to lessons"
   },
@@ -1096,7 +1160,9 @@
     "eventId": "human-resource-management",
     "area": "Compensation and Total Rewards",
     "lessonIds": [
-      "human-resources"
+      "human-resources",
+      "acct-payroll-workbook",
+      "hr-employment-lifecycle"
     ],
     "status": "Mapped to lessons"
   },
@@ -1105,7 +1171,8 @@
     "area": "Health and Safety",
     "lessonIds": [
       "human-resources",
-      "business-regulation"
+      "business-regulation",
+      "hr-employment-lifecycle"
     ],
     "status": "Mapped to lessons"
   },
@@ -1114,7 +1181,8 @@
     "area": "Professional Development in Human Resources",
     "lessonIds": [
       "human-resources",
-      "career-workplace-procedures"
+      "career-workplace-procedures",
+      "hr-employment-lifecycle"
     ],
     "status": "Mapped to lessons"
   },
@@ -1122,7 +1190,8 @@
     "eventId": "insurance-and-risk-management",
     "area": "Risk Management Fundamentals",
     "lessonIds": [
-      "insurance-risk"
+      "insurance-risk",
+      "ins-operations-claims"
     ],
     "status": "Mapped to lessons"
   },
@@ -1130,7 +1199,8 @@
     "eventId": "insurance-and-risk-management",
     "area": "Insurance Industry & Legal Principles",
     "lessonIds": [
-      "insurance-risk"
+      "insurance-risk",
+      "ins-operations-claims"
     ],
     "status": "Mapped to lessons"
   },
@@ -1138,7 +1208,8 @@
     "eventId": "insurance-and-risk-management",
     "area": "Personal Insurance Products",
     "lessonIds": [
-      "insurance-risk"
+      "insurance-risk",
+      "ins-product-lines"
     ],
     "status": "Mapped to lessons"
   },
@@ -1146,7 +1217,8 @@
     "eventId": "insurance-and-risk-management",
     "area": "Commercial & Specialized Insurance Products",
     "lessonIds": [
-      "insurance-risk"
+      "insurance-risk",
+      "ins-product-lines"
     ],
     "status": "Mapped to lessons"
   },
@@ -1154,7 +1226,8 @@
     "eventId": "insurance-and-risk-management",
     "area": "Insurance Operations & Underwriting",
     "lessonIds": [
-      "insurance-risk"
+      "insurance-risk",
+      "ins-operations-claims"
     ],
     "status": "Mapped to lessons"
   },
@@ -1163,7 +1236,8 @@
     "area": "Claims & Fraud Management",
     "lessonIds": [
       "insurance-risk",
-      "ethical-decisions"
+      "ethical-decisions",
+      "ins-operations-claims"
     ],
     "status": "Mapped to lessons"
   },
@@ -1171,7 +1245,8 @@
     "eventId": "insurance-and-risk-management",
     "area": "Professional Development in Insurance",
     "lessonIds": [
-      "insurance-risk"
+      "insurance-risk",
+      "ins-operations-claims"
     ],
     "status": "Mapped to lessons"
   },
@@ -1179,7 +1254,8 @@
     "eventId": "international-business",
     "area": "Fundamental Economic Concepts",
     "lessonIds": [
-      "economic-choices-markets"
+      "economic-choices-markets",
+      "econ-applied-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -1187,7 +1263,8 @@
     "eventId": "international-business",
     "area": "The Nature of Business",
     "lessonIds": [
-      "business-ownership-operations"
+      "business-ownership-operations",
+      "biz-systems-models"
     ],
     "status": "Mapped to lessons"
   },
@@ -1195,7 +1272,8 @@
     "eventId": "international-business",
     "area": "Economic Systems",
     "lessonIds": [
-      "economic-choices-markets"
+      "economic-choices-markets",
+      "biz-systems-models"
     ],
     "status": "Mapped to lessons"
   },
@@ -1204,7 +1282,8 @@
     "area": "Impact of Government",
     "lessonIds": [
       "macroeconomics-policy",
-      "business-regulation"
+      "business-regulation",
+      "econ-applied-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -1212,7 +1291,9 @@
     "eventId": "international-business",
     "area": "Business Law",
     "lessonIds": [
-      "business-regulation"
+      "business-regulation",
+      "intl-trade-practice",
+      "law-commercial-employment"
     ],
     "status": "Mapped to lessons"
   },
@@ -1220,7 +1301,8 @@
     "eventId": "international-business",
     "area": "Global Trade",
     "lessonIds": [
-      "global-business-trade"
+      "global-business-trade",
+      "intl-trade-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -1236,7 +1318,9 @@
     "eventId": "introduction-to-business-communication",
     "area": "Written Communication",
     "lessonIds": [
-      "clear-business-writing"
+      "clear-business-writing",
+      "comm-documents-workshop",
+      "comm-grammar-editing"
     ],
     "status": "Mapped to lessons"
   },
@@ -1245,7 +1329,8 @@
     "area": "Reading to Understand",
     "lessonIds": [
       "clear-business-writing",
-      "listening-workplace-communication"
+      "listening-workplace-communication",
+      "comm-speaking-listening-conflict"
     ],
     "status": "Mapped to lessons"
   },
@@ -1253,7 +1338,8 @@
     "eventId": "introduction-to-business-communication",
     "area": "Active Listening",
     "lessonIds": [
-      "listening-workplace-communication"
+      "listening-workplace-communication",
+      "comm-speaking-listening-conflict"
     ],
     "status": "Mapped to lessons"
   },
@@ -1261,7 +1347,8 @@
     "eventId": "introduction-to-business-communication",
     "area": "Verbal Communication",
     "lessonIds": [
-      "listening-workplace-communication"
+      "listening-workplace-communication",
+      "comm-speaking-listening-conflict"
     ],
     "status": "Mapped to lessons"
   },
@@ -1279,7 +1366,8 @@
     "area": "Interpersonal Relationships",
     "lessonIds": [
       "listening-workplace-communication",
-      "leadership-teams"
+      "leadership-teams",
+      "comm-speaking-listening-conflict"
     ],
     "status": "Mapped to lessons"
   },
@@ -1287,7 +1375,8 @@
     "eventId": "introduction-to-business-concepts",
     "area": "Fundamental Economic Concepts",
     "lessonIds": [
-      "economic-choices-markets"
+      "economic-choices-markets",
+      "econ-applied-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -1295,7 +1384,8 @@
     "eventId": "introduction-to-business-concepts",
     "area": "Nature of Business",
     "lessonIds": [
-      "business-ownership-operations"
+      "business-ownership-operations",
+      "biz-systems-models"
     ],
     "status": "Mapped to lessons"
   },
@@ -1303,7 +1393,8 @@
     "eventId": "introduction-to-business-concepts",
     "area": "Economic Systems",
     "lessonIds": [
-      "economic-choices-markets"
+      "economic-choices-markets",
+      "biz-systems-models"
     ],
     "status": "Mapped to lessons"
   },
@@ -1311,7 +1402,8 @@
     "eventId": "introduction-to-business-concepts",
     "area": "Cost/Profit Relationships",
     "lessonIds": [
-      "business-ownership-operations"
+      "business-ownership-operations",
+      "econ-applied-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -1319,7 +1411,8 @@
     "eventId": "introduction-to-business-concepts",
     "area": "Owning a Business",
     "lessonIds": [
-      "business-ownership-operations"
+      "business-ownership-operations",
+      "biz-systems-models"
     ],
     "status": "Mapped to lessons"
   },
@@ -1327,7 +1420,9 @@
     "eventId": "introduction-to-business-concepts",
     "area": "Types of Business Activities",
     "lessonIds": [
-      "business-ownership-operations"
+      "business-ownership-operations",
+      "econ-applied-practice",
+      "biz-systems-models"
     ],
     "status": "Mapped to lessons"
   },
@@ -1335,7 +1430,8 @@
     "eventId": "introduction-to-business-concepts",
     "area": "Career Planning",
     "lessonIds": [
-      "career-workplace-procedures"
+      "career-workplace-procedures",
+      "career-application-interview"
     ],
     "status": "Mapped to lessons"
   },
@@ -1343,7 +1439,8 @@
     "eventId": "introduction-to-business-concepts",
     "area": "Job-Search Skills",
     "lessonIds": [
-      "career-workplace-procedures"
+      "career-workplace-procedures",
+      "career-application-interview"
     ],
     "status": "Mapped to lessons"
   },
@@ -1352,7 +1449,8 @@
     "area": "Professional Communication & Correspondence",
     "lessonIds": [
       "clear-business-writing",
-      "listening-workplace-communication"
+      "listening-workplace-communication",
+      "comm-documents-workshop"
     ],
     "status": "Mapped to lessons"
   },
@@ -1361,7 +1459,8 @@
     "area": "Information Management & Technology",
     "lessonIds": [
       "career-workplace-procedures",
-      "business-technology-marketing"
+      "business-technology-marketing",
+      "office-records-procedures"
     ],
     "status": "Mapped to lessons"
   },
@@ -1369,7 +1468,9 @@
     "eventId": "introduction-to-business-procedures",
     "area": "Workplace Protocols & Decision Making",
     "lessonIds": [
-      "career-workplace-procedures"
+      "career-workplace-procedures",
+      "comm-speaking-listening-conflict",
+      "office-records-procedures"
     ],
     "status": "Mapped to lessons"
   },
@@ -1377,7 +1478,8 @@
     "eventId": "introduction-to-business-procedures",
     "area": "Professional Development & Career Readiness",
     "lessonIds": [
-      "career-workplace-procedures"
+      "career-workplace-procedures",
+      "career-application-interview"
     ],
     "status": "Mapped to lessons"
   },
@@ -1393,7 +1495,8 @@
     "eventId": "introduction-to-fbla",
     "area": "FBLA Corporate & Division Bylaws",
     "lessonIds": [
-      "fbla-governance-programs"
+      "fbla-governance-programs",
+      "fbla-bylaws-structure"
     ],
     "status": "Mapped to lessons"
   },
@@ -1425,7 +1528,8 @@
     "eventId": "introduction-to-fbla",
     "area": "FBLA Structure",
     "lessonIds": [
-      "fbla-governance-programs"
+      "fbla-governance-programs",
+      "fbla-bylaws-structure"
     ],
     "status": "Mapped to lessons"
   },
@@ -1590,7 +1694,8 @@
     "eventId": "introduction-to-parliamentary-procedure",
     "area": "Foundations of Parliamentary Procedure",
     "lessonIds": [
-      "parliamentary-foundations"
+      "parliamentary-foundations",
+      "parli-meeting-walkthrough"
     ],
     "status": "Mapped to lessons"
   },
@@ -1598,7 +1703,8 @@
     "eventId": "introduction-to-parliamentary-procedure",
     "area": "Parliamentary Terminology",
     "lessonIds": [
-      "parliamentary-foundations"
+      "parliamentary-foundations",
+      "parli-meeting-walkthrough"
     ],
     "status": "Mapped to lessons"
   },
@@ -1606,7 +1712,8 @@
     "eventId": "introduction-to-parliamentary-procedure",
     "area": "Meeting Structure and Order of Business",
     "lessonIds": [
-      "parliamentary-foundations"
+      "parliamentary-foundations",
+      "parli-meeting-walkthrough"
     ],
     "status": "Mapped to lessons"
   },
@@ -1614,7 +1721,8 @@
     "eventId": "introduction-to-parliamentary-procedure",
     "area": "Handling a Main Motion",
     "lessonIds": [
-      "motions-debate"
+      "motions-debate",
+      "parli-meeting-walkthrough"
     ],
     "status": "Mapped to lessons"
   },
@@ -1622,7 +1730,8 @@
     "eventId": "introduction-to-parliamentary-procedure",
     "area": "Classification of Motions",
     "lessonIds": [
-      "motions-debate"
+      "motions-debate",
+      "parli-motions-reference"
     ],
     "status": "Mapped to lessons"
   },
@@ -1630,7 +1739,8 @@
     "eventId": "introduction-to-parliamentary-procedure",
     "area": "Voting and Elections",
     "lessonIds": [
-      "votes-committees"
+      "votes-committees",
+      "parli-motions-reference"
     ],
     "status": "Mapped to lessons"
   },
@@ -1774,6 +1884,7 @@
     "eventId": "journalism",
     "area": "Writing Skills",
     "lessonIds": [
+      "comm-grammar-editing",
       "market-journalism-writing"
     ],
     "status": "Mapped to lessons"
@@ -1782,6 +1893,7 @@
     "eventId": "journalism",
     "area": "Editing",
     "lessonIds": [
+      "comm-grammar-editing",
       "market-journalism-writing"
     ],
     "status": "Mapped to lessons"
@@ -2027,7 +2139,8 @@
     "eventId": "organizational-leadership",
     "area": "Leadership",
     "lessonIds": [
-      "leadership-teams"
+      "leadership-teams",
+      "lead-decisions-cases"
     ],
     "status": "Mapped to lessons"
   },
@@ -2036,7 +2149,9 @@
     "area": "Manage Business Relationships",
     "lessonIds": [
       "leadership-teams",
-      "listening-workplace-communication"
+      "listening-workplace-communication",
+      "lead-decisions-cases",
+      "comm-speaking-listening-conflict"
     ],
     "status": "Mapped to lessons"
   },
@@ -2044,7 +2159,8 @@
     "eventId": "organizational-leadership",
     "area": "Human Resources Management",
     "lessonIds": [
-      "human-resources"
+      "human-resources",
+      "hr-employment-lifecycle"
     ],
     "status": "Mapped to lessons"
   },
@@ -2052,7 +2168,8 @@
     "eventId": "organizational-leadership",
     "area": "Critical-Thinking Skills",
     "lessonIds": [
-      "leadership-teams"
+      "leadership-teams",
+      "lead-decisions-cases"
     ],
     "status": "Mapped to lessons"
   },
@@ -2060,7 +2177,8 @@
     "eventId": "organizational-leadership",
     "area": "Manage Stressful Situations",
     "lessonIds": [
-      "leadership-teams"
+      "leadership-teams",
+      "lead-decisions-cases"
     ],
     "status": "Mapped to lessons"
   },
@@ -2076,7 +2194,8 @@
     "eventId": "parliamentary-procedure",
     "area": "Parliamentary Terminology",
     "lessonIds": [
-      "parliamentary-foundations"
+      "parliamentary-foundations",
+      "parli-meeting-walkthrough"
     ],
     "status": "Mapped to lessons"
   },
@@ -2084,7 +2203,8 @@
     "eventId": "parliamentary-procedure",
     "area": "Meeting Structure and Order of Business",
     "lessonIds": [
-      "parliamentary-foundations"
+      "parliamentary-foundations",
+      "parli-meeting-walkthrough"
     ],
     "status": "Mapped to lessons"
   },
@@ -2092,7 +2212,9 @@
     "eventId": "parliamentary-procedure",
     "area": "Handling Motions and Rules of Debate",
     "lessonIds": [
-      "motions-debate"
+      "motions-debate",
+      "parli-meeting-walkthrough",
+      "parli-motions-reference"
     ],
     "status": "Mapped to lessons"
   },
@@ -2100,7 +2222,8 @@
     "eventId": "parliamentary-procedure",
     "area": "Classification of Motions",
     "lessonIds": [
-      "motions-debate"
+      "motions-debate",
+      "parli-motions-reference"
     ],
     "status": "Mapped to lessons"
   },
@@ -2108,7 +2231,8 @@
     "eventId": "parliamentary-procedure",
     "area": "Voting, Elections, and Nominations",
     "lessonIds": [
-      "votes-committees"
+      "votes-committees",
+      "parli-motions-reference"
     ],
     "status": "Mapped to lessons"
   },
@@ -2116,7 +2240,8 @@
     "eventId": "parliamentary-procedure",
     "area": "Boards and Committees",
     "lessonIds": [
-      "votes-committees"
+      "votes-committees",
+      "parli-motions-reference"
     ],
     "status": "Mapped to lessons"
   },
@@ -2124,7 +2249,8 @@
     "eventId": "personal-finance",
     "area": "Principles of Money",
     "lessonIds": [
-      "personal-money-credit"
+      "personal-money-credit",
+      "pf-money-tasks"
     ],
     "status": "Mapped to lessons"
   },
@@ -2132,7 +2258,8 @@
     "eventId": "personal-finance",
     "area": "Financial Needs and Goals",
     "lessonIds": [
-      "personal-money-credit"
+      "personal-money-credit",
+      "pf-money-tasks"
     ],
     "status": "Mapped to lessons"
   },
@@ -2141,7 +2268,8 @@
     "area": "Financial-Services Providers",
     "lessonIds": [
       "personal-money-credit",
-      "banking-financial-systems"
+      "banking-financial-systems",
+      "pf-money-tasks"
     ],
     "status": "Mapped to lessons"
   },
@@ -2149,7 +2277,8 @@
     "eventId": "personal-finance",
     "area": "Investment Strategies",
     "lessonIds": [
-      "investment-analysis"
+      "investment-analysis",
+      "sec-products-portfolios"
     ],
     "status": "Mapped to lessons"
   },
@@ -2157,7 +2286,8 @@
     "eventId": "personal-finance",
     "area": "Financial Literacy",
     "lessonIds": [
-      "personal-money-credit"
+      "personal-money-credit",
+      "pf-money-tasks"
     ],
     "status": "Mapped to lessons"
   },
@@ -2165,7 +2295,8 @@
     "eventId": "personal-finance",
     "area": "Risk Management",
     "lessonIds": [
-      "insurance-risk"
+      "insurance-risk",
+      "ins-product-lines"
     ],
     "status": "Mapped to lessons"
   },
@@ -2374,7 +2505,8 @@
     "area": "Financial Markets",
     "lessonIds": [
       "banking-financial-systems",
-      "investment-analysis"
+      "investment-analysis",
+      "sec-markets-trading"
     ],
     "status": "Mapped to lessons"
   },
@@ -2383,7 +2515,9 @@
     "area": "Investment Analysis",
     "lessonIds": [
       "investment-analysis",
-      "financial-statements"
+      "financial-statements",
+      "sec-markets-trading",
+      "acct-cash-flow-ratios"
     ],
     "status": "Mapped to lessons"
   },
@@ -2392,7 +2526,8 @@
     "area": "Selecting Investments",
     "lessonIds": [
       "investment-analysis",
-      "financial-statements"
+      "financial-statements",
+      "sec-products-portfolios"
     ],
     "status": "Mapped to lessons"
   },
@@ -2400,7 +2535,8 @@
     "eventId": "securities-and-investments",
     "area": "Securities & Investments Industry",
     "lessonIds": [
-      "investment-analysis"
+      "investment-analysis",
+      "sec-markets-trading"
     ],
     "status": "Mapped to lessons"
   },
@@ -2408,7 +2544,8 @@
     "eventId": "securities-and-investments",
     "area": "Securities Products",
     "lessonIds": [
-      "investment-analysis"
+      "investment-analysis",
+      "sec-products-portfolios"
     ],
     "status": "Mapped to lessons"
   },

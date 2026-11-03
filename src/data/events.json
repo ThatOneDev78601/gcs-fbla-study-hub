@@ -63,7 +63,10 @@
       "accounting-cycle",
       "financial-statements",
       "accounting-controls-careers",
-      "advanced-cost-accounting"
+      "advanced-cost-accounting",
+      "acct-cycle-workbook",
+      "acct-purchases-receivables",
+      "acct-standards-tax-technology"
     ],
     "notes": [
       "Eligibility date conflict: Maryland’s Accounting guide refers to May 1, 2026; the national 2026–2027 guide refers to May 1, 2027. Ask your adviser to confirm the applicable coursework limit before registering."
@@ -188,7 +191,13 @@
       "accounting-cycle",
       "advanced-cost-accounting",
       "financial-statements",
-      "accounting-controls-careers"
+      "accounting-controls-careers",
+      "acct-cycle-workbook",
+      "acct-payroll-workbook",
+      "acct-inventory-methods",
+      "acct-cash-flow-ratios",
+      "acct-managerial-decisions",
+      "acct-standards-tax-technology"
     ],
     "notes": [],
     "stages": {
@@ -428,6 +437,7 @@
     ],
     "topicTitle": null,
     "moduleIds": [
+      "law-commercial-employment",
       "specialist-agribusiness-markets",
       "specialist-agricultural-operations",
       "specialist-supply-operations",
@@ -559,7 +569,9 @@
       "personal-money-credit",
       "financial-statements",
       "business-regulation",
-      "listening-workplace-communication"
+      "listening-workplace-communication",
+      "bank-institutions-regulation",
+      "bank-teller-lending"
     ],
     "notes": [],
     "stages": {
@@ -760,7 +772,10 @@
       "clear-business-writing",
       "listening-workplace-communication",
       "career-workplace-procedures",
-      "ethical-decisions"
+      "ethical-decisions",
+      "comm-documents-workshop",
+      "comm-grammar-editing",
+      "comm-speaking-listening-conflict"
     ],
     "notes": [],
     "stages": {
@@ -876,7 +891,10 @@
       "ethical-decisions",
       "listening-workplace-communication",
       "leadership-teams",
-      "career-workplace-procedures"
+      "career-workplace-procedures",
+      "ethics-analysis-method",
+      "lead-decisions-cases",
+      "comm-speaking-listening-conflict"
     ],
     "notes": [],
     "stages": {
@@ -996,7 +1014,10 @@
       "contracts-legal-foundations",
       "business-regulation",
       "ethical-decisions",
-      "global-business-trade"
+      "global-business-trade",
+      "law-courts-torts",
+      "law-commercial-employment",
+      "intl-trade-practice"
     ],
     "notes": [],
     "stages": {
@@ -1110,7 +1131,10 @@
       "business-ownership-operations",
       "financial-statements",
       "leadership-teams",
-      "human-resources"
+      "human-resources",
+      "acct-managerial-decisions",
+      "mgmt-specialties-improvement",
+      "biz-systems-models"
     ],
     "notes": [],
     "stages": {
@@ -1282,6 +1306,8 @@
     "weights": [],
     "topicTitle": null,
     "moduleIds": [
+      "career-portfolio-evidence",
+      "career-application-interview",
       "perf-rubric",
       "perf-career",
       "perf-reports",
@@ -1868,6 +1894,7 @@
     ],
     "topicTitle": null,
     "moduleIds": [
+      "comm-speaking-listening-conflict",
       "market-service",
       "market-recovery",
       "market-selling",
@@ -2502,7 +2529,10 @@
       "economic-choices-markets",
       "macroeconomics-policy",
       "business-ownership-operations",
-      "global-business-trade"
+      "global-business-trade",
+      "econ-applied-practice",
+      "biz-systems-models",
+      "intl-trade-practice"
     ],
     "notes": [],
     "stages": {
@@ -2620,7 +2650,9 @@
       "contracts-legal-foundations",
       "financial-statements",
       "business-technology-marketing",
-      "business-regulation"
+      "business-regulation",
+      "entre-discovery-launch",
+      "law-commercial-employment"
     ],
     "notes": [],
     "stages": {
@@ -2790,6 +2822,10 @@
     "weights": [],
     "topicTitle": "Rebuilding Financial Security: The Smith Family’s Future",
     "moduleIds": [
+      "fp-household-case",
+      "pf-money-tasks",
+      "ins-product-lines",
+      "sec-products-portfolios",
       "perf-rubric",
       "perf-household-finance",
       "perf-financial-analysis",
@@ -2875,6 +2911,8 @@
     "weights": [],
     "topicTitle": "Analyzing Costco’s Financial Performance: Insights for Long-Term Success",
     "moduleIds": [
+      "acct-cash-flow-ratios",
+      "fsa-filings-research",
       "perf-rubric",
       "perf-financial-analysis",
       "perf-office-data",
@@ -3061,7 +3099,12 @@
       "global-business-trade",
       "management-strategy",
       "leadership-teams",
-      "business-technology-marketing"
+      "business-technology-marketing",
+      "bank-institutions-regulation",
+      "econ-applied-practice",
+      "law-courts-torts",
+      "career-application-interview",
+      "fbla-bylaws-structure"
     ],
     "notes": [
       "FBLA does not publish a topic-by-topic test composition for this event. Study the listed scope; no weights are inferred."
@@ -3543,7 +3586,10 @@
       "human-resources",
       "business-regulation",
       "leadership-teams",
-      "career-workplace-procedures"
+      "career-workplace-procedures",
+      "acct-payroll-workbook",
+      "law-commercial-employment",
+      "hr-employment-lifecycle"
     ],
     "notes": [],
     "stages": {
@@ -3748,7 +3794,9 @@
       "insurance-risk",
       "business-regulation",
       "personal-money-credit",
-      "ethical-decisions"
+      "ethical-decisions",
+      "ins-product-lines",
+      "ins-operations-claims"
     ],
     "notes": [],
     "stages": {
@@ -3867,7 +3915,11 @@
       "economic-choices-markets",
       "macroeconomics-policy",
       "business-regulation",
-      "business-ownership-operations"
+      "business-ownership-operations",
+      "intl-trade-practice",
+      "econ-applied-practice",
+      "biz-systems-models",
+      "law-commercial-employment"
     ],
     "notes": [],
     "stages": {
@@ -3992,7 +4044,10 @@
       "clear-business-writing",
       "listening-workplace-communication",
       "career-workplace-procedures",
-      "leadership-teams"
+      "leadership-teams",
+      "comm-documents-workshop",
+      "comm-grammar-editing",
+      "comm-speaking-listening-conflict"
     ],
     "notes": [],
     "stages": {
@@ -4120,7 +4175,10 @@
       "economic-choices-markets",
       "business-ownership-operations",
       "career-workplace-procedures",
-      "management-strategy"
+      "management-strategy",
+      "econ-applied-practice",
+      "biz-systems-models",
+      "career-application-interview"
     ],
     "notes": [],
     "stages": {
@@ -4310,7 +4368,11 @@
       "career-workplace-procedures",
       "clear-business-writing",
       "listening-workplace-communication",
-      "business-technology-marketing"
+      "business-technology-marketing",
+      "comm-documents-workshop",
+      "comm-speaking-listening-conflict",
+      "office-records-procedures",
+      "career-application-interview"
     ],
     "notes": [],
     "stages": {
@@ -4408,7 +4470,8 @@
       "fbla-history-purpose",
       "fbla-governance-programs",
       "career-workplace-procedures",
-      "parliamentary-foundations"
+      "parliamentary-foundations",
+      "fbla-bylaws-structure"
     ],
     "notes": [
       "FBLA does not publish a topic-by-topic test composition for this event. Study the listed scope; no weights are inferred."
@@ -4776,7 +4839,9 @@
       "parliamentary-foundations",
       "motions-debate",
       "votes-committees",
-      "fbla-governance-programs"
+      "fbla-governance-programs",
+      "parli-meeting-walkthrough",
+      "parli-motions-reference"
     ],
     "notes": [],
     "stages": {
@@ -5065,6 +5130,7 @@
     ],
     "topicTitle": null,
     "moduleIds": [
+      "career-application-interview",
       "market-foundations",
       "market-retail-operations",
       "market-merchandising",
@@ -5364,6 +5430,7 @@
     "weights": [],
     "topicTitle": null,
     "moduleIds": [
+      "career-application-interview",
       "perf-rubric",
       "perf-career",
       "market-service",
@@ -5480,6 +5547,7 @@
     ],
     "topicTitle": null,
     "moduleIds": [
+      "comm-grammar-editing",
       "market-journalism-reporting",
       "market-journalism-writing",
       "market-journalism-ethics",
@@ -6258,7 +6326,10 @@
       "management-strategy",
       "leadership-teams",
       "human-resources",
-      "listening-workplace-communication"
+      "listening-workplace-communication",
+      "lead-decisions-cases",
+      "hr-employment-lifecycle",
+      "comm-speaking-listening-conflict"
     ],
     "notes": [],
     "stages": {
@@ -6379,7 +6450,10 @@
       "parliamentary-foundations",
       "motions-debate",
       "votes-committees",
-      "fbla-governance-programs"
+      "fbla-governance-programs",
+      "parli-meeting-walkthrough",
+      "parli-motions-reference",
+      "fbla-bylaws-structure"
     ],
     "notes": [],
     "stages": {
@@ -6499,7 +6573,10 @@
       "personal-money-credit",
       "banking-financial-systems",
       "investment-analysis",
-      "insurance-risk"
+      "insurance-risk",
+      "sec-products-portfolios",
+      "pf-money-tasks",
+      "ins-product-lines"
     ],
     "notes": [],
     "stages": {
@@ -6718,6 +6795,7 @@
     ],
     "topicTitle": null,
     "moduleIds": [
+      "comm-documents-workshop",
       "specialist-public-governance",
       "specialist-public-finance",
       "specialist-project-planning",
@@ -7337,7 +7415,10 @@
       "investment-analysis",
       "personal-money-credit",
       "financial-statements",
-      "banking-financial-systems"
+      "banking-financial-systems",
+      "acct-cash-flow-ratios",
+      "sec-markets-trading",
+      "sec-products-portfolios"
     ],
     "notes": [],
     "stages": {

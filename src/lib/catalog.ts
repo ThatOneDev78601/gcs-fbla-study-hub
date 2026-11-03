@@ -6,7 +6,7 @@ import archiveData from '../data/archive.json';
 import guideData from '../data/current-guides.json';
 import {forEvent} from './archive.mjs';
 import type { EventRecord, Question } from './types';
-export type StudyModule={id:string;title:string;summary:string;sourceIds:string[];sections:{heading:string;paragraphs:string[];bullets?:string[];example?:{scenario:string;solution:string};table?:{headers:string[];rows:string[][]}}[];terms:{term:string;definition:string}[];questions:Omit<Question,'lessonId'>[]};
+export type StudyModule={id:string;title:string;summary:string;sourceIds:string[];sections:{heading:string;paragraphs:string[];bullets?:string[];steps?:string[];code?:{language?:string;content:string};example?:{scenario:string;steps?:string[];solution:string};practice?:{task:string;answer:string};table?:{headers:string[];rows:string[][]}}[];terms:{term:string;definition:string}[];questions:Omit<Question,'lessonId'>[]};
 export const events=eventData as unknown as EventRecord[];
 export const modules=moduleData as StudyModule[];
 export const sources=[...sourceData,...additionalSources];
