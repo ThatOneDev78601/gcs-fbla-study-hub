@@ -455,6 +455,369 @@
           "explanation": "Recipient-side checks reveal stale copies, broken links, unreadable charts, and layout errors."
         }
       ]
+    },
+    {
+      "id": "office-spreadsheet-labs",
+      "title": "Spreadsheet labs: functions, references, summaries, and charts",
+      "summary": "Hands-on labs with a downloadable practice file: IF and AND, lookups, PMT and FV, dates, absolute references, multi-sheet formulas, sorting, filtering, pivot tables, calculated fields, grouping, and charts, each with an answer key.",
+      "sourceIds": [
+        "microsoft"
+      ],
+      "sections": [
+        {
+          "heading": "Set up the practice file",
+          "paragraphs": [
+            "Download the practice file [computer-applications-sales.csv](/practice/computer-applications-sales.csv) and open it in Excel or Google Sheets. It has 12 fictional sales records with Date, Region, Rep, Product, Units, and Unit Price in columns A to F, with headers in row 1 and data in rows 2 to 13. Save it as a workbook (.xlsx) before you start, since CSV files do not keep formulas, formatting, or extra sheets.",
+            "Work through each lab, then compare your results with the answer key. The function names below match Microsoft Excel; Google Sheets uses the same names for these functions. Use the Production Test Reference Guide named in the current event guide for any required formatting."
+          ],
+          "steps": [
+            "In G1 type Revenue. In G2 enter =E2*F2 and fill down to G13.",
+            "Format F and G as currency with two decimals.",
+            "Freeze the top row so headers stay visible.",
+            "In G14 enter =SUM(G2:G13). Check: total revenue is $2,401.25."
+          ]
+        },
+        {
+          "heading": "Logic, lookups, and references",
+          "paragraphs": [
+            "IF returns one value when a test is true and another when it is false. AND requires every condition to be true; OR requires at least one. Nest IFs, or use IFS, for more than two outcomes. COUNTIF, SUMIF, and AVERAGEIF apply one condition; COUNTIFS and SUMIFS apply several.",
+            "A relative reference such as G2 changes when copied. An absolute reference such as $J$1 stays fixed, which you need when every row uses one shared input cell. A mixed reference such as $J1 fixes only the column. Lookups find a value by a key: VLOOKUP(key, table, column number, FALSE) searches the first column of a table for an exact match; XLOOKUP(key, lookup range, return range, \"Not found\") is more flexible and works in any direction. INDEX with MATCH does the same in older versions."
+          ],
+          "table": {
+            "headers": [
+              "Lab task",
+              "Formula (row 2, then fill down)",
+              "Answer key"
+            ],
+            "rows": [
+              [
+                "H: flag sales of $250 or more",
+                "=IF(G2>=250,\"High\",\"Standard\")",
+                "3 rows are High (Blake $270, Avery $264, Blake $300)"
+              ],
+              [
+                "I: bonus for South sales of $250 or more",
+                "=IF(AND(G2>=250,B2=\"South\"),\"Bonus\",\"\")",
+                "2 rows (both Blake)"
+              ],
+              [
+                "Count Planner sales",
+                "=COUNTIF(D2:D13,\"Planner\")",
+                "4"
+              ],
+              [
+                "Total Planner units",
+                "=SUMIF(D2:D13,\"Planner\",E2:E13)",
+                "80"
+              ],
+              [
+                "South revenue",
+                "=SUMIF(B2:B13,\"South\",G2:G13)",
+                "$675.00"
+              ],
+              [
+                "Average units per sale",
+                "=AVERAGE(E2:E13)",
+                "51.25"
+              ],
+              [
+                "Commission at a rate in J1 (enter 0.05 in J1)",
+                "=G2*$J$1",
+                "Row 2: $7.00; the reference to J1 must be absolute"
+              ]
+            ]
+          },
+          "example": {
+            "scenario": "Build a price lookup. On a new sheet named Prices, list Notebook 3.50, Pen pack 2.25, and Planner 12.00 in A2:B4. On the sales sheet, look up each product's price.",
+            "steps": [
+              "In K2 enter =XLOOKUP(D2,Prices!$A$2:$A$4,Prices!$B$2:$B$4,\"Not found\").",
+              "Or, with VLOOKUP: =VLOOKUP(D2,Prices!$A$2:$B$4,2,FALSE).",
+              "Fill down. Every result should match column F."
+            ],
+            "solution": "Absolute references keep the price table fixed as the formula fills down, and FALSE (or XLOOKUP's default) forces an exact match. If a product is misspelled, XLOOKUP shows \"Not found\" instead of an error."
+          }
+        },
+        {
+          "heading": "Financial and date functions",
+          "paragraphs": [
+            "PMT calculates a loan payment: =PMT(rate per period, number of periods, present value). Enter the loan as a positive present value and Excel returns a negative payment (cash going out), or enter it as negative to get a positive result. =PMT(6%/12,60,-20000) returns $386.66 for a $20,000, 5-year loan at 6%. FV calculates the future value of regular savings: =FV(5%/12,120,-100) returns $15,528.23 for $100 a month for 10 years at 5%. Divide annual rates by 12 and multiply years by 12 for monthly periods.",
+            "Dates are stored as serial numbers, so they can be subtracted. TODAY() returns the current date. =EDATE(A2,3) adds three months. =NETWORKDAYS(A2,A3) counts workdays between two dates. =TEXT(A2,\"mmmm\") returns the month name, which is useful for grouping. =DATEDIF(A2,A3,\"d\") returns days between dates."
+          ]
+        },
+        {
+          "heading": "Multiple sheets, sorting, filtering, and pivot tables",
+          "paragraphs": [
+            "Refer to another sheet with its name and an exclamation point: =Prices!B2. A 3D reference adds the same cell across consecutive sheets: =SUM(Jan:Mar!B5). Sort the whole table, not one column, by selecting any cell in the data and using a multi-level sort, such as Region A to Z, then Revenue largest to smallest. Filters hide rows that do not match without deleting them; SUBTOTAL(9,G2:G13) sums only the visible rows.",
+            "A pivot table summarizes data by category without formulas. Insert a pivot table from A1:G13, put Region in Rows, Product in Columns, and Revenue in Values (Sum). Group dates by month to see trends. A calculated field adds a formula inside the pivot table, such as Commission = Revenue x 0.05. Refresh the pivot table after changing source data. Outline grouping and the Subtotal command collapse and summarize sorted data."
+          ],
+          "table": {
+            "headers": [
+              "Pivot check",
+              "Answer key"
+            ],
+            "rows": [
+              [
+                "Revenue by region",
+                "North $572.75; South $675.00; East $575.00; West $578.50"
+              ],
+              [
+                "Revenue by product",
+                "Notebook $665.00; Pen pack $776.25; Planner $960.00"
+              ],
+              [
+                "Revenue by month",
+                "January $854.00; February $751.00; March $796.25"
+              ],
+              [
+                "Grand total",
+                "$2,401.25"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Charts and checking your work",
+          "paragraphs": [
+            "Choose a column or bar chart to compare categories (revenue by region), a line chart for change over time (revenue by month), and a pie chart only for a few parts of a whole. Add a descriptive title, axis titles with units, and data labels where they help. Remove clutter such as unnecessary gridlines and 3D effects. Move a chart to its own sheet or position it so it prints on one page.",
+            "Check every workbook before submitting: compare totals with a quick manual estimate, use Show Formulas to look for typed numbers that should be formulas, search for error values (#N/A, #DIV/0!, #REF!), confirm absolute references after filling, and set the print area, orientation, scaling, and repeated header rows."
+          ],
+          "practice": {
+            "task": "Using the practice file: (a) Write a formula that returns the total revenue for Casey. (b) Write a formula that counts sales in the East region with at least 50 units. (c) Create a column chart of revenue by product. Which product leads, and by how much over the second?",
+            "answer": "(a) =SUMIF(C2:C13,\"Casey\",G2:G13) returns $575.00 (180 + 202.50 + 192.50). (b) =COUNTIFS(B2:B13,\"East\",E2:E13,\">=50\") returns 2 (90 pen packs and 55 notebooks). (c) Planner leads with $960.00, which is $183.75 more than Pen pack at $776.25. The chart should have a title, labeled axes with currency, and categories in a sensible order."
+          }
+        }
+      ],
+      "terms": [
+        {
+          "term": "Absolute reference",
+          "definition": "A cell reference with dollar signs, such as $J$1, that does not change when copied."
+        },
+        {
+          "term": "XLOOKUP",
+          "definition": "A function that finds a key in one range and returns the matching value from another."
+        },
+        {
+          "term": "PMT",
+          "definition": "A function that calculates the payment for a loan with constant payments and rate."
+        },
+        {
+          "term": "Pivot table",
+          "definition": "An interactive summary that groups and totals data by category."
+        },
+        {
+          "term": "Calculated field",
+          "definition": "A formula added inside a pivot table using its fields."
+        }
+      ],
+      "questions": [
+        {
+          "id": "office-spreadsheet-labs-1",
+          "prompt": "Which formula keeps the reference to a rate in J1 fixed when filled down?",
+          "choices": [
+            "=G2*J1",
+            "=G2*$J$1",
+            "=$G$2*J1",
+            "=G2*J$2"
+          ],
+          "answer": 1,
+          "explanation": "$J$1 locks both the column and the row."
+        },
+        {
+          "id": "office-spreadsheet-labs-2",
+          "prompt": "Which returns \"Bonus\" only when sales are at least 250 AND the region is South?",
+          "choices": [
+            "=IF(OR(G2>=250,B2=\"South\"),\"Bonus\",\"\")",
+            "=AND(IF(G2>=250),B2=\"South\")",
+            "=IF(AND(G2>=250,B2=\"South\"),\"Bonus\",\"\")",
+            "=SUMIF(B2,\"South\",G2)"
+          ],
+          "answer": 2,
+          "explanation": "AND requires both conditions inside the IF test."
+        },
+        {
+          "id": "office-spreadsheet-labs-3",
+          "prompt": "In =VLOOKUP(D2,$A$2:$B$4,2,FALSE), FALSE means:",
+          "choices": [
+            "Find an exact match",
+            "Return an error",
+            "Sort the table",
+            "Find the closest smaller value"
+          ],
+          "answer": 0,
+          "explanation": "FALSE forces an exact match."
+        },
+        {
+          "id": "office-spreadsheet-labs-4",
+          "prompt": "For a 3-year loan with monthly payments at 4.8% annual interest, the PMT rate and periods are:",
+          "choices": [
+            "4.8% and 3",
+            "0.4% and 3",
+            "4.8% and 36",
+            "4.8%/12 and 36"
+          ],
+          "answer": 3,
+          "explanation": "Convert to monthly: rate divided by 12 and years times 12."
+        },
+        {
+          "id": "office-spreadsheet-labs-5",
+          "prompt": "After changing source data, a pivot table must be:",
+          "choices": [
+            "Deleted",
+            "Refreshed",
+            "Sorted",
+            "Converted to values"
+          ],
+          "answer": 1,
+          "explanation": "Pivot tables do not update until refreshed."
+        }
+      ],
+      "reviewed": "2026-11-02"
+    },
+    {
+      "id": "office-production-labs",
+      "title": "Document, presentation, and integration labs with a timed production task",
+      "summary": "Word processing with styles, layout, tables, and mail merge; slides with masters, multimedia, notes, diagrams, and action buttons; linking and embedding across applications; review tools; export; and a timed practice task.",
+      "sourceIds": [
+        "microsoft"
+      ],
+      "sections": [
+        {
+          "heading": "Word processing skills",
+          "paragraphs": [
+            "Use styles (Heading 1, Heading 2, Normal) instead of formatting text by hand. Styles keep formatting consistent, let you change every heading at once, and build an automatic table of contents. Set margins, orientation, and paper size in Layout. A section break lets one part of a document have different orientation, columns, or headers; a page break simply starts a new page. Headers and footers can hold page numbers, which can start at a specific number or use a different first page.",
+            "Tables organize data: insert, merge, and split cells, repeat the header row on each page, and align numbers to the right or on the decimal. Tabs with leaders (dots) create neat lists such as a table of contents. Edit with Find and Replace, check spelling and grammar, and use the official Production Test Reference Guide for letter, memo, report, and citation formats required by the event."
+          ],
+          "steps": [
+            "Mail merge: start a letter, choose Select Recipients and use an existing list such as the practice sales file.",
+            "Insert merge fields, such as \"Dear «Rep»,\" and a sentence using «Region» and «Product».",
+            "Preview several records, checking spacing and number formats.",
+            "Finish and merge to a new document or to printing, and save both the main document and the result."
+          ]
+        },
+        {
+          "heading": "Presentation skills",
+          "paragraphs": [
+            "Edit the slide master to set fonts, colors, logos, and layouts for every slide at once. Use layouts with content placeholders rather than loose text boxes. SmartArt and drawing tools create diagrams such as process flows and organization charts; align and distribute shapes for a clean look. Insert images and crop or remove backgrounds; compress pictures to reduce file size. Add audio or video and set it to play automatically or on click.",
+            "Speaker notes hold talking points that the audience does not see. Action buttons and hyperlinks jump to a specific slide, such as returning to an agenda. Use simple transitions and animations only where they help explain a sequence. Export as PDF for handouts or as a video when the event requires it, and test the exported file."
+          ]
+        },
+        {
+          "heading": "Integrate applications",
+          "paragraphs": [
+            "Linking and embedding move data between applications differently. A linked object stays connected to its source file: when the spreadsheet changes, the chart in the document updates, but the source file must travel with the document. An embedded object is a copy stored inside the document: it travels with the file but does not update when the source changes. Paste Special offers both choices, along with pasting as a picture or as values.",
+            "Review tools support collaboration. Track Changes records every edit so others can accept or reject it. Comments ask questions without changing text. Compare merges two versions. Before final export, accept or reject all changes, delete comments, inspect the document for hidden personal information, and proofread once more on paper or at a different zoom level."
+          ],
+          "example": {
+            "scenario": "A manager wants a one-page report with a chart that will update when next month's sales are added to the workbook.",
+            "solution": "Create the chart in the spreadsheet, copy it, and use Paste Special, Paste Link in the document. Keep both files in the same folder. When the workbook changes, update the link in the document. If the report will be emailed without the workbook, embed the chart or paste it as a picture instead, accepting that it will not update."
+          }
+        },
+        {
+          "heading": "Timed production practice",
+          "paragraphs": [
+            "Production tests reward accuracy and following directions under time pressure. Read all instructions before starting, note every required element, and save often with the required file names. If a step is unclear, complete what you can and keep moving."
+          ],
+          "steps": [
+            "Workbook (15 minutes): from the practice sales file, add the Revenue column, a South bonus flag, a pivot table of revenue by region and product, and a column chart of revenue by region.",
+            "Report (15 minutes): write a one-page memo to the sales manager in the reference guide's memo format, with a heading style, a two-sentence summary, a table of the top three sales, and the linked chart.",
+            "Presentation (10 minutes): build three slides on the master (title, results with the chart, next steps) with speaker notes and an action button returning to the title.",
+            "Review (5 minutes): check spelling, formulas, links, file names, and that each requirement is met; export the memo as PDF."
+          ],
+          "practice": {
+            "task": "Complete the 45-minute task above, then self-check: total revenue $2,401.25; South revenue $675.00; top three sales Planner (Blake) $300.00, Pen pack (Blake) $270.00, Planner (Avery) $264.00; two South bonus rows. List any requirement you missed and the reason.",
+            "answer": "A complete submission matches every figure above, uses formulas rather than typed totals, follows the memo format exactly, links (or embeds, if instructed) the chart, uses the slide master consistently, includes speaker notes and a working action button, and saves files with the required names. Common misses are forgetting to refresh the pivot table, leaving tracked changes visible, and typing values where formulas were required. Record misses to target in the next timed practice."
+          }
+        }
+      ],
+      "terms": [
+        {
+          "term": "Style",
+          "definition": "A saved set of formatting applied to text consistently across a document."
+        },
+        {
+          "term": "Section break",
+          "definition": "A break that lets parts of a document have different layout settings."
+        },
+        {
+          "term": "Slide master",
+          "definition": "The template controlling the design and layouts of all slides."
+        },
+        {
+          "term": "Linked object",
+          "definition": "Content that stays connected to its source file and updates when the source changes."
+        },
+        {
+          "term": "Embedded object",
+          "definition": "A copy of content stored inside a file that does not update from its source."
+        },
+        {
+          "term": "Track Changes",
+          "definition": "A feature that records edits so they can be reviewed, accepted, or rejected."
+        }
+      ],
+      "questions": [
+        {
+          "id": "office-production-labs-1",
+          "prompt": "Which feature lets one page of a portrait document be landscape?",
+          "choices": [
+            "Page break",
+            "Section break",
+            "Line spacing",
+            "Tab stop"
+          ],
+          "answer": 1,
+          "explanation": "Section breaks allow different layout settings."
+        },
+        {
+          "id": "office-production-labs-2",
+          "prompt": "A chart must update automatically when the source spreadsheet changes. Use:",
+          "choices": [
+            "Paste as picture",
+            "Embed",
+            "Paste values",
+            "Paste link"
+          ],
+          "answer": 3,
+          "explanation": "A linked object stays connected to its source."
+        },
+        {
+          "id": "office-production-labs-3",
+          "prompt": "To change the font on every slide at once, edit the:",
+          "choices": [
+            "Slide master",
+            "Speaker notes",
+            "Transition",
+            "Handout"
+          ],
+          "answer": 0,
+          "explanation": "The master controls design across all slides."
+        },
+        {
+          "id": "office-production-labs-4",
+          "prompt": "Before exporting a final document, you should:",
+          "choices": [
+            "Leave comments for the judge",
+            "Turn on Track Changes",
+            "Accept or reject all changes and remove comments",
+            "Delete the headings"
+          ],
+          "answer": 2,
+          "explanation": "Final documents should not show review markup."
+        },
+        {
+          "id": "office-production-labs-5",
+          "prompt": "Applying Heading 1 style to headings lets you:",
+          "choices": [
+            "Generate an automatic table of contents",
+            "Merge cells",
+            "Insert merge fields",
+            "Add speaker notes"
+          ],
+          "answer": 0,
+          "explanation": "The table of contents is built from heading styles."
+        }
+      ],
+      "reviewed": "2026-11-02"
     }
   ],
   "eventModules": {
@@ -468,19 +831,25 @@
   "coverage": {
     "Computer Applications": {
       "Spreadsheet Functions and Formulas": [
-        "office-spreadsheets"
+        "office-spreadsheets",
+        "office-spreadsheet-labs"
       ],
       "Creating and Formatting with Word Processing": [
-        "office-documents"
+        "office-documents",
+        "office-production-labs"
       ],
       "Developing Slides & Presentations": [
-        "office-presentations"
+        "office-presentations",
+        "office-production-labs"
       ],
       "Integrating Spreadsheets and Word Processing": [
-        "office-integration"
+        "office-integration",
+        "office-production-labs",
+        "office-spreadsheet-labs"
       ],
       "Integrating Presentations and Spreadsheets": [
-        "office-integration"
+        "office-integration",
+        "office-production-labs"
       ]
     }
   }

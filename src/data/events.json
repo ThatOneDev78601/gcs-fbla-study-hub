@@ -314,7 +314,11 @@
       "market-promotion",
       "market-design",
       "market-foundations",
-      "perf-creative"
+      "perf-creative",
+      "mkt-media-planning",
+      "mkt-copy-promotion",
+      "mkt-ad-law-ethics",
+      "design-visual-production"
     ],
     "notes": [],
     "stages": {
@@ -442,7 +446,9 @@
       "specialist-agricultural-operations",
       "specialist-supply-operations",
       "specialist-procurement",
-      "specialist-project-planning"
+      "specialist-project-planning",
+      "agri-business-practice",
+      "scm-operations-tasks"
     ],
     "notes": [],
     "stages": {
@@ -661,7 +667,10 @@
       "market-journalism-writing",
       "market-journalism-ethics",
       "perf-creative",
-      "perf-speaking"
+      "perf-speaking",
+      "broadcast-newsroom",
+      "video-production-workflow",
+      "journalism-reporting-file"
     ],
     "notes": [],
     "stages": {
@@ -894,7 +903,8 @@
       "career-workplace-procedures",
       "ethics-analysis-method",
       "lead-decisions-cases",
-      "comm-speaking-listening-conflict"
+      "comm-speaking-listening-conflict",
+      "roleplay-case-method"
     ],
     "notes": [],
     "stages": {
@@ -1017,7 +1027,8 @@
       "global-business-trade",
       "law-courts-torts",
       "law-commercial-employment",
-      "intl-trade-practice"
+      "intl-trade-practice",
+      "ethics-analysis-method"
     ],
     "notes": [],
     "stages": {
@@ -1134,7 +1145,8 @@
       "human-resources",
       "acct-managerial-decisions",
       "mgmt-specialties-improvement",
-      "biz-systems-models"
+      "biz-systems-models",
+      "pm-plan-control-close"
     ],
     "notes": [],
     "stages": {
@@ -1226,7 +1238,10 @@
       "market-pricing",
       "perf-financial-analysis",
       "perf-reports",
-      "perf-speaking"
+      "perf-speaking",
+      "presentation-builder",
+      "bizplan-research-operations",
+      "bizplan-financial-model"
     ],
     "notes": [],
     "stages": {
@@ -1397,6 +1412,9 @@
       "tech-data-management",
       "tech-web-applications",
       "tech-data-ethics",
+      "prog-python-foundations",
+      "prog-data-validation-testing",
+      "prog-interface-packaging",
       "perf-rubric",
       "perf-software",
       "perf-reports",
@@ -1484,7 +1502,9 @@
       "perf-community",
       "market-research",
       "perf-reports",
-      "perf-speaking"
+      "perf-speaking",
+      "chapter-reports-evidence",
+      "presentation-builder"
     ],
     "notes": [],
     "stages": {
@@ -1573,7 +1593,9 @@
       "office-spreadsheets",
       "office-documents",
       "office-presentations",
-      "office-integration"
+      "office-integration",
+      "office-spreadsheet-labs",
+      "office-production-labs"
     ],
     "notes": [],
     "stages": {
@@ -1657,6 +1679,9 @@
       "tech-statistics",
       "tech-hardware",
       "tech-data-ethics",
+      "game-dev-foundations",
+      "prog-python-foundations",
+      "prog-interface-packaging",
       "perf-rubric",
       "perf-software",
       "perf-creative",
@@ -1779,7 +1804,11 @@
       "tech-protocols",
       "tech-security-controls",
       "tech-service-desk",
-      "tech-security-threats"
+      "tech-security-threats",
+      "it-os-command-labs",
+      "it-hardware-mobile-printers",
+      "net-protocols-standards",
+      "cyber-crypto-architecture"
     ],
     "notes": [],
     "stages": {
@@ -1898,7 +1927,10 @@
       "market-service",
       "market-recovery",
       "market-selling",
-      "market-brand"
+      "market-brand",
+      "roleplay-case-method",
+      "service-process-crm",
+      "sales-presentation-method"
     ],
     "notes": [],
     "stages": {
@@ -2021,7 +2053,10 @@
       "tech-network-foundations",
       "tech-network-design",
       "tech-protocols",
-      "tech-data-ethics"
+      "tech-data-ethics",
+      "net-addressing-subnetting",
+      "cyber-crypto-architecture",
+      "cyber-defense-operations"
     ],
     "notes": [],
     "stages": {
@@ -2107,11 +2142,14 @@
       "tech-data-management",
       "tech-data-ethics",
       "tech-machine-learning",
+      "ds-stats-sql-python",
       "perf-rubric",
       "perf-office-data",
       "market-research",
       "perf-reports",
-      "perf-speaking"
+      "perf-speaking",
+      "presentation-builder",
+      "data-investigation"
     ],
     "notes": [],
     "stages": {
@@ -2239,7 +2277,9 @@
       "tech-machine-learning",
       "tech-data-management",
       "tech-data-ethics",
-      "tech-software-design"
+      "tech-software-design",
+      "ds-stats-sql-python",
+      "ds-models-reasoning"
     ],
     "notes": [],
     "stages": {
@@ -2324,7 +2364,10 @@
       "perf-creative",
       "market-design",
       "perf-reports",
-      "perf-speaking"
+      "perf-speaking",
+      "animation-foundations",
+      "design-brief-process",
+      "presentation-builder"
     ],
     "notes": [],
     "stages": {
@@ -2409,7 +2452,10 @@
       "market-design",
       "market-journalism-writing",
       "perf-reports",
-      "perf-speaking"
+      "perf-speaking",
+      "video-production-workflow",
+      "presentation-builder",
+      "journalism-reporting-file"
     ],
     "notes": [],
     "stages": {
@@ -2652,7 +2698,9 @@
       "business-technology-marketing",
       "business-regulation",
       "entre-discovery-launch",
-      "law-commercial-employment"
+      "law-commercial-employment",
+      "roleplay-case-method",
+      "bizplan-financial-model"
     ],
     "notes": [],
     "stages": {
@@ -2742,7 +2790,9 @@
       "market-research",
       "market-promotion",
       "perf-reports",
-      "perf-speaking"
+      "perf-speaking",
+      "event-planning-record",
+      "presentation-builder"
     ],
     "notes": [],
     "stages": {
@@ -3001,7 +3051,9 @@
       "perf-teaching",
       "perf-speaking",
       "perf-reports",
-      "market-research"
+      "market-research",
+      "teaching-lesson-design",
+      "presentation-builder"
     ],
     "notes": [],
     "stages": {
@@ -3104,7 +3156,9 @@
       "econ-applied-practice",
       "law-courts-torts",
       "career-application-interview",
-      "fbla-bylaws-structure"
+      "fbla-bylaws-structure",
+      "it-business-technology",
+      "cyber-crypto-architecture"
     ],
     "notes": [
       "FBLA does not publish a topic-by-topic test composition for this event. Study the listed scope; no weights are inferred."
@@ -3194,7 +3248,9 @@
       "perf-rubric",
       "market-design",
       "perf-creative",
-      "perf-speaking"
+      "perf-speaking",
+      "design-visual-production",
+      "design-brief-process"
     ],
     "notes": [],
     "stages": {
@@ -3323,7 +3379,10 @@
       "specialist-project-delivery",
       "tech-data-management",
       "tech-data-ethics",
-      "tech-machine-learning"
+      "tech-machine-learning",
+      "healthcare-admin-practice",
+      "hr-employment-lifecycle",
+      "mgmt-specialties-improvement"
     ],
     "notes": [],
     "stages": {
@@ -3456,7 +3515,11 @@
       "market-promotion",
       "market-selling",
       "market-research",
-      "market-brand"
+      "market-brand",
+      "roleplay-case-method",
+      "hospitality-operations",
+      "service-process-crm",
+      "event-planning-record"
     ],
     "notes": [],
     "stages": {
@@ -3673,7 +3736,9 @@
       "perf-rubric",
       "perf-speaking",
       "market-journalism-reporting",
-      "market-journalism-ethics"
+      "market-journalism-ethics",
+      "speech-impromptu-routine",
+      "speech-prepared-path"
     ],
     "notes": [],
     "stages": {
@@ -3919,7 +3984,8 @@
       "intl-trade-practice",
       "econ-applied-practice",
       "biz-systems-models",
-      "law-commercial-employment"
+      "law-commercial-employment",
+      "roleplay-case-method"
     ],
     "notes": [],
     "stages": {
@@ -4262,7 +4328,9 @@
       "perf-rubric",
       "perf-speaking",
       "market-research",
-      "perf-office-data"
+      "perf-office-data",
+      "presentation-builder",
+      "speech-prepared-path"
     ],
     "notes": [],
     "stages": {
@@ -4372,7 +4440,8 @@
       "comm-documents-workshop",
       "comm-speaking-listening-conflict",
       "office-records-procedures",
-      "career-application-interview"
+      "career-application-interview",
+      "presentation-builder"
     ],
     "notes": [],
     "stages": {
@@ -4471,7 +4540,8 @@
       "fbla-governance-programs",
       "career-workplace-procedures",
       "parliamentary-foundations",
-      "fbla-bylaws-structure"
+      "fbla-bylaws-structure",
+      "parli-meeting-walkthrough"
     ],
     "notes": [
       "FBLA does not publish a topic-by-topic test composition for this event. Study the listed scope; no weights are inferred."
@@ -4599,7 +4669,12 @@
       "tech-data-management",
       "tech-machine-learning",
       "tech-data-ethics",
-      "tech-data-analysis"
+      "tech-data-analysis",
+      "it-os-command-labs",
+      "it-hardware-mobile-printers",
+      "net-addressing-subnetting",
+      "it-business-technology",
+      "net-protocols-standards"
     ],
     "notes": [],
     "stages": {
@@ -4717,13 +4792,18 @@
     ],
     "topicTitle": null,
     "moduleIds": [
+      "mkt-copy-promotion",
+      "mkt-media-planning",
       "market-foundations",
       "market-brand",
       "market-research",
       "market-pricing",
       "market-promotion",
       "market-selling",
-      "market-service"
+      "market-service",
+      "mkt-product-channel-price",
+      "mkt-research-planning",
+      "sales-presentation-method"
     ],
     "notes": [],
     "stages": {
@@ -4926,6 +5006,9 @@
       "tech-data-management",
       "tech-web-applications",
       "tech-data-ethics",
+      "prog-python-foundations",
+      "prog-data-validation-testing",
+      "prog-interface-packaging",
       "perf-rubric",
       "perf-software",
       "perf-reports",
@@ -5012,7 +5095,9 @@
       "perf-rubric",
       "perf-speaking",
       "market-journalism-reporting",
-      "market-journalism-ethics"
+      "market-journalism-ethics",
+      "speech-prepared-path",
+      "speech-impromptu-routine"
     ],
     "notes": [],
     "stages": {
@@ -5131,12 +5216,16 @@
     "topicTitle": null,
     "moduleIds": [
       "career-application-interview",
+      "service-process-crm",
+      "sales-presentation-method",
       "market-foundations",
       "market-retail-operations",
       "market-merchandising",
       "market-service",
       "market-selling",
-      "perf-career"
+      "perf-career",
+      "retail-store-operations",
+      "retail-management-math"
     ],
     "notes": [],
     "stages": {
@@ -5222,7 +5311,10 @@
       "market-research",
       "market-promotion",
       "market-design",
-      "perf-speaking"
+      "perf-speaking",
+      "design-visual-production",
+      "social-campaign-workshop",
+      "mkt-copy-promotion"
     ],
     "notes": [],
     "stages": {
@@ -5349,7 +5441,9 @@
       "specialist-procurement",
       "specialist-logistics",
       "specialist-project-planning",
-      "specialist-project-delivery"
+      "specialist-project-delivery",
+      "pm-plan-control-close",
+      "scm-operations-tasks"
     ],
     "notes": [],
     "stages": {
@@ -5434,7 +5528,9 @@
       "perf-rubric",
       "perf-career",
       "market-service",
-      "perf-speaking"
+      "perf-speaking",
+      "career-portfolio-evidence",
+      "comm-speaking-listening-conflict"
     ],
     "notes": [],
     "stages": {
@@ -5552,7 +5648,8 @@
       "market-journalism-writing",
       "market-journalism-ethics",
       "perf-speaking",
-      "market-research"
+      "market-research",
+      "journalism-reporting-file"
     ],
     "notes": [],
     "stages": {
@@ -5637,7 +5734,9 @@
       "perf-community",
       "perf-reports",
       "perf-speaking",
-      "perf-office-data"
+      "perf-office-data",
+      "chapter-reports-evidence",
+      "presentation-builder"
     ],
     "notes": [],
     "stages": {
@@ -5754,7 +5853,11 @@
       "specialist-project-delivery",
       "tech-network-foundations",
       "tech-machine-learning",
-      "tech-web-applications"
+      "tech-web-applications",
+      "prog-python-foundations",
+      "mis-systems-analysis",
+      "ds-stats-sql-python",
+      "pm-plan-control-close"
     ],
     "notes": [],
     "stages": {
@@ -5881,12 +5984,18 @@
     ],
     "topicTitle": null,
     "moduleIds": [
+      "mkt-copy-promotion",
+      "mkt-media-planning",
       "market-foundations",
       "market-research",
       "market-brand",
       "market-pricing",
       "market-promotion",
-      "market-selling"
+      "market-selling",
+      "mkt-research-planning",
+      "mkt-product-channel-price",
+      "roleplay-case-method",
+      "sales-presentation-method"
     ],
     "notes": [],
     "stages": {
@@ -5976,6 +6085,9 @@
       "tech-data-management",
       "tech-data-ethics",
       "tech-hardware",
+      "mobile-app-development",
+      "prog-data-validation-testing",
+      "prog-interface-packaging",
       "perf-rubric",
       "perf-software",
       "market-design",
@@ -6092,7 +6204,11 @@
       "tech-network-design",
       "tech-security-controls",
       "tech-security-operations",
-      "specialist-project-planning"
+      "specialist-project-planning",
+      "net-addressing-subnetting",
+      "net-protocols-standards",
+      "net-admin-design-case",
+      "cyber-defense-operations"
     ],
     "notes": [],
     "stages": {
@@ -6210,7 +6326,10 @@
       "tech-protocols",
       "tech-network-design",
       "tech-security-controls",
-      "tech-hardware"
+      "tech-hardware",
+      "net-addressing-subnetting",
+      "net-protocols-standards",
+      "cyber-crypto-architecture"
     ],
     "notes": [],
     "stages": {
@@ -6329,7 +6448,8 @@
       "listening-workplace-communication",
       "lead-decisions-cases",
       "hr-employment-lifecycle",
-      "comm-speaking-listening-conflict"
+      "comm-speaking-listening-conflict",
+      "mgmt-specialties-improvement"
     ],
     "notes": [],
     "stages": {
@@ -6682,7 +6802,10 @@
       "specialist-project-planning",
       "specialist-project-delivery",
       "tech-data-analysis",
-      "specialist-procurement"
+      "specialist-procurement",
+      "pm-plan-control-close",
+      "mgmt-specialties-improvement",
+      "lead-decisions-cases"
     ],
     "notes": [],
     "stages": {
@@ -6800,7 +6923,8 @@
       "specialist-public-finance",
       "specialist-project-planning",
       "specialist-project-delivery",
-      "tech-data-ethics"
+      "tech-data-ethics",
+      "public-admin-practice"
     ],
     "notes": [],
     "stages": {
@@ -6885,7 +7009,9 @@
       "perf-creative",
       "market-design",
       "market-journalism-ethics",
-      "perf-speaking"
+      "perf-speaking",
+      "psa-message-design",
+      "video-production-workflow"
     ],
     "notes": [],
     "stages": {
@@ -6969,7 +7095,9 @@
       "perf-rubric",
       "perf-speaking",
       "market-journalism-reporting",
-      "market-journalism-ethics"
+      "market-journalism-ethics",
+      "speech-prepared-path",
+      "speech-impromptu-routine"
     ],
     "notes": [],
     "stages": {
@@ -7080,7 +7208,10 @@
       "specialist-real-estate-foundations",
       "specialist-real-estate-finance",
       "specialist-real-estate-agency",
-      "tech-data-ethics"
+      "tech-data-ethics",
+      "real-estate-practice",
+      "law-commercial-employment",
+      "bank-teller-lending"
     ],
     "notes": [],
     "stages": {
@@ -7207,6 +7338,7 @@
     ],
     "topicTitle": null,
     "moduleIds": [
+      "sales-presentation-method",
       "market-foundations",
       "market-retail-operations",
       "market-merchandising",
@@ -7214,7 +7346,10 @@
       "market-pricing",
       "market-research",
       "perf-supply-chain",
-      "market-brand"
+      "market-brand",
+      "mkt-product-channel-price",
+      "retail-management-math",
+      "retail-store-operations"
     ],
     "notes": [],
     "stages": {
@@ -7299,7 +7434,10 @@
       "market-selling",
       "market-brand",
       "market-service",
-      "perf-speaking"
+      "perf-speaking",
+      "sales-presentation-method",
+      "service-process-crm",
+      "presentation-builder"
     ],
     "notes": [],
     "stages": {
@@ -7418,7 +7556,8 @@
       "banking-financial-systems",
       "acct-cash-flow-ratios",
       "sec-markets-trading",
-      "sec-products-portfolios"
+      "sec-products-portfolios",
+      "bank-institutions-regulation"
     ],
     "notes": [],
     "stages": {
@@ -7504,7 +7643,12 @@
       "market-research",
       "market-promotion",
       "market-design",
-      "perf-speaking"
+      "perf-speaking",
+      "mkt-ad-law-ethics",
+      "design-visual-production",
+      "social-campaign-workshop",
+      "mkt-copy-promotion",
+      "mkt-media-planning"
     ],
     "notes": [],
     "stages": {
@@ -7640,7 +7784,10 @@
       "market-selling",
       "market-foundations",
       "market-design",
-      "market-journalism-writing"
+      "market-journalism-writing",
+      "mkt-media-planning",
+      "roleplay-case-method",
+      "sports-ent-management"
     ],
     "notes": [],
     "stages": {
@@ -7735,7 +7882,9 @@
       "perf-supply-chain",
       "market-retail-operations",
       "perf-reports",
-      "perf-speaking"
+      "perf-speaking",
+      "scm-plan-brief",
+      "scm-operations-tasks"
     ],
     "notes": [],
     "stages": {
@@ -7844,7 +7993,11 @@
       "tech-operating-systems",
       "tech-network-foundations",
       "tech-protocols",
-      "tech-security-operations"
+      "tech-security-operations",
+      "it-service-desk-workflow",
+      "it-os-command-labs",
+      "it-hardware-mobile-printers",
+      "cyber-defense-operations"
     ],
     "notes": [],
     "stages": {
@@ -7932,7 +8085,9 @@
       "perf-rubric",
       "market-design",
       "perf-creative",
-      "perf-speaking"
+      "perf-speaking",
+      "design-visual-production",
+      "design-brief-process"
     ],
     "notes": [],
     "stages": {
@@ -8017,6 +8172,8 @@
       "tech-software-design",
       "tech-security-controls",
       "tech-data-ethics",
+      "web-coding-handson",
+      "website-design-process",
       "perf-rubric",
       "perf-software",
       "market-design",
@@ -8105,6 +8262,8 @@
       "tech-software-design",
       "tech-data-ethics",
       "specialist-project-planning",
+      "website-design-process",
+      "web-coding-handson",
       "perf-rubric",
       "perf-software",
       "market-design",

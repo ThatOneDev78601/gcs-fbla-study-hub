@@ -4,7 +4,8 @@
     "area": "Foundations of Accounting",
     "lessonIds": [
       "accounting-cycle",
-      "accounting-controls-careers"
+      "accounting-controls-careers",
+      "acct-cycle-workbook"
     ],
     "status": "Mapped to lessons"
   },
@@ -77,7 +78,8 @@
     "area": "Foundations of Accounting",
     "lessonIds": [
       "accounting-cycle",
-      "accounting-controls-careers"
+      "accounting-controls-careers",
+      "acct-cycle-workbook"
     ],
     "status": "Mapped to lessons"
   },
@@ -139,7 +141,8 @@
     "eventId": "advertising",
     "area": "Branding",
     "lessonIds": [
-      "market-brand"
+      "market-brand",
+      "mkt-copy-promotion"
     ],
     "status": "Mapped to lessons"
   },
@@ -147,7 +150,8 @@
     "eventId": "advertising",
     "area": "Promotion",
     "lessonIds": [
-      "market-promotion"
+      "market-promotion",
+      "mkt-media-planning"
     ],
     "status": "Mapped to lessons"
   },
@@ -156,7 +160,9 @@
     "area": "Advertisement",
     "lessonIds": [
       "market-promotion",
-      "market-design"
+      "market-design",
+      "mkt-media-planning",
+      "mkt-ad-law-ethics"
     ],
     "status": "Mapped to lessons"
   },
@@ -164,7 +170,8 @@
     "eventId": "advertising",
     "area": "Develop Marketing Content",
     "lessonIds": [
-      "market-design"
+      "market-design",
+      "mkt-copy-promotion"
     ],
     "status": "Mapped to lessons"
   },
@@ -173,7 +180,8 @@
     "area": "Design Principles",
     "lessonIds": [
       "market-design",
-      "perf-creative"
+      "perf-creative",
+      "design-visual-production"
     ],
     "status": "Mapped to lessons"
   },
@@ -182,7 +190,8 @@
     "area": "Sales-Promotion Activities",
     "lessonIds": [
       "market-promotion",
-      "market-design"
+      "market-design",
+      "mkt-copy-promotion"
     ],
     "status": "Mapped to lessons"
   },
@@ -190,7 +199,8 @@
     "eventId": "agribusiness",
     "area": "Safety Procedures and Regulations",
     "lessonIds": [
-      "specialist-agricultural-operations"
+      "specialist-agricultural-operations",
+      "agri-business-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -198,7 +208,8 @@
     "eventId": "agribusiness",
     "area": "Nature of Agribusiness",
     "lessonIds": [
-      "specialist-agribusiness-markets"
+      "specialist-agribusiness-markets",
+      "agri-business-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -206,7 +217,8 @@
     "eventId": "agribusiness",
     "area": "Business Law",
     "lessonIds": [
-      "specialist-agribusiness-markets"
+      "specialist-agribusiness-markets",
+      "agri-business-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -214,7 +226,8 @@
     "eventId": "agribusiness",
     "area": "Ethics",
     "lessonIds": [
-      "specialist-agribusiness-markets"
+      "specialist-agribusiness-markets",
+      "agri-business-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -222,7 +235,8 @@
     "eventId": "agribusiness",
     "area": "Agribusiness Economics",
     "lessonIds": [
-      "specialist-agribusiness-markets"
+      "specialist-agribusiness-markets",
+      "agri-business-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -231,7 +245,8 @@
     "area": "Operations and Management",
     "lessonIds": [
       "specialist-agricultural-operations",
-      "specialist-supply-operations"
+      "specialist-supply-operations",
+      "agri-business-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -239,7 +254,8 @@
     "eventId": "agribusiness",
     "area": "Finance and Marketing",
     "lessonIds": [
-      "specialist-agribusiness-markets"
+      "specialist-agribusiness-markets",
+      "agri-business-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -247,7 +263,8 @@
     "eventId": "agribusiness",
     "area": "Natural Resources and Systems",
     "lessonIds": [
-      "specialist-agricultural-operations"
+      "specialist-agricultural-operations",
+      "agri-business-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -462,7 +479,8 @@
     "eventId": "business-law",
     "area": "Business Ethics",
     "lessonIds": [
-      "ethical-decisions"
+      "ethical-decisions",
+      "ethics-analysis-method"
     ],
     "status": "Mapped to lessons"
   },
@@ -537,7 +555,8 @@
     "eventId": "computer-applications",
     "area": "Spreadsheet Functions and Formulas",
     "lessonIds": [
-      "office-spreadsheets"
+      "office-spreadsheets",
+      "office-spreadsheet-labs"
     ],
     "status": "Mapped to lessons"
   },
@@ -545,7 +564,8 @@
     "eventId": "computer-applications",
     "area": "Creating and Formatting with Word Processing",
     "lessonIds": [
-      "office-documents"
+      "office-documents",
+      "office-production-labs"
     ],
     "status": "Mapped to lessons"
   },
@@ -553,7 +573,8 @@
     "eventId": "computer-applications",
     "area": "Developing Slides & Presentations",
     "lessonIds": [
-      "office-presentations"
+      "office-presentations",
+      "office-production-labs"
     ],
     "status": "Mapped to lessons"
   },
@@ -561,7 +582,9 @@
     "eventId": "computer-applications",
     "area": "Integrating Spreadsheets and Word Processing",
     "lessonIds": [
-      "office-integration"
+      "office-integration",
+      "office-production-labs",
+      "office-spreadsheet-labs"
     ],
     "status": "Mapped to lessons"
   },
@@ -569,7 +592,8 @@
     "eventId": "computer-applications",
     "area": "Integrating Presentations and Spreadsheets",
     "lessonIds": [
-      "office-integration"
+      "office-integration",
+      "office-production-labs"
     ],
     "status": "Mapped to lessons"
   },
@@ -577,7 +601,8 @@
     "eventId": "computer-problem-solving",
     "area": "Operating Systems",
     "lessonIds": [
-      "tech-operating-systems"
+      "tech-operating-systems",
+      "it-os-command-labs"
     ],
     "status": "Mapped to lessons"
   },
@@ -586,7 +611,8 @@
     "area": "Networks",
     "lessonIds": [
       "tech-network-foundations",
-      "tech-protocols"
+      "tech-protocols",
+      "net-protocols-standards"
     ],
     "status": "Mapped to lessons"
   },
@@ -594,7 +620,8 @@
     "eventId": "computer-problem-solving",
     "area": "Computer Hardware and Connectivity",
     "lessonIds": [
-      "tech-hardware"
+      "tech-hardware",
+      "it-hardware-mobile-printers"
     ],
     "status": "Mapped to lessons"
   },
@@ -602,6 +629,7 @@
     "eventId": "computer-problem-solving",
     "area": "Security",
     "lessonIds": [
+      "cyber-crypto-architecture",
       "tech-security-controls",
       "tech-security-threats"
     ],
@@ -611,7 +639,8 @@
     "eventId": "computer-problem-solving",
     "area": "Laptops, Tablets, and Mobile Devices",
     "lessonIds": [
-      "tech-hardware"
+      "tech-hardware",
+      "it-hardware-mobile-printers"
     ],
     "status": "Mapped to lessons"
   },
@@ -620,7 +649,8 @@
     "area": "Printers and Peripherals",
     "lessonIds": [
       "tech-hardware",
-      "tech-service-desk"
+      "tech-service-desk",
+      "it-hardware-mobile-printers"
     ],
     "status": "Mapped to lessons"
   },
@@ -628,7 +658,8 @@
     "eventId": "customer-service",
     "area": "Fostering Positive Relationships",
     "lessonIds": [
-      "market-service"
+      "market-service",
+      "service-process-crm"
     ],
     "status": "Mapped to lessons"
   },
@@ -637,7 +668,8 @@
     "area": "Emotional Intelligence",
     "lessonIds": [
       "market-service",
-      "market-recovery"
+      "market-recovery",
+      "service-process-crm"
     ],
     "status": "Mapped to lessons"
   },
@@ -646,7 +678,8 @@
     "area": "Conflict Resolution",
     "lessonIds": [
       "comm-speaking-listening-conflict",
-      "market-recovery"
+      "market-recovery",
+      "service-process-crm"
     ],
     "status": "Mapped to lessons"
   },
@@ -655,7 +688,8 @@
     "area": "Delivering on a Brand Promise",
     "lessonIds": [
       "market-brand",
-      "market-service"
+      "market-service",
+      "service-process-crm"
     ],
     "status": "Mapped to lessons"
   },
@@ -663,7 +697,8 @@
     "eventId": "customer-service",
     "area": "Customer Relationship Management",
     "lessonIds": [
-      "market-service"
+      "market-service",
+      "service-process-crm"
     ],
     "status": "Mapped to lessons"
   },
@@ -671,7 +706,8 @@
     "eventId": "customer-service",
     "area": "Sales Processes and Techniques",
     "lessonIds": [
-      "market-selling"
+      "market-selling",
+      "sales-presentation-method"
     ],
     "status": "Mapped to lessons"
   },
@@ -679,7 +715,8 @@
     "eventId": "cybersecurity",
     "area": "Security Fundamentals",
     "lessonIds": [
-      "tech-security-threats"
+      "tech-security-threats",
+      "cyber-crypto-architecture"
     ],
     "status": "Mapped to lessons"
   },
@@ -687,7 +724,9 @@
     "eventId": "cybersecurity",
     "area": "Cyber Threats and Vulnerabilities",
     "lessonIds": [
-      "tech-security-threats"
+      "tech-security-threats",
+      "cyber-crypto-architecture",
+      "cyber-defense-operations"
     ],
     "status": "Mapped to lessons"
   },
@@ -696,7 +735,8 @@
     "area": "Security and Design",
     "lessonIds": [
       "tech-security-controls",
-      "tech-network-design"
+      "tech-network-design",
+      "cyber-crypto-architecture"
     ],
     "status": "Mapped to lessons"
   },
@@ -705,7 +745,8 @@
     "area": "Network and Data Security",
     "lessonIds": [
       "tech-security-controls",
-      "tech-network-foundations"
+      "tech-network-foundations",
+      "cyber-defense-operations"
     ],
     "status": "Mapped to lessons"
   },
@@ -713,7 +754,8 @@
     "eventId": "cybersecurity",
     "area": "Security Operations and Management",
     "lessonIds": [
-      "tech-security-operations"
+      "tech-security-operations",
+      "cyber-defense-operations"
     ],
     "status": "Mapped to lessons"
   },
@@ -723,7 +765,8 @@
     "lessonIds": [
       "tech-protocols",
       "tech-security-controls",
-      "tech-security-operations"
+      "tech-security-operations",
+      "cyber-defense-operations"
     ],
     "status": "Mapped to lessons"
   },
@@ -731,7 +774,8 @@
     "eventId": "data-science-and-ai",
     "area": "Probability and Statistics Foundations",
     "lessonIds": [
-      "tech-statistics"
+      "tech-statistics",
+      "ds-stats-sql-python"
     ],
     "status": "Mapped to lessons"
   },
@@ -740,7 +784,8 @@
     "area": "Data Analysis and Statistics for AI",
     "lessonIds": [
       "tech-data-analysis",
-      "tech-statistics"
+      "tech-statistics",
+      "ds-stats-sql-python"
     ],
     "status": "Mapped to lessons"
   },
@@ -749,7 +794,8 @@
     "area": "Tools for Data and AI",
     "lessonIds": [
       "tech-data-analysis",
-      "tech-data-management"
+      "tech-data-management",
+      "ds-stats-sql-python"
     ],
     "status": "Mapped to lessons"
   },
@@ -757,7 +803,8 @@
     "eventId": "data-science-and-ai",
     "area": "AI Basics",
     "lessonIds": [
-      "tech-machine-learning"
+      "tech-machine-learning",
+      "ds-models-reasoning"
     ],
     "status": "Mapped to lessons"
   },
@@ -765,7 +812,8 @@
     "eventId": "data-science-and-ai",
     "area": "Machine Learning",
     "lessonIds": [
-      "tech-machine-learning"
+      "tech-machine-learning",
+      "ds-models-reasoning"
     ],
     "status": "Mapped to lessons"
   },
@@ -773,7 +821,8 @@
     "eventId": "data-science-and-ai",
     "area": "Perception, Representation, and Reasoning",
     "lessonIds": [
-      "tech-machine-learning"
+      "tech-machine-learning",
+      "ds-models-reasoning"
     ],
     "status": "Mapped to lessons"
   },
@@ -781,7 +830,8 @@
     "eventId": "data-science-and-ai",
     "area": "Privacy and Ethics",
     "lessonIds": [
-      "tech-data-ethics"
+      "tech-data-ethics",
+      "ds-models-reasoning"
     ],
     "status": "Mapped to lessons"
   },
@@ -790,7 +840,8 @@
     "area": "Data Literacy and Foundations",
     "lessonIds": [
       "tech-data-analysis",
-      "tech-data-management"
+      "tech-data-management",
+      "ds-stats-sql-python"
     ],
     "status": "Mapped to lessons"
   },
@@ -862,7 +913,8 @@
     "eventId": "entrepreneurship",
     "area": "Fundamentals of Entrepreneurship",
     "lessonIds": [
-      "entrepreneurship-ventures"
+      "entrepreneurship-ventures",
+      "entre-discovery-launch"
     ],
     "status": "Mapped to lessons"
   },
@@ -880,7 +932,9 @@
     "area": "Business Venture Concepts",
     "lessonIds": [
       "entrepreneurship-ventures",
-      "contracts-legal-foundations"
+      "contracts-legal-foundations",
+      "entre-discovery-launch",
+      "bizplan-financial-model"
     ],
     "status": "Mapped to lessons"
   },
@@ -952,7 +1006,8 @@
     "eventId": "future-business-leader",
     "area": "FBLA Mission, Pledge and Goals",
     "lessonIds": [
-      "fbla-history-purpose"
+      "fbla-history-purpose",
+      "fbla-bylaws-structure"
     ],
     "status": "Mapped to lessons"
   },
@@ -968,7 +1023,9 @@
       "global-business-trade",
       "management-strategy",
       "leadership-teams",
-      "business-technology-marketing"
+      "business-technology-marketing",
+      "it-business-technology",
+      "cyber-crypto-architecture"
     ],
     "status": "Mapped to lessons"
   },
@@ -976,7 +1033,8 @@
     "eventId": "healthcare-administration",
     "area": "Healthcare Organizations and Structure",
     "lessonIds": [
-      "specialist-healthcare-operations"
+      "specialist-healthcare-operations",
+      "healthcare-admin-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -984,7 +1042,8 @@
     "eventId": "healthcare-administration",
     "area": "Healthcare Finances and Budgeting",
     "lessonIds": [
-      "specialist-healthcare-finance"
+      "specialist-healthcare-finance",
+      "healthcare-admin-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -992,7 +1051,8 @@
     "eventId": "healthcare-administration",
     "area": "Staffing and Training",
     "lessonIds": [
-      "specialist-healthcare-operations"
+      "specialist-healthcare-operations",
+      "healthcare-admin-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -1000,6 +1060,7 @@
     "eventId": "healthcare-administration",
     "area": "Strategic Management",
     "lessonIds": [
+      "mgmt-specialties-improvement",
       "specialist-healthcare-operations",
       "specialist-project-planning"
     ],
@@ -1010,7 +1071,8 @@
     "area": "Healthcare Technology",
     "lessonIds": [
       "specialist-healthcare-finance",
-      "tech-data-management"
+      "tech-data-management",
+      "healthcare-admin-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -1018,7 +1080,8 @@
     "eventId": "healthcare-administration",
     "area": "Healthcare Billing and Insurance",
     "lessonIds": [
-      "specialist-healthcare-finance"
+      "specialist-healthcare-finance",
+      "healthcare-admin-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -1026,7 +1089,8 @@
     "eventId": "healthcare-administration",
     "area": "Healthcare Policy and Regulation",
     "lessonIds": [
-      "specialist-healthcare-finance"
+      "specialist-healthcare-finance",
+      "healthcare-admin-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -1035,7 +1099,8 @@
     "area": "Communication and Leadership",
     "lessonIds": [
       "specialist-healthcare-operations",
-      "specialist-project-delivery"
+      "specialist-project-delivery",
+      "healthcare-admin-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -1045,7 +1110,8 @@
     "lessonIds": [
       "market-service",
       "market-recovery",
-      "market-hospitality"
+      "market-hospitality",
+      "hospitality-operations"
     ],
     "status": "Mapped to lessons"
   },
@@ -1054,7 +1120,8 @@
     "area": "Economics and Finances",
     "lessonIds": [
       "market-hospitality",
-      "market-pricing"
+      "market-pricing",
+      "hospitality-operations"
     ],
     "status": "Mapped to lessons"
   },
@@ -1063,7 +1130,8 @@
     "area": "Information Management",
     "lessonIds": [
       "market-hospitality",
-      "market-research"
+      "market-research",
+      "hospitality-operations"
     ],
     "status": "Mapped to lessons"
   },
@@ -1071,7 +1139,8 @@
     "eventId": "hospitality-and-event-management",
     "area": "Operations",
     "lessonIds": [
-      "market-hospitality"
+      "market-hospitality",
+      "hospitality-operations"
     ],
     "status": "Mapped to lessons"
   },
@@ -1079,7 +1148,8 @@
     "eventId": "hospitality-and-event-management",
     "area": "Professional Development",
     "lessonIds": [
-      "market-hospitality"
+      "market-hospitality",
+      "hospitality-operations"
     ],
     "status": "Mapped to lessons"
   },
@@ -1088,7 +1158,8 @@
     "area": "Product/Service Management",
     "lessonIds": [
       "market-hospitality",
-      "market-brand"
+      "market-brand",
+      "hospitality-operations"
     ],
     "status": "Mapped to lessons"
   },
@@ -1098,7 +1169,8 @@
     "lessonIds": [
       "market-promotion",
       "market-selling",
-      "market-hospitality"
+      "market-hospitality",
+      "hospitality-operations"
     ],
     "status": "Mapped to lessons"
   },
@@ -1106,7 +1178,8 @@
     "eventId": "hospitality-and-event-management",
     "area": "Event Management",
     "lessonIds": [
-      "market-events"
+      "market-events",
+      "hospitality-operations"
     ],
     "status": "Mapped to lessons"
   },
@@ -1310,7 +1383,8 @@
     "eventId": "introduction-to-business-communication",
     "area": "Communication Basics",
     "lessonIds": [
-      "clear-business-writing"
+      "clear-business-writing",
+      "comm-documents-workshop"
     ],
     "status": "Mapped to lessons"
   },
@@ -1357,7 +1431,9 @@
     "area": "Workplace Communication",
     "lessonIds": [
       "career-workplace-procedures",
-      "listening-workplace-communication"
+      "listening-workplace-communication",
+      "comm-speaking-listening-conflict",
+      "comm-documents-workshop"
     ],
     "status": "Mapped to lessons"
   },
@@ -1512,7 +1588,8 @@
     "eventId": "introduction-to-fbla",
     "area": "FBLA Pledge, Mission, Goals, Creed",
     "lessonIds": [
-      "fbla-history-purpose"
+      "fbla-history-purpose",
+      "fbla-bylaws-structure"
     ],
     "status": "Mapped to lessons"
   },
@@ -1577,7 +1654,8 @@
     "eventId": "introduction-to-information-technology",
     "area": "Computer Hardware",
     "lessonIds": [
-      "tech-hardware"
+      "tech-hardware",
+      "it-hardware-mobile-printers"
     ],
     "status": "Mapped to lessons"
   },
@@ -1585,7 +1663,8 @@
     "eventId": "introduction-to-information-technology",
     "area": "Software Fundamentals",
     "lessonIds": [
-      "tech-operating-systems"
+      "tech-operating-systems",
+      "it-business-technology"
     ],
     "status": "Mapped to lessons"
   },
@@ -1593,7 +1672,8 @@
     "eventId": "introduction-to-information-technology",
     "area": "Operating Systems",
     "lessonIds": [
-      "tech-operating-systems"
+      "tech-operating-systems",
+      "it-os-command-labs"
     ],
     "status": "Mapped to lessons"
   },
@@ -1602,7 +1682,8 @@
     "area": "Software Applications",
     "lessonIds": [
       "tech-web-applications",
-      "tech-data-analysis"
+      "tech-data-analysis",
+      "it-business-technology"
     ],
     "status": "Mapped to lessons"
   },
@@ -1611,7 +1692,8 @@
     "area": "Modern Technologies",
     "lessonIds": [
       "tech-machine-learning",
-      "tech-web-applications"
+      "tech-web-applications",
+      "it-business-technology"
     ],
     "status": "Mapped to lessons"
   },
@@ -1620,7 +1702,8 @@
     "area": "Networking Concepts",
     "lessonIds": [
       "tech-network-foundations",
-      "tech-protocols"
+      "tech-protocols",
+      "net-addressing-subnetting"
     ],
     "status": "Mapped to lessons"
   },
@@ -1629,7 +1712,8 @@
     "area": "Information Management Concepts",
     "lessonIds": [
       "tech-data-management",
-      "tech-data-ethics"
+      "tech-data-ethics",
+      "it-business-technology"
     ],
     "status": "Mapped to lessons"
   },
@@ -1637,7 +1721,8 @@
     "eventId": "introduction-to-marketing-concepts",
     "area": "Marketing Fundamentals",
     "lessonIds": [
-      "market-foundations"
+      "market-foundations",
+      "mkt-research-planning"
     ],
     "status": "Mapped to lessons"
   },
@@ -1645,7 +1730,8 @@
     "eventId": "introduction-to-marketing-concepts",
     "area": "Product/Service Management",
     "lessonIds": [
-      "market-brand"
+      "market-brand",
+      "mkt-product-channel-price"
     ],
     "status": "Mapped to lessons"
   },
@@ -1653,7 +1739,8 @@
     "eventId": "introduction-to-marketing-concepts",
     "area": "Channel Management",
     "lessonIds": [
-      "market-pricing"
+      "market-pricing",
+      "mkt-product-channel-price"
     ],
     "status": "Mapped to lessons"
   },
@@ -1661,7 +1748,8 @@
     "eventId": "introduction-to-marketing-concepts",
     "area": "Marketing-Information Management",
     "lessonIds": [
-      "market-research"
+      "market-research",
+      "mkt-research-planning"
     ],
     "status": "Mapped to lessons"
   },
@@ -1669,7 +1757,8 @@
     "eventId": "introduction-to-marketing-concepts",
     "area": "Pricing",
     "lessonIds": [
-      "market-pricing"
+      "market-pricing",
+      "mkt-product-channel-price"
     ],
     "status": "Mapped to lessons"
   },
@@ -1677,6 +1766,8 @@
     "eventId": "introduction-to-marketing-concepts",
     "area": "Promotion",
     "lessonIds": [
+      "mkt-copy-promotion",
+      "mkt-media-planning",
       "market-promotion"
     ],
     "status": "Mapped to lessons"
@@ -1686,7 +1777,8 @@
     "area": "Selling",
     "lessonIds": [
       "market-selling",
-      "market-service"
+      "market-service",
+      "mkt-product-channel-price"
     ],
     "status": "Mapped to lessons"
   },
@@ -1749,7 +1841,8 @@
     "area": "Foundational Retail Knowledge",
     "lessonIds": [
       "market-foundations",
-      "market-merchandising"
+      "market-merchandising",
+      "retail-store-operations"
     ],
     "status": "Mapped to lessons"
   },
@@ -1757,9 +1850,11 @@
     "eventId": "introduction-to-retail-and-merchandising",
     "area": "Customer Service and Sales",
     "lessonIds": [
+      "sales-presentation-method",
       "market-service",
       "market-selling",
-      "market-retail-operations"
+      "market-retail-operations",
+      "service-process-crm"
     ],
     "status": "Mapped to lessons"
   },
@@ -1767,7 +1862,8 @@
     "eventId": "introduction-to-retail-and-merchandising",
     "area": "Stock-Handling Procedures",
     "lessonIds": [
-      "market-retail-operations"
+      "market-retail-operations",
+      "retail-store-operations"
     ],
     "status": "Mapped to lessons"
   },
@@ -1775,7 +1871,8 @@
     "eventId": "introduction-to-retail-and-merchandising",
     "area": "Inventory Storage and Control",
     "lessonIds": [
-      "market-retail-operations"
+      "market-retail-operations",
+      "retail-store-operations"
     ],
     "status": "Mapped to lessons"
   },
@@ -1784,7 +1881,8 @@
     "area": "Career Opportunities",
     "lessonIds": [
       "market-merchandising",
-      "perf-career"
+      "perf-career",
+      "retail-store-operations"
     ],
     "status": "Mapped to lessons"
   },
@@ -1792,7 +1890,8 @@
     "eventId": "introduction-to-retail-and-merchandising",
     "area": "Visual Merchandising",
     "lessonIds": [
-      "market-merchandising"
+      "market-merchandising",
+      "retail-store-operations"
     ],
     "status": "Mapped to lessons"
   },
@@ -1800,7 +1899,8 @@
     "eventId": "introduction-to-retail-and-merchandising",
     "area": "Display Techniques",
     "lessonIds": [
-      "market-merchandising"
+      "market-merchandising",
+      "retail-store-operations"
     ],
     "status": "Mapped to lessons"
   },
@@ -1808,7 +1908,8 @@
     "eventId": "introduction-to-supply-chain-management",
     "area": "Operations",
     "lessonIds": [
-      "specialist-supply-operations"
+      "specialist-supply-operations",
+      "scm-operations-tasks"
     ],
     "status": "Mapped to lessons"
   },
@@ -1817,7 +1918,8 @@
     "area": "Project Management",
     "lessonIds": [
       "specialist-project-planning",
-      "specialist-project-delivery"
+      "specialist-project-delivery",
+      "pm-plan-control-close"
     ],
     "status": "Mapped to lessons"
   },
@@ -1825,7 +1927,8 @@
     "eventId": "introduction-to-supply-chain-management",
     "area": "Purchasing",
     "lessonIds": [
-      "specialist-procurement"
+      "specialist-procurement",
+      "scm-operations-tasks"
     ],
     "status": "Mapped to lessons"
   },
@@ -1833,7 +1936,8 @@
     "eventId": "introduction-to-supply-chain-management",
     "area": "Supply Chain Management’s Role in Business",
     "lessonIds": [
-      "specialist-supply-operations"
+      "specialist-supply-operations",
+      "scm-operations-tasks"
     ],
     "status": "Mapped to lessons"
   },
@@ -1841,7 +1945,8 @@
     "eventId": "introduction-to-supply-chain-management",
     "area": "Distribution",
     "lessonIds": [
-      "specialist-logistics"
+      "specialist-logistics",
+      "scm-operations-tasks"
     ],
     "status": "Mapped to lessons"
   },
@@ -1851,7 +1956,8 @@
     "lessonIds": [
       "specialist-supply-operations",
       "specialist-logistics",
-      "specialist-procurement"
+      "specialist-procurement",
+      "scm-operations-tasks"
     ],
     "status": "Mapped to lessons"
   },
@@ -1859,7 +1965,8 @@
     "eventId": "introduction-to-supply-chain-management",
     "area": "Inventory Processes",
     "lessonIds": [
-      "specialist-supply-operations"
+      "specialist-supply-operations",
+      "scm-operations-tasks"
     ],
     "status": "Mapped to lessons"
   },
@@ -1867,7 +1974,8 @@
     "eventId": "introduction-to-supply-chain-management",
     "area": "Transportation Strategies",
     "lessonIds": [
-      "specialist-logistics"
+      "specialist-logistics",
+      "scm-operations-tasks"
     ],
     "status": "Mapped to lessons"
   },
@@ -1876,7 +1984,8 @@
     "area": "Basic Communication Skills",
     "lessonIds": [
       "market-journalism-reporting",
-      "perf-speaking"
+      "perf-speaking",
+      "journalism-reporting-file"
     ],
     "status": "Mapped to lessons"
   },
@@ -1903,7 +2012,8 @@
     "area": "Fundamental Principles of Journalism",
     "lessonIds": [
       "market-journalism-ethics",
-      "market-journalism-writing"
+      "market-journalism-writing",
+      "journalism-reporting-file"
     ],
     "status": "Mapped to lessons"
   },
@@ -1911,7 +2021,8 @@
     "eventId": "journalism",
     "area": "Research and Investigation",
     "lessonIds": [
-      "market-journalism-reporting"
+      "market-journalism-reporting",
+      "journalism-reporting-file"
     ],
     "status": "Mapped to lessons"
   },
@@ -1919,7 +2030,8 @@
     "eventId": "journalism",
     "area": "Compose News Stories",
     "lessonIds": [
-      "market-journalism-writing"
+      "market-journalism-writing",
+      "journalism-reporting-file"
     ],
     "status": "Mapped to lessons"
   },
@@ -1927,7 +2039,8 @@
     "eventId": "management-information-systems",
     "area": "Systems Design and Analysis",
     "lessonIds": [
-      "tech-software-design"
+      "tech-software-design",
+      "mis-systems-analysis"
     ],
     "status": "Mapped to lessons"
   },
@@ -1935,7 +2048,8 @@
     "eventId": "management-information-systems",
     "area": "Object Oriented Programming Concepts",
     "lessonIds": [
-      "tech-software-design"
+      "tech-software-design",
+      "mis-systems-analysis"
     ],
     "status": "Mapped to lessons"
   },
@@ -1943,7 +2057,8 @@
     "eventId": "management-information-systems",
     "area": "Data and Information Management",
     "lessonIds": [
-      "tech-data-management"
+      "tech-data-management",
+      "mis-systems-analysis"
     ],
     "status": "Mapped to lessons"
   },
@@ -1952,7 +2067,8 @@
     "area": "IT Project Management",
     "lessonIds": [
       "specialist-project-planning",
-      "specialist-project-delivery"
+      "specialist-project-delivery",
+      "mis-systems-analysis"
     ],
     "status": "Mapped to lessons"
   },
@@ -1961,7 +2077,8 @@
     "area": "IT Infrastructure",
     "lessonIds": [
       "tech-network-foundations",
-      "tech-web-applications"
+      "tech-web-applications",
+      "mis-systems-analysis"
     ],
     "status": "Mapped to lessons"
   },
@@ -1970,7 +2087,8 @@
     "area": "Emerging Business Technologies",
     "lessonIds": [
       "tech-machine-learning",
-      "tech-web-applications"
+      "tech-web-applications",
+      "mis-systems-analysis"
     ],
     "status": "Mapped to lessons"
   },
@@ -1978,6 +2096,7 @@
     "eventId": "marketing",
     "area": "Marketing Fundamentals",
     "lessonIds": [
+      "mkt-research-planning",
       "market-foundations"
     ],
     "status": "Mapped to lessons"
@@ -1987,7 +2106,8 @@
     "area": "Market Planning",
     "lessonIds": [
       "market-foundations",
-      "market-research"
+      "market-research",
+      "mkt-research-planning"
     ],
     "status": "Mapped to lessons"
   },
@@ -1995,7 +2115,8 @@
     "eventId": "marketing",
     "area": "Marketing-Information Management",
     "lessonIds": [
-      "market-research"
+      "market-research",
+      "mkt-research-planning"
     ],
     "status": "Mapped to lessons"
   },
@@ -2003,7 +2124,8 @@
     "eventId": "marketing",
     "area": "Product/Service Management",
     "lessonIds": [
-      "market-brand"
+      "market-brand",
+      "mkt-product-channel-price"
     ],
     "status": "Mapped to lessons"
   },
@@ -2011,7 +2133,8 @@
     "eventId": "marketing",
     "area": "Channel Management",
     "lessonIds": [
-      "market-pricing"
+      "market-pricing",
+      "mkt-product-channel-price"
     ],
     "status": "Mapped to lessons"
   },
@@ -2019,7 +2142,8 @@
     "eventId": "marketing",
     "area": "Pricing",
     "lessonIds": [
-      "market-pricing"
+      "market-pricing",
+      "mkt-product-channel-price"
     ],
     "status": "Mapped to lessons"
   },
@@ -2027,6 +2151,8 @@
     "eventId": "marketing",
     "area": "Promotion",
     "lessonIds": [
+      "mkt-copy-promotion",
+      "mkt-media-planning",
       "market-promotion"
     ],
     "status": "Mapped to lessons"
@@ -2035,7 +2161,9 @@
     "eventId": "marketing",
     "area": "Selling",
     "lessonIds": [
-      "market-selling"
+      "market-selling",
+      "mkt-product-channel-price",
+      "roleplay-case-method"
     ],
     "status": "Mapped to lessons"
   },
@@ -2044,7 +2172,9 @@
     "area": "Network Installation and Configuration",
     "lessonIds": [
       "tech-network-design",
-      "tech-network-foundations"
+      "tech-network-foundations",
+      "net-protocols-standards",
+      "net-admin-design-case"
     ],
     "status": "Mapped to lessons"
   },
@@ -2054,7 +2184,8 @@
     "lessonIds": [
       "tech-security-controls",
       "tech-security-operations",
-      "tech-network-design"
+      "tech-network-design",
+      "net-admin-design-case"
     ],
     "status": "Mapped to lessons"
   },
@@ -2062,7 +2193,8 @@
     "eventId": "network-design",
     "area": "Network Administration",
     "lessonIds": [
-      "tech-network-design"
+      "tech-network-design",
+      "net-admin-design-case"
     ],
     "status": "Mapped to lessons"
   },
@@ -2071,7 +2203,9 @@
     "area": "Network Planning",
     "lessonIds": [
       "tech-network-design",
-      "specialist-project-planning"
+      "specialist-project-planning",
+      "net-admin-design-case",
+      "net-addressing-subnetting"
     ],
     "status": "Mapped to lessons"
   },
@@ -2080,7 +2214,8 @@
     "area": "Network Protocols, Services, and Access",
     "lessonIds": [
       "tech-protocols",
-      "tech-security-controls"
+      "tech-security-controls",
+      "net-protocols-standards"
     ],
     "status": "Mapped to lessons"
   },
@@ -2088,7 +2223,8 @@
     "eventId": "networking-infrastructures",
     "area": "Networking Basics",
     "lessonIds": [
-      "tech-network-foundations"
+      "tech-network-foundations",
+      "net-addressing-subnetting"
     ],
     "status": "Mapped to lessons"
   },
@@ -2097,7 +2233,8 @@
     "area": "Network Topologies and Architecture",
     "lessonIds": [
       "tech-network-foundations",
-      "tech-network-design"
+      "tech-network-design",
+      "net-protocols-standards"
     ],
     "status": "Mapped to lessons"
   },
@@ -2105,6 +2242,7 @@
     "eventId": "networking-infrastructures",
     "area": "Network Security",
     "lessonIds": [
+      "cyber-crypto-architecture",
       "tech-security-controls",
       "tech-network-design"
     ],
@@ -2114,7 +2252,8 @@
     "eventId": "networking-infrastructures",
     "area": "Network Protocols and Standards",
     "lessonIds": [
-      "tech-protocols"
+      "tech-protocols",
+      "net-protocols-standards"
     ],
     "status": "Mapped to lessons"
   },
@@ -2123,7 +2262,8 @@
     "area": "Network Hardware and Connectivity",
     "lessonIds": [
       "tech-network-foundations",
-      "tech-hardware"
+      "tech-hardware",
+      "net-protocols-standards"
     ],
     "status": "Mapped to lessons"
   },
@@ -2131,7 +2271,9 @@
     "eventId": "organizational-leadership",
     "area": "Role of Management in Business",
     "lessonIds": [
-      "management-strategy"
+      "management-strategy",
+      "mgmt-specialties-improvement",
+      "lead-decisions-cases"
     ],
     "status": "Mapped to lessons"
   },
@@ -2186,7 +2328,8 @@
     "eventId": "parliamentary-procedure",
     "area": "Foundations of Parliamentary Procedure",
     "lessonIds": [
-      "parliamentary-foundations"
+      "parliamentary-foundations",
+      "parli-meeting-walkthrough"
     ],
     "status": "Mapped to lessons"
   },
@@ -2304,7 +2447,8 @@
     "eventId": "project-management",
     "area": "Foundational Knowledge",
     "lessonIds": [
-      "specialist-project-planning"
+      "specialist-project-planning",
+      "pm-plan-control-close"
     ],
     "status": "Mapped to lessons"
   },
@@ -2312,7 +2456,8 @@
     "eventId": "project-management",
     "area": "Initiating and Planning a Project",
     "lessonIds": [
-      "specialist-project-planning"
+      "specialist-project-planning",
+      "pm-plan-control-close"
     ],
     "status": "Mapped to lessons"
   },
@@ -2320,7 +2465,8 @@
     "eventId": "project-management",
     "area": "Executing, Monitoring, and Controlling a Project",
     "lessonIds": [
-      "specialist-project-delivery"
+      "specialist-project-delivery",
+      "pm-plan-control-close"
     ],
     "status": "Mapped to lessons"
   },
@@ -2328,7 +2474,8 @@
     "eventId": "project-management",
     "area": "Closing a Project",
     "lessonIds": [
-      "specialist-project-delivery"
+      "specialist-project-delivery",
+      "pm-plan-control-close"
     ],
     "status": "Mapped to lessons"
   },
@@ -2336,7 +2483,8 @@
     "eventId": "public-administration-and-management",
     "area": "Public Finance",
     "lessonIds": [
-      "specialist-public-finance"
+      "specialist-public-finance",
+      "public-admin-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -2344,7 +2492,8 @@
     "eventId": "public-administration-and-management",
     "area": "Public Policy and Governance",
     "lessonIds": [
-      "specialist-public-governance"
+      "specialist-public-governance",
+      "public-admin-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -2353,7 +2502,8 @@
     "area": "Communication",
     "lessonIds": [
       "specialist-public-governance",
-      "specialist-project-delivery"
+      "specialist-project-delivery",
+      "public-admin-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -2361,7 +2511,8 @@
     "eventId": "public-administration-and-management",
     "area": "Public Sector Fundamentals",
     "lessonIds": [
-      "specialist-public-governance"
+      "specialist-public-governance",
+      "public-admin-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -2370,7 +2521,8 @@
     "area": "Public Management",
     "lessonIds": [
       "specialist-public-governance",
-      "specialist-project-delivery"
+      "specialist-project-delivery",
+      "public-admin-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -2379,7 +2531,8 @@
     "area": "Ethics",
     "lessonIds": [
       "specialist-public-governance",
-      "tech-data-ethics"
+      "tech-data-ethics",
+      "public-admin-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -2387,7 +2540,8 @@
     "eventId": "real-estate",
     "area": "Real Estate Fundamentals",
     "lessonIds": [
-      "specialist-real-estate-foundations"
+      "specialist-real-estate-foundations",
+      "real-estate-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -2396,7 +2550,8 @@
     "area": "Laws and Regulations",
     "lessonIds": [
       "specialist-real-estate-agency",
-      "specialist-real-estate-foundations"
+      "specialist-real-estate-foundations",
+      "real-estate-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -2404,7 +2559,8 @@
     "eventId": "real-estate",
     "area": "Real Estate Transactions and Finance",
     "lessonIds": [
-      "specialist-real-estate-finance"
+      "specialist-real-estate-finance",
+      "real-estate-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -2412,7 +2568,8 @@
     "eventId": "real-estate",
     "area": "Ethics",
     "lessonIds": [
-      "specialist-real-estate-agency"
+      "specialist-real-estate-agency",
+      "real-estate-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -2420,7 +2577,8 @@
     "eventId": "real-estate",
     "area": "Agency",
     "lessonIds": [
-      "specialist-real-estate-agency"
+      "specialist-real-estate-agency",
+      "real-estate-practice"
     ],
     "status": "Mapped to lessons"
   },
@@ -2428,6 +2586,7 @@
     "eventId": "retail-management",
     "area": "Foundational Retail Knowledge",
     "lessonIds": [
+      "retail-store-operations",
       "market-foundations",
       "market-retail-operations",
       "market-research"
@@ -2438,7 +2597,9 @@
     "eventId": "retail-management",
     "area": "Selling",
     "lessonIds": [
-      "market-selling"
+      "market-selling",
+      "retail-management-math",
+      "sales-presentation-method"
     ],
     "status": "Mapped to lessons"
   },
@@ -2446,7 +2607,9 @@
     "eventId": "retail-management",
     "area": "Pricing",
     "lessonIds": [
-      "market-pricing"
+      "market-pricing",
+      "mkt-product-channel-price",
+      "retail-management-math"
     ],
     "status": "Mapped to lessons"
   },
@@ -2455,7 +2618,8 @@
     "area": "Market Planning",
     "lessonIds": [
       "market-foundations",
-      "market-research"
+      "market-research",
+      "retail-management-math"
     ],
     "status": "Mapped to lessons"
   },
@@ -2463,7 +2627,8 @@
     "eventId": "retail-management",
     "area": "Inventory Control",
     "lessonIds": [
-      "market-retail-operations"
+      "market-retail-operations",
+      "retail-management-math"
     ],
     "status": "Mapped to lessons"
   },
@@ -2471,7 +2636,8 @@
     "eventId": "retail-management",
     "area": "Visual Merchandising",
     "lessonIds": [
-      "market-merchandising"
+      "market-merchandising",
+      "retail-management-math"
     ],
     "status": "Mapped to lessons"
   },
@@ -2479,7 +2645,8 @@
     "eventId": "retail-management",
     "area": "Display Techniques",
     "lessonIds": [
-      "market-merchandising"
+      "market-merchandising",
+      "retail-store-operations"
     ],
     "status": "Mapped to lessons"
   },
@@ -2488,7 +2655,9 @@
     "area": "Product Mix",
     "lessonIds": [
       "market-brand",
-      "market-merchandising"
+      "market-merchandising",
+      "mkt-product-channel-price",
+      "retail-management-math"
     ],
     "status": "Mapped to lessons"
   },
@@ -2496,7 +2665,8 @@
     "eventId": "securities-and-investments",
     "area": "Principles of Money",
     "lessonIds": [
-      "personal-money-credit"
+      "personal-money-credit",
+      "bank-institutions-regulation"
     ],
     "status": "Mapped to lessons"
   },
@@ -2554,7 +2724,8 @@
     "area": "Fundamentals of Sports/Entertainment Management & Marketing",
     "lessonIds": [
       "market-sports",
-      "market-foundations"
+      "market-foundations",
+      "sports-ent-management"
     ],
     "status": "Mapped to lessons"
   },
@@ -2563,7 +2734,8 @@
     "area": "Product/Service Management",
     "lessonIds": [
       "market-sports",
-      "market-brand"
+      "market-brand",
+      "sports-ent-management"
     ],
     "status": "Mapped to lessons"
   },
@@ -2572,7 +2744,8 @@
     "area": "Pricing",
     "lessonIds": [
       "market-pricing",
-      "market-sports"
+      "market-sports",
+      "sports-ent-management"
     ],
     "status": "Mapped to lessons"
   },
@@ -2581,7 +2754,8 @@
     "area": "Advertising Basics",
     "lessonIds": [
       "market-promotion",
-      "market-design"
+      "market-design",
+      "mkt-media-planning"
     ],
     "status": "Mapped to lessons"
   },
@@ -2590,7 +2764,8 @@
     "area": "Publicity and Public Relations",
     "lessonIds": [
       "market-sports",
-      "market-journalism-writing"
+      "market-journalism-writing",
+      "sports-ent-management"
     ],
     "status": "Mapped to lessons"
   },
@@ -2599,7 +2774,8 @@
     "area": "Sales Promotion",
     "lessonIds": [
       "market-sports",
-      "market-promotion"
+      "market-promotion",
+      "sports-ent-management"
     ],
     "status": "Mapped to lessons"
   },
@@ -2607,7 +2783,8 @@
     "eventId": "sports-and-entertainment-management",
     "area": "The Sports/Entertainment Management & Marketing Environment",
     "lessonIds": [
-      "market-sports"
+      "market-sports",
+      "sports-ent-management"
     ],
     "status": "Mapped to lessons"
   },
@@ -2616,7 +2793,8 @@
     "area": "Event Planning",
     "lessonIds": [
       "market-events",
-      "market-sports"
+      "market-sports",
+      "sports-ent-management"
     ],
     "status": "Mapped to lessons"
   },
@@ -2625,7 +2803,8 @@
     "area": "Sports/Event Distribution",
     "lessonIds": [
       "market-sports",
-      "market-pricing"
+      "market-pricing",
+      "sports-ent-management"
     ],
     "status": "Mapped to lessons"
   },
@@ -2635,7 +2814,8 @@
     "lessonIds": [
       "tech-hardware",
       "tech-operating-systems",
-      "tech-network-foundations"
+      "tech-network-foundations",
+      "it-os-command-labs"
     ],
     "status": "Mapped to lessons"
   },
@@ -2643,7 +2823,8 @@
     "eventId": "technology-support-and-services",
     "area": "Service Desk Operations",
     "lessonIds": [
-      "tech-service-desk"
+      "tech-service-desk",
+      "it-service-desk-workflow"
     ],
     "status": "Mapped to lessons"
   },
@@ -2653,7 +2834,9 @@
     "lessonIds": [
       "tech-service-desk",
       "tech-hardware",
-      "tech-operating-systems"
+      "tech-operating-systems",
+      "it-hardware-mobile-printers",
+      "it-os-command-labs"
     ],
     "status": "Mapped to lessons"
   },
@@ -2662,7 +2845,8 @@
     "area": "IT Management and Administration",
     "lessonIds": [
       "tech-service-desk",
-      "tech-security-operations"
+      "tech-security-operations",
+      "it-service-desk-workflow"
     ],
     "status": "Mapped to lessons"
   }

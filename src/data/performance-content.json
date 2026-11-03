@@ -8962,7 +8962,9 @@
       "market-design",
       "perf-reports",
       "perf-speaking",
-      "animation-foundations"
+      "animation-foundations",
+      "design-brief-process",
+      "presentation-builder"
     ],
     "Digital Video Production": [
       "perf-rubric",
@@ -8971,7 +8973,9 @@
       "market-journalism-writing",
       "perf-reports",
       "perf-speaking",
-      "video-production-workflow"
+      "video-production-workflow",
+      "presentation-builder",
+      "journalism-reporting-file"
     ],
     "Event Planning": [
       "perf-rubric",
@@ -9019,14 +9023,16 @@
       "perf-speaking",
       "market-journalism-reporting",
       "market-journalism-ethics",
-      "speech-impromptu-routine"
+      "speech-impromptu-routine",
+      "speech-prepared-path"
     ],
     "Introduction to Business Presentation": [
       "perf-rubric",
       "perf-speaking",
       "market-research",
       "perf-office-data",
-      "presentation-builder"
+      "presentation-builder",
+      "speech-prepared-path"
     ],
     "Introduction to Programming": [
       "perf-rubric",
@@ -9039,7 +9045,8 @@
       "perf-speaking",
       "market-journalism-reporting",
       "market-journalism-ethics",
-      "speech-prepared-path"
+      "speech-prepared-path",
+      "speech-impromptu-routine"
     ],
     "Introduction to Social Media Strategy": [
       "perf-rubric",
@@ -9056,7 +9063,9 @@
       "perf-rubric",
       "perf-career",
       "market-service",
-      "perf-speaking"
+      "perf-speaking",
+      "career-portfolio-evidence",
+      "comm-speaking-listening-conflict"
     ],
     "Local Chapter Annual Business Report": [
       "perf-rubric",
@@ -9088,7 +9097,8 @@
       "perf-speaking",
       "market-journalism-reporting",
       "market-journalism-ethics",
-      "speech-prepared-path"
+      "speech-prepared-path",
+      "speech-impromptu-routine"
     ],
     "Sales Presentation": [
       "perf-rubric",
@@ -9096,7 +9106,9 @@
       "market-brand",
       "market-service",
       "perf-speaking",
-      "sales-presentation-method"
+      "sales-presentation-method",
+      "service-process-crm",
+      "presentation-builder"
     ],
     "Social Media Strategies": [
       "perf-rubric",
@@ -9220,6 +9232,21 @@
     ],
     "Agribusiness": [
       "scm-operations-tasks"
+    ],
+    "Healthcare Administration": [
+      "hr-employment-lifecycle",
+      "mgmt-specialties-improvement"
+    ],
+    "Introduction to FBLA": [
+      "parli-meeting-walkthrough"
+    ],
+    "Project Management": [
+      "mgmt-specialties-improvement",
+      "lead-decisions-cases"
+    ],
+    "Real Estate": [
+      "law-commercial-employment",
+      "bank-teller-lending"
     ]
   },
   "coverage": {

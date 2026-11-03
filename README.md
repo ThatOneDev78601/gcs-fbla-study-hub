@@ -8,7 +8,9 @@ Install with npm install, then npm run dev. Run npm run build for validated stat
 
 ## Content
 
-The three src/data/*-content.json packs contain original lessons, glossaries and questions. Edit those source packs, not generated Markdown. scripts/prepare-content.mjs produces src/content/lessons/, modules.json and research/coverage.json. Event-specific metadata and stage rules live in src/data/events.json. Source URLs and access requirements live in sources.json.
+The four src/data/*-content.json packs contain original lessons, glossaries and questions. Edit those source packs, not generated Markdown. scripts/prepare-content.mjs produces src/content/lessons/, modules.json and research/coverage.json. Event-specific metadata and stage rules live in src/data/events.json. Source URLs and access requirements live in sources.json.
+
+The November 2, 2026 lesson completion plan added 92 in-depth lessons across the four packs (marked `reviewed: 2026-11-02`). Sections may now include numbered `steps`, a `code` block, an `example` with optional `steps`, and a `practice` task whose answer renders in a collapsible "Check your answer" panel. Downloadable practice files live in public/practice/. Run npm run review:record to regenerate research/lesson-review-record.json, which lists each event's new lessons and knowledge-area mappings; every entry stays "drafted" until a reviewer checks it against the published objectives and records a name and date.
 
 Build checks verify 76 events, at least four lessons/event, 20 questions/test event, source references, mapped knowledge areas, and valid answers. A coverage mapping records editorial association; it is not proof of competition readiness. Lessons are focused explanations, and external textbooks are optional further reading. Source changes require editorial review and redeployment.
 

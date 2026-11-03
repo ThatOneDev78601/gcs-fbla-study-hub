@@ -10500,7 +10500,8 @@
       "global-business-trade",
       "law-courts-torts",
       "law-commercial-employment",
-      "intl-trade-practice"
+      "intl-trade-practice",
+      "ethics-analysis-method"
     ],
     "Business Ethics": [
       "ethical-decisions",
@@ -10528,7 +10529,8 @@
       "listening-workplace-communication",
       "lead-decisions-cases",
       "hr-employment-lifecycle",
-      "comm-speaking-listening-conflict"
+      "comm-speaking-listening-conflict",
+      "mgmt-specialties-improvement"
     ],
     "Human Resource Management": [
       "human-resources",
@@ -10622,7 +10624,8 @@
       "banking-financial-systems",
       "acct-cash-flow-ratios",
       "sec-markets-trading",
-      "sec-products-portfolios"
+      "sec-products-portfolios",
+      "bank-institutions-regulation"
     ],
     "Insurance & Risk Management": [
       "insurance-risk",
@@ -10704,14 +10707,28 @@
       "career-application-interview"
     ],
     "Introduction to Retail & Merchandising": [
-      "career-application-interview"
+      "career-application-interview",
+      "service-process-crm",
+      "sales-presentation-method"
+    ],
+    "Introduction to Marketing Concepts": [
+      "mkt-copy-promotion",
+      "mkt-media-planning"
+    ],
+    "Marketing": [
+      "mkt-copy-promotion",
+      "mkt-media-planning"
+    ],
+    "Retail Management": [
+      "sales-presentation-method"
     ]
   },
   "coverage": {
     "Accounting": {
       "Foundations of Accounting": [
         "accounting-cycle",
-        "accounting-controls-careers"
+        "accounting-controls-careers",
+        "acct-cycle-workbook"
       ],
       "Standards and Compliance": [
         "accounting-controls-careers",
@@ -10745,7 +10762,8 @@
     },
     "Securities & Investments": {
       "Principles of Money": [
-        "personal-money-credit"
+        "personal-money-credit",
+        "bank-institutions-regulation"
       ],
       "Financial Markets": [
         "banking-financial-systems",
@@ -10801,7 +10819,9 @@
     },
     "Organizational Leadership": {
       "Role of Management in Business": [
-        "management-strategy"
+        "management-strategy",
+        "mgmt-specialties-improvement",
+        "lead-decisions-cases"
       ],
       "Leadership": [
         "leadership-teams",
@@ -10864,7 +10884,8 @@
         "fbla-governance-programs"
       ],
       "FBLA Pledge, Mission, Goals, Creed": [
-        "fbla-history-purpose"
+        "fbla-history-purpose",
+        "fbla-bylaws-structure"
       ],
       "FBLA High School Competitive Events": [
         "fbla-governance-programs"
@@ -10947,7 +10968,8 @@
     },
     "Introduction to Business Communication": {
       "Communication Basics": [
-        "clear-business-writing"
+        "clear-business-writing",
+        "comm-documents-workshop"
       ],
       "Written Communication": [
         "clear-business-writing",
@@ -10969,7 +10991,9 @@
       ],
       "Workplace Communication": [
         "career-workplace-procedures",
-        "listening-workplace-communication"
+        "listening-workplace-communication",
+        "comm-speaking-listening-conflict",
+        "comm-documents-workshop"
       ],
       "Interpersonal Relationships": [
         "listening-workplace-communication",
@@ -11093,7 +11117,8 @@
         "law-commercial-employment"
       ],
       "Business Ethics": [
-        "ethical-decisions"
+        "ethical-decisions",
+        "ethics-analysis-method"
       ],
       "Financial & Tax Law": [
         "business-regulation",
@@ -11133,7 +11158,8 @@
     "Advanced Accounting": {
       "Foundations of Accounting": [
         "accounting-cycle",
-        "accounting-controls-careers"
+        "accounting-controls-careers",
+        "acct-cycle-workbook"
       ],
       "Standards and Compliance": [
         "accounting-controls-careers",
@@ -11201,7 +11227,8 @@
         "fbla-governance-programs"
       ],
       "FBLA Mission, Pledge and Goals": [
-        "fbla-history-purpose"
+        "fbla-history-purpose",
+        "fbla-bylaws-structure"
       ],
       "General Business and Technology Knowledge (including, but not limited to, accounting, banking, law, entrepreneurship, marketing, international business, management, organizational leadership, information technology, cybersecurity)": [
         "business-ownership-operations",
@@ -11217,7 +11244,8 @@
     },
     "Parliamentary Procedure": {
       "Foundations of Parliamentary Procedure": [
-        "parliamentary-foundations"
+        "parliamentary-foundations",
+        "parli-meeting-walkthrough"
       ],
       "Parliamentary Terminology": [
         "parliamentary-foundations",
@@ -11272,7 +11300,8 @@
     },
     "Entrepreneurship": {
       "Fundamentals of Entrepreneurship": [
-        "entrepreneurship-ventures"
+        "entrepreneurship-ventures",
+        "entre-discovery-launch"
       ],
       "Discovery Strategies": [
         "entrepreneurship-ventures",
@@ -11280,7 +11309,9 @@
       ],
       "Business Venture Concepts": [
         "entrepreneurship-ventures",
-        "contracts-legal-foundations"
+        "contracts-legal-foundations",
+        "entre-discovery-launch",
+        "bizplan-financial-model"
       ],
       "Business Venture Resources": [
         "entrepreneurship-ventures",
@@ -11376,6 +11407,46 @@
     "Customer Service": {
       "Conflict Resolution": [
         "comm-speaking-listening-conflict"
+      ]
+    },
+    "Computer Problem Solving": {
+      "Security": [
+        "cyber-crypto-architecture"
+      ]
+    },
+    "Healthcare Administration": {
+      "Strategic Management": [
+        "mgmt-specialties-improvement"
+      ]
+    },
+    "Introduction to Marketing Concepts": {
+      "Promotion": [
+        "mkt-copy-promotion",
+        "mkt-media-planning"
+      ]
+    },
+    "Marketing": {
+      "Promotion": [
+        "mkt-copy-promotion",
+        "mkt-media-planning"
+      ],
+      "Marketing Fundamentals": [
+        "mkt-research-planning"
+      ]
+    },
+    "Introduction to Retail & Merchandising": {
+      "Customer Service and Sales": [
+        "sales-presentation-method"
+      ]
+    },
+    "Networking Infrastructures": {
+      "Network Security": [
+        "cyber-crypto-architecture"
+      ]
+    },
+    "Retail Management": {
+      "Foundational Retail Knowledge": [
+        "retail-store-operations"
       ]
     }
   },

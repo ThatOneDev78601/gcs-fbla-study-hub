@@ -9,7 +9,7 @@ for(const pack of packs){for(const[name,ids]of Object.entries(pack.eventModules?
 const moduleIds=new Set(modules.map(m=>m.id));
 const coverage=[];
 for(const event of events){event.moduleIds=mapping.get(normal(event.name))??[];
-if(event.id==='computer-applications')event.moduleIds=['perf-office-data','office-spreadsheets','office-documents','office-presentations','office-integration'];
+if(event.id==='computer-applications')event.moduleIds=['perf-office-data','office-spreadsheets','office-documents','office-presentations','office-integration','office-spreadsheet-labs','office-production-labs'];
 if(event.id==='future-business-leader')event.knowledgeAreas=Object.keys(coverageMapping.get(normal(event.name))??{});
 if(!event.moduleIds.length)throw new Error('Missing curriculum for '+event.name);
 for(const id of event.moduleIds)if(!moduleIds.has(id))throw new Error('Unknown module '+id+' for '+event.name);
